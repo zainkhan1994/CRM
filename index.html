@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zain CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">C</div><div><strong>Zain CRM</strong><span>Gmail Workspace</span></div></div>
+      <nav id="nav" class="nav"></nav>
+      <div class="account"><div class="avatar">ZK</div><div><strong>Zain Khan</strong><span>zainkhan1994.ZK@gmail.com</span></div></div>
+    </aside>
+    <main class="main">
+      <header class="main-head"><div><h1>Contacts</h1><p>Manage your leads and customer relationships</p></div><div class="actions"><button>Import</button><button class="primary">+ Add Contact</button></div></header>
+      <section class="toolbar"><label class="search"><span>Q</span><input id="search" type="search" placeholder="Search contacts by name, email, or company..."></label><select id="typeFilter"><option value="All">Filter</option></select><select><option>My Contacts</option></select><span class="count"><b id="visibleCount">0</b> contacts</span></section>
+      <section class="table-card"><table><thead><tr><th></th><th>Name</th><th>Company</th><th>Phone</th><th>Last Contact</th><th>Value</th></tr></thead><tbody id="rows"></tbody></table><footer><span id="resultText"></span></footer></section>
+    </main>
+    <aside class="detail"><button id="clearSelected" class="close">x</button><section class="selected"><strong>Selected contacts</strong><span>Click rows to add them here. Use x to remove.</span><div id="selectedList"></div></section><section id="detailPanel"></section></aside>
+  </div>
+  <script src="data/contacts.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
