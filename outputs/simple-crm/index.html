@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zain CRM</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div>
+        <p class="kicker">Gmail 2026</p>
+        <h1>Zain CRM</h1>
+      </div>
+      <div class="stats" aria-label="CRM totals">
+        <span><strong id="visibleCount">0</strong> shown</span>
+        <span><strong>312</strong> contacts</span>
+        <span><strong>2,471</strong> emails</span>
+      </div>
+    </header>
+
+    <section class="controls" aria-label="CRM controls">
+      <label class="search">
+        <span>Search</span>
+        <input id="searchInput" type="search" placeholder="Name, company, email, subject">
+      </label>
+      <div class="tabs" id="domainTabs" role="tablist" aria-label="Domains"></div>
+      <select id="categorySelect" aria-label="Category filter">
+        <option value="All">All categories</option>
+      </select>
+      <select id="prioritySelect" aria-label="Priority filter">
+        <option value="All">All priority</option>
+        <option value="High">High</option>
+        <option value="Mid">Mid</option>
+        <option value="Low">Low</option>
+      </select>
+    </section>
+
+    <section class="workspace">
+      <section class="cards" id="cards" aria-label="CRM cards"></section>
+      <aside class="detail" id="detail" aria-label="Selected contact"></aside>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
