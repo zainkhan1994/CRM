@@ -6,3 +6,5 @@
 dialog{background:#fff}.profile-card{background:#fff}.close{background:#f7f7f7}
 
 .identity-head{align-items:flex-start;flex-wrap:wrap}.identity-head>div{flex:1 1 190px;min-width:0}.identity-head h2{word-break:normal;overflow-wrap:break-word;font-size:clamp(20px,2vw,27px)}.identity-symbol{flex-shrink:0}@media(min-width:701px) and (max-width:1000px){.cards{grid-template-columns:1fr}}.profile-history details summary{min-height:44px;padding:12px 0;cursor:pointer}
+
+.brand-logo{width:82px;height:82px;object-fit:contain;background:#fff;border-radius:8px}.field-logo{width:90px;height:48px;object-fit:contain;background:white}.identity-symbol{flex-shrink:0}@media(max-width:700px){.brand-logo{width:70px;height:70px}}
