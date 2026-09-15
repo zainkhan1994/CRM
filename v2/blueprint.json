@@ -85,7 +85,7 @@
     "name": "Credit One Bank",
     "parentId": "p-accounts-banks",
     "order": 3,
-    "logo": "logos/7a8e7fccd6cc.png",
+    "logo": "logos/accounts-banking--credit-one.png",
     "aliases": [],
     "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Credit One Bank"
   },
@@ -323,7 +323,7 @@
     "name": "Lexington Law",
     "parentId": "p-accounts-credit",
     "order": 0,
-    "logo": "logos/library-ed171d86763a.png",
+    "logo": "logos/credit-repair--lexington-law.png",
     "aliases": [],
     "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt > Lexington Law"
   },
@@ -386,7 +386,7 @@
     "order": 0,
     "aliases": [],
     "hierarchyPath": "P - Personal > Bills & Utilities > Electric > PSO",
-    "logo": "logos/brand-billsutilities.svg"
+    "logo": "logos/brand-billspso.svg"
   },
   {
     "id": "p-bills-gas",
@@ -4332,14 +4332,15 @@
   },
   {
     "id": "pr-sfa",
-    "name": "SFA",
+    "name": "Space Force Association",
     "description": "SFA project documentation and resources",
     "parentId": "pr",
     "order": 99,
     "aliases": [
       "701"
     ],
-    "hierarchyPath": "SFA project documentation and resources"
+    "hierarchyPath": "PR - Projects & Portfolio > Space Force Association",
+    "logo": "logos/space-force-association.svg"
   },
   {
     "id": "p-important-documents",
@@ -6778,5 +6779,23 @@
     ],
     "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Tulsa Regional STEM Alliance",
     "logo": "logos/dom-tulsastem.org.png"
+  },
+  {
+    "id": "w-tools-adp",
+    "name": "ADP",
+    "parentId": "w-tools",
+    "order": 20,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Work Tools > ADP",
+    "logo": "logos/adp.svg"
+  },
+  {
+    "id": "w-tools-paycom",
+    "name": "Paycom",
+    "parentId": "w-tools",
+    "order": 21,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Work Tools > Paycom",
+    "logo": "logos/paycom.png"
   }
 ]

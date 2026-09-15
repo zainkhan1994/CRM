@@ -112,13 +112,36 @@ function formatDomainAsName(raw) {
   return capWords.join(' ') || raw;
 }
 
+function isLetterSvg(l) {
+  return typeof l === 'string' && l.endsWith('.svg') && l.includes('dom-');
+}
+
 function resolveBrandLogo(c, fallbackLogo = null) {
-  if (!c) return fallbackLogo || null;
-  if (c.logo) return c.logo;
+  if (!c) return (!fallbackLogo || isLetterSvg(fallbackLogo)) ? null : fallbackLogo;
+  if (c.logo && !isLetterSvg(c.logo)) return c.logo;
   const comp = (c.company || '').toLowerCase().trim();
   const dom = (c.domain || '').toLowerCase().trim();
   const name = (c.name || '').toLowerCase().trim();
-  const text = `${comp} ${dom} ${name}`;
+  const org = (c.organizationName || '').toLowerCase().trim();
+  const orgId = (c.organizationId || '').toLowerCase().trim();
+  const text = `${comp} ${dom} ${name} ${org} ${orgId}`;
+
+  if (text.includes('credit one') || text.includes('creditone') || dom.includes('creditone')) return 'logos/accounts-banking--credit-one.png';
+  if (text.includes('aflac') || dom.includes('aflac')) return 'logos/aflac.png';
+  if (text.includes('paycom') || dom.includes('paycom')) return 'logos/paycom.png';
+  if (text.includes('adp') || dom.includes('adp')) return 'logos/adp.svg';
+  if (text.includes('lexington law') || text.includes('lexingtonlaw') || dom.includes('lexingtonlaw')) return 'logos/credit-repair--lexington-law.png';
+  if (text.includes('staples') || dom.includes('staples')) return 'logos/staples.png';
+  if (text.includes('pizza hut') || text.includes('pizzahut') || dom.includes('pizzahut')) return 'logos/pizza-hut.png';
+  if (text.includes('pso') || dom.includes('psoaep') || dom.includes('psoklahoma')) return 'logos/brand-billspso.svg';
+  if (text.includes('space force') || text.includes('ussfa') || dom.includes('ussfa') || orgId === 'pr-sfa') return 'logos/space-force-association.svg';
+  if (text.includes('walmart') || dom.includes('walmart')) return 'logos/library-f446ffa560c7.png';
+  if (text.includes('target') || dom.includes('target')) return 'logos/library-24ed6d60a315.png';
+  if (text.includes('delta') || dom.includes('delta.com')) return 'logos/library-25b0c76781d2.png';
+  if (text.includes('marriott') || dom.includes('marriott')) return 'logos/marriott.png';
+  if (text.includes('autonation') || dom.includes('autonation')) return 'logos/autonation.png';
+  if (text.includes('container store') || dom.includes('containerstore')) return 'logos/container-store.png';
+  if (text.includes('wells fargo') || dom.includes('wellsfargo')) return 'logos/library-4d9c3a3947f1.png';
 
   if (dom.endsWith('.uh.edu') || dom === 'uh.edu' || comp.includes('university of houston') || name.includes('university of houston')) return 'logos/university-of-houston.svg';
   if (dom.includes('hyatt') || comp.includes('hyatt') || name.includes('hyatt')) return 'logos/hyatt.png';
@@ -236,6 +259,8 @@ function resolveBrandLogo(c, fallbackLogo = null) {
       if (byName) return byName.logo;
     }
   }
+  if (fallbackLogo && !isLetterSvg(fallbackLogo)) return fallbackLogo;
+  if (c.logo) return c.logo;
   return fallbackLogo || null;
 }
 
@@ -356,7 +381,7 @@ renderNetwork=function(list){
 
    let peopleHtml='';
    if(hasPeople){
-     const uniqueComps=new Set(n.people.map(p=>(p.company||p.domain||'').toLowerCase()));
+     const uniqueComps=new Set(n.people.map(p=>(p.organizationId||p.organizationName||p.company||p.domain||'').toLowerCase()));
      if(!hasChildren && uniqueComps.size===1 && nodeLogo){
        peopleHtml=n.people.map(p=>{
          const pLogo=resolveBrandLogo(p,nodeLogo);

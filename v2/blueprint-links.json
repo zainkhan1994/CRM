@@ -2110,7 +2110,7 @@
     },
     {
       "domain": "us.aflac.com",
-      "sectionId": "p-accounts-tools"
+      "sectionId": "h-ins-aflac"
     },
     {
       "domain": "healthcare.gov",
@@ -2221,14 +2221,6 @@
       "sectionId": "p-housing-ess"
     },
     {
-      "domain": "express.medallia.com",
-      "sectionId": "h-fit-lifetime"
-    },
-    {
-      "domain": "express.sea1.medallia.com",
-      "sectionId": "p-accounts-creditone"
-    },
-    {
       "domain": "governmentjobs.com",
       "sectionId": "p-gov-houston"
     },
@@ -2297,10 +2289,6 @@
       "sectionId": "h-prov-hillcrest"
     },
     {
-      "domain": "wildapricot.org",
-      "sectionId": "p-events-typros"
-    },
-    {
       "domain": "36n.co",
       "sectionId": "p-events"
     },
@@ -2310,7 +2298,7 @@
     },
     {
       "domain": "adp.com",
-      "sectionId": "p-accounts-tools"
+      "sectionId": "w-tools-adp"
     },
     {
       "domain": "accredible.com",
@@ -2526,7 +2514,7 @@
     },
     {
       "domain": "ussfa.org",
-      "sectionId": "p-events-spaceapps"
+      "sectionId": "pr-sfa"
     },
     {
       "domain": "kilocode.ai",
@@ -2770,7 +2758,7 @@
     },
     {
       "domain": "msgint.paycomonline.com",
-      "sectionId": "p-accounts-tools"
+      "sectionId": "w-tools-paycom"
     },
     {
       "domain": "bf08x.hs-send.com",
@@ -2831,6 +2819,18 @@
     {
       "domain": "txheadhuntersinc.com",
       "sectionId": "p-jobs"
+    },
+    {
+      "domain": "aflac.com",
+      "sectionId": "h-ins-aflac"
+    },
+    {
+      "domain": "paycomonline.com",
+      "sectionId": "w-tools-paycom"
+    },
+    {
+      "domain": "msg.paycomonline.com",
+      "sectionId": "w-tools-paycom"
     }
   ],
   "contactAssignments": {
@@ -3042,10 +3042,10 @@
       "p-news"
     ],
     "2031": [
-      "p-accounts-tools"
+      "w-tools-paycom"
     ],
     "2032": [
-      "p-accounts-tools"
+      "w-tools-paycom"
     ],
     "2039": [
       "p-learn"
@@ -4023,16 +4023,16 @@
       "p-events"
     ],
     "3012": [
-      "p-people-networking"
+      "pr-sfa"
     ],
     "3013": [
-      "p-people-networking"
+      "pr-sfa"
     ],
     "3014": [
-      "p-people-networking"
+      "pr-sfa"
     ],
     "3015": [
-      "p-people-networking"
+      "pr-sfa"
     ],
     "3021": [
       "p-people-networking"
@@ -4107,22 +4107,22 @@
       "p-gov-nasa"
     ],
     "52": [
-      "p-accounts-tools"
+      "w-tools-adp"
     ],
     "53": [
-      "p-accounts-tools"
+      "w-tools-adp"
     ],
     "54": [
-      "p-accounts-tools"
+      "w-tools-adp"
     ],
     "55": [
-      "p-accounts-tools"
+      "w-tools-adp"
     ],
     "56": [
-      "p-accounts-tools"
+      "w-tools-adp"
     ],
     "57": [
-      "p-accounts-tools"
+      "w-emp-rcubed"
     ],
     "213": [
       "p-jobs"
@@ -4266,7 +4266,7 @@
       "p-jobs-upwork"
     ],
     "2966": [
-      "p-accounts-tools"
+      "h-ins-aflac"
     ],
     "2997": [
       "p-research-ui"
@@ -4572,7 +4572,7 @@
       "p-jobs"
     ],
     "2967": [
-      "p-accounts-tools"
+      "h-ins-aflac"
     ],
     "3006": [
       "p-research-ut"
@@ -4585,6 +4585,129 @@
     ],
     "2342": [
       "w-emp-rcubed"
+    ],
+    "412": [
+      "p-accounts-creditone"
+    ],
+    "676": [
+      "p-accounts-creditone"
+    ],
+    "732": [
+      "p-accounts-creditone"
+    ],
+    "735": [
+      "p-accounts-creditone"
+    ],
+    "2164": [
+      "p-accounts-creditone"
+    ],
+    "2605": [
+      "p-accounts-creditone"
+    ],
+    "736": [
+      "p-shop-staples"
+    ],
+    "737": [
+      "p-shop-pizzahut"
+    ],
+    "738": [
+      "p-bills-pso"
+    ],
+    "727": [
+      "p-travel-delta"
+    ],
+    "728": [
+      "p-shop-walmart"
+    ],
+    "729": [
+      "p-shop-target"
+    ],
+    "730": [
+      "p-travel-marriott"
+    ],
+    "731": [
+      "h-fit-lifetime"
+    ],
+    "733": [
+      "p-shop-lowes"
+    ],
+    "734": [
+      "p-shop-retail"
+    ],
+    "2029": [
+      "w-tools-paycom"
+    ],
+    "2030": [
+      "w-tools-paycom"
+    ],
+    "2247": [
+      "w-tools-paycom"
+    ],
+    "1689": [
+      "p-accounts-lexlaw"
+    ],
+    "1829": [
+      "p-accounts-lexlaw"
+    ],
+    "3089": [
+      "p-events-typros"
+    ],
+    "3090": [
+      "pr-sfa"
+    ],
+    "3011": [
+      "pr-sfa"
+    ],
+    "2684": [
+      "p-tech"
+    ],
+    "2685": [
+      "p-tech"
+    ],
+    "2686": [
+      "pr-ai-rewind"
+    ],
+    "2687": [
+      "pr-ai-rewind"
+    ],
+    "2688": [
+      "w-tools-stripe"
+    ],
+    "2689": [
+      "p-tech"
+    ],
+    "2690": [
+      "p-tech"
+    ],
+    "2691": [
+      "p-tech"
+    ],
+    "2692": [
+      "pr-ai-openai"
+    ],
+    "2693": [
+      "pr-ai-openai"
+    ],
+    "2694": [
+      "p-tech"
+    ],
+    "2695": [
+      "p-tech"
+    ],
+    "2696": [
+      "w-tools-obsidian"
+    ],
+    "2697": [
+      "p-tech"
+    ],
+    "2698": [
+      "p-ai"
+    ],
+    "2699": [
+      "p-learn"
+    ],
+    "2700": [
+      "p-tech"
     ]
   },
   "sectionAliases": {

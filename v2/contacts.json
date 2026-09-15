@@ -325,7 +325,7 @@
   },
   {
     "id": "11",
-    "name": "This Week at 36\u00b0N",
+    "name": "This Week at 36°N",
     "company": "36 Degrees North",
     "phone": "",
     "email": "newsletter@36n.co",
@@ -395,7 +395,7 @@
     "firstDate": "2021-08-29",
     "labels": [],
     "crmProperties": {
-      "Name": "This Week at 36\u00b0N",
+      "Name": "This Week at 36°N",
       "Collab Partner": "Yes",
       "Company": "",
       "Domain": "Projects",
@@ -554,7 +554,7 @@
     ],
     "firstDate": "2025-08-03",
     "labels": [],
-    "logo": "logos/dom-3ecfb.e2ma.net.svg",
+    "logo": "logos/fab-lab-tulsa.png",
     "originalContact": {
       "name": "Fab Lab Tulsa",
       "company": "3ecfb.e2ma.net",
@@ -825,7 +825,7 @@
     "labels": [
       "Learning Self-Improvement"
     ],
-    "logo": "logos/dom-account.brilliant.org.svg",
+    "logo": "logos/library-697588706111.png",
     "blueprintPath": [
       "Learning Self-Improvement",
       "Brilliant"
@@ -952,7 +952,7 @@
     ],
     "firstDate": "2021-10-27",
     "labels": [],
-    "logo": "logos/dom-accountprotection.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -1233,7 +1233,7 @@
     ],
     "firstDate": "2026-01-18",
     "labels": [],
-    "logo": "logos/dom-accounts.wbgames.com.svg",
+    "logo": "logos/wb-games.png",
     "originalContact": {
       "name": "WB Games",
       "company": "accounts.wbgames.com",
@@ -1358,7 +1358,7 @@
     ],
     "firstDate": "2023-10-22",
     "labels": [],
-    "logo": "logos/dom-acm.account.sony.com.svg",
+    "logo": "logos/sony.png",
     "originalContact": {
       "name": "Sony",
       "company": "acm.account.sony.com",
@@ -2045,7 +2045,7 @@
   {
     "id": "52",
     "name": "CDCFoundation.hr",
-    "company": "Adp",
+    "company": "ADP",
     "phone": "",
     "email": "cdcfoundation.hr@adp.com",
     "date": "2022-02-26",
@@ -2066,13 +2066,14 @@
     ],
     "firstDate": "2022-02-26",
     "labels": [],
-    "logo": "logos/dom-adp.com.svg",
-    "organizationName": "Adp"
+    "logo": "logos/adp.svg",
+    "organizationName": "ADP",
+    "organizationId": "w-tools-adp"
   },
   {
     "id": "53",
     "name": "SecurityServices_NoReply",
-    "company": "Adp",
+    "company": "ADP",
     "phone": "",
     "email": "securityservices_noreply@adp.com",
     "date": "2025-04-07",
@@ -2098,13 +2099,14 @@
     ],
     "firstDate": "2024-12-30",
     "labels": [],
-    "logo": "logos/dom-adp.com.svg",
-    "organizationName": "Adp"
+    "logo": "logos/adp.svg",
+    "organizationName": "ADP",
+    "organizationId": "w-tools-adp"
   },
   {
     "id": "54",
     "name": "ADP",
-    "company": "Adp",
+    "company": "ADP",
     "phone": "",
     "email": "adpfeedback@adp.com",
     "date": "2026-01-17",
@@ -2166,13 +2168,14 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-adp.com.svg",
-    "organizationName": "Adp"
+    "logo": "logos/adp.svg",
+    "organizationName": "ADP",
+    "organizationId": "w-tools-adp"
   },
   {
     "id": "55",
     "name": "donotreply@adp.com",
-    "company": "Adp",
+    "company": "ADP",
     "phone": "",
     "email": "donotreply@adp.com",
     "date": "2025-04-28",
@@ -2195,13 +2198,14 @@
     ],
     "firstDate": "2025-01-03",
     "labels": [],
-    "logo": "logos/dom-adp.com.svg",
-    "organizationName": "Adp"
+    "logo": "logos/adp.svg",
+    "organizationName": "ADP",
+    "organizationId": "w-tools-adp"
   },
   {
     "id": "56",
     "name": "NoReply.ADPBenefits",
-    "company": "Adp",
+    "company": "ADP",
     "phone": "",
     "email": "noreply.adpbenefits@adp.com",
     "date": "2025-04-23",
@@ -2224,13 +2228,14 @@
     ],
     "firstDate": "2025-04-03",
     "labels": [],
-    "logo": "logos/dom-adp.com.svg",
-    "organizationName": "Adp"
+    "logo": "logos/adp.svg",
+    "organizationName": "ADP",
+    "organizationId": "w-tools-adp"
   },
   {
     "id": "57",
     "name": "RCUBEDCONSULTINGLLC_HR_donotreply",
-    "company": "Adp",
+    "company": "R-Cubed",
     "phone": "",
     "email": "rcubedconsultingllc_hr_donotreply@adp.com",
     "date": "2025-04-27",
@@ -2252,8 +2257,9 @@
     ],
     "firstDate": "2025-04-21",
     "labels": [],
-    "logo": "logos/dom-adp.com.svg",
-    "organizationName": "Adp"
+    "logo": "logos/r-cubed.png",
+    "organizationName": "R-Cubed",
+    "organizationId": "w-emp-rcubed"
   },
   {
     "id": "58",
@@ -2280,7 +2286,7 @@
     ],
     "firstDate": "2024-11-07",
     "labels": [],
-    "logo": "logos/dom-advanceddentistrysugarland.com.svg",
+    "logo": "logos/advanced-dentistry.png",
     "originalContact": {
       "name": "Advanced Dentistry",
       "company": "advanceddentistrysugarland.com",
@@ -2522,7 +2528,7 @@
     "originalCompany": "aep-email.com",
     "organizationId": "p-bills-pso",
     "organizationName": "PSO",
-    "logo": "logos/dom-aep-email.com.svg"
+    "logo": "logos/brand-billspso.svg"
   },
   {
     "id": "63",
@@ -2711,7 +2717,7 @@
     "originalCompany": "aep.ebillservice.net",
     "organizationId": "p-bills-pso",
     "organizationName": "PSO",
-    "logo": "logos/dom-aep.ebillservice.net.svg"
+    "logo": "logos/brand-billspso.svg"
   },
   {
     "id": "68",
@@ -2905,7 +2911,7 @@
     "labels": [
       "Travel"
     ],
-    "logo": "logos/dom-airbnb.com.svg",
+    "logo": "logos/library-22eb834812f7.png",
     "blueprintPath": [
       "Travel",
       "Airbnb"
@@ -2954,7 +2960,7 @@
     "labels": [
       "Travel"
     ],
-    "logo": "logos/dom-airbnb.com.svg",
+    "logo": "logos/library-22eb834812f7.png",
     "blueprintPath": [
       "Travel",
       "Airbnb"
@@ -3871,7 +3877,7 @@
     "labels": [
       "Navigation Travel / Maps Transport"
     ],
-    "logo": "logos/dom-alerts.parkmobile.io.svg",
+    "logo": "logos/library-252705780ad0.png",
     "blueprintPath": [
       "Navigation Travel",
       "Maps Transport",
@@ -4025,7 +4031,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4069,7 +4075,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4114,7 +4120,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4171,7 +4177,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4215,7 +4221,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4263,7 +4269,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4312,7 +4318,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4354,7 +4360,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4391,7 +4397,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4440,7 +4446,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4489,7 +4495,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4686,7 +4692,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4748,7 +4754,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4788,7 +4794,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4831,7 +4837,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4870,7 +4876,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -4907,7 +4913,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -5451,7 +5457,7 @@
     ],
     "firstDate": "2017-03-15",
     "labels": [],
-    "logo": "logos/dom-announcements.soundcloud.com.svg",
+    "logo": "logos/soundcloud.png",
     "originalContact": {
       "name": "SoundCloud",
       "company": "announcements.soundcloud.com",
@@ -6557,7 +6563,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-appointment.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -6966,7 +6972,7 @@
     "originalCompany": "ascension.visitpay.com",
     "organizationId": "h-prov-ascension",
     "organizationName": "Ascension",
-    "logo": "logos/dom-ascension.visitpay.com.svg"
+    "logo": "logos/ascension.png"
   },
   {
     "id": "164",
@@ -7260,7 +7266,7 @@
     "originalCompany": "att-offers.com",
     "organizationId": "p-bills-att",
     "organizationName": "AT&T",
-    "logo": "logos/dom-att-offers.com.svg"
+    "logo": "logos/library-cd69865e4a85.png"
   },
   {
     "id": "173",
@@ -7802,7 +7808,7 @@
     ],
     "firstDate": "2023-12-12",
     "labels": [],
-    "logo": "logos/dom-autonation.com.svg",
+    "logo": "logos/autonation.png",
     "originalContact": {
       "name": "Mark Wade",
       "company": "autonation.com",
@@ -7838,7 +7844,7 @@
     ],
     "firstDate": "2023-12-13",
     "labels": [],
-    "logo": "logos/dom-autonation.com.svg",
+    "logo": "logos/autonation.png",
     "originalContact": {
       "name": "Haozhen Yang",
       "company": "autonation.com",
@@ -7874,7 +7880,7 @@
     ],
     "firstDate": "2023-12-15",
     "labels": [],
-    "logo": "logos/dom-autonation.com.svg",
+    "logo": "logos/autonation.png",
     "originalContact": {
       "name": "Michael Decastro",
       "company": "autonation.com",
@@ -7888,7 +7894,7 @@
   },
   {
     "id": "187",
-    "name": "Jean-R\u00e9mi Delteil",
+    "name": "Jean-Rémi Delteil",
     "company": "Awesome Table",
     "phone": "",
     "email": "jean-remi@awesome-table.com",
@@ -8951,7 +8957,7 @@
     "originalCompany": "billing.mydocbill.com",
     "organizationId": "h-portal-docubill",
     "organizationName": "DocuBill",
-    "logo": "logos/dom-billing.mydocbill.com.svg"
+    "logo": "logos/docubill.png"
   },
   {
     "id": "213",
@@ -9396,7 +9402,7 @@
     "originalCompany": "borrowerservices.mygreatlakes.org",
     "organizationId": "p-accounts-greatlakes",
     "organizationName": "Great Lakes",
-    "logo": "logos/dom-borrowerservices.mygreatlakes.org.svg"
+    "logo": "logos/great-lakes.png"
   },
   {
     "id": "226",
@@ -10044,7 +10050,7 @@
     ],
     "firstDate": "2025-08-27",
     "labels": [],
-    "logo": "logos/dom-bullocklegalgroup.com.svg",
+    "logo": "logos/bullock-legal-group.png",
     "originalContact": {
       "name": "Bullock Legal Group",
       "company": "bullocklegalgroup.com",
@@ -10117,7 +10123,7 @@
     ],
     "firstDate": "2021-12-20",
     "labels": [],
-    "logo": "logos/dom-bx.hellofresh.com.svg",
+    "logo": "logos/hellofresh.png",
     "originalContact": {
       "name": "HelloFresh",
       "company": "bx.hellofresh.com",
@@ -10211,7 +10217,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-c.hellofresh.com.svg",
+    "logo": "logos/hellofresh.png",
     "originalContact": {
       "name": "HelloFresh",
       "company": "c.hellofresh.com",
@@ -10387,7 +10393,7 @@
   },
   {
     "id": "254",
-    "name": "\ud83d\udcb0 Get Funded! Office Hours by Serac Ventures \ud83d\ude80",
+    "name": "💰 Get Funded! Office Hours by Serac Ventures 🚀",
     "company": "Luma Mail",
     "phone": "",
     "email": "getfunded@calendar.luma-mail.com",
@@ -11219,7 +11225,7 @@
     ],
     "firstDate": "2023-11-07",
     "labels": [],
-    "logo": "logos/dom-campaigns.anytimefitness.com.svg",
+    "logo": "logos/anytime-fitness.png",
     "originalContact": {
       "name": "HoustonTX2@AnytimeFitness.com",
       "company": "campaigns.anytimefitness.com",
@@ -11282,7 +11288,7 @@
     ],
     "firstDate": "2020-07-10",
     "labels": [],
-    "logo": "logos/dom-candidates.workablemail.com.svg",
+    "logo": "logos/workable.png",
     "originalContact": {
       "name": "Workable",
       "company": "candidates.workablemail.com",
@@ -11894,7 +11900,7 @@
     "originalCompany": "card.truebill.com",
     "organizationId": "p-accounts-rocket",
     "organizationName": "Rocket Money",
-    "logo": "logos/dom-card.truebill.com.svg"
+    "logo": "logos/library-fe5e0ca67592.png"
   },
   {
     "id": "286",
@@ -12842,7 +12848,7 @@
     "labels": [
       "Entertainment Media / Streaming"
     ],
-    "logo": "logos/dom-channels.primevideo.com.svg",
+    "logo": "logos/library-e86251f67f66.png",
     "blueprintPath": [
       "Entertainment Media",
       "Streaming",
@@ -14058,7 +14064,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-clientfeedback.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -14149,7 +14155,7 @@
     "originalCompany": "cloud.withgoogle.com",
     "organizationId": "p-tech-google",
     "organizationName": "Google",
-    "logo": "logos/dom-cloud.withgoogle.com.svg"
+    "logo": "logos/google.png"
   },
   {
     "id": "350",
@@ -14759,7 +14765,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-communication.ascension.org.svg",
+    "logo": "logos/ascension.png",
     "originalContact": {
       "name": "Ascension St. John",
       "company": "communication.ascension.org",
@@ -14795,7 +14801,7 @@
     ],
     "firstDate": "2025-09-03",
     "labels": [],
-    "logo": "logos/dom-communication.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -14832,7 +14838,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-communications.paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -15594,7 +15600,7 @@
     "originalCompany": "consumerexperience.ascension.org",
     "organizationId": "h-prov-ascension",
     "organizationName": "Ascension",
-    "logo": "logos/dom-consumerexperience.ascension.org.svg"
+    "logo": "logos/ascension.png"
   },
   {
     "id": "382",
@@ -15793,7 +15799,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-contact.goodrx.com.svg",
+    "logo": "logos/goodrx.png",
     "originalContact": {
       "name": "GoodRx",
       "company": "contact.goodrx.com",
@@ -16785,7 +16791,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-creditone.com.png",
+    "logo": "logos/accounts-banking--credit-one.png",
     "blueprintPath": [
       "Accounts Banking",
       "Credit One"
@@ -17075,7 +17081,7 @@
     "originalCompany": "csat.att-mail.com",
     "organizationId": "p-bills-att",
     "organizationName": "AT&T",
-    "logo": "logos/dom-csat.att-mail.com.svg"
+    "logo": "logos/library-cd69865e4a85.png"
   },
   {
     "id": "423",
@@ -17360,7 +17366,7 @@
     "originalCompany": "custhelp.com",
     "organizationId": "p-ent-amc",
     "organizationName": "AMC",
-    "logo": "logos/dom-custhelp.com.svg"
+    "logo": "logos/library-de8f8a76dec6.png"
   },
   {
     "id": "431",
@@ -17389,7 +17395,7 @@
     "originalCompany": "customer-comms.aep.com",
     "organizationId": "p-bills-pso",
     "organizationName": "PSO",
-    "logo": "logos/dom-customer-comms.aep.com.svg"
+    "logo": "logos/brand-billspso.svg"
   },
   {
     "id": "432",
@@ -17418,7 +17424,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-customerassist.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -17490,7 +17496,7 @@
     "originalCompany": "customersuccess.gonift.com",
     "organizationId": "p-shop-nift",
     "organizationName": "Nift",
-    "logo": "logos/dom-customersuccess.gonift.com.svg"
+    "logo": "logos/nift.png"
   },
   {
     "id": "435",
@@ -17761,7 +17767,7 @@
       "Touchpoint Summary": "",
       "Type": "Newsletter"
     },
-    "logo": "logos/dom-daily.dev.svg",
+    "logo": "logos/daily-dev.png",
     "originalContact": {
       "name": "http://daily.dev",
       "company": "daily.dev",
@@ -18115,7 +18121,7 @@
   },
   {
     "id": "450",
-    "name": "\u96fb\u7b97\u30b7\u30b9\u30c6\u30e0\u30bb\u30df\u30ca\u30fc\u4e8b\u52d9\u5c40",
+    "name": "電算システムセミナー事務局",
     "company": "JP",
     "phone": "",
     "email": "cimarketing@densan-s.co.jp",
@@ -18167,7 +18173,7 @@
   },
   {
     "id": "451",
-    "name": "\u9032\u58eb\u7267\u5b50",
+    "name": "進士牧子",
     "company": "JP",
     "phone": "",
     "email": "makiko_shinji@densan-s.co.jp",
@@ -18680,7 +18686,7 @@
     ],
     "firstDate": "2023-12-14",
     "labels": [],
-    "logo": "logos/dom-digital-delivery.com.svg",
+    "logo": "logos/quest-diagnostics.png",
     "originalContact": {
       "name": "Quest Diagnostics",
       "company": "digital-delivery.com",
@@ -19839,7 +19845,7 @@
     ],
     "firstDate": "2024-01-08",
     "labels": [],
-    "logo": "logos/dom-e-mail.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -19909,7 +19915,7 @@
   },
   {
     "id": "492",
-    "name": "Ben & Jerry\u2019s Flavor Fanatics",
+    "name": "Ben & Jerry’s Flavor Fanatics",
     "company": "Benjerry",
     "phone": "",
     "email": "flavorfanatics@e.benjerry.com",
@@ -20147,7 +20153,7 @@
     "labels": [
       "Travel"
     ],
-    "logo": "logos/dom-e.delta.com.svg",
+    "logo": "logos/library-25b0c76781d2.png",
     "blueprintPath": [
       "Travel",
       "Delta"
@@ -20510,7 +20516,7 @@
     ],
     "firstDate": "2017-01-25",
     "labels": [],
-    "logo": "logos/dom-e.hotwire.com.svg",
+    "logo": "logos/hotwire.png",
     "originalContact": {
       "name": "Hotwire Welcome",
       "company": "e.hotwire.com",
@@ -20553,7 +20559,7 @@
     ],
     "firstDate": "2024-01-06",
     "labels": [],
-    "logo": "logos/dom-e.lafitness.com.svg",
+    "logo": "logos/la-fitness.png",
     "originalContact": {
       "name": "LA Fitness",
       "company": "e.lafitness.com",
@@ -20666,7 +20672,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-e.lowes.com.svg",
+    "logo": "logos/library-1187b94435f2.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -20947,7 +20953,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-e.nothingbundtcakes.com.svg",
+    "logo": "logos/nothing-bundt-cakes.png",
     "originalContact": {
       "name": "Nothing Bundt Cakes",
       "company": "e.nothingbundtcakes.com",
@@ -21058,7 +21064,7 @@
     ],
     "firstDate": "2016-12-10",
     "labels": [],
-    "logo": "logos/dom-e.progressive.com.svg",
+    "logo": "logos/progressive.png",
     "originalContact": {
       "name": "Progressive",
       "company": "e.progressive.com",
@@ -21231,7 +21237,7 @@
     "labels": [
       "Shopping Rewards / Food Coffee"
     ],
-    "logo": "logos/dom-e.starbucks.com.svg",
+    "logo": "logos/library-98f811f515cb.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Food Coffee",
@@ -21271,7 +21277,7 @@
     "originalCompany": "e.stripe.com",
     "organizationId": "w-tools-obsidian",
     "organizationName": "Obsidian",
-    "logo": "logos/dom-e.stripe.com.svg"
+    "logo": "logos/library-98b3da42e667.png"
   },
   {
     "id": "520",
@@ -21303,7 +21309,7 @@
     "originalCompany": "e.synchronyfinancial.com",
     "organizationId": "p-accounts-synchrony",
     "organizationName": "Synchrony",
-    "logo": "logos/dom-e.synchronyfinancial.com.svg"
+    "logo": "logos/library-dc3787ed773b.png"
   },
   {
     "id": "521",
@@ -21361,7 +21367,7 @@
     ],
     "firstDate": "2023-10-19",
     "labels": [],
-    "logo": "logos/dom-e.topcashback.com.svg",
+    "logo": "logos/topcashback.png",
     "originalContact": {
       "name": "TopCashback",
       "company": "e.topcashback.com",
@@ -21434,7 +21440,7 @@
     ],
     "firstDate": "2023-10-27",
     "labels": [],
-    "logo": "logos/dom-e.topcashback.com.svg",
+    "logo": "logos/topcashback.png",
     "originalContact": {
       "name": "TopCashback",
       "company": "e.topcashback.com",
@@ -21702,7 +21708,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-e.zoom.us.svg",
+    "logo": "logos/zoom.png",
     "originalContact": {
       "name": "Zoom (Team)",
       "company": "e.zoom.us",
@@ -22352,7 +22358,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-ealerts.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -22414,7 +22420,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-ealerts2.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -22525,7 +22531,7 @@
     "originalCompany": "eclinicalmail.com",
     "organizationId": "h-portal-eclinical",
     "organizationName": "eClinical",
-    "logo": "logos/dom-eclinicalmail.com.svg"
+    "logo": "logos/eclinical.png"
   },
   {
     "id": "533",
@@ -22559,7 +22565,7 @@
     "originalCompany": "eclinicalmail.com",
     "organizationId": "h-portal-eclinical",
     "organizationName": "eClinical",
-    "logo": "logos/dom-eclinicalmail.com.svg"
+    "logo": "logos/eclinical.png"
   },
   {
     "id": "534",
@@ -22589,7 +22595,7 @@
     ],
     "firstDate": "2019-04-10",
     "labels": [],
-    "logo": "logos/dom-eclub.culvers.com.svg",
+    "logo": "logos/culver-s.png",
     "originalContact": {
       "name": "Culver's",
       "company": "eclub.culvers.com",
@@ -22680,7 +22686,7 @@
     ],
     "firstDate": "2026-01-13",
     "labels": [],
-    "logo": "logos/dom-ecs.walgreens.com.svg",
+    "logo": "logos/walgreens.png",
     "originalContact": {
       "name": "Walgreens",
       "company": "ecs.walgreens.com",
@@ -22754,7 +22760,7 @@
     ],
     "firstDate": "2026-02-12",
     "labels": [],
-    "logo": "logos/dom-eg.hotels.com.svg",
+    "logo": "logos/hotels-com.png",
     "originalContact": {
       "name": "Hotels.com",
       "company": "eg.hotels.com",
@@ -23218,7 +23224,7 @@
     ],
     "firstDate": "2023-10-24",
     "labels": [],
-    "logo": "logos/dom-em-s.dropbox.com.svg",
+    "logo": "logos/dropbox.png",
     "originalContact": {
       "name": "Dropbox",
       "company": "em-s.dropbox.com",
@@ -23461,7 +23467,7 @@
     ],
     "firstDate": "2025-07-11",
     "labels": [],
-    "logo": "logos/dom-em.optum.com.svg",
+    "logo": "logos/optum-financial.png",
     "originalContact": {
       "name": "Optum Financial",
       "company": "em.optum.com",
@@ -23659,7 +23665,7 @@
     ],
     "firstDate": "2021-10-26",
     "labels": [],
-    "logo": "logos/dom-em.tjmaxx.tjx.com.svg",
+    "logo": "logos/tj-maxx.png",
     "originalContact": {
       "name": "T.J.MAXX",
       "company": "em.tjmaxx.tjx.com",
@@ -23713,7 +23719,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-em.walmart.com.svg",
+    "logo": "logos/library-f446ffa560c7.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -23750,7 +23756,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-em.walmart.com.svg",
+    "logo": "logos/library-f446ffa560c7.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -23874,7 +23880,7 @@
     "originalCompany": "email-biolifeplasma.com",
     "organizationId": "h-blood-biolife",
     "organizationName": "BioLife Plasma",
-    "logo": "logos/dom-email-biolifeplasma.com.svg"
+    "logo": "logos/biolife-plasma.png"
   },
   {
     "id": "563",
@@ -24192,7 +24198,7 @@
     ],
     "firstDate": "2022-01-18",
     "labels": [],
-    "logo": "logos/dom-email-special.usps.com.svg",
+    "logo": "logos/usps.png",
     "originalContact": {
       "name": "U.S. Postal Service",
       "company": "email-special.usps.com",
@@ -24230,7 +24236,7 @@
     "labels": [
       "Navigation Travel / Maps Transport"
     ],
-    "logo": "logos/dom-email-support.uber.com.svg",
+    "logo": "logos/library-f73cbbc736b3.png",
     "blueprintPath": [
       "Navigation Travel",
       "Maps Transport",
@@ -24267,7 +24273,7 @@
     "labels": [
       "Navigation Travel / Maps Transport"
     ],
-    "logo": "logos/dom-email-support.uber.com.svg",
+    "logo": "logos/library-f73cbbc736b3.png",
     "blueprintPath": [
       "Navigation Travel",
       "Maps Transport",
@@ -24304,7 +24310,7 @@
     "labels": [
       "Navigation Travel / Maps Transport"
     ],
-    "logo": "logos/dom-email-support.uber.com.svg",
+    "logo": "logos/library-f73cbbc736b3.png",
     "blueprintPath": [
       "Navigation Travel",
       "Maps Transport",
@@ -24341,7 +24347,7 @@
     "labels": [
       "Navigation Travel / Maps Transport"
     ],
-    "logo": "logos/dom-email-support.uber.com.svg",
+    "logo": "logos/library-f73cbbc736b3.png",
     "blueprintPath": [
       "Navigation Travel",
       "Maps Transport",
@@ -24960,7 +24966,7 @@
     "labels": [
       "Daily Life Digital Presence / Entertainment"
     ],
-    "logo": "logos/dom-email.amctheatres.com.svg",
+    "logo": "logos/library-de8f8a76dec6.png",
     "blueprintPath": [
       "Daily Life Digital Presence",
       "Entertainment",
@@ -25051,7 +25057,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-email.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -25087,7 +25093,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-email.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -25121,7 +25127,7 @@
     ],
     "firstDate": "2024-11-10",
     "labels": [],
-    "logo": "logos/dom-email.apartments.com.svg",
+    "logo": "logos/apartments-com.png",
     "originalContact": {
       "name": "Apartments.com",
       "company": "email.apartments.com",
@@ -25161,7 +25167,7 @@
     ],
     "firstDate": "2020-12-23",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Support",
       "company": "email.apple.com",
@@ -25202,7 +25208,7 @@
     ],
     "firstDate": "2021-05-03",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Store",
       "company": "email.apple.com",
@@ -25246,7 +25252,7 @@
     ],
     "firstDate": "2021-05-05",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Woodland Hills",
       "company": "email.apple.com",
@@ -25283,7 +25289,7 @@
     ],
     "firstDate": "2022-12-06",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Business Team",
       "company": "email.apple.com",
@@ -25324,7 +25330,7 @@
     ],
     "firstDate": "2024-10-26",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Maleha Alvi-Baig",
       "company": "email.apple.com",
@@ -25362,7 +25368,7 @@
     ],
     "firstDate": "2025-07-26",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple",
       "company": "email.apple.com",
@@ -25398,7 +25404,7 @@
     ],
     "firstDate": "2025-08-17",
     "labels": [],
-    "logo": "logos/dom-email.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Store",
       "company": "email.apple.com",
@@ -25465,7 +25471,7 @@
     ],
     "firstDate": "2023-02-08",
     "labels": [],
-    "logo": "logos/dom-email.box.com.svg",
+    "logo": "logos/box.png",
     "originalContact": {
       "name": "The Box Team",
       "company": "email.box.com",
@@ -25533,7 +25539,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-email.claude.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -26079,7 +26085,7 @@
     ],
     "firstDate": "2022-12-26",
     "labels": [],
-    "logo": "logos/dom-email.coursera.org.svg",
+    "logo": "logos/coursera.png",
     "originalContact": {
       "name": "Coursera",
       "company": "email.coursera.org",
@@ -26195,7 +26201,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-email.etsy.com.svg",
+    "logo": "logos/library-db0ec0124f27.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -26271,7 +26277,7 @@
     ],
     "firstDate": "2026-02-09",
     "labels": [],
-    "logo": "logos/dom-email.extraspace.com.svg",
+    "logo": "logos/extra-space-storage.png",
     "originalContact": {
       "name": "Extra Space Storage",
       "company": "email.extraspace.com",
@@ -26400,7 +26406,7 @@
     "labels": [
       "Productivity Organization / Project Management"
     ],
-    "logo": "logos/dom-email.github.com.svg",
+    "logo": "logos/brand-github.svg",
     "blueprintPath": [
       "Productivity Organization",
       "Project Management",
@@ -26908,7 +26914,7 @@
       "Touchpoint Summary": "",
       "Type": "Government"
     },
-    "logo": "logos/dom-email.informeddelivery.usps.com.svg",
+    "logo": "logos/usps.png",
     "originalContact": {
       "name": "USPS Informed Delivery",
       "company": "email.informeddelivery.usps.com",
@@ -26975,7 +26981,7 @@
     ],
     "firstDate": "2023-03-22",
     "labels": [],
-    "logo": "logos/dom-email.lifestorage.com.svg",
+    "logo": "logos/life-storage.png",
     "originalContact": {
       "name": "Life Storage",
       "company": "email.lifestorage.com",
@@ -27013,7 +27019,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-email.meetup.com.svg",
+    "logo": "logos/library-f1e9c1ea546f.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -27070,7 +27076,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-email.meetup.com.svg",
+    "logo": "logos/library-f1e9c1ea546f.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -27122,7 +27128,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-email.meetup.com.svg",
+    "logo": "logos/library-f1e9c1ea546f.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -27159,7 +27165,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-email.meetup.com.svg",
+    "logo": "logos/library-f1e9c1ea546f.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -27196,7 +27202,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-email.meetup.com.svg",
+    "logo": "logos/library-f1e9c1ea546f.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -27233,7 +27239,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-email.meetup.com.svg",
+    "logo": "logos/library-f1e9c1ea546f.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -27329,7 +27335,7 @@
     ],
     "firstDate": "2024-11-11",
     "labels": [],
-    "logo": "logos/dom-email.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -27362,7 +27368,7 @@
     ],
     "firstDate": "2024-11-21",
     "labels": [],
-    "logo": "logos/dom-email.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -27445,7 +27451,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-email.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -27475,7 +27481,7 @@
     ],
     "firstDate": "2025-04-15",
     "labels": [],
-    "logo": "logos/dom-email.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -27507,7 +27513,7 @@
     ],
     "firstDate": "2021-03-17",
     "labels": [],
-    "logo": "logos/dom-email.newyorklife.com.svg",
+    "logo": "logos/new-york-life.png",
     "originalContact": {
       "name": "New York Life Insurance Company",
       "company": "email.newyorklife.com",
@@ -27634,7 +27640,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-email.openai.com.svg",
+    "logo": "logos/brand-paiopenai.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "ChatGPT"
@@ -27696,7 +27702,7 @@
     ],
     "firstDate": "2025-07-27",
     "labels": [],
-    "logo": "logos/dom-email.optumfinancial.com.svg",
+    "logo": "logos/optum-financial.png",
     "originalContact": {
       "name": "Optum Financial",
       "company": "email.optumfinancial.com",
@@ -27894,7 +27900,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-email.paramountplus.com.svg",
+    "logo": "logos/paramount.png",
     "originalContact": {
       "name": "Paramount+",
       "company": "email.paramountplus.com",
@@ -28111,7 +28117,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-email.peacocktv.com.svg",
+    "logo": "logos/peacock.png",
     "originalContact": {
       "name": "Peacock",
       "company": "NBCUniversal",
@@ -28149,7 +28155,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-email.pharmacy.amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -28219,7 +28225,7 @@
     "originalCompany": "email.productexperts.withgoogle.com",
     "organizationId": "p-tech-google",
     "organizationName": "Google",
-    "logo": "logos/dom-email.productexperts.withgoogle.com.svg"
+    "logo": "logos/google.png"
   },
   {
     "id": "641",
@@ -28263,7 +28269,7 @@
     ],
     "firstDate": "2023-10-25",
     "labels": [],
-    "logo": "logos/dom-email.regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "Regence",
       "company": "email.regence.com",
@@ -28303,7 +28309,7 @@
     ],
     "firstDate": "2025-04-21",
     "labels": [],
-    "logo": "logos/dom-email.roadmap.sh.svg",
+    "logo": "logos/roadmap-sh.png",
     "originalContact": {
       "name": "roadmap.sh",
       "company": "email.roadmap.sh",
@@ -28342,7 +28348,7 @@
     "originalCompany": "email.roadmap.sh",
     "organizationId": "p-news-roadmap",
     "organizationName": "Roadmap.sh",
-    "logo": "logos/dom-email.roadmap.sh.svg"
+    "logo": "logos/roadmap-sh.png"
   },
   {
     "id": "644",
@@ -28898,7 +28904,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-email.rocketmoney.com.svg",
+    "logo": "logos/library-fe5e0ca67592.png",
     "blueprintPath": [
       "Finance Payments",
       "Rocket Money"
@@ -28981,7 +28987,7 @@
     ],
     "firstDate": "2023-10-25",
     "labels": [],
-    "logo": "logos/dom-email.sel.sony.com.svg",
+    "logo": "logos/sony.png",
     "originalContact": {
       "name": "Sony Electronics",
       "company": "email.sel.sony.com",
@@ -29017,7 +29023,7 @@
     ],
     "firstDate": "2018-12-26",
     "labels": [],
-    "logo": "logos/dom-email.slack-core.com.svg",
+    "logo": "logos/library-06f4f65faef0.png",
     "originalContact": {
       "name": "Slack",
       "company": "email.slack-core.com",
@@ -29093,7 +29099,7 @@
     ],
     "firstDate": "2023-01-09",
     "labels": [],
-    "logo": "logos/dom-email.slackhq.com.svg",
+    "logo": "logos/library-06f4f65faef0.png",
     "originalContact": {
       "name": "Slack",
       "company": "email.slackhq.com",
@@ -29129,7 +29135,7 @@
     ],
     "firstDate": "2023-01-09",
     "labels": [],
-    "logo": "logos/dom-email.slackhq.com.svg",
+    "logo": "logos/library-06f4f65faef0.png",
     "originalContact": {
       "name": "Slack",
       "company": "email.slackhq.com",
@@ -29204,7 +29210,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-email.snapchat.com.svg",
+    "logo": "logos/brand-snapchat.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -29239,7 +29245,7 @@
     ],
     "firstDate": "2022-07-07",
     "labels": [],
-    "logo": "logos/dom-email.teams.microsoft.com.svg",
+    "logo": "logos/microsoft-teams.png",
     "originalContact": {
       "name": "Microsoft Teams",
       "company": "Microsoft",
@@ -29275,7 +29281,7 @@
     ],
     "firstDate": "2022-01-22",
     "labels": [],
-    "logo": "logos/dom-email.ticketmaster.com.svg",
+    "logo": "logos/ticketmaster.png",
     "originalContact": {
       "name": "Ticketmaster",
       "company": "email.ticketmaster.com",
@@ -29311,7 +29317,7 @@
     ],
     "firstDate": "2025-08-28",
     "labels": [],
-    "logo": "logos/dom-email.ticketmaster.com.svg",
+    "logo": "logos/ticketmaster.png",
     "originalContact": {
       "name": "Ticketmaster",
       "company": "email.ticketmaster.com",
@@ -29365,7 +29371,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-email.tiktok.com.svg",
+    "logo": "logos/brand-tiktok.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -29548,7 +29554,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-email.venmo.com.svg",
+    "logo": "logos/brand-venmo.svg",
     "blueprintPath": [
       "Finance Payments",
       "Venmo"
@@ -29678,7 +29684,7 @@
     ],
     "firstDate": "2024-02-15",
     "labels": [],
-    "logo": "logos/dom-email.vudu.com.svg",
+    "logo": "logos/vudu.png",
     "originalContact": {
       "name": "Vudu",
       "company": "email.vudu.com",
@@ -29791,7 +29797,7 @@
     ],
     "firstDate": "2024-01-30",
     "labels": [],
-    "logo": "logos/dom-email02.account.sony.com.svg",
+    "logo": "logos/sony.png",
     "originalContact": {
       "name": "Sony",
       "company": "email02.account.sony.com",
@@ -29834,7 +29840,7 @@
     ],
     "firstDate": "2025-03-09",
     "labels": [],
-    "logo": "logos/dom-email03.account.sony.com.svg",
+    "logo": "logos/sony.png",
     "originalContact": {
       "name": "Sony",
       "company": "email03.account.sony.com",
@@ -29910,7 +29916,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-email2.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -29947,7 +29953,7 @@
     ],
     "firstDate": "2023-01-14",
     "labels": [],
-    "logo": "logos/dom-email2.office.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalContact": {
       "name": "Microsoft",
       "company": "email2.office.com",
@@ -29986,7 +29992,7 @@
     "originalCompany": "email2.office.com",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft",
-    "logo": "logos/dom-email2.office.com.svg"
+    "logo": "logos/brand-microsoft.svg"
   },
   {
     "id": "671",
@@ -30015,7 +30021,7 @@
     "originalCompany": "email3.bing.com",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft",
-    "logo": "logos/dom-email3.bing.com.svg"
+    "logo": "logos/brand-microsoft.svg"
   },
   {
     "id": "672",
@@ -30077,7 +30083,7 @@
     "originalCompany": "emaildl.att-mail.com",
     "organizationId": "p-bills-att",
     "organizationName": "AT&T",
-    "logo": "logos/dom-emaildl.att-mail.com.svg"
+    "logo": "logos/library-cd69865e4a85.png"
   },
   {
     "id": "674",
@@ -30105,7 +30111,7 @@
     "labels": [
       "Daily Life Digital Presence / Shopping"
     ],
-    "logo": "logos/dom-emailinfo.bestbuy.com.svg",
+    "logo": "logos/library-3e0ebf480257.png",
     "blueprintPath": [
       "Daily Life Digital Presence",
       "Shopping",
@@ -30405,7 +30411,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-emails.creditonebank.com.svg",
+    "logo": "logos/accounts-banking--credit-one.png",
     "blueprintPath": [
       "Accounts Banking",
       "Credit One"
@@ -30513,7 +30519,7 @@
     ],
     "firstDate": "2023-01-22",
     "labels": [],
-    "logo": "logos/dom-emails.gamestop.com.svg",
+    "logo": "logos/gamestop.png",
     "originalContact": {
       "name": "GameStop PowerUp Rewards",
       "company": "emails.gamestop.com",
@@ -30554,7 +30560,7 @@
     "labels": [
       "Health Fitness"
     ],
-    "logo": "logos/dom-emails.lifetime.life.svg",
+    "logo": "logos/library-95765bebbde4.png",
     "blueprintPath": [
       "Health Fitness",
       "Life Time"
@@ -30690,7 +30696,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-emails.paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -30743,7 +30749,7 @@
     ],
     "firstDate": "2022-04-16",
     "labels": [],
-    "logo": "logos/dom-emails.spothero.com.svg",
+    "logo": "logos/spothero.png",
     "originalContact": {
       "name": "SpotHero",
       "company": "emails.spothero.com",
@@ -30847,7 +30853,7 @@
     ],
     "firstDate": "2025-11-04",
     "labels": [],
-    "logo": "logos/dom-emails.xoom.com.svg",
+    "logo": "logos/xoom.png",
     "originalContact": {
       "name": "Xoom, a PayPal Service",
       "company": "emails.xoom.com",
@@ -31006,7 +31012,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-emcom.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -31156,7 +31162,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-emcom.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -31292,7 +31298,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-emdeals.michaels.com.svg",
+    "logo": "logos/michaels.png",
     "originalContact": {
       "name": "Michaels",
       "company": "emdeals.michaels.com",
@@ -31424,7 +31430,7 @@
     ],
     "firstDate": "2026-02-17",
     "labels": [],
-    "logo": "logos/dom-eml.upstart.com.svg",
+    "logo": "logos/upstart.png",
     "originalContact": {
       "name": "Upstart",
       "company": "eml.upstart.com",
@@ -31609,7 +31615,7 @@
     ],
     "firstDate": "2023-02-01",
     "labels": [],
-    "logo": "logos/dom-engage.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -31638,7 +31644,7 @@
     ],
     "firstDate": "2023-04-12",
     "labels": [],
-    "logo": "logos/dom-engage.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -31687,7 +31693,7 @@
     ],
     "firstDate": "2023-04-15",
     "labels": [],
-    "logo": "logos/dom-engage.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -31716,7 +31722,7 @@
     ],
     "firstDate": "2024-01-10",
     "labels": [],
-    "logo": "logos/dom-engage.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -31746,7 +31752,7 @@
     ],
     "firstDate": "2023-01-27",
     "labels": [],
-    "logo": "logos/dom-engagement.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -32247,7 +32253,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-etsy.com.svg",
+    "logo": "logos/library-db0ec0124f27.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -32286,7 +32292,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-etsy.com.svg",
+    "logo": "logos/library-db0ec0124f27.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -32346,7 +32352,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-event.eventbrite.com.svg",
+    "logo": "logos/library-934bb7003f19.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -32384,7 +32390,7 @@
     "originalCompany": "event.facebookmail.com",
     "organizationId": "p-social-facebook",
     "organizationName": "Facebook",
-    "logo": "logos/dom-event.facebookmail.com.svg"
+    "logo": "logos/brand-facebook.svg"
   },
   {
     "id": "718",
@@ -32547,7 +32553,7 @@
     ],
     "firstDate": "2023-10-19",
     "labels": [],
-    "logo": "logos/dom-ex.doctorondemand.com.svg",
+    "logo": "logos/doctor-on-demand.png",
     "originalContact": {
       "name": "Doctor On Demand",
       "company": "ex.doctorondemand.com",
@@ -32725,7 +32731,7 @@
   {
     "id": "727",
     "name": "Delta Air Lines",
-    "company": "Life Time",
+    "company": "Delta",
     "phone": "",
     "email": "delta@express.medallia.com",
     "date": "2018-04-17",
@@ -32751,14 +32757,14 @@
     "firstDate": "2016-09-24",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-travel-delta",
+    "organizationName": "Delta",
+    "logo": "logos/library-25b0c76781d2.png"
   },
   {
     "id": "728",
     "name": "Walmart Customer Experience",
-    "company": "Life Time",
+    "company": "Walmart",
     "phone": "",
     "email": "walmartcustomerexperience@express.medallia.com",
     "date": "2021-06-12",
@@ -32780,14 +32786,14 @@
     "firstDate": "2021-06-12",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-shop-walmart",
+    "organizationName": "Walmart",
+    "logo": "logos/library-f446ffa560c7.png"
   },
   {
     "id": "729",
     "name": "Target Order Pickup Guest Survey",
-    "company": "Life Time",
+    "company": "Target",
     "phone": "",
     "email": "target@express.medallia.com",
     "date": "2021-11-03",
@@ -32810,14 +32816,14 @@
     "firstDate": "2021-11-02",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-shop-target",
+    "organizationName": "Target",
+    "logo": "logos/library-24ed6d60a315.png"
   },
   {
     "id": "730",
     "name": "Karachi Marriott Hotel",
-    "company": "Life Time",
+    "company": "Marriott",
     "phone": "",
     "email": "marriott@express.medallia.com",
     "date": "2021-12-17",
@@ -32839,9 +32845,9 @@
     "firstDate": "2021-12-17",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-travel-marriott",
+    "organizationName": "Marriott",
+    "logo": "logos/marriott.png"
   },
   {
     "id": "731",
@@ -32867,7 +32873,7 @@
     ],
     "firstDate": "2023-10-23",
     "labels": [],
-    "logo": "logos/dom-express.medallia.com.svg",
+    "logo": "logos/library-95765bebbde4.png",
     "originalContact": {
       "name": "Life Time",
       "company": "express.medallia.com",
@@ -32882,7 +32888,7 @@
   {
     "id": "732",
     "name": "Credit One Bank",
-    "company": "Life Time",
+    "company": "Credit One Bank",
     "phone": "",
     "email": "no-reply@express.medallia.com",
     "date": "2024-09-09",
@@ -32904,14 +32910,14 @@
     "firstDate": "2024-09-09",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-accounts-creditone",
+    "organizationName": "Credit One Bank",
+    "logo": "logos/accounts-banking--credit-one.png"
   },
   {
     "id": "733",
     "name": "Lowe's Customer Service",
-    "company": "Life Time",
+    "company": "Lowe's",
     "phone": "",
     "email": "lowes@express.medallia.com",
     "date": "2024-09-30",
@@ -32933,14 +32939,14 @@
     "firstDate": "2024-09-30",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-shop-lowes",
+    "organizationName": "Lowe's",
+    "logo": "logos/library-1187b94435f2.png"
   },
   {
     "id": "734",
     "name": "The Container Store",
-    "company": "Life Time",
+    "company": "The Container Store",
     "phone": "",
     "email": "containerstore@express.medallia.com",
     "date": "2024-12-29",
@@ -32963,9 +32969,9 @@
     "firstDate": "2024-12-25",
     "labels": [],
     "originalCompany": "express.medallia.com",
-    "organizationId": "h-fit-lifetime",
-    "organizationName": "Life Time",
-    "logo": "logos/dom-express.medallia.com.svg"
+    "organizationId": "p-shop-retail",
+    "organizationName": "The Container Store",
+    "logo": "logos/container-store.png"
   },
   {
     "id": "735",
@@ -33003,7 +33009,7 @@
     ],
     "firstDate": "2022-12-15",
     "labels": [],
-    "logo": "logos/dom-express.sea1.medallia.com.svg",
+    "logo": "logos/accounts-banking--credit-one.png",
     "originalContact": {
       "name": "Credit One Bank",
       "company": "express.sea1.medallia.com",
@@ -33018,7 +33024,7 @@
   {
     "id": "736",
     "name": "Staples, Inc.",
-    "company": "Credit One Bank",
+    "company": "Staples",
     "phone": "",
     "email": "staplesstores@express.sea1.medallia.com",
     "date": "2024-01-06",
@@ -33048,14 +33054,14 @@
     "firstDate": "2023-04-03",
     "labels": [],
     "originalCompany": "express.sea1.medallia.com",
-    "organizationId": "p-accounts-creditone",
-    "organizationName": "Credit One Bank",
-    "logo": "logos/dom-express.sea1.medallia.com.svg"
+    "organizationId": "p-shop-staples",
+    "organizationName": "Staples",
+    "logo": "logos/staples.png"
   },
   {
     "id": "737",
     "name": "Tell Pizza Hut",
-    "company": "Credit One Bank",
+    "company": "Pizza Hut",
     "phone": "",
     "email": "tellpizzahut@express.sea1.medallia.com",
     "date": "2024-02-05",
@@ -33079,14 +33085,14 @@
     "firstDate": "2024-01-22",
     "labels": [],
     "originalCompany": "express.sea1.medallia.com",
-    "organizationId": "p-accounts-creditone",
-    "organizationName": "Credit One Bank",
-    "logo": "logos/dom-express.sea1.medallia.com.svg"
+    "organizationId": "p-shop-pizzahut",
+    "organizationName": "Pizza Hut",
+    "logo": "logos/pizza-hut.png"
   },
   {
     "id": "738",
     "name": "PSO",
-    "company": "Credit One Bank",
+    "company": "PSO",
     "phone": "",
     "email": "pso@express.sea1.medallia.com",
     "date": "2025-12-20",
@@ -33109,9 +33115,9 @@
     "firstDate": "2025-12-16",
     "labels": [],
     "originalCompany": "express.sea1.medallia.com",
-    "organizationId": "p-accounts-creditone",
-    "organizationName": "Credit One Bank",
-    "logo": "logos/dom-express.sea1.medallia.com.svg"
+    "organizationId": "p-bills-pso",
+    "organizationName": "PSO",
+    "logo": "logos/brand-billspso.svg"
   },
   {
     "id": "739",
@@ -34478,7 +34484,7 @@
     ],
     "firstDate": "2022-11-28",
     "labels": [],
-    "logo": "logos/dom-feedback.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Google",
       "company": "feedback.google.com",
@@ -34530,7 +34536,7 @@
     ],
     "firstDate": "2024-01-23",
     "labels": [],
-    "logo": "logos/dom-feedback.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Google Ads",
       "company": "feedback.google.com",
@@ -34597,7 +34603,7 @@
     ],
     "firstDate": "2026-01-27",
     "labels": [],
-    "logo": "logos/dom-feedbackhub.kp.org.svg",
+    "logo": "logos/kaiser-permanente.png",
     "originalContact": {
       "name": "Kaiser Permanente",
       "company": "feedbackhub.kp.org",
@@ -35291,7 +35297,7 @@
     ],
     "firstDate": "2021-01-05",
     "labels": [],
-    "logo": "logos/dom-focusinsite.com.svg",
+    "logo": "logos/focus-insite.png",
     "originalContact": {
       "name": "Ashley Nettleton",
       "company": "focusinsite.com",
@@ -35327,7 +35333,7 @@
     ],
     "firstDate": "2021-01-07",
     "labels": [],
-    "logo": "logos/dom-focusinsite.com.svg",
+    "logo": "logos/focus-insite.png",
     "originalContact": {
       "name": "Cara Sosnoski",
       "company": "focusinsite.com",
@@ -35363,7 +35369,7 @@
     ],
     "firstDate": "2025-01-30",
     "labels": [],
-    "logo": "logos/dom-focusinsite.com.svg",
+    "logo": "logos/focus-insite.png",
     "originalContact": {
       "name": "Focus Insite",
       "company": "focusinsite.com",
@@ -35660,7 +35666,7 @@
     "originalCompany": "fortbendcountytx.gov",
     "organizationId": "p-gov-fortbend",
     "organizationName": "Fort Bend County",
-    "logo": "logos/dom-fortbendcountytx.gov.svg"
+    "logo": "logos/fort-bend-county.png"
   },
   {
     "id": "806",
@@ -35689,7 +35695,7 @@
     "originalCompany": "fortbendcountytx.gov",
     "organizationId": "p-gov-fortbend",
     "organizationName": "Fort Bend County",
-    "logo": "logos/dom-fortbendcountytx.gov.svg"
+    "logo": "logos/fort-bend-county.png"
   },
   {
     "id": "807",
@@ -35718,7 +35724,7 @@
     "originalCompany": "fortbendcountytx.gov",
     "organizationId": "p-gov-fortbend",
     "organizationName": "Fort Bend County",
-    "logo": "logos/dom-fortbendcountytx.gov.svg"
+    "logo": "logos/fort-bend-county.png"
   },
   {
     "id": "808",
@@ -35747,7 +35753,7 @@
     "originalCompany": "fortbendcountytx.gov",
     "organizationId": "p-gov-fortbend",
     "organizationName": "Fort Bend County",
-    "logo": "logos/dom-fortbendcountytx.gov.svg"
+    "logo": "logos/fort-bend-county.png"
   },
   {
     "id": "809",
@@ -35776,7 +35782,7 @@
     "originalCompany": "fortbendcountytx.gov",
     "organizationId": "p-gov-fortbend",
     "organizationName": "Fort Bend County",
-    "logo": "logos/dom-fortbendcountytx.gov.svg"
+    "logo": "logos/fort-bend-county.png"
   },
   {
     "id": "810",
@@ -35805,7 +35811,7 @@
     "originalCompany": "fortbendcountytx.gov",
     "organizationId": "p-gov-fortbend",
     "organizationName": "Fort Bend County",
-    "logo": "logos/dom-fortbendcountytx.gov.svg"
+    "logo": "logos/fort-bend-county.png"
   },
   {
     "id": "811",
@@ -36019,7 +36025,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-forum.mail.openai.com.svg",
+    "logo": "logos/brand-paiopenai.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "ChatGPT"
@@ -37236,7 +37242,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-gc.email.amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -38775,7 +38781,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-gift-cards.amazon.com.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -38816,7 +38822,7 @@
     "originalCompany": "gifts.gonift.com",
     "organizationId": "p-shop-nift",
     "organizationName": "Nift",
-    "logo": "logos/dom-gifts.gonift.com.svg"
+    "logo": "logos/nift.png"
   },
   {
     "id": "891",
@@ -38842,7 +38848,7 @@
     ],
     "firstDate": "2026-03-04",
     "labels": [],
-    "logo": "logos/dom-gifts.gonift.com.svg",
+    "logo": "logos/nift.png",
     "originalContact": {
       "name": "Nift",
       "company": "gifts.gonift.com",
@@ -48595,7 +48601,7 @@
     ],
     "firstDate": "2018-11-07",
     "labels": [],
-    "logo": "logos/dom-gofundme.com.svg",
+    "logo": "logos/gofundme.png",
     "originalContact": {
       "name": "Hamza via GoFundMe",
       "company": "gofundme.com",
@@ -48985,7 +48991,7 @@
   },
   {
     "id": "1154",
-    "name": "W\u0435llsf\u0430rg\u043e \u041enIin\u0435 AI\u0435r... (via Google Drive)",
+    "name": "Wеllsfаrgо ОnIinе AIеr... (via Google Drive)",
     "company": "Google",
     "phone": "",
     "email": "drive-shares-noreply@google.com",
@@ -56471,7 +56477,7 @@
   },
   {
     "id": "1281",
-    "name": "Google\u2019s Find Hub",
+    "name": "Google’s Find Hub",
     "company": "Google",
     "phone": "",
     "email": "noreply-findhub@google.com",
@@ -56495,7 +56501,7 @@
     "labels": [],
     "logo": "logos/google.svg",
     "originalContact": {
-      "name": "Google\u2019s Find Hub",
+      "name": "Google’s Find Hub",
       "company": "google.com",
       "email": "noreply-findhub@google.com",
       "domain": "google.com",
@@ -57124,7 +57130,7 @@
     ],
     "firstDate": "2016-05-18",
     "labels": [],
-    "logo": "logos/dom-googlegroups.com.svg",
+    "logo": "logos/google-groups.png",
     "originalContact": {
       "name": "misthoustoncoaches",
       "company": "googlegroups.com",
@@ -57160,7 +57166,7 @@
     ],
     "firstDate": "2017-03-16",
     "labels": [],
-    "logo": "logos/dom-googlegroups.com.svg",
+    "logo": "logos/google-groups.png",
     "originalContact": {
       "name": "ISGH Youth Directors",
       "company": "googlegroups.com",
@@ -57202,7 +57208,7 @@
     ],
     "firstDate": "2025-12-17",
     "labels": [],
-    "logo": "logos/dom-googlegroups.com.svg",
+    "logo": "logos/google-groups.png",
     "originalContact": {
       "name": "Katie O'Leary' via adk-community",
       "company": "googlegroups.com",
@@ -57986,7 +57992,7 @@
     "originalCompany": "growth.stripe.com",
     "organizationId": "w-tools-obsidian",
     "organizationName": "Obsidian",
-    "logo": "logos/dom-growth.stripe.com.svg"
+    "logo": "logos/library-98b3da42e667.png"
   },
   {
     "id": "1324",
@@ -58240,7 +58246,7 @@
     ],
     "firstDate": "2022-01-01",
     "labels": [],
-    "logo": "logos/dom-h.hellofresh.com.svg",
+    "logo": "logos/hellofresh.png",
     "originalContact": {
       "name": "HelloFresh",
       "company": "h.hellofresh.com",
@@ -58280,7 +58286,7 @@
     ],
     "firstDate": "2017-05-04",
     "labels": [],
-    "logo": "logos/dom-h1.hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Hilton Honors",
       "company": "h1.hilton.com",
@@ -58321,7 +58327,7 @@
     "originalCompany": "h1.hiltonhhonors.com",
     "organizationId": "p-travel-hilton",
     "organizationName": "Hilton",
-    "logo": "logos/dom-h1.hiltonhhonors.com.svg"
+    "logo": "logos/hilton.png"
   },
   {
     "id": "1335",
@@ -58347,7 +58353,7 @@
     ],
     "firstDate": "2016-04-07",
     "labels": [],
-    "logo": "logos/dom-h2.hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Hilton Hotels & Resorts",
       "company": "h2.hilton.com",
@@ -58722,7 +58728,7 @@
     "labels": [
       "Health Fitness"
     ],
-    "logo": "logos/dom-healow.com.svg",
+    "logo": "logos/library-6f6c4c9fd05e.png",
     "blueprintPath": [
       "Health Fitness",
       "Healow"
@@ -59403,7 +59409,7 @@
     "labels": [
       "Productivity Organization / Planning Notes"
     ],
-    "logo": "logos/dom-hello.notion.so.svg",
+    "logo": "logos/library-4d9df066d32d.png",
     "blueprintPath": [
       "Productivity Organization",
       "Planning Notes",
@@ -59561,7 +59567,7 @@
     ],
     "firstDate": "2026-02-26",
     "labels": [],
-    "logo": "logos/dom-hello.uticaparkclinic.com.svg",
+    "logo": "logos/utica-park-clinic.png",
     "originalContact": {
       "name": "Utica Park Clinic",
       "company": "hello.uticaparkclinic.com",
@@ -59663,7 +59669,7 @@
     ],
     "firstDate": "2026-01-11",
     "labels": [],
-    "logo": "logos/dom-hellofresh.com.svg",
+    "logo": "logos/hellofresh.png",
     "originalContact": {
       "name": "Emma Jalagat",
       "company": "hellofresh.com",
@@ -59991,7 +59997,7 @@
     ],
     "firstDate": "2016-02-17",
     "labels": [],
-    "logo": "logos/dom-hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Sylvia Molina",
       "company": "hilton.com",
@@ -60030,7 +60036,7 @@
     ],
     "firstDate": "2016-03-01",
     "labels": [],
-    "logo": "logos/dom-hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "groupservices@hilton.com",
       "company": "hilton.com",
@@ -60066,7 +60072,7 @@
     ],
     "firstDate": "2016-03-02",
     "labels": [],
-    "logo": "logos/dom-hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "hotel.online.marketing@hilton.com",
       "company": "hilton.com",
@@ -60102,7 +60108,7 @@
     ],
     "firstDate": "2016-03-03",
     "labels": [],
-    "logo": "logos/dom-hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Tracy Vines",
       "company": "hilton.com",
@@ -60145,7 +60151,7 @@
     ],
     "firstDate": "2016-03-14",
     "labels": [],
-    "logo": "logos/dom-hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Cheryl Wells",
       "company": "hilton.com",
@@ -60186,7 +60192,7 @@
     ],
     "firstDate": "2016-04-04",
     "labels": [],
-    "logo": "logos/dom-hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Lesley Close",
       "company": "hilton.com",
@@ -60264,7 +60270,7 @@
     "originalCompany": "hire.withgoogle.com",
     "organizationId": "p-tech-google",
     "organizationName": "Google",
-    "logo": "logos/dom-hire.withgoogle.com.svg"
+    "logo": "logos/google.png"
   },
   {
     "id": "1386",
@@ -60896,7 +60902,7 @@
     ],
     "firstDate": "2024-01-27",
     "labels": [],
-    "logo": "logos/dom-honkmobile.com.svg",
+    "logo": "logos/honk.png",
     "originalContact": {
       "name": "HONK",
       "company": "honkmobile.com",
@@ -61493,7 +61499,7 @@
     ],
     "firstDate": "2016-12-26",
     "labels": [],
-    "logo": "logos/dom-houstonmethodist.org.svg",
+    "logo": "logos/houston-methodist.png",
     "originalContact": {
       "name": "Khan, Zain",
       "company": "houstonmethodist.org",
@@ -61529,7 +61535,7 @@
     ],
     "firstDate": "2017-06-18",
     "labels": [],
-    "logo": "logos/dom-houstonmethodist.org.svg",
+    "logo": "logos/houston-methodist.png",
     "originalContact": {
       "name": "donotreply@houstonmethodist.org",
       "company": "houstonmethodist.org",
@@ -61565,7 +61571,7 @@
     ],
     "firstDate": "2017-07-20",
     "labels": [],
-    "logo": "logos/dom-houstonmethodist.org.svg",
+    "logo": "logos/houston-methodist.png",
     "originalContact": {
       "name": "Reed, Winston",
       "company": "houstonmethodist.org",
@@ -61603,7 +61609,7 @@
     ],
     "firstDate": "2020-02-13",
     "labels": [],
-    "logo": "logos/dom-houstonmethodist.org.svg",
+    "logo": "logos/houston-methodist.png",
     "originalContact": {
       "name": "HR-PAYROLL",
       "company": "houstonmethodist.org",
@@ -61639,7 +61645,7 @@
     ],
     "firstDate": "2024-11-13",
     "labels": [],
-    "logo": "logos/dom-houstonmethodist.org.svg",
+    "logo": "logos/houston-methodist.png",
     "originalContact": {
       "name": "Houston Methodist Technology Hub",
       "company": "houstonmethodist.org",
@@ -61705,7 +61711,7 @@
     "originalCompany": "houstontx.gov",
     "organizationId": "p-gov-houston",
     "organizationName": "City of Houston",
-    "logo": "logos/dom-houstontx.gov.svg"
+    "logo": "logos/city-of-houston.png"
   },
   {
     "id": "1427",
@@ -61734,7 +61740,7 @@
     "originalCompany": "houstontx.gov",
     "organizationId": "p-gov-houston",
     "organizationName": "City of Houston",
-    "logo": "logos/dom-houstontx.gov.svg"
+    "logo": "logos/city-of-houston.png"
   },
   {
     "id": "1428",
@@ -61760,7 +61766,7 @@
     ],
     "firstDate": "2025-09-08",
     "labels": [],
-    "logo": "logos/dom-hq.aitinkerers.org.svg",
+    "logo": "logos/meetup.png",
     "originalCompany": "hq.aitinkerers.org",
     "organizationId": "p-events-tulsaai",
     "organizationName": "Tulsa AI Community"
@@ -62295,7 +62301,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-hulumail.com.svg",
+    "logo": "logos/library-b019549df8c5.png",
     "originalContact": {
       "name": "Hulu",
       "company": "hulumail.com",
@@ -62458,7 +62464,7 @@
     ],
     "firstDate": "2021-09-05",
     "labels": [],
-    "logo": "logos/dom-i-say.com.svg",
+    "logo": "logos/ipsos-i-say.png",
     "originalContact": {
       "name": "Ipsos i-Say",
       "company": "i-say.com",
@@ -63920,7 +63926,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-ims.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -63957,7 +63963,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-ims.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -64421,7 +64427,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1491",
@@ -64450,7 +64456,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1492",
@@ -64479,7 +64485,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1493",
@@ -64508,7 +64514,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1494",
@@ -64537,7 +64543,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1495",
@@ -64566,7 +64572,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1496",
@@ -64597,7 +64603,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1497",
@@ -64626,7 +64632,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1498",
@@ -64655,7 +64661,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1499",
@@ -64684,7 +64690,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1500",
@@ -64713,7 +64719,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1501",
@@ -64742,7 +64748,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1502",
@@ -64772,7 +64778,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1503",
@@ -64801,7 +64807,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1504",
@@ -64832,7 +64838,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1505",
@@ -64861,7 +64867,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1506",
@@ -64893,7 +64899,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1507",
@@ -64922,7 +64928,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1508",
@@ -64951,7 +64957,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1509",
@@ -64982,7 +64988,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1510",
@@ -65011,7 +65017,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1511",
@@ -65040,7 +65046,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1512",
@@ -65069,7 +65075,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1513",
@@ -65098,7 +65104,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1514",
@@ -65127,7 +65133,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1515",
@@ -65158,7 +65164,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1516",
@@ -65187,7 +65193,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1517",
@@ -65216,7 +65222,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1518",
@@ -65245,7 +65251,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1519",
@@ -65274,7 +65280,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1520",
@@ -65303,7 +65309,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1521",
@@ -65332,7 +65338,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1522",
@@ -65364,7 +65370,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1523",
@@ -65393,7 +65399,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1524",
@@ -65423,7 +65429,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1525",
@@ -65452,7 +65458,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1526",
@@ -65481,7 +65487,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1527",
@@ -65510,7 +65516,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1528",
@@ -65539,7 +65545,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1529",
@@ -65568,7 +65574,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1530",
@@ -65597,7 +65603,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1531",
@@ -65626,7 +65632,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1532",
@@ -65655,7 +65661,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1533",
@@ -65684,7 +65690,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1534",
@@ -65713,7 +65719,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1535",
@@ -65742,7 +65748,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1536",
@@ -65771,7 +65777,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1537",
@@ -65800,7 +65806,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1538",
@@ -65829,7 +65835,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1539",
@@ -65858,7 +65864,7 @@
     "originalCompany": "indeedemail.com",
     "organizationId": "p-jobs-indeed",
     "organizationName": "Indeed",
-    "logo": "logos/dom-indeedemail.com.svg"
+    "logo": "logos/indeed.png"
   },
   {
     "id": "1540",
@@ -66090,7 +66096,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-info.ebay.com.svg",
+    "logo": "logos/library-d14390a8e325.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -66210,7 +66216,7 @@
     ],
     "firstDate": "2024-09-11",
     "labels": [],
-    "logo": "logos/dom-info.gamestop.com.svg",
+    "logo": "logos/gamestop.png",
     "originalContact": {
       "name": "GameStop",
       "company": "info.gamestop.com",
@@ -66302,7 +66308,7 @@
     ],
     "firstDate": "2026-01-27",
     "labels": [],
-    "logo": "logos/dom-info.synthesia.io.svg",
+    "logo": "logos/synthesia.png",
     "originalContact": {
       "name": "Cory @ Synthesia",
       "company": "info.synthesia.io",
@@ -66370,7 +66376,7 @@
     "labels": [
       "Social Community / Direct Messaging"
     ],
-    "logo": "logos/dom-info.textfree.us.svg",
+    "logo": "logos/library-15a36af724da.png",
     "blueprintPath": [
       "Social Community",
       "Direct Messaging",
@@ -66411,7 +66417,7 @@
     ],
     "firstDate": "2021-07-05",
     "labels": [],
-    "logo": "logos/dom-info.tjx.com.svg",
+    "logo": "logos/tj-maxx.png",
     "originalContact": {
       "name": "T.J.Maxx",
       "company": "info.tjx.com",
@@ -66460,7 +66466,7 @@
     ],
     "firstDate": "2025-07-10",
     "labels": [],
-    "logo": "logos/dom-info.vercel.com.svg",
+    "logo": "logos/vercel.png",
     "originalContact": {
       "name": "Vercel",
       "company": "info.vercel.com",
@@ -66496,7 +66502,7 @@
     ],
     "firstDate": "2023-11-20",
     "labels": [],
-    "logo": "logos/dom-infomail.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -66527,7 +66533,7 @@
     ],
     "firstDate": "2026-01-20",
     "labels": [],
-    "logo": "logos/dom-information.optum.com.svg",
+    "logo": "logos/optum-financial.png",
     "originalContact": {
       "name": "Optum Financial",
       "company": "information.optum.com",
@@ -66563,7 +66569,7 @@
     ],
     "firstDate": "2025-07-27",
     "labels": [],
-    "logo": "logos/dom-insideapple.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Store",
       "company": "insideapple.apple.com",
@@ -66778,7 +66784,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-insights.rocketmoney.com.svg",
+    "logo": "logos/library-fe5e0ca67592.png",
     "blueprintPath": [
       "Finance Payments",
       "Rocket Money"
@@ -68002,7 +68008,7 @@
     ],
     "firstDate": "2021-05-13",
     "labels": [],
-    "logo": "logos/dom-irs.gov.svg",
+    "logo": "logos/irs.png",
     "originalContact": {
       "name": "IRS.online.services",
       "company": "irs.gov",
@@ -68150,7 +68156,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-is.email.nextdoor.com.svg",
+    "logo": "logos/nextdoor.png",
     "originalContact": {
       "name": "Nextdoor (Direct)",
       "company": "is.email.nextdoor.com",
@@ -68775,7 +68781,7 @@
     "labels": [
       "Entertainment Media / Streaming"
     ],
-    "logo": "logos/dom-join.netflix.com.svg",
+    "logo": "logos/library-8c651705174c.png",
     "blueprintPath": [
       "Entertainment Media",
       "Streaming",
@@ -69202,7 +69208,7 @@
   },
   {
     "id": "1625",
-    "name": "Gradient: Tulsa\u2019s Hub for Innovation",
+    "name": "Gradient: Tulsa’s Hub for Innovation",
     "company": "Joingradient",
     "phone": "",
     "email": "devon@joingradient.com",
@@ -70056,7 +70062,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-kaggle.com.svg",
+    "logo": "logos/google.png",
     "originalCompany": "Google",
     "organizationId": "p-tech-google",
     "organizationName": "Google"
@@ -70108,7 +70114,7 @@
     "originalCompany": "kaggle.com",
     "organizationId": "p-tech-google",
     "organizationName": "Google",
-    "logo": "logos/dom-kaggle.com.svg"
+    "logo": "logos/google.png"
   },
   {
     "id": "1650",
@@ -70134,7 +70140,7 @@
     ],
     "firstDate": "2020-02-26",
     "labels": [],
-    "logo": "logos/dom-kandkinsurance.com.svg",
+    "logo": "logos/kandk-insurance.png",
     "originalContact": {
       "name": "Saundra.gentis",
       "company": "kandkinsurance.com",
@@ -70170,7 +70176,7 @@
     ],
     "firstDate": "2020-02-26",
     "labels": [],
-    "logo": "logos/dom-kandkinsurance.com.svg",
+    "logo": "logos/kandk-insurance.png",
     "originalContact": {
       "name": "admin@kandkinsurance.com",
       "company": "kandkinsurance.com",
@@ -70706,7 +70712,7 @@
   },
   {
     "id": "1666",
-    "name": "Taylor \u2022 Kimble Group",
+    "name": "Taylor • Kimble Group",
     "company": "Kimblegroup",
     "phone": "",
     "email": "kimble@kimblegroup.com",
@@ -71001,7 +71007,7 @@
     ],
     "firstDate": "2024-12-23",
     "labels": [],
-    "logo": "logos/dom-labcorpmessage.com.svg",
+    "logo": "logos/labcorp.png",
     "originalContact": {
       "name": "Labcorp",
       "company": "labcorpmessage.com",
@@ -71137,7 +71143,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-labcorpservicemessage.com.svg",
+    "logo": "logos/labcorp.png",
     "originalCompany": "Labcorp",
     "organizationId": "h-labs-labcorp",
     "organizationName": "Labcorp"
@@ -71167,7 +71173,7 @@
     ],
     "firstDate": "2017-09-13",
     "labels": [],
-    "logo": "logos/dom-lafitness.com.svg",
+    "logo": "logos/la-fitness.png",
     "originalContact": {
       "name": "lafitnessmembershipservices@lafitness.com",
       "company": "lafitness.com",
@@ -71520,7 +71526,7 @@
     ],
     "firstDate": "2023-02-03",
     "labels": [],
-    "logo": "logos/dom-learneroutcomes.coursera.org.svg",
+    "logo": "logos/coursera.png",
     "originalContact": {
       "name": "Coursera Market Research",
       "company": "learneroutcomes.coursera.org",
@@ -71629,7 +71635,7 @@
     ],
     "firstDate": "2025-09-01",
     "labels": [],
-    "logo": "logos/dom-legal.spotify.com.svg",
+    "logo": "logos/spotify.png",
     "originalContact": {
       "name": "Spotify",
       "company": "legal.spotify.com",
@@ -71723,7 +71729,7 @@
     ],
     "firstDate": "2021-10-14",
     "labels": [],
-    "logo": "logos/dom-lexingtonlaw.com.svg",
+    "logo": "logos/credit-repair--lexington-law.png",
     "originalContact": {
       "name": "drobinson@lexingtonlaw.com",
       "company": "lexingtonlaw.com",
@@ -71841,7 +71847,7 @@
     ],
     "firstDate": "2023-04-11",
     "labels": [],
-    "logo": "logos/dom-lifecycle.coursehero.com.svg",
+    "logo": "logos/course-hero.png",
     "originalContact": {
       "name": "Course Hero",
       "company": "lifecycle.coursehero.com",
@@ -72034,7 +72040,7 @@
   },
   {
     "id": "1699",
-    "name": "Tawny Ann De La Pe\u00f1a",
+    "name": "Tawny Ann De La Peña",
     "company": "Lifewithtawny",
     "phone": "",
     "email": "tawny@lifewithtawny.com",
@@ -73099,7 +73105,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-list.vacationstogo.com.svg",
+    "logo": "logos/vacationstogo.png",
     "originalContact": {
       "name": "VacationsToGo",
       "company": "list.vacationstogo.com",
@@ -73141,7 +73147,7 @@
   },
   {
     "id": "1722",
-    "name": "Russ d\u2019Sa",
+    "name": "Russ d’Sa",
     "company": "LiveKit",
     "phone": "",
     "email": "hello@livekit.io",
@@ -73661,7 +73667,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1736",
@@ -73692,7 +73698,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1737",
@@ -73730,7 +73736,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1738",
@@ -73762,7 +73768,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1739",
@@ -73791,7 +73797,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1740",
@@ -73820,7 +73826,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1741",
@@ -73859,7 +73865,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1742",
@@ -73890,7 +73896,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1743",
@@ -73919,7 +73925,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1744",
@@ -73950,7 +73956,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1745",
@@ -73979,7 +73985,7 @@
     "originalCompany": "lt.life",
     "organizationId": "h-fit-lifetime",
     "organizationName": "Life Time",
-    "logo": "logos/dom-lt.life.svg"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "1746",
@@ -74576,7 +74582,7 @@
     "originalCompany": "m.utest.com",
     "organizationId": "p-research-ut",
     "organizationName": "UserTesting",
-    "logo": "logos/dom-m.utest.com.svg"
+    "logo": "logos/usertesting.png"
   },
   {
     "id": "1758",
@@ -74608,7 +74614,7 @@
     "originalCompany": "m.utest.com",
     "organizationId": "p-research-ut",
     "organizationName": "UserTesting",
-    "logo": "logos/dom-m.utest.com.svg"
+    "logo": "logos/usertesting.png"
   },
   {
     "id": "1759",
@@ -74640,7 +74646,7 @@
     "originalCompany": "m.utest.com",
     "organizationId": "p-research-ut",
     "organizationName": "UserTesting",
-    "logo": "logos/dom-m.utest.com.svg"
+    "logo": "logos/usertesting.png"
   },
   {
     "id": "1760",
@@ -74669,7 +74675,7 @@
     "originalCompany": "m.utest.com",
     "organizationId": "p-research-ut",
     "organizationName": "UserTesting",
-    "logo": "logos/dom-m.utest.com.svg"
+    "logo": "logos/usertesting.png"
   },
   {
     "id": "1761",
@@ -74698,7 +74704,7 @@
     "originalCompany": "m.utest.com",
     "organizationId": "p-research-ut",
     "organizationName": "UserTesting",
-    "logo": "logos/dom-m.utest.com.svg"
+    "logo": "logos/usertesting.png"
   },
   {
     "id": "1762",
@@ -74859,7 +74865,7 @@
     ],
     "firstDate": "2024-12-10",
     "labels": [],
-    "logo": "logos/dom-mail-careaccess.com.svg",
+    "logo": "logos/care-access.png",
     "originalContact": {
       "name": "Care Access",
       "company": "mail-careaccess.com",
@@ -75192,7 +75198,7 @@
     ],
     "firstDate": "2025-02-14",
     "labels": [],
-    "logo": "logos/dom-mail.aitinkerers.org.svg",
+    "logo": "logos/meetup.png",
     "originalCompany": "mail.aitinkerers.org",
     "organizationId": "p-events-tulsaai",
     "organizationName": "Tulsa AI Community"
@@ -75241,7 +75247,7 @@
     ],
     "firstDate": "2025-07-15",
     "labels": [],
-    "logo": "logos/dom-mail.aitinkerers.org.svg",
+    "logo": "logos/meetup.png",
     "originalCompany": "mail.aitinkerers.org",
     "organizationId": "p-events-tulsaai",
     "organizationName": "Tulsa AI Community"
@@ -75277,7 +75283,7 @@
     ],
     "firstDate": "2025-07-22",
     "labels": [],
-    "logo": "logos/dom-mail.aitinkerers.org.svg",
+    "logo": "logos/meetup.png",
     "originalCompany": "mail.aitinkerers.org",
     "organizationId": "p-events-tulsaai",
     "organizationName": "Tulsa AI Community"
@@ -75377,7 +75383,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-mail.amazon.jobs.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -75480,7 +75486,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -75516,7 +75522,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -75557,7 +75563,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -75593,7 +75599,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -75629,7 +75635,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -75665,7 +75671,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.anthropic.com.svg",
+    "logo": "logos/brand-paiclaude.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Claude"
@@ -75743,7 +75749,7 @@
     ],
     "firstDate": "2025-12-07",
     "labels": [],
-    "logo": "logos/dom-mail.app.supabase.io.svg",
+    "logo": "logos/supabase.png",
     "originalContact": {
       "name": "Supabase Auth",
       "company": "mail.app.supabase.io",
@@ -75779,7 +75785,7 @@
     ],
     "firstDate": "2024-02-13",
     "labels": [],
-    "logo": "logos/dom-mail.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple",
       "company": "mail.apple.com",
@@ -76567,7 +76573,7 @@
     "originalCompany": "mail.clinicalresearch.com",
     "organizationId": "h-labs-iqvia",
     "organizationName": "IQVIA",
-    "logo": "logos/dom-mail.clinicalresearch.com.svg"
+    "logo": "logos/iqvia.png"
   },
   {
     "id": "1803",
@@ -77034,7 +77040,7 @@
     "labels": [
       "Entertainment Media / Streaming"
     ],
-    "logo": "logos/dom-mail.crunchyroll.com.svg",
+    "logo": "logos/library-c2ab27af3129.png",
     "blueprintPath": [
       "Entertainment Media",
       "Streaming",
@@ -77112,7 +77118,7 @@
     ],
     "firstDate": "2022-11-21",
     "labels": [],
-    "logo": "logos/dom-mail.cslplasma.com.svg",
+    "logo": "logos/csl-plasma.png",
     "originalContact": {
       "name": "CSL PLASMA",
       "company": "mail.cslplasma.com",
@@ -77176,7 +77182,7 @@
     ],
     "firstDate": "2024-12-05",
     "labels": [],
-    "logo": "logos/dom-mail.daily.dev.svg",
+    "logo": "logos/daily-dev.png",
     "originalContact": {
       "name": "daily.dev",
       "company": "mail.daily.dev",
@@ -77244,7 +77250,7 @@
     "labels": [
       "Entertainment Media / Streaming"
     ],
-    "logo": "logos/dom-mail.disneyplus.com.svg",
+    "logo": "logos/disney.png",
     "blueprintPath": [
       "Entertainment Media",
       "Streaming",
@@ -77342,7 +77348,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-mail.etsy.com.svg",
+    "logo": "logos/library-db0ec0124f27.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -77383,7 +77389,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-mail.etsy.com.svg",
+    "logo": "logos/library-db0ec0124f27.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -77419,7 +77425,7 @@
     ],
     "firstDate": "2016-06-26",
     "labels": [],
-    "logo": "logos/dom-mail.eviteideas.com.svg",
+    "logo": "logos/evite.png",
     "originalContact": {
       "name": "Evite",
       "company": "mail.eviteideas.com",
@@ -77551,7 +77557,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-mail.focusinsite.com.svg",
+    "logo": "logos/focus-insite.png",
     "originalContact": {
       "name": "Focus Insite",
       "company": "mail.focusinsite.com",
@@ -77705,7 +77711,7 @@
     "originalCompany": "mail.grifolsdonorhub.com",
     "organizationId": "h-blood-grifols",
     "organizationName": "Grifols Plasma",
-    "logo": "logos/dom-mail.grifolsdonorhub.com.svg"
+    "logo": "logos/grifols-plasma.png"
   },
   {
     "id": "1822",
@@ -77796,7 +77802,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-mail.instagram.com.svg",
+    "logo": "logos/brand-instagram.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -78069,7 +78075,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-mail.instagram.com.svg",
+    "logo": "logos/brand-instagram.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -78134,7 +78140,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-mail.instagram.com.svg",
+    "logo": "logos/brand-instagram.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -78175,7 +78181,7 @@
     ],
     "firstDate": "2024-11-11",
     "labels": [],
-    "logo": "logos/dom-mail.kikoff.com.svg",
+    "logo": "logos/kikoff.png",
     "originalContact": {
       "name": "Kikoff",
       "company": "mail.kikoff.com",
@@ -78442,7 +78448,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-mail.lexingtonlaw.com.svg",
+    "logo": "logos/credit-repair--lexington-law.png",
     "originalContact": {
       "name": "Lexington Law Firm",
       "company": "mail.lexingtonlaw.com",
@@ -78479,7 +78485,7 @@
     ],
     "firstDate": "2022-12-10",
     "labels": [],
-    "logo": "logos/dom-mail.marvel.com.svg",
+    "logo": "logos/marvel.png",
     "originalContact": {
       "name": "Marvel Entertainment",
       "company": "mail.marvel.com",
@@ -78602,7 +78608,7 @@
     "originalCompany": "mail.modento.io",
     "organizationId": "h-prov-urbn",
     "organizationName": "URBN Dental",
-    "logo": "logos/dom-mail.modento.io.svg"
+    "logo": "logos/urbn-dental.png"
   },
   {
     "id": "1835",
@@ -79085,7 +79091,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.openai.com.svg",
+    "logo": "logos/brand-paiopenai.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "ChatGPT"
@@ -79159,7 +79165,7 @@
     "labels": [
       "Navigation Travel / Maps Transport"
     ],
-    "logo": "logos/dom-mail.parkmobile.io.svg",
+    "logo": "logos/library-252705780ad0.png",
     "blueprintPath": [
       "Navigation Travel",
       "Maps Transport",
@@ -79226,7 +79232,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-mail.paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -79306,7 +79312,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-mail.perplexity.ai.svg",
+    "logo": "logos/library-8e348bb1bfcc.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "Perplexity"
@@ -79379,7 +79385,7 @@
     ],
     "firstDate": "2024-01-23",
     "labels": [],
-    "logo": "logos/dom-mail.pizzahut.com.svg",
+    "logo": "logos/pizza-hut.png",
     "originalContact": {
       "name": "Pizza Hut Hut Rewards",
       "company": "mail.pizzahut.com",
@@ -79891,7 +79897,7 @@
     "originalCompany": "mail.synchronybank.com",
     "organizationId": "p-accounts-synchrony",
     "organizationName": "Synchrony",
-    "logo": "logos/dom-mail.synchronybank.com.svg"
+    "logo": "logos/library-dc3787ed773b.png"
   },
   {
     "id": "1861",
@@ -80134,7 +80140,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-mail1.wellsfargo.com.svg",
+    "logo": "logos/library-4d9c3a3947f1.png",
     "blueprintPath": [
       "Accounts Banking",
       "Wells Fargo"
@@ -80181,7 +80187,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-mail1.wellsfargo.com.svg",
+    "logo": "logos/library-4d9c3a3947f1.png",
     "blueprintPath": [
       "Accounts Banking",
       "Wells Fargo"
@@ -80218,7 +80224,7 @@
     ],
     "firstDate": "2018-09-07",
     "labels": [],
-    "logo": "logos/dom-mail11.commitforlife.org.svg",
+    "logo": "logos/gulf-coast-regional-blood-center.png",
     "originalContact": {
       "name": "Gulf Coast Regional Blood Center",
       "company": "mail11.commitforlife.org",
@@ -80254,7 +80260,7 @@
     ],
     "firstDate": "2018-11-21",
     "labels": [],
-    "logo": "logos/dom-mail12.commitforlife.org.svg",
+    "logo": "logos/gulf-coast-regional-blood-center.png",
     "originalContact": {
       "name": "Gulf Coast Regional Blood Center",
       "company": "mail12.commitforlife.org",
@@ -80292,7 +80298,7 @@
     ],
     "firstDate": "2018-09-07",
     "labels": [],
-    "logo": "logos/dom-mail13.commitforlife.org.svg",
+    "logo": "logos/gulf-coast-regional-blood-center.png",
     "originalContact": {
       "name": "Gulf Coast Regional Blood Center",
       "company": "mail13.commitforlife.org",
@@ -80328,7 +80334,7 @@
     ],
     "firstDate": "2018-11-21",
     "labels": [],
-    "logo": "logos/dom-mail14.commitforlife.org.svg",
+    "logo": "logos/gulf-coast-regional-blood-center.png",
     "originalContact": {
       "name": "Gulf Coast Regional Blood Center",
       "company": "mail14.commitforlife.org",
@@ -80372,7 +80378,7 @@
     "originalCompany": "mail154.connectingdonors.org",
     "organizationId": "h-blood-obi",
     "organizationName": "Oklahoma Blood Institute (OBI)",
-    "logo": "logos/dom-mail154.connectingdonors.org.svg"
+    "logo": "logos/oklahoma-blood-institute--obi.png"
   },
   {
     "id": "1873",
@@ -80398,7 +80404,7 @@
     ],
     "firstDate": "2021-12-07",
     "labels": [],
-    "logo": "logos/dom-mail2.zocdoc.com.svg",
+    "logo": "logos/zocdoc.png",
     "originalContact": {
       "name": "Zocdoc",
       "company": "mail2.zocdoc.com",
@@ -80438,7 +80444,7 @@
     ],
     "firstDate": "2023-04-07",
     "labels": [],
-    "logo": "logos/dom-mail3.zocdoc.com.svg",
+    "logo": "logos/zocdoc.png",
     "originalContact": {
       "name": "Zocdoc",
       "company": "mail3.zocdoc.com",
@@ -80497,7 +80503,7 @@
     "originalCompany": "mail307.connectingdonors.net",
     "organizationId": "h-blood-obi",
     "organizationName": "Oklahoma Blood Institute (OBI)",
-    "logo": "logos/dom-mail307.connectingdonors.net.svg"
+    "logo": "logos/oklahoma-blood-institute--obi.png"
   },
   {
     "id": "1876",
@@ -80528,7 +80534,7 @@
     "originalCompany": "mail309.connectingdonors.net",
     "organizationId": "h-blood-obi",
     "organizationName": "Oklahoma Blood Institute (OBI)",
-    "logo": "logos/dom-mail309.connectingdonors.net.svg"
+    "logo": "logos/oklahoma-blood-institute--obi.png"
   },
   {
     "id": "1877",
@@ -80557,7 +80563,7 @@
     "originalCompany": "mail315.connectingdonors.net",
     "organizationId": "h-blood-obi",
     "organizationName": "Oklahoma Blood Institute (OBI)",
-    "logo": "logos/dom-mail315.connectingdonors.net.svg"
+    "logo": "logos/oklahoma-blood-institute--obi.png"
   },
   {
     "id": "1878",
@@ -80591,7 +80597,7 @@
     "originalCompany": "mail317.connectingdonors.net",
     "organizationId": "h-blood-obi",
     "organizationName": "Oklahoma Blood Institute (OBI)",
-    "logo": "logos/dom-mail317.connectingdonors.net.svg"
+    "logo": "logos/oklahoma-blood-institute--obi.png"
   },
   {
     "id": "1879",
@@ -80624,7 +80630,7 @@
     ],
     "firstDate": "2023-02-17",
     "labels": [],
-    "logo": "logos/dom-mail5.zocdoc.com.svg",
+    "logo": "logos/zocdoc.png",
     "originalContact": {
       "name": "Zocdoc",
       "company": "mail5.zocdoc.com",
@@ -80660,7 +80666,7 @@
     ],
     "firstDate": "2026-03-06",
     "labels": [],
-    "logo": "logos/dom-mail6.zocdoc.com.svg",
+    "logo": "logos/zocdoc.png",
     "originalContact": {
       "name": "Zocdoc",
       "company": "mail6.zocdoc.com",
@@ -81169,7 +81175,7 @@
     ],
     "firstDate": "2018-01-12",
     "labels": [],
-    "logo": "logos/dom-mailva.evite.com.svg",
+    "logo": "logos/evite.png",
     "originalContact": {
       "name": "Hosted by Brother Anwer Wadiwala",
       "company": "mailva.evite.com",
@@ -81796,7 +81802,7 @@
     ],
     "firstDate": "2025-07-08",
     "labels": [],
-    "logo": "logos/dom-marketing.gofundme.com.svg",
+    "logo": "logos/gofundme.png",
     "originalContact": {
       "name": "GoFundMe",
       "company": "marketing.gofundme.com",
@@ -81884,7 +81890,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-marketing.kelsey-seybold.com.svg",
+    "logo": "logos/kelsey-seybold-clinic.png",
     "originalContact": {
       "name": "Kelsey-Seybold Clinic",
       "company": "marketing.kelsey-seybold.com",
@@ -81961,7 +81967,7 @@
     ],
     "firstDate": "2025-04-17",
     "labels": [],
-    "logo": "logos/dom-marketing.t-mobile.com.svg",
+    "logo": "logos/t-mobile.png",
     "originalContact": {
       "name": "T-Mobile",
       "company": "marketing.t-mobile.com",
@@ -82024,7 +82030,7 @@
     ],
     "firstDate": "2020-07-11",
     "labels": [],
-    "logo": "logos/dom-marriott.com.svg",
+    "logo": "logos/marriott.png",
     "originalContact": {
       "name": "Fairfield by Marriott",
       "company": "marriott.com",
@@ -82060,7 +82066,7 @@
     ],
     "firstDate": "2021-12-09",
     "labels": [],
-    "logo": "logos/dom-marriott.com.svg",
+    "logo": "logos/marriott.png",
     "originalContact": {
       "name": "online.account",
       "company": "marriott.com",
@@ -82599,7 +82605,7 @@
     ],
     "firstDate": "2022-08-26",
     "labels": [],
-    "logo": "logos/dom-mc.ihg.com.svg",
+    "logo": "logos/ihg.png",
     "originalContact": {
       "name": "Hotel Indigo",
       "company": "mc.ihg.com",
@@ -82957,7 +82963,7 @@
     "originalCompany": "medicalgps.com",
     "organizationId": "h-ins-regence",
     "organizationName": "Regence",
-    "logo": "logos/dom-medicalgps.com.svg"
+    "logo": "logos/regence.png"
   },
   {
     "id": "1938",
@@ -83464,7 +83470,7 @@
     "originalCompany": "memberwelcome.gonift.com",
     "organizationId": "p-shop-nift",
     "organizationName": "Nift",
-    "logo": "logos/dom-memberwelcome.gonift.com.svg"
+    "logo": "logos/nift.png"
   },
   {
     "id": "1949",
@@ -83886,7 +83892,7 @@
     ],
     "firstDate": "2022-04-05",
     "labels": [],
-    "logo": "logos/dom-message.att-mail.com.svg",
+    "logo": "logos/library-cd69865e4a85.png",
     "originalContact": {
       "name": "AT&T",
       "company": "message.att-mail.com",
@@ -83925,7 +83931,7 @@
     "labels": [
       "Shopping Rewards / Shipping Tracking"
     ],
-    "logo": "logos/dom-message.fedex.com.svg",
+    "logo": "logos/library-6b9745f27175.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Shipping Tracking",
@@ -83962,7 +83968,7 @@
     "labels": [
       "Shopping Rewards / Shipping Tracking"
     ],
-    "logo": "logos/dom-message.fedex.com.svg",
+    "logo": "logos/library-6b9745f27175.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Shipping Tracking",
@@ -84033,7 +84039,7 @@
     ],
     "firstDate": "2025-07-08",
     "labels": [],
-    "logo": "logos/dom-messages.gofundme.com.svg",
+    "logo": "logos/gofundme.png",
     "originalContact": {
       "name": "GoFundMe",
       "company": "messages.gofundme.com",
@@ -84164,7 +84170,7 @@
     ],
     "firstDate": "2023-04-03",
     "labels": [],
-    "logo": "logos/dom-messages.xoom.com.svg",
+    "logo": "logos/xoom.png",
     "originalContact": {
       "name": "Xoom, a PayPal Service",
       "company": "messages.xoom.com",
@@ -84202,7 +84208,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-messaging.squareup.com.svg",
+    "logo": "logos/library-dc72677a954b.png",
     "blueprintPath": [
       "Finance Payments",
       "SquareUp"
@@ -84243,7 +84249,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-messaging.squareup.com.svg",
+    "logo": "logos/library-dc72677a954b.png",
     "blueprintPath": [
       "Finance Payments",
       "SquareUp"
@@ -84422,7 +84428,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-mg.homedepot.com.svg",
+    "logo": "logos/library-9372e11da46d.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -84541,7 +84547,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-mg.homedepot.com.svg",
+    "logo": "logos/library-9372e11da46d.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -84578,7 +84584,7 @@
     ],
     "firstDate": "2026-02-22",
     "labels": [],
-    "logo": "logos/dom-mgb.betterhelp.com.svg",
+    "logo": "logos/betterhelp.png",
     "originalContact": {
       "name": "BetterHelp",
       "company": "mgb.betterhelp.com",
@@ -85138,7 +85144,7 @@
     ],
     "firstDate": "2024-10-01",
     "labels": [],
-    "logo": "logos/dom-microsoftadvertising.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -85890,7 +85896,7 @@
     ],
     "firstDate": "2026-01-30",
     "labels": [],
-    "logo": "logos/dom-mktg.t-mobile.com.svg",
+    "logo": "logos/t-mobile.png",
     "originalContact": {
       "name": "T-Mobile",
       "company": "mktg.t-mobile.com",
@@ -86280,7 +86286,7 @@
     ],
     "firstDate": "2024-10-13",
     "labels": [],
-    "logo": "logos/dom-movies.fandango.com.svg",
+    "logo": "logos/fandango.png",
     "originalContact": {
       "name": "Fandango at Home",
       "company": "movies.fandango.com",
@@ -86526,7 +86532,7 @@
     ],
     "firstDate": "2024-09-13",
     "labels": [],
-    "logo": "logos/dom-ms.email.nextdoor.com.svg",
+    "logo": "logos/nextdoor.png",
     "originalContact": {
       "name": "Nextdoor",
       "company": "ms.email.nextdoor.com",
@@ -86566,7 +86572,7 @@
     ],
     "firstDate": "2024-11-20",
     "labels": [],
-    "logo": "logos/dom-msftevents.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -86574,7 +86580,7 @@
   {
     "id": "2029",
     "name": "NATIONWIDE STUDIOS",
-    "company": "Paycomonline",
+    "company": "Paycom",
     "phone": "",
     "email": "donotreply@msg.paycomonline.com",
     "date": "2021-11-30",
@@ -86598,13 +86604,14 @@
     ],
     "firstDate": "2020-07-29",
     "labels": [],
-    "logo": "logos/dom-msg.paycomonline.com.svg",
-    "organizationName": "Paycomonline"
+    "logo": "logos/paycom.png",
+    "organizationName": "Paycom",
+    "organizationId": "w-tools-paycom"
   },
   {
     "id": "2030",
     "name": "Ryan Klick [LOGICAL POSITION LLC]",
-    "company": "Paycomonline",
+    "company": "Paycom",
     "phone": "",
     "email": "ryan.klick@msg.paycomonline.com",
     "date": "2021-12-02",
@@ -86625,13 +86632,14 @@
     ],
     "firstDate": "2021-12-02",
     "labels": [],
-    "logo": "logos/dom-msg.paycomonline.com.svg",
-    "organizationName": "Paycomonline"
+    "logo": "logos/paycom.png",
+    "organizationName": "Paycom",
+    "organizationId": "w-tools-paycom"
   },
   {
     "id": "2031",
     "name": "PAYCOM PAYROLL LLC",
-    "company": "Paycomonline",
+    "company": "Paycom",
     "phone": "",
     "email": "donotreply@msgint.paycomonline.com",
     "date": "2022-02-15",
@@ -86653,13 +86661,14 @@
     ],
     "firstDate": "2022-02-09",
     "labels": [],
-    "logo": "logos/dom-msgint.paycomonline.com.svg",
-    "organizationName": "Paycomonline"
+    "logo": "logos/paycom.png",
+    "organizationName": "Paycom",
+    "organizationId": "w-tools-paycom"
   },
   {
     "id": "2032",
     "name": "Sandra Lovik [PAYCOM PAYROLL LLC]",
-    "company": "Paycomonline",
+    "company": "Paycom",
     "phone": "",
     "email": "sandra.lovik@msgint.paycomonline.com",
     "date": "2022-02-09",
@@ -86680,8 +86689,9 @@
     ],
     "firstDate": "2022-02-09",
     "labels": [],
-    "logo": "logos/dom-msgint.paycomonline.com.svg",
-    "organizationName": "Paycomonline"
+    "logo": "logos/paycom.png",
+    "organizationName": "Paycom",
+    "organizationId": "w-tools-paycom"
   },
   {
     "id": "2033",
@@ -86710,7 +86720,7 @@
     "originalCompany": "mst.att-mail.com",
     "organizationId": "p-bills-att",
     "organizationName": "AT&T",
-    "logo": "logos/dom-mst.att-mail.com.svg"
+    "logo": "logos/library-cd69865e4a85.png"
   },
   {
     "id": "2034",
@@ -86990,7 +87000,7 @@
     ],
     "firstDate": "2019-06-08",
     "labels": [],
-    "logo": "logos/dom-my.culvers.com.svg",
+    "logo": "logos/culver-s.png",
     "originalContact": {
       "name": "Culver's",
       "company": "my.culvers.com",
@@ -87041,7 +87051,7 @@
     ],
     "firstDate": "2023-10-26",
     "labels": [],
-    "logo": "logos/dom-my.joinhoney.com.svg",
+    "logo": "logos/honey.png",
     "originalContact": {
       "name": "Honey",
       "company": "my.joinhoney.com",
@@ -87739,7 +87749,7 @@
     ],
     "firstDate": "2024-11-12",
     "labels": [],
-    "logo": "logos/dom-mywei.peiwei.com.svg",
+    "logo": "logos/pei-wei.png",
     "originalContact": {
       "name": "Pei Wei Rewards",
       "company": "mywei.peiwei.com",
@@ -87906,7 +87916,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-mywei.peiwei.com.svg",
+    "logo": "logos/pei-wei.png",
     "originalContact": {
       "name": "Pei Wei Rewards",
       "company": "mywei.peiwei.com",
@@ -88920,7 +88930,7 @@
     ],
     "firstDate": "2025-01-08",
     "labels": [],
-    "logo": "logos/dom-neonemails.com.svg",
+    "logo": "logos/downtown-tulsa-partnership.png",
     "originalContact": {
       "name": "Downtown Tulsa Partnership",
       "company": "neonemails.com",
@@ -89332,7 +89342,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-news.paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -89630,7 +89640,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-noreply.acorns.com.svg",
+    "logo": "logos/library-998951b2774a.png",
     "blueprintPath": [
       "Finance Payments",
       "Acorns"
@@ -89704,7 +89714,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-noreply.lowes.com.svg",
+    "logo": "logos/library-1187b94435f2.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -89746,7 +89756,7 @@
     ],
     "firstDate": "2022-03-02",
     "labels": [],
-    "logo": "logos/dom-nothingbundtcakes-email.com.svg",
+    "logo": "logos/nothing-bundt-cakes.png",
     "originalContact": {
       "name": "Nothing Bundt Cakes",
       "company": "nothingbundtcakes-email.com",
@@ -89785,7 +89795,7 @@
     ],
     "firstDate": "2017-09-11",
     "labels": [],
-    "logo": "logos/dom-notice.comcastbusiness.com.svg",
+    "logo": "logos/comcast-business.png",
     "originalContact": {
       "name": "Comcast Business",
       "company": "notice.comcastbusiness.com",
@@ -89824,7 +89834,7 @@
     ],
     "firstDate": "2021-10-29",
     "labels": [],
-    "logo": "logos/dom-notification.cvshealth.com.svg",
+    "logo": "logos/cvs-pharmacy.png",
     "originalContact": {
       "name": "CVS Pharmacy",
       "company": "notification.cvshealth.com",
@@ -89946,7 +89956,7 @@
     ],
     "firstDate": "2021-10-20",
     "labels": [],
-    "logo": "logos/dom-notification.intuit.com.svg",
+    "logo": "logos/gilligan-law-firm.png",
     "originalContact": {
       "name": "GILLIGAN LAW FIRM",
       "company": "notification.intuit.com",
@@ -90014,7 +90024,7 @@
     "labels": [
       "Productivity Organization / Project Management"
     ],
-    "logo": "logos/dom-notification.miro.com.svg",
+    "logo": "logos/library-76d74cb0510d.png",
     "blueprintPath": [
       "Productivity Organization",
       "Project Management",
@@ -90076,7 +90086,7 @@
     ],
     "firstDate": "2023-01-09",
     "labels": [],
-    "logo": "logos/dom-notificationmail.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -90115,7 +90125,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-notifications.acorns.com.svg",
+    "logo": "logos/library-998951b2774a.png",
     "blueprintPath": [
       "Finance Payments",
       "Acorns"
@@ -90390,7 +90400,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-notifications.acorns.com.svg",
+    "logo": "logos/library-998951b2774a.png",
     "blueprintPath": [
       "Finance Payments",
       "Acorns"
@@ -90477,7 +90487,7 @@
     ],
     "firstDate": "2024-12-04",
     "labels": [],
-    "logo": "logos/dom-notifications.health.amazon.svg",
+    "logo": "logos/library-92b345ecda74.png",
     "originalContact": {
       "name": "Amazon Health",
       "company": "notifications.health.amazon",
@@ -90879,7 +90889,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-notifications.lowes.com.svg",
+    "logo": "logos/library-1187b94435f2.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -90924,7 +90934,7 @@
     ],
     "firstDate": "2024-10-30",
     "labels": [],
-    "logo": "logos/dom-notifications.regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "Regence",
       "company": "notifications.regence.com",
@@ -90960,7 +90970,7 @@
     ],
     "firstDate": "2022-04-08",
     "labels": [],
-    "logo": "logos/dom-notifications.t-mobile.com.svg",
+    "logo": "logos/t-mobile.png",
     "originalContact": {
       "name": "T-MOBILE USA",
       "company": "notifications.t-mobile.com",
@@ -90996,7 +91006,7 @@
     ],
     "firstDate": "2022-04-08",
     "labels": [],
-    "logo": "logos/dom-notifications.t-mobile.com.svg",
+    "logo": "logos/t-mobile.png",
     "originalContact": {
       "name": "T-Mobile USA",
       "company": "notifications.t-mobile.com",
@@ -91034,7 +91044,7 @@
     ],
     "firstDate": "2026-02-10",
     "labels": [],
-    "logo": "logos/dom-notifications.upstart.com.svg",
+    "logo": "logos/upstart.png",
     "originalContact": {
       "name": "Upstart",
       "company": "notifications.upstart.com",
@@ -91048,7 +91058,7 @@
   },
   {
     "id": "2133",
-    "name": "Ben & Jerry\u2019s Flavor Fanatics",
+    "name": "Ben & Jerry’s Flavor Fanatics",
     "company": "Benjerry",
     "phone": "",
     "email": "flavorfanatics@notify.benjerry.com",
@@ -91097,7 +91107,7 @@
     ],
     "firstDate": "2023-10-19",
     "labels": [],
-    "logo": "logos/dom-notify.chime.com.svg",
+    "logo": "logos/chime.png",
     "originalContact": {
       "name": "Chime",
       "company": "notify.chime.com",
@@ -91136,7 +91146,7 @@
     "originalCompany": "notify.csod.com",
     "organizationId": "w-emp-census",
     "organizationName": "US Census Bureau",
-    "logo": "logos/dom-notify.csod.com.svg"
+    "logo": "logos/us-census-bureau.png"
   },
   {
     "id": "2136",
@@ -91306,7 +91316,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-notify.wellsfargo.com.svg",
+    "logo": "logos/library-4d9c3a3947f1.png",
     "blueprintPath": [
       "Accounts Banking",
       "Wells Fargo"
@@ -91909,7 +91919,7 @@
     ],
     "firstDate": "2023-12-29",
     "labels": [],
-    "logo": "logos/dom-o.fivebelow.com.svg",
+    "logo": "logos/five-below.png",
     "originalContact": {
       "name": "five below",
       "company": "o.fivebelow.com",
@@ -91955,7 +91965,7 @@
     "originalCompany": "obi.org",
     "organizationId": "h-blood-obi",
     "organizationName": "Oklahoma Blood Institute (OBI)",
-    "logo": "logos/dom-obi.org.svg"
+    "logo": "logos/oklahoma-blood-institute--obi.png"
   },
   {
     "id": "2157",
@@ -92056,7 +92066,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-oe.target.com.svg",
+    "logo": "logos/library-24ed6d60a315.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -92093,7 +92103,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-oe.target.com.svg",
+    "logo": "logos/library-24ed6d60a315.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -92133,7 +92143,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-oe1.target.com.svg",
+    "logo": "logos/library-24ed6d60a315.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -92198,7 +92208,7 @@
     "originalCompany": "of.optum.com",
     "organizationId": "h-ins-optum",
     "organizationName": "Optum Financial",
-    "logo": "logos/dom-of.optum.com.svg"
+    "logo": "logos/optum-financial.png"
   },
   {
     "id": "2164",
@@ -92296,7 +92306,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-offers.creditonebank.com.svg",
+    "logo": "logos/accounts-banking--credit-one.png",
     "blueprintPath": [
       "Accounts Banking",
       "Credit One"
@@ -93071,7 +93081,7 @@
     ],
     "firstDate": "2025-01-07",
     "labels": [],
-    "logo": "logos/dom-onedrive.com.svg",
+    "logo": "logos/onedrive.png",
     "originalContact": {
       "name": "OneDrive",
       "company": "onedrive.com",
@@ -93111,7 +93121,7 @@
     ],
     "firstDate": "2021-01-09",
     "labels": [],
-    "logo": "logos/dom-onlineportal.appfolio.com.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Reunion",
       "company": "onlineportal.appfolio.com",
@@ -93320,7 +93330,7 @@
   },
   {
     "id": "2190",
-    "name": "OpenTable | Gyu-Kaku \u2013 Sugar Land, TX Reservations",
+    "name": "OpenTable | Gyu-Kaku – Sugar Land, TX Reservations",
     "company": "Opentable",
     "phone": "",
     "email": "no-reply@opentable.com",
@@ -93820,7 +93830,7 @@
     "labels": [
       "Social Community / Communities Groups"
     ],
-    "logo": "logos/dom-order.eventbrite.com.svg",
+    "logo": "logos/library-934bb7003f19.png",
     "blueprintPath": [
       "Social Community",
       "Communities Groups",
@@ -93904,7 +93914,7 @@
     ],
     "firstDate": "2023-02-04",
     "labels": [],
-    "logo": "logos/dom-orders.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Store",
       "company": "orders.apple.com",
@@ -93940,7 +93950,7 @@
     ],
     "firstDate": "2023-02-04",
     "labels": [],
-    "logo": "logos/dom-orders.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Store",
       "company": "orders.apple.com",
@@ -93976,7 +93986,7 @@
     ],
     "firstDate": "2025-08-17",
     "labels": [],
-    "logo": "logos/dom-orders.apple.com.svg",
+    "logo": "logos/library-5e62c68891b4.png",
     "originalContact": {
       "name": "Apple Store",
       "company": "orders.apple.com",
@@ -94015,7 +94025,7 @@
     ],
     "firstDate": "2024-01-21",
     "labels": [],
-    "logo": "logos/dom-orders.pizzahut.com.svg",
+    "logo": "logos/pizza-hut.png",
     "originalContact": {
       "name": "Pizza Hut",
       "company": "orders.pizzahut.com",
@@ -95318,7 +95328,7 @@
     ],
     "firstDate": "2025-01-03",
     "labels": [],
-    "logo": "logos/dom-patientengagepro.com.svg",
+    "logo": "logos/eldridge-dental.png",
     "originalContact": {
       "name": "Eldridge Dental",
       "company": "patientengagepro.com",
@@ -95460,7 +95470,7 @@
     "originalCompany": "patientmychart.com",
     "organizationId": "h-portal-mychart",
     "organizationName": "MyChart",
-    "logo": "logos/dom-patientmychart.com.svg"
+    "logo": "logos/library-6fcd9a3522ed.png"
   },
   {
     "id": "2244",
@@ -95490,7 +95500,7 @@
     ],
     "firstDate": "2025-08-22",
     "labels": [],
-    "logo": "logos/dom-patients.pgsurveying.com.svg",
+    "logo": "logos/utica-park-clinic.png",
     "originalContact": {
       "name": "Utica Park Clinic",
       "company": "patients.pgsurveying.com",
@@ -95560,7 +95570,7 @@
   {
     "id": "2247",
     "name": "intsystemmessage",
-    "company": "Paycomonline",
+    "company": "Paycom",
     "phone": "",
     "email": "intsystemmessage@paycomonline.com",
     "date": "2022-02-13",
@@ -95582,8 +95592,9 @@
     ],
     "firstDate": "2022-02-11",
     "labels": [],
-    "logo": "logos/dom-paycomonline.com.png",
-    "organizationName": "Paycomonline"
+    "logo": "logos/paycom.png",
+    "organizationName": "Paycom",
+    "organizationId": "w-tools-paycom"
   },
   {
     "id": "2248",
@@ -95694,7 +95705,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -95789,7 +95800,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -96447,7 +96458,7 @@
   },
   {
     "id": "2270",
-    "name": "Jo\u00e3o from Pipedrive",
+    "name": "João from Pipedrive",
     "company": "Pipedrive 8 E 7580 B 0 F 0 B 5",
     "phone": "",
     "email": "joao.conceicao@pipedrive-8e7580b0f0b5.intercom-mail.com",
@@ -96613,7 +96624,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-plaid.com.svg",
+    "logo": "logos/library-88e78d6df7f7.png",
     "blueprintPath": [
       "Finance Payments",
       "Plaid"
@@ -97950,7 +97961,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-priority.instagram.com.svg",
+    "logo": "logos/brand-instagram.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -98382,7 +98393,7 @@
     ],
     "firstDate": "2020-10-27",
     "labels": [],
-    "logo": "logos/dom-public.govdelivery.com.svg",
+    "logo": "logos/texas-workforce-commission.png",
     "originalContact": {
       "name": "Texas Workforce Commission",
       "company": "public.govdelivery.com",
@@ -98789,7 +98800,7 @@
     ],
     "firstDate": "2026-01-05",
     "labels": [],
-    "logo": "logos/dom-r.factor75.com.svg",
+    "logo": "logos/factor.png",
     "originalContact": {
       "name": "Factor_",
       "company": "r.factor75.com",
@@ -98887,7 +98898,7 @@
     ],
     "firstDate": "2026-01-10",
     "labels": [],
-    "logo": "logos/dom-r.hellofresh.com.svg",
+    "logo": "logos/hellofresh.png",
     "originalContact": {
       "name": "HelloFresh",
       "company": "r.hellofresh.com",
@@ -99968,7 +99979,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-receipt.lowes.com.svg",
+    "logo": "logos/library-1187b94435f2.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -100289,7 +100300,7 @@
     ],
     "firstDate": "2022-08-08",
     "labels": [],
-    "logo": "logos/dom-regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "Account Transactions",
       "company": "regence.com",
@@ -100332,7 +100343,7 @@
     ],
     "firstDate": "2022-09-29",
     "labels": [],
-    "logo": "logos/dom-regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "regenceempower@regence.com",
       "company": "regence.com",
@@ -100376,7 +100387,7 @@
     ],
     "firstDate": "2023-01-11",
     "labels": [],
-    "logo": "logos/dom-regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "donotreply",
       "company": "regence.com",
@@ -100458,7 +100469,7 @@
     ],
     "firstDate": "2023-03-05",
     "labels": [],
-    "logo": "logos/dom-regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "Do not Reply",
       "company": "regence.com",
@@ -100494,7 +100505,7 @@
     ],
     "firstDate": "2024-12-12",
     "labels": [],
-    "logo": "logos/dom-regence.com.svg",
+    "logo": "logos/regence.png",
     "originalContact": {
       "name": "Account Transactions",
       "company": "regence.com",
@@ -100530,7 +100541,7 @@
     ],
     "firstDate": "2025-04-03",
     "labels": [],
-    "logo": "logos/dom-register.event.microsoft.com.svg",
+    "logo": "logos/brand-microsoft.svg",
     "originalCompany": "Microsoft",
     "organizationId": "p-tech-microsoft",
     "organizationName": "Microsoft"
@@ -100706,7 +100717,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-relay.walmart.com.svg",
+    "logo": "logos/library-f446ffa560c7.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -100743,7 +100754,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-relay.walmart.com.svg",
+    "logo": "logos/library-f446ffa560c7.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -100971,7 +100982,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-reply.ebay.com.svg",
+    "logo": "logos/library-d14390a8e325.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -101084,7 +101095,7 @@
     "labels": [
       "Shopping Rewards / Retail"
     ],
-    "logo": "logos/dom-reply5.ebay.com.svg",
+    "logo": "logos/library-d14390a8e325.png",
     "blueprintPath": [
       "Shopping Rewards",
       "Retail",
@@ -101122,7 +101133,7 @@
     "originalCompany": "res-marriott.com",
     "organizationId": "p-travel-marriott",
     "organizationName": "Marriott",
-    "logo": "logos/dom-res-marriott.com.svg"
+    "logo": "logos/marriott.png"
   },
   {
     "id": "2384",
@@ -101148,7 +101159,7 @@
     ],
     "firstDate": "2016-03-11",
     "labels": [],
-    "logo": "logos/dom-res.hilton.com.svg",
+    "logo": "logos/hilton.png",
     "originalContact": {
       "name": "Hilton Hotels & Resorts Confirmed",
       "company": "res.hilton.com",
@@ -101250,7 +101261,7 @@
     ],
     "firstDate": "2025-09-12",
     "labels": [],
-    "logo": "logos/dom-respond.kp.org.svg",
+    "logo": "logos/kaiser-permanente.png",
     "originalContact": {
       "name": "Kaiser Permanente",
       "company": "respond.kp.org",
@@ -101286,7 +101297,7 @@
     ],
     "firstDate": "2025-11-11",
     "labels": [],
-    "logo": "logos/dom-respond.kp.org.svg",
+    "logo": "logos/kaiser-permanente.png",
     "originalContact": {
       "name": "Kaiser Permanente",
       "company": "respond.kp.org",
@@ -101397,7 +101408,7 @@
     ],
     "firstDate": "2024-09-17",
     "labels": [],
-    "logo": "logos/dom-results.equinox.com.svg",
+    "logo": "logos/equinox.png",
     "originalContact": {
       "name": "Logan Timberlake",
       "company": "results.equinox.com",
@@ -101518,7 +101529,7 @@
       "Touchpoint Summary": "",
       "Type": "Company"
     },
-    "logo": "logos/dom-results.equinox.com.svg",
+    "logo": "logos/equinox.png",
     "originalContact": {
       "name": "Equinox",
       "company": "results.equinox.com",
@@ -102060,7 +102071,7 @@
   },
   {
     "id": "2409",
-    "name": "L\u00edvia Cordeiro",
+    "name": "Lívia Cordeiro",
     "company": "Rice University",
     "phone": "",
     "email": "lc106@rice.edu",
@@ -103730,7 +103741,7 @@
       "Touchpoint Summary": "85 inbound Nextdoor emails across 2023-2025 covering neighborhood alerts, local events, policy updates, and community activity for The Woods.",
       "Type": "Service"
     },
-    "logo": "logos/dom-rs.email.nextdoor.com.svg",
+    "logo": "logos/nextdoor.png",
     "originalCompany": "Nextdoor",
     "organizationId": "p-social-nextdoor",
     "organizationName": "Nextdoor"
@@ -103817,7 +103828,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-rs.email.nextdoor.com.svg",
+    "logo": "logos/nextdoor.png",
     "originalContact": {
       "name": "Nextdoor Local News",
       "company": "rs.email.nextdoor.com",
@@ -103928,7 +103939,7 @@
     ],
     "firstDate": "2021-12-02",
     "labels": [],
-    "logo": "logos/dom-rxorder.walgreens.com.svg",
+    "logo": "logos/walgreens.png",
     "originalContact": {
       "name": "Walgreens",
       "company": "rxorder.walgreens.com",
@@ -103964,7 +103975,7 @@
     ],
     "firstDate": "2026-01-02",
     "labels": [],
-    "logo": "logos/dom-s.factor75.com.svg",
+    "logo": "logos/factor.png",
     "originalContact": {
       "name": "Factor_",
       "company": "s.factor75.com",
@@ -104001,7 +104012,7 @@
     ],
     "firstDate": "2026-01-08",
     "labels": [],
-    "logo": "logos/dom-s.hellofresh.com.svg",
+    "logo": "logos/hellofresh.png",
     "originalContact": {
       "name": "HelloFresh",
       "company": "s.hellofresh.com",
@@ -104015,7 +104026,7 @@
   },
   {
     "id": "2447",
-    "name": "Kohl\u2019s",
+    "name": "Kohl’s",
     "company": "Kohl's",
     "phone": "",
     "email": "kohls@s.kohls.com",
@@ -104037,9 +104048,9 @@
     ],
     "firstDate": "2023-12-16",
     "labels": [],
-    "logo": "logos/dom-s.kohls.com.svg",
+    "logo": "logos/kohl-s.png",
     "originalContact": {
-      "name": "Kohl\u2019s",
+      "name": "Kohl’s",
       "company": "s.kohls.com",
       "email": "kohls@s.kohls.com",
       "domain": "s.kohls.com",
@@ -104411,7 +104422,7 @@
     ],
     "firstDate": "2020-09-09",
     "labels": [],
-    "logo": "logos/dom-science37.com.svg",
+    "logo": "logos/science-37.png",
     "originalContact": {
       "name": "no-reply",
       "company": "science37.com",
@@ -104448,7 +104459,7 @@
     ],
     "firstDate": "2020-12-10",
     "labels": [],
-    "logo": "logos/dom-science37.com.svg",
+    "logo": "logos/science-37.png",
     "originalContact": {
       "name": "lupus-sjogrens",
       "company": "science37.com",
@@ -104462,7 +104473,7 @@
   },
   {
     "id": "2462",
-    "name": "Science 37\u00ae",
+    "name": "Science 37®",
     "company": "Science 37",
     "phone": "",
     "email": "recruitment@science37.com",
@@ -104484,9 +104495,9 @@
     ],
     "firstDate": "2021-07-15",
     "labels": [],
-    "logo": "logos/dom-science37.com.svg",
+    "logo": "logos/science-37.png",
     "originalContact": {
-      "name": "Science 37\u00ae",
+      "name": "Science 37®",
       "company": "science37.com",
       "email": "recruitment@science37.com",
       "domain": "science37.com",
@@ -104870,7 +104881,7 @@
     ],
     "firstDate": "2023-03-27",
     "labels": [],
-    "logo": "logos/dom-seatgeek.com.svg",
+    "logo": "logos/seatgeek.png",
     "originalContact": {
       "name": "SeatGeek",
       "company": "seatgeek.com",
@@ -105343,7 +105354,7 @@
     ],
     "firstDate": "2024-02-05",
     "labels": [],
-    "logo": "logos/dom-send.calendly.com.svg",
+    "logo": "logos/calendly.png",
     "originalContact": {
       "name": "The Calendly Team",
       "company": "send.calendly.com",
@@ -105357,7 +105368,7 @@
   },
   {
     "id": "2489",
-    "name": "Brickell Men's Products\u00ae x Checkmate",
+    "name": "Brickell Men's Products® x Checkmate",
     "company": "Checkmatetoday",
     "phone": "",
     "email": "hello@send.checkmatetoday.com",
@@ -105438,7 +105449,7 @@
     ],
     "firstDate": "2024-01-09",
     "labels": [],
-    "logo": "logos/dom-send.michaels.com.svg",
+    "logo": "logos/michaels.png",
     "originalContact": {
       "name": "Michaels",
       "company": "send.michaels.com",
@@ -106056,7 +106067,7 @@
     "labels": [
       "Daily Life Digital Presence / Entertainment"
     ],
-    "logo": "logos/dom-service.hbomax.com.svg",
+    "logo": "logos/library-17b558095dd7.png",
     "blueprintPath": [
       "Daily Life Digital Presence",
       "Entertainment",
@@ -106191,7 +106202,7 @@
     "labels": [
       "Finance Payments"
     ],
-    "logo": "logos/dom-service.paypal.com.svg",
+    "logo": "logos/brand-paypal.svg",
     "blueprintPath": [
       "Finance Payments",
       "PayPal"
@@ -106234,7 +106245,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-service.tiktok.com.svg",
+    "logo": "logos/brand-tiktok.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -106285,7 +106296,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-servicing.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -106323,7 +106334,7 @@
     "originalCompany": "servicing.synchronyfinancial.com",
     "organizationId": "p-accounts-synchrony",
     "organizationName": "Synchrony",
-    "logo": "logos/dom-servicing.synchronyfinancial.com.svg"
+    "logo": "logos/library-dc3787ed773b.png"
   },
   {
     "id": "2510",
@@ -106408,7 +106419,7 @@
     ],
     "firstDate": "2025-11-01",
     "labels": [],
-    "logo": "logos/dom-sfauthentication.com.svg",
+    "logo": "logos/state-farm.png",
     "originalContact": {
       "name": "State Farm",
       "company": "sfauthentication.com",
@@ -106769,7 +106780,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-shop-us.tiktok.com.svg",
+    "logo": "logos/brand-tiktok.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -106811,7 +106822,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-shop-us.tiktok.com.svg",
+    "logo": "logos/brand-tiktok.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -107878,7 +107889,7 @@
     ],
     "firstDate": "2024-09-09",
     "labels": [],
-    "logo": "logos/dom-skilluponline.com.svg",
+    "logo": "logos/ibm-skillsbuild.png",
     "originalContact": {
       "name": "IBM SkillsBuild",
       "company": "skilluponline.com",
@@ -107962,7 +107973,7 @@
       "Touchpoint Summary": "",
       "Type": "Service"
     },
-    "logo": "logos/dom-skilluponline.com.svg",
+    "logo": "logos/ibm-skillsbuild.png",
     "originalContact": {
       "name": "IBM SkillsBuild",
       "company": "IBM",
@@ -108234,7 +108245,7 @@
     ],
     "firstDate": "2022-01-11",
     "labels": [],
-    "logo": "logos/dom-slack-mail.com.svg",
+    "logo": "logos/library-06f4f65faef0.png",
     "originalContact": {
       "name": "Slack",
       "company": "slack-mail.com",
@@ -109978,7 +109989,7 @@
     ],
     "firstDate": "2024-10-13",
     "labels": [],
-    "logo": "logos/dom-smsservicesnow.com.svg",
+    "logo": "logos/accounts-banking--credit-one.png",
     "originalContact": {
       "name": "Credit One Bank",
       "company": "smsservicesnow.com",
@@ -111588,7 +111599,7 @@
     "originalCompany": "squaremktg.com",
     "organizationId": "p-accounts-squareup",
     "organizationName": "SquareUp",
-    "logo": "logos/dom-squaremktg.com.svg"
+    "logo": "logos/library-dc72677a954b.png"
   },
   {
     "id": "2648",
@@ -112288,7 +112299,7 @@
     "originalCompany": "statefarmclaims.com",
     "organizationId": "p-ins-sf",
     "organizationName": "State Farm",
-    "logo": "logos/dom-statefarmclaims.com.svg"
+    "logo": "logos/state-farm.png"
   },
   {
     "id": "2667",
@@ -112314,7 +112325,7 @@
     ],
     "firstDate": "2021-10-04",
     "labels": [],
-    "logo": "logos/dom-statefarminfo.com.svg",
+    "logo": "logos/state-farm.png",
     "originalContact": {
       "name": "State Farm",
       "company": "statefarminfo.com",
@@ -112350,7 +112361,7 @@
     ],
     "firstDate": "2025-11-01",
     "labels": [],
-    "logo": "logos/dom-statefarmservice.com.svg",
+    "logo": "logos/state-farm.png",
     "originalContact": {
       "name": "State Farm",
       "company": "statefarmservice.com",
@@ -112832,7 +112843,7 @@
   {
     "id": "2684",
     "name": "Synthesia Limited",
-    "company": "Obsidian",
+    "company": "Synthesia",
     "phone": "",
     "email": "invoice+statements+acct_1fyy6fdjakr1cubi@stripe.com",
     "date": "2023-03-28",
@@ -112867,14 +112878,14 @@
     "firstDate": "2022-08-28",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Synthesia",
+    "logo": "logos/dom-synthesia.io.png"
   },
   {
     "id": "2685",
     "name": "Synthesia Limited",
-    "company": "Obsidian",
+    "company": "Synthesia",
     "phone": "",
     "email": "failed-payments+acct_1fyy6fdjakr1cubi@stripe.com",
     "date": "2025-09-20",
@@ -112909,14 +112920,14 @@
     "firstDate": "2023-01-28",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Synthesia",
+    "logo": "logos/dom-synthesia.io.png"
   },
   {
     "id": "2686",
     "name": "Rewind AI, Inc.",
-    "company": "Obsidian",
+    "company": "Rewind AI",
     "phone": "",
     "email": "billing+acct_1jf5wobfioyzwow8@stripe.com",
     "date": "2025-12-18",
@@ -112944,14 +112955,14 @@
     "firstDate": "2023-02-15",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "pr-ai-rewind",
+    "organizationName": "Rewind AI",
+    "logo": "logos/library-f170527ef3e4.png"
   },
   {
     "id": "2687",
     "name": "Rewind AI, Inc.",
-    "company": "Obsidian",
+    "company": "Rewind AI",
     "phone": "",
     "email": "invoice+statements+acct_1jf5wobfioyzwow8@stripe.com",
     "date": "2025-11-16",
@@ -113001,14 +113012,14 @@
     "firstDate": "2023-03-09",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "pr-ai-rewind",
+    "organizationName": "Rewind AI",
+    "logo": "logos/library-f170527ef3e4.png"
   },
   {
     "id": "2688",
     "name": "Link by Stripe",
-    "company": "Obsidian",
+    "company": "Stripe",
     "phone": "",
     "email": "notifications@stripe.com",
     "date": "2023-11-22",
@@ -113030,14 +113041,14 @@
     "firstDate": "2023-11-22",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
+    "organizationId": "w-tools-stripe",
+    "organizationName": "Stripe",
     "logo": "logos/stripe.svg"
   },
   {
     "id": "2689",
     "name": "ZenLeads Inc. (dba Apollo.io)",
-    "company": "Obsidian",
+    "company": "Apollo.io",
     "phone": "",
     "email": "invoice+statements+acct_0ba85qm0nabsuhn87xxc@stripe.com",
     "date": "2024-12-04",
@@ -113063,14 +113074,14 @@
     "firstDate": "2024-10-04",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Apollo.io",
+    "logo": "logos/dom-apollo.io.png"
   },
   {
     "id": "2690",
     "name": "Polycam Inc.",
-    "company": "Obsidian",
+    "company": "Polycam",
     "phone": "",
     "email": "upcoming-invoice+acct_1hwypgc29okmrxyz@stripe.com",
     "date": "2025-01-05",
@@ -113092,14 +113103,14 @@
     "firstDate": "2025-01-05",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Polycam",
+    "logo": "logos/dom-poly.cam.png"
   },
   {
     "id": "2691",
     "name": "Polycam Inc.",
-    "company": "Obsidian",
+    "company": "Polycam",
     "phone": "",
     "email": "invoice+statements+acct_1hwypgc29okmrxyz@stripe.com",
     "date": "2025-01-22",
@@ -113122,14 +113133,14 @@
     "firstDate": "2025-01-12",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Polycam",
+    "logo": "logos/dom-poly.cam.png"
   },
   {
     "id": "2692",
     "name": "OpenAI, LLC",
-    "company": "Obsidian",
+    "company": "OpenAI",
     "phone": "",
     "email": "invoice+statements+acct_1horswc6h1nxgoi3@stripe.com",
     "date": "2025-02-11",
@@ -113151,14 +113162,14 @@
     "firstDate": "2025-02-11",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "pr-ai-openai",
+    "organizationName": "OpenAI",
+    "logo": "logos/library-d4bdf0cf7435.png"
   },
   {
     "id": "2693",
     "name": "OpenAI, LLC",
-    "company": "Obsidian",
+    "company": "OpenAI",
     "phone": "",
     "email": "billing+acct_1horswc6h1nxgoi3@stripe.com",
     "date": "2025-02-11",
@@ -113180,14 +113191,14 @@
     "firstDate": "2025-02-11",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "pr-ai-openai",
+    "organizationName": "OpenAI",
+    "logo": "logos/library-d4bdf0cf7435.png"
   },
   {
     "id": "2694",
     "name": "Mermaid Chart Inc",
-    "company": "Obsidian",
+    "company": "Mermaid Chart",
     "phone": "",
     "email": "trial-ending+acct_1lnhncegix12wogy@stripe.com",
     "date": "2025-02-13",
@@ -113209,14 +113220,14 @@
     "firstDate": "2025-02-13",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Mermaid Chart",
+    "logo": "logos/dom-mermaidchart.com.png"
   },
   {
     "id": "2695",
     "name": "Mermaid Chart Inc",
-    "company": "Obsidian",
+    "company": "Mermaid Chart",
     "phone": "",
     "email": "billing+acct_1lnhncegix12wogy@stripe.com",
     "date": "2025-02-23",
@@ -113238,9 +113249,9 @@
     "firstDate": "2025-02-23",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Mermaid Chart",
+    "logo": "logos/dom-mermaidchart.com.png"
   },
   {
     "id": "2696",
@@ -113266,7 +113277,7 @@
     ],
     "firstDate": "2025-07-15",
     "labels": [],
-    "logo": "logos/stripe.svg",
+    "logo": "logos/library-98b3da42e667.png",
     "originalContact": {
       "name": "Obsidian",
       "company": "stripe.com",
@@ -113281,7 +113292,7 @@
   {
     "id": "2697",
     "name": "StackBlitz, Inc.",
-    "company": "Obsidian",
+    "company": "StackBlitz",
     "phone": "",
     "email": "invoice+statements+acct_1epydaahwgq34jln@stripe.com",
     "date": "2025-07-29",
@@ -113303,14 +113314,14 @@
     "firstDate": "2025-07-29",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "StackBlitz",
+    "logo": "logos/stackblitz.png"
   },
   {
     "id": "2698",
     "name": "Limitless",
-    "company": "Obsidian",
+    "company": "Limitless",
     "phone": "",
     "email": "failed-payments+acct_1jf5wobfioyzwow8@stripe.com",
     "date": "2025-08-16",
@@ -113332,14 +113343,14 @@
     "firstDate": "2025-08-16",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-ai",
+    "organizationName": "Limitless",
+    "logo": "logos/dom-limitless.ai.png"
   },
   {
     "id": "2699",
     "name": "Course",
-    "company": "Obsidian",
+    "company": "Course",
     "phone": "",
     "email": "receipts+acct_1nqhdmgzuphl4wuz@stripe.com",
     "date": "2025-09-05",
@@ -113361,14 +113372,14 @@
     "firstDate": "2025-09-05",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-learn",
+    "organizationName": "Course",
+    "logo": "logos/brand-learn.svg"
   },
   {
     "id": "2700",
     "name": "Mediar, Inc.",
-    "company": "Obsidian",
+    "company": "Mediar",
     "phone": "",
     "email": "receipts+acct_1nxt0fdph4quamc0@stripe.com",
     "date": "2026-02-02",
@@ -113391,9 +113402,9 @@
     "firstDate": "2026-02-01",
     "labels": [],
     "originalCompany": "stripe.com",
-    "organizationId": "w-tools-obsidian",
-    "organizationName": "Obsidian",
-    "logo": "logos/stripe.svg"
+    "organizationId": "p-tech",
+    "organizationName": "Mediar",
+    "logo": "logos/dom-mediar.ai.png"
   },
   {
     "id": "2701",
@@ -113606,7 +113617,7 @@
     ],
     "firstDate": "2023-01-17",
     "labels": [],
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "The zcal team",
       "company": "substack.com",
@@ -113620,7 +113631,7 @@
   },
   {
     "id": "2708",
-    "name": "Julien Nowak-Bourgoin from Julien\u2019s Substack",
+    "name": "Julien Nowak-Bourgoin from Julien’s Substack",
     "company": "Substack",
     "phone": "",
     "email": "juliennowakbourgoin@substack.com",
@@ -113650,9 +113661,9 @@
     ],
     "firstDate": "2024-09-12",
     "labels": [],
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
-      "name": "Julien Nowak-Bourgoin from Julien\u2019s Substack",
+      "name": "Julien Nowak-Bourgoin from Julien’s Substack",
       "company": "substack.com",
       "email": "juliennowakbourgoin@substack.com",
       "domain": "substack.com",
@@ -113788,7 +113799,7 @@
       "Touchpoint Summary": "",
       "Type": "Newsletter"
     },
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "Glasp (Substack)",
       "company": "substack.com",
@@ -113824,7 +113835,7 @@
     ],
     "firstDate": "2025-04-15",
     "labels": [],
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "Substack",
       "company": "substack.com",
@@ -113896,7 +113907,7 @@
       "Touchpoint Summary": "",
       "Type": "Newsletter"
     },
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "Taylin John Simmonds",
       "company": "substack.com",
@@ -113994,7 +114005,7 @@
       "Touchpoint Summary": "",
       "Type": "Newsletter"
     },
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "Sabrina Ramonov (Substack)",
       "company": "substack.com",
@@ -114040,7 +114051,7 @@
     ],
     "firstDate": "2025-09-05",
     "labels": [],
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "The Change Lab",
       "company": "substack.com",
@@ -114077,7 +114088,7 @@
     ],
     "firstDate": "2025-11-04",
     "labels": [],
-    "logo": "logos/dom-substack.com.svg",
+    "logo": "logos/substack.png",
     "originalContact": {
       "name": "Unfiltered Capital",
       "company": "substack.com",
@@ -114305,7 +114316,7 @@
   },
   {
     "id": "2721",
-    "name": "Supercord \u26a1\ufe0f",
+    "name": "Supercord ⚡️",
     "company": "Supercord",
     "phone": "",
     "email": "no-reply@supercord.io",
@@ -114356,7 +114367,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114393,7 +114404,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114430,7 +114441,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114470,7 +114481,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114531,7 +114542,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114568,7 +114579,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114647,7 +114658,7 @@
     "labels": [
       "Social Community / Social Media"
     ],
-    "logo": "logos/dom-support.facebook.com.svg",
+    "logo": "logos/brand-facebook.svg",
     "blueprintPath": [
       "Social Community",
       "Social Media",
@@ -114764,7 +114775,7 @@
     "labels": [
       "Daily Life Digital Presence / Shopping"
     ],
-    "logo": "logos/dom-survey.bestbuy.com.svg",
+    "logo": "logos/library-3e0ebf480257.png",
     "blueprintPath": [
       "Daily Life Digital Presence",
       "Shopping",
@@ -114812,7 +114823,7 @@
     "originalCompany": "survey.synchronybank.com",
     "organizationId": "p-accounts-synchrony",
     "organizationName": "Synchrony",
-    "logo": "logos/dom-survey.synchronybank.com.svg"
+    "logo": "logos/library-dc3787ed773b.png"
   },
   {
     "id": "2733",
@@ -114874,7 +114885,7 @@
     "labels": [
       "Accounts Banking"
     ],
-    "logo": "logos/dom-surveyopinion.bankofamerica.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "blueprintPath": [
       "Accounts Banking",
       "Bank of America"
@@ -114994,7 +115005,7 @@
     ],
     "firstDate": "2024-11-14",
     "labels": [],
-    "logo": "logos/dom-swellbox.com.svg",
+    "logo": "logos/ascension.png",
     "originalContact": {
       "name": "Ascension Health",
       "company": "swellbox.com",
@@ -115516,7 +115527,7 @@
     ],
     "firstDate": "2023-02-02",
     "labels": [],
-    "logo": "logos/dom-t-mobile-email.com.svg",
+    "logo": "logos/t-mobile.png",
     "originalContact": {
       "name": "T-Mobile",
       "company": "t-mobile-email.com",
@@ -115587,7 +115598,7 @@
     "labels": [
       "Travel"
     ],
-    "logo": "logos/dom-t.delta.com.svg",
+    "logo": "logos/library-25b0c76781d2.png",
     "blueprintPath": [
       "Travel",
       "Delta"
@@ -115691,7 +115702,7 @@
     ],
     "firstDate": "2022-12-17",
     "labels": [],
-    "logo": "logos/dom-t.mail.coursera.org.svg",
+    "logo": "logos/coursera.png",
     "originalContact": {
       "name": "Coursera",
       "company": "t.mail.coursera.org",
@@ -115727,7 +115738,7 @@
     ],
     "firstDate": "2022-11-15",
     "labels": [],
-    "logo": "logos/dom-t.nothingbundtcakes.com.svg",
+    "logo": "logos/nothing-bundt-cakes.png",
     "originalContact": {
       "name": "Nothing Bundt Cakes",
       "company": "t.nothingbundtcakes.com",
@@ -117552,7 +117563,7 @@
     "originalCompany": "tjxeurope.com",
     "organizationId": "p-shop-tjx",
     "organizationName": "TJ Maxx",
-    "logo": "logos/dom-tjxeurope.com.svg"
+    "logo": "logos/tj-maxx.png"
   },
   {
     "id": "2815",
@@ -117610,7 +117621,7 @@
     "labels": [
       "AI Knowledge Tools"
     ],
-    "logo": "logos/dom-tm.openai.com.svg",
+    "logo": "logos/brand-paiopenai.png",
     "blueprintPath": [
       "AI Knowledge Tools",
       "ChatGPT"
@@ -118147,7 +118158,7 @@
     ],
     "firstDate": "2025-03-09",
     "labels": [],
-    "logo": "logos/dom-tr.nothingbundtcakes.com.svg",
+    "logo": "logos/nothing-bundt-cakes.png",
     "originalContact": {
       "name": "Nothing Bundt Cakes",
       "company": "tr.nothingbundtcakes.com",
@@ -118526,7 +118537,7 @@
     ],
     "firstDate": "2025-03-01",
     "labels": [],
-    "logo": "logos/dom-transactions.paramountplus.com.svg",
+    "logo": "logos/paramount.png",
     "originalContact": {
       "name": "Paramount+",
       "company": "transactions.paramountplus.com",
@@ -118752,7 +118763,7 @@
     ],
     "firstDate": "2022-12-12",
     "labels": [],
-    "logo": "logos/dom-travel.airportrentalcars.com.svg",
+    "logo": "logos/airport-rental-cars.png",
     "originalContact": {
       "name": "Airport Rental Cars",
       "company": "travel.airportrentalcars.com",
@@ -118821,7 +118832,7 @@
     ],
     "firstDate": "2023-03-15",
     "labels": [],
-    "logo": "logos/dom-trials.science37.com.svg",
+    "logo": "logos/science-37.png",
     "originalContact": {
       "name": "Science 37",
       "company": "trials.science37.com",
@@ -119179,7 +119190,7 @@
     "labels": [
       "Entertainment Media / Streaming"
     ],
-    "logo": "logos/dom-trx.mail2.disneyplus.com.svg",
+    "logo": "logos/disney.png",
     "blueprintPath": [
       "Entertainment Media",
       "Streaming",
@@ -119426,7 +119437,7 @@
     "originalCompany": "ttmail.timetrade.com",
     "organizationId": "p-shop-ups",
     "organizationName": "UPS",
-    "logo": "logos/dom-ttmail.timetrade.com.svg"
+    "logo": "logos/library-aa30d5daf2b7.png"
   },
   {
     "id": "2860",
@@ -119580,7 +119591,7 @@
     "originalCompany": "tulsaderm.com",
     "organizationId": "h-prov-tulsaderm",
     "organizationName": "Tulsa Dermatology",
-    "logo": "logos/dom-tulsaderm.com.svg"
+    "logo": "logos/tulsa-dermatology.png"
   },
   {
     "id": "2865",
@@ -119609,7 +119620,7 @@
     "originalCompany": "tulsaderm.com",
     "organizationId": "h-prov-tulsaderm",
     "organizationName": "Tulsa Dermatology",
-    "logo": "logos/dom-tulsaderm.com.svg"
+    "logo": "logos/tulsa-dermatology.png"
   },
   {
     "id": "2866",
@@ -121296,7 +121307,7 @@
     "originalCompany": "twc.texas.gov",
     "organizationId": "p-gov-twc",
     "organizationName": "Texas Workforce Commission",
-    "logo": "logos/dom-twc.texas.gov.svg"
+    "logo": "logos/texas-workforce-commission.png"
   },
   {
     "id": "2910",
@@ -121517,7 +121528,7 @@
     ],
     "firstDate": "2022-08-21",
     "labels": [],
-    "logo": "logos/dom-tx.ihg.com.svg",
+    "logo": "logos/ihg.png",
     "originalContact": {
       "name": "Hotel Indigo",
       "company": "tx.ihg.com",
@@ -121587,7 +121598,7 @@
     ],
     "firstDate": "2023-10-22",
     "labels": [],
-    "logo": "logos/dom-txn-email03.playstation.com.svg",
+    "logo": "logos/sony.png",
     "originalContact": {
       "name": "Sony",
       "company": "txn-email03.playstation.com",
@@ -122794,7 +122805,7 @@
     ],
     "firstDate": "2023-12-27",
     "labels": [],
-    "logo": "logos/dom-updates.bofa.com.svg",
+    "logo": "logos/library-438b0e5ecade.svg",
     "originalContact": {
       "name": "Bank of America",
       "company": "updates.bofa.com",
@@ -122866,7 +122877,7 @@
     "labels": [
       "Productivity Organization / Planning Notes"
     ],
-    "logo": "logos/dom-updates.notion.so.svg",
+    "logo": "logos/library-4d9df066d32d.png",
     "blueprintPath": [
       "Productivity Organization",
       "Planning Notes",
@@ -123788,7 +123799,7 @@
     ],
     "firstDate": "2022-05-09",
     "labels": [],
-    "logo": "logos/dom-us.aflac.com.svg",
+    "logo": "logos/aflac.png",
     "originalContact": {
       "name": "Nicole Hutchison",
       "company": "us.aflac.com",
@@ -123824,7 +123835,7 @@
     ],
     "firstDate": "2022-05-11",
     "labels": [],
-    "logo": "logos/dom-us.aflac.com.svg",
+    "logo": "logos/aflac.png",
     "originalContact": {
       "name": "MARCUS THOMAS",
       "company": "us.aflac.com",
@@ -123870,7 +123881,7 @@
     "originalCompany": "us.greenhouse-mail.io",
     "organizationId": "p-jobs-greenhouse",
     "organizationName": "Greenhouse",
-    "logo": "logos/dom-us.greenhouse-mail.io.svg"
+    "logo": "logos/greenhouse.png"
   },
   {
     "id": "2969",
@@ -125256,7 +125267,7 @@
   {
     "id": "3011",
     "name": "Susie Dabrowski",
-    "company": "USSFA",
+    "company": "Space Force Association",
     "phone": "",
     "email": "susan.dabrowski@ussfa.org",
     "date": "2025-04-23",
@@ -125325,12 +125336,14 @@
       "Touchpoint Summary": "",
       "Type": "Person"
     },
-    "logo": "logos/nasa.png"
+    "logo": "logos/space-force-association.svg",
+    "organizationName": "Space Force Association",
+    "organizationId": "pr-sfa"
   },
   {
     "id": "3012",
     "name": "Brian Creighton",
-    "company": "Ussfa",
+    "company": "Space Force Association",
     "phone": "",
     "email": "brian.creighton@ussfa.org",
     "date": "2025-01-20",
@@ -125351,13 +125364,14 @@
     ],
     "firstDate": "2025-01-20",
     "labels": [],
-    "logo": "logos/nasa.png",
-    "organizationName": "Ussfa"
+    "logo": "logos/space-force-association.svg",
+    "organizationName": "Space Force Association",
+    "organizationId": "pr-sfa"
   },
   {
     "id": "3013",
     "name": "Rhonda Sheya",
-    "company": "Ussfa",
+    "company": "Space Force Association",
     "phone": "",
     "email": "rhonda.sheya@ussfa.org",
     "date": "2025-01-28",
@@ -125387,13 +125401,14 @@
       "domain": "ussfa.org",
       "phone": ""
     },
-    "logo": "logos/nasa.png",
-    "organizationName": "Ussfa"
+    "logo": "logos/space-force-association.svg",
+    "organizationName": "Space Force Association",
+    "organizationId": "pr-sfa"
   },
   {
     "id": "3014",
     "name": "Shawna Buckley",
-    "company": "Ussfa",
+    "company": "Space Force Association",
     "phone": "",
     "email": "shawna.buckley@ussfa.org",
     "date": "2025-01-29",
@@ -125414,13 +125429,14 @@
     ],
     "firstDate": "2025-01-29",
     "labels": [],
-    "logo": "logos/nasa.png",
-    "organizationName": "Ussfa"
+    "logo": "logos/space-force-association.svg",
+    "organizationName": "Space Force Association",
+    "organizationId": "pr-sfa"
   },
   {
     "id": "3015",
     "name": "Karen Lawrie",
-    "company": "Ussfa",
+    "company": "Space Force Association",
     "phone": "",
     "email": "karen.lawrie@ussfa.org",
     "date": "2025-03-12",
@@ -125443,8 +125459,9 @@
     ],
     "firstDate": "2025-02-03",
     "labels": [],
-    "logo": "logos/nasa.png",
-    "organizationName": "Ussfa"
+    "logo": "logos/space-force-association.svg",
+    "organizationName": "Space Force Association",
+    "organizationId": "pr-sfa"
   },
   {
     "id": "3016",
@@ -125505,7 +125522,7 @@
     "originalCompany": "utest.com",
     "organizationId": "p-research-ut",
     "organizationName": "UserTesting",
-    "logo": "logos/dom-utest.com.svg"
+    "logo": "logos/usertesting.png"
   },
   {
     "id": "3017",
@@ -126600,7 +126617,7 @@
     "originalCompany": "vote.hctx.net",
     "organizationId": "p-gov-vote",
     "organizationName": "Vote / Election",
-    "logo": "logos/dom-vote.hctx.net.svg"
+    "logo": "logos/vote---election.png"
   },
   {
     "id": "3050",
@@ -126633,7 +126650,7 @@
     "originalCompany": "vote.hctx.net",
     "organizationId": "p-gov-vote",
     "organizationName": "Vote / Election",
-    "logo": "logos/dom-vote.hctx.net.svg"
+    "logo": "logos/vote---election.png"
   },
   {
     "id": "3051",
@@ -127171,7 +127188,7 @@
     ],
     "firstDate": "2021-01-05",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Reunion",
       "company": "wattsco.mailer.appfolio.us",
@@ -127207,7 +127224,7 @@
     ],
     "firstDate": "2021-01-05",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Reunion",
       "company": "wattsco.mailer.appfolio.us",
@@ -127243,7 +127260,7 @@
     ],
     "firstDate": "2021-01-15",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Regan Watts",
       "company": "wattsco.mailer.appfolio.us",
@@ -127279,7 +127296,7 @@
     ],
     "firstDate": "2021-01-20",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Regan Watts",
       "company": "wattsco.mailer.appfolio.us",
@@ -127315,7 +127332,7 @@
     ],
     "firstDate": "2021-01-25",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Reunion",
       "company": "wattsco.mailer.appfolio.us",
@@ -127351,7 +127368,7 @@
     ],
     "firstDate": "2021-03-30",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Bonanno",
       "company": "wattsco.mailer.appfolio.us",
@@ -127387,7 +127404,7 @@
     ],
     "firstDate": "2021-04-02",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Bonanno",
       "company": "wattsco.mailer.appfolio.us",
@@ -127423,7 +127440,7 @@
     ],
     "firstDate": "2021-04-20",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Bonanno",
       "company": "wattsco.mailer.appfolio.us",
@@ -127459,7 +127476,7 @@
     ],
     "firstDate": "2021-06-25",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Bonanno",
       "company": "wattsco.mailer.appfolio.us",
@@ -127495,7 +127512,7 @@
     ],
     "firstDate": "2021-12-01",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Tessier",
       "company": "wattsco.mailer.appfolio.us",
@@ -127531,7 +127548,7 @@
     ],
     "firstDate": "2021-12-02",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Tessier",
       "company": "wattsco.mailer.appfolio.us",
@@ -127567,7 +127584,7 @@
     ],
     "firstDate": "2021-12-08",
     "labels": [],
-    "logo": "logos/dom-wattsco.mailer.appfolio.us.svg",
+    "logo": "logos/appfolio.png",
     "originalContact": {
       "name": "Gabby Tessier",
       "company": "wattsco.mailer.appfolio.us",
@@ -127798,7 +127815,7 @@
     "originalCompany": "welcomecustomer.gonift.com",
     "organizationId": "p-shop-nift",
     "organizationName": "Nift",
-    "logo": "logos/dom-welcomecustomer.gonift.com.svg"
+    "logo": "logos/nift.png"
   },
   {
     "id": "3080",
@@ -127827,7 +127844,7 @@
     "originalCompany": "welcomemember.gonift.com",
     "organizationId": "p-shop-nift",
     "organizationName": "Nift",
-    "logo": "logos/dom-welcomemember.gonift.com.svg"
+    "logo": "logos/nift.png"
   },
   {
     "id": "3081",
@@ -127853,7 +127870,7 @@
     ],
     "firstDate": "2026-02-25",
     "labels": [],
-    "logo": "logos/dom-welcomemember.gonift.com.svg",
+    "logo": "logos/nift.png",
     "originalContact": {
       "name": "Nift",
       "company": "welcomemember.gonift.com",
@@ -127889,7 +127906,7 @@
     ],
     "firstDate": "2024-09-08",
     "labels": [],
-    "logo": "logos/dom-whatnot.com.svg",
+    "logo": "logos/whatnot.png",
     "originalContact": {
       "name": "Whatnot",
       "company": "whatnot.com",
@@ -128287,7 +128304,7 @@
   {
     "id": "3090",
     "name": "Space Force Association",
-    "company": "TYPROS",
+    "company": "Space Force Association",
     "phone": "",
     "email": "sfa65@wildapricot.org",
     "date": "2026-02-03",
@@ -128424,9 +128441,9 @@
       "Type": "Company"
     },
     "originalCompany": "wildapricot.org",
-    "organizationId": "p-events-typros",
-    "organizationName": "TYPROS",
-    "logo": "logos/dom-wildapricot.org.png"
+    "organizationId": "pr-sfa",
+    "organizationName": "Space Force Association",
+    "logo": "logos/space-force-association.svg"
   },
   {
     "id": "3091",
@@ -128861,7 +128878,7 @@
     ],
     "firstDate": "2025-03-07",
     "labels": [],
-    "logo": "logos/dom-windstream.com.svg",
+    "logo": "logos/windstream.png",
     "originalContact": {
       "name": "noreply",
       "company": "windstream.com",
@@ -128897,7 +128914,7 @@
     ],
     "firstDate": "2025-03-07",
     "labels": [],
-    "logo": "logos/dom-windstream.com.svg",
+    "logo": "logos/windstream.png",
     "originalContact": {
       "name": "Windstream Customer Service",
       "company": "windstream.com",
@@ -129549,7 +129566,7 @@
     ],
     "firstDate": "2024-11-06",
     "labels": [],
-    "logo": "logos/dom-xwf.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Suraj Sharma",
       "company": "xwf.google.com",
@@ -129587,7 +129604,7 @@
     ],
     "firstDate": "2025-04-28",
     "labels": [],
-    "logo": "logos/dom-xwf.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Ibrahim Azizeh",
       "company": "xwf.google.com",
@@ -129628,7 +129645,7 @@
     ],
     "firstDate": "2025-07-24",
     "labels": [],
-    "logo": "logos/dom-xwf.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Kumar Kostoov",
       "company": "xwf.google.com",
@@ -129665,7 +129682,7 @@
     ],
     "firstDate": "2025-11-07",
     "labels": [],
-    "logo": "logos/dom-xwf.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Corinna Luu (xWF)",
       "company": "xwf.google.com",
@@ -129701,7 +129718,7 @@
     ],
     "firstDate": "2025-12-18",
     "labels": [],
-    "logo": "logos/dom-xwf.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Junnet Ali (xWF)",
       "company": "xwf.google.com",
@@ -129739,7 +129756,7 @@
     ],
     "firstDate": "2026-02-25",
     "labels": [],
-    "logo": "logos/dom-xwf.google.com.svg",
+    "logo": "logos/google.png",
     "originalContact": {
       "name": "Abhishek Madan",
       "company": "xwf.google.com",
@@ -130519,7 +130536,7 @@
   },
   {
     "id": "3153",
-    "name": "AG1\u00ae",
+    "name": "AG1®",
     "company": "Yotpo",
     "phone": "",
     "email": "reviews@yotpo.com",
