@@ -2323,6 +2323,198 @@
     {
       "domain": "activeandfitdirect.com",
       "sectionId": "h-fit"
+    },
+    {
+      "domain": "gitwit.com",
+      "sectionId": "w-emp-gitwit"
+    },
+    {
+      "domain": "tulsaremote.com",
+      "sectionId": "w-emp-tulsaremote"
+    },
+    {
+      "domain": "joingradient.com",
+      "sectionId": "p-events-gradient"
+    },
+    {
+      "domain": "neo4j.com",
+      "sectionId": "p-tech-neo4j"
+    },
+    {
+      "domain": "hubspot.com",
+      "sectionId": "w-tools-hubspot"
+    },
+    {
+      "domain": "zapier.com",
+      "sectionId": "w-tools-zapier"
+    },
+    {
+      "domain": "send.zapier.com",
+      "sectionId": "w-tools-zapier"
+    },
+    {
+      "domain": "make.com",
+      "sectionId": "w-tools-make"
+    },
+    {
+      "domain": "loom.com",
+      "sectionId": "w-tools-loom"
+    },
+    {
+      "domain": "ifttt.com",
+      "sectionId": "w-tools-ifttt"
+    },
+    {
+      "domain": "livekit.io",
+      "sectionId": "p-tech-livekit"
+    },
+    {
+      "domain": "hello.livekit.io",
+      "sectionId": "p-tech-livekit"
+    },
+    {
+      "domain": "devpost.com",
+      "sectionId": "p-events-devpost"
+    },
+    {
+      "domain": "spaceappschallenge.org",
+      "sectionId": "p-events-spaceapps"
+    },
+    {
+      "domain": "spacecomexpo.com",
+      "sectionId": "p-events-spacecom"
+    },
+    {
+      "domain": "gusto.com",
+      "sectionId": "w-tools-gusto"
+    },
+    {
+      "domain": "upwork.com",
+      "sectionId": "p-jobs-upwork"
+    },
+    {
+      "domain": "staples.com",
+      "sectionId": "p-shop-staples"
+    },
+    {
+      "domain": "instacart.com",
+      "sectionId": "p-shop-instacart"
+    },
+    {
+      "domain": "drinkag1.com",
+      "sectionId": "h-fit-ag1"
+    },
+    {
+      "domain": "elevateapp.com",
+      "sectionId": "p-learn-elevate"
+    },
+    {
+      "domain": "meritamerica.org",
+      "sectionId": "p-learn-meritamerica"
+    },
+    {
+      "domain": "interviewkickstart.com",
+      "sectionId": "p-learn-interviewkickstart"
+    },
+    {
+      "domain": "harmonytx.org",
+      "sectionId": "p-learn-harmony"
+    },
+    {
+      "domain": "yoodli.ai",
+      "sectionId": "p-ai-yoodli"
+    },
+    {
+      "domain": "e.yoodli.ai",
+      "sectionId": "p-ai-yoodli"
+    },
+    {
+      "domain": "keymate.ai",
+      "sectionId": "p-ai-keymate"
+    },
+    {
+      "domain": "descript.com",
+      "sectionId": "p-ai-descript"
+    },
+    {
+      "domain": "marketing.descript.com",
+      "sectionId": "p-ai-descript"
+    },
+    {
+      "domain": "givebutter.com",
+      "sectionId": "p-nonprofit-givebutter"
+    },
+    {
+      "domain": "consumerreports.org",
+      "sectionId": "p-research-cr"
+    },
+    {
+      "domain": "email.consumerreports.org",
+      "sectionId": "p-research-cr"
+    },
+    {
+      "domain": "aarp.org",
+      "sectionId": "p-nonprofit-aarp"
+    },
+    {
+      "domain": "email.aarp.org",
+      "sectionId": "p-nonprofit-aarp"
+    },
+    {
+      "domain": "mashouston.org",
+      "sectionId": "p-nonprofit-mas"
+    },
+    {
+      "domain": "cair.com",
+      "sectionId": "p-nonprofit-cair"
+    },
+    {
+      "domain": "fctulsa.com",
+      "sectionId": "p-events-fctulsa"
+    },
+    {
+      "domain": "freightfarms.com",
+      "sectionId": "p-tech-freightfarms"
+    },
+    {
+      "domain": "salesforce.com",
+      "sectionId": "w-tools-salesforce"
+    },
+    {
+      "domain": "nvidia.com",
+      "sectionId": "p-tech-nvidia"
+    },
+    {
+      "domain": "clickup.com",
+      "sectionId": "w-tools-clickup"
+    },
+    {
+      "domain": "godaddy.com",
+      "sectionId": "p-tech-godaddy"
+    },
+    {
+      "domain": "e.godaddy.com",
+      "sectionId": "p-tech-godaddy"
+    },
+    {
+      "domain": "prehired.io",
+      "sectionId": "p-jobs-prehired"
+    },
+    {
+      "domain": "crossover.com",
+      "sectionId": "p-jobs-crossover"
+    },
+    {
+      "domain": "isgh.org",
+      "sectionId": "w-emp-isgh"
+    },
+    {
+      "domain": "cvs.com",
+      "sectionId": "h-pharm-cvs"
+    },
+    {
+      "domain": "splash.systems",
+      "sectionId": "w-emp-gitwit"
     }
   ],
   "contactAssignments": {

@@ -3378,5 +3378,271 @@
     "parentId": "pr-ai",
     "order": 3,
     "logo": "logos/library-f170527ef3e4.png"
+  },
+  {
+    "id": "w-emp-gitwit",
+    "name": "Gitwit",
+    "parentId": "w-employers",
+    "logo": "logos/gitwit.png",
+    "description": "Gitwit innovation and product design firm based in Tulsa"
+  },
+  {
+    "id": "w-emp-tulsaremote",
+    "name": "Tulsa Remote",
+    "parentId": "w-employers",
+    "logo": "logos/tulsa-remote.png",
+    "description": "Tulsa Remote talent initiative and community"
+  },
+  {
+    "id": "p-events-gradient",
+    "name": "Gradient",
+    "parentId": "p-events-tech",
+    "logo": "logos/gradient.png",
+    "description": "Gradient Tulsa tech and community coworking"
+  },
+  {
+    "id": "p-tech-neo4j",
+    "name": "Neo4j",
+    "parentId": "p-tech",
+    "logo": "logos/neo4j.png",
+    "description": "Neo4j graph database and Aura cloud platform"
+  },
+  {
+    "id": "w-tools-hubspot",
+    "name": "HubSpot",
+    "parentId": "w-tools",
+    "logo": "logos/hubspot.png",
+    "description": "HubSpot CRM and marketing automation"
+  },
+  {
+    "id": "w-tools-zapier",
+    "name": "Zapier",
+    "parentId": "w-tools",
+    "logo": "logos/zapier.png",
+    "description": "Zapier workflow automation platform"
+  },
+  {
+    "id": "w-tools-make",
+    "name": "Make.com",
+    "parentId": "w-tools",
+    "logo": "logos/make.png",
+    "description": "Make visual workflow and integration platform"
+  },
+  {
+    "id": "w-tools-loom",
+    "name": "Loom",
+    "parentId": "w-tools",
+    "logo": "logos/loom.png",
+    "description": "Loom video messaging for work"
+  },
+  {
+    "id": "w-tools-ifttt",
+    "name": "IFTTT",
+    "parentId": "w-tools",
+    "logo": "logos/ifttt.png",
+    "description": "IFTTT applet and smart device connectivity"
+  },
+  {
+    "id": "p-tech-livekit",
+    "name": "LiveKit",
+    "parentId": "p-tech",
+    "logo": "logos/livekit.png",
+    "description": "LiveKit real-time voice and video developer platform"
+  },
+  {
+    "id": "p-events-devpost",
+    "name": "Devpost",
+    "parentId": "p-events-tech",
+    "logo": "logos/devpost.png",
+    "description": "Devpost hackathons and developer challenges"
+  },
+  {
+    "id": "p-events-spaceapps",
+    "name": "NASA Space Apps",
+    "parentId": "p-events-tech",
+    "logo": "logos/nasa-space-apps.png",
+    "description": "NASA International Space Apps Challenge"
+  },
+  {
+    "id": "p-events-spacecom",
+    "name": "SpaceCom",
+    "parentId": "p-events-tech",
+    "logo": "logos/spacecom.png",
+    "description": "SpaceCom global commercial space conference"
+  },
+  {
+    "id": "w-tools-gusto",
+    "name": "Gusto",
+    "parentId": "w-tools",
+    "logo": "logos/gusto.png",
+    "description": "Gusto payroll, benefits, and HR platform"
+  },
+  {
+    "id": "p-jobs-upwork",
+    "name": "Upwork",
+    "parentId": "p-jobs",
+    "logo": "logos/upwork.png",
+    "description": "Upwork freelance talent and client platform"
+  },
+  {
+    "id": "p-shop-staples",
+    "name": "Staples",
+    "parentId": "p-shop-retail",
+    "logo": "logos/staples.png",
+    "description": "Staples office supplies and print services"
+  },
+  {
+    "id": "p-shop-instacart",
+    "name": "Instacart",
+    "parentId": "p-shop-food",
+    "logo": "logos/instacart.png",
+    "description": "Instacart grocery delivery and pickup"
+  },
+  {
+    "id": "h-fit-ag1",
+    "name": "AG1",
+    "parentId": "h-fit",
+    "logo": "logos/ag1.png",
+    "description": "Athletic Greens AG1 foundational nutrition"
+  },
+  {
+    "id": "p-learn-elevate",
+    "name": "Elevate",
+    "parentId": "p-learn",
+    "logo": "logos/elevate.png",
+    "description": "Elevate brain training and communication improvement"
+  },
+  {
+    "id": "p-learn-meritamerica",
+    "name": "Merit America",
+    "parentId": "p-learn",
+    "logo": "logos/merit-america.png",
+    "description": "Merit America tech career training"
+  },
+  {
+    "id": "p-learn-interviewkickstart",
+    "name": "Interview Kickstart",
+    "parentId": "p-learn",
+    "logo": "logos/interview-kickstart.png",
+    "description": "Interview Kickstart engineering interview preparation"
+  },
+  {
+    "id": "p-learn-harmony",
+    "name": "Harmony Public Schools",
+    "parentId": "p-learn",
+    "logo": "logos/harmony-schools.png",
+    "description": "Harmony Public Schools STEM education"
+  },
+  {
+    "id": "p-ai-yoodli",
+    "name": "Yoodli",
+    "parentId": "p-ai",
+    "logo": "logos/yoodli.png",
+    "description": "Yoodli AI speech and communication coaching"
+  },
+  {
+    "id": "p-ai-keymate",
+    "name": "Keymate.ai",
+    "parentId": "p-ai",
+    "logo": "logos/keymate.png",
+    "description": "Keymate.ai search and knowledge assistant"
+  },
+  {
+    "id": "p-ai-descript",
+    "name": "Descript",
+    "parentId": "p-ai",
+    "logo": "logos/descript.png",
+    "description": "Descript AI audio and video editing"
+  },
+  {
+    "id": "p-nonprofit-givebutter",
+    "name": "Givebutter",
+    "parentId": "p-nonprofit",
+    "logo": "logos/givebutter.png",
+    "description": "Givebutter nonprofit fundraising platform"
+  },
+  {
+    "id": "p-research-cr",
+    "name": "Consumer Reports",
+    "parentId": "p-research",
+    "logo": "logos/consumer-reports.png",
+    "description": "Consumer Reports product testing and research"
+  },
+  {
+    "id": "p-nonprofit-aarp",
+    "name": "AARP",
+    "parentId": "p-nonprofit",
+    "logo": "logos/aarp.png",
+    "description": "AARP community and advocacy organization"
+  },
+  {
+    "id": "p-nonprofit-mas",
+    "name": "MAS Houston",
+    "parentId": "p-nonprofit",
+    "logo": "logos/mas-houston.png",
+    "description": "Muslim American Society (MAS) Houston"
+  },
+  {
+    "id": "p-nonprofit-cair",
+    "name": "CAIR",
+    "parentId": "p-nonprofit",
+    "logo": "logos/cair.png",
+    "description": "Council on American-Islamic Relations"
+  },
+  {
+    "id": "p-events-fctulsa",
+    "name": "FC Tulsa",
+    "parentId": "p-events-local",
+    "logo": "logos/fc-tulsa.png",
+    "description": "FC Tulsa professional soccer club"
+  },
+  {
+    "id": "p-tech-freightfarms",
+    "name": "Freight Farms",
+    "parentId": "p-tech",
+    "logo": "logos/freight-farms.png",
+    "description": "Freight Farms hydroponic container technology"
+  },
+  {
+    "id": "w-tools-salesforce",
+    "name": "Salesforce",
+    "parentId": "w-tools",
+    "logo": "logos/salesforce.png",
+    "description": "Salesforce CRM and cloud applications"
+  },
+  {
+    "id": "p-tech-nvidia",
+    "name": "NVIDIA",
+    "parentId": "p-tech",
+    "logo": "logos/nvidia.png",
+    "description": "NVIDIA GPU computing and AI development"
+  },
+  {
+    "id": "w-tools-clickup",
+    "name": "ClickUp",
+    "parentId": "w-tools",
+    "logo": "logos/clickup.png",
+    "description": "ClickUp productivity and project management platform"
+  },
+  {
+    "id": "p-tech-godaddy",
+    "name": "GoDaddy",
+    "parentId": "p-tech",
+    "logo": "logos/godaddy.png",
+    "description": "GoDaddy domain registration and web hosting"
+  },
+  {
+    "id": "p-jobs-prehired",
+    "name": "Prehired",
+    "parentId": "p-jobs",
+    "logo": "logos/prehired.png",
+    "description": "Prehired tech sales career placement"
+  },
+  {
+    "id": "p-jobs-crossover",
+    "name": "Crossover",
+    "parentId": "p-jobs",
+    "logo": "logos/crossover.png",
+    "description": "Crossover global remote work and hiring"
   }
 ]
