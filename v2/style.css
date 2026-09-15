@@ -25,6 +25,7 @@ dialog{background:#fff}.profile-card{background:#fff}.close{background:#f7f7f7}
 
 .blueprint-node>summary,.account-group>summary,.account-row,.blueprint-contact,.blueprint-leaf>summary{position:relative!important;padding-right:84px!important}
 .blueprint-node>summary img{width:28px;height:28px;object-fit:contain;flex-shrink:0;margin-right:4px}
+.blueprint-node>summary svg{width:22px;height:22px;stroke-width:1.8;flex-shrink:0;color:var(--purple);margin-right:4px}
 .row-actions{position:absolute;top:50%;transform:translateY(-50%);right:10px;display:inline-flex;align-items:center;gap:4px;z-index:5}
 .row-action-btn{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:1px solid #e4dafb;border-radius:6px;background:#f8f5ff;color:#653de0;cursor:pointer;position:relative;transition:background-color .15s ease,border-color .15s ease,color .15s ease}
 .row-action-btn::before{content:'';position:absolute;top:-4px;bottom:-4px;left:-4px;right:-4px}
