@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>organize me CRM</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  
+  <style>
+    :root{--ink:#151515;--muted:#777;--line:#e8e8e8;--purple:#7546ff;--purple-wash:#f3efff;--wash:#fafafa}
+    *{box-sizing:border-box} body{margin:0;font-family:"DM Sans",sans-serif;color:var(--ink)}
+    button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--purple);outline-offset:3px}
+    .app-shell{width:100%;min-height:calc(100 * min(var(--vh,1vh),1vh));display:flex;background:#fff}
+    .sidebar{width:92px;flex:0 0 92px;border-right:1px solid var(--line);padding:22px 14px;display:flex;flex-direction:column;align-items:center;background:#fff}
+    .brand-mark{width:35px;height:35px;border:1.5px solid var(--ink);border-radius:11px;display:grid;place-items:center;margin-bottom:9px}.brand-name{font-size:10px;line-height:1.04;font-weight:700;text-align:center;letter-spacing:-.04em;margin-bottom:25px;white-space:pre-line}
+    .nav-item{width:58px;min-height:52px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;border:0;border-radius:13px;background:transparent;color:#818181;transition:.2s}.nav-item:hover{background:#f7f7f7;color:var(--ink)}.nav-item.active{color:var(--purple);background:var(--purple-wash)}.nav-item span{font-size:9px;font-weight:600}
+    .main-area{width:calc(100% - 92px);min-width:0;padding:28px clamp(18px,4vw,58px) 42px}.topbar{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;margin-bottom:25px}.eyebrow{color:var(--purple);font-size:11px;letter-spacing:.12em;font-weight:700;text-transform:uppercase;margin:0 0 6px}h1{margin:0;font-size:30px;letter-spacing:-.055em}.mock-chip{border:1px solid #dcdcdc;padding:7px 10px;border-radius:999px;color:#777;font-size:11px;white-space:nowrap}
+    .view{display:none;animation:appear .24s ease}.view.active{display:block}@keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+    .toolbar{display:flex;flex-wrap:wrap;align-items:center;gap:9px;margin-bottom:19px}.search-wrap{position:relative;flex:1 1 220px}.search-wrap svg{position:absolute;left:12px;top:11px;color:#8b8b8b;width:16px}.control{height:39px;border:1px solid var(--line);background:#fff;border-radius:10px;color:#353535;font-size:12px;padding:0 11px}.search-input{width:100%;padding-left:35px}
+    .panel{border:1px solid var(--line);border-radius:17px;overflow:hidden;background:#fff}.table-head,.customer-row{display:grid;grid-template-columns:1.1fr .7fr 1fr 1.2fr 80px;gap:11px;align-items:center}.table-head{padding:13px 17px;background:var(--wash);color:#8b8b8b;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}.customer-row{width:100%;padding:14px 17px;border:0;background:#fff;text-align:left;font-size:12px}.customer-row:hover{background:#fcfbff}.customer-row+.customer-row{border-top:1px solid var(--line)}
+    .name-cell{display:flex;align-items:center;gap:9px;font-weight:700}.mini-avatar,.avatar{border:1px solid #cfcfcf;border-radius:50%;display:grid;place-items:center;background:#fff;font-size:10px}.mini-avatar{width:27px;height:27px}.avatar{width:42px;height:42px;border-color:var(--ink);font-weight:700}.muted{color:#777}.tag{width:max-content;padding:4px 7px;border-radius:6px;background:#f4f4f4;font-size:10px;font-weight:700}.info-btn{color:var(--purple);font-size:11px;font-weight:700}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}.contact-card{border:1px solid var(--line);border-radius:17px;padding:17px;background:#fff;cursor:pointer}.contact-card:hover{border-color:#cfcfcf;box-shadow:0 8px 18px rgba(0,0,0,.035)}.contact-card-top,.card-footer{display:flex;align-items:center;justify-content:space-between}.contact-card-top{margin-bottom:14px}.contact-card h2,.pipe-card h3{font-size:15px;letter-spacing:-.03em;margin:0}.contact-card p,.pipe-card p{font-size:11px;color:#777;margin:4px 0}.card-footer{margin-top:14px}
+    .timeline-panel{padding:21px}.timeline{position:relative;padding-left:21px}.timeline:before{content:"";position:absolute;top:3px;bottom:3px;left:5px;width:1px;background:#dedede}.time-item{position:relative;padding:0 0 19px}.time-item:before{content:"";position:absolute;left:-20px;top:3px;width:11px;height:11px;border:2px solid var(--purple);border-radius:50%;background:#fff}.time-date{color:var(--purple);font-weight:700;font-size:11px}.time-item h2{font-size:14px;margin:4px 0}
+    .pipeline{display:grid;grid-template-columns:repeat(4,minmax(180px,1fr));gap:13px;overflow-x:auto}.pipe-col{background:#fafafa;border:1px solid var(--line);border-radius:16px;padding:12px;min-height:240px}.pipe-title{display:flex;justify-content:space-between;font-size:12px;font-weight:700;margin-bottom:11px}.pipe-card{background:#fff;border:1px solid #e2e2e2;border-radius:12px;padding:12px;margin-bottom:9px}.move-row{display:flex;justify-content:space-between;margin-top:9px}.move-btn{border:1px solid #ddd;background:#fff;color:#555;border-radius:6px;font-size:10px;padding:4px 6px}
+    .network-panel{border:1px solid var(--line);border-radius:17px;padding:22px;background:#fff}.network-list{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin-top:18px}.network-node{border:1px solid var(--line);border-radius:12px;background:#fff;padding:13px;text-align:left;font-size:12px;font-weight:700}.network-node:hover{background:var(--purple-wash);color:#5731cf}
+    .comms-top{display:flex;justify-content:space-between;gap:16px;align-items:flex-end;margin-bottom:17px}.comms-note{color:#777;font-size:12px;margin:5px 0 0}.comms-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center}.comms-hub{position:relative;border:1px solid var(--line);border-radius:22px;background:#fff;overflow:hidden;min-height:590px}.comms-hub:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(#ededed 1px,transparent 1px);background-size:23px 23px;opacity:.55}.comms-inner{position:relative;z-index:1;padding:27px}
+    .tool-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;padding-bottom:18px;border-bottom:1px solid var(--line)}.tool-title{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:#888;font-weight:700;margin-right:5px}.tool-icon{width:42px;height:42px;border:1px solid #ddd;border-radius:12px;background:#fff;display:grid;place-items:center;box-shadow:0 2px 7px rgba(0,0,0,.03);transition:.18s}.tool-icon:hover{border-color:#aaa;transform:translateY(-1px)}.tool-icon.selected{background:var(--purple-wash);border-color:var(--purple);box-shadow:0 0 0 3px rgba(117,70,255,.12)}.channel-image{width:23px;height:23px;object-fit:contain}.channel-image.wordmark{width:29px;height:19px}
+    .context-bar{display:none;align-items:center;gap:4px;border:1px solid #222;border-radius:999px;background:#fff;padding:4px;box-shadow:3px 4px 0 rgba(0,0,0,.08);margin:12px 0 0 auto;width:max-content}.context-bar.open{display:flex}.context-bar button{border:0;border-radius:999px;background:transparent;padding:7px 11px;font-size:11px;color:#333;font-weight:700}.context-bar button.mode-active{background:#151515;color:#fff}.context-close{padding:5px!important;width:28px;height:28px;display:grid;place-items:center}
+    .comms-content{padding-top:24px}.hub-placeholder{padding:90px 0 40px;text-align:center;color:#777}.hub-placeholder svg{width:30px;height:30px;margin-bottom:9px;color:#a5a5a5}.hub-placeholder p{font-size:13px;margin:0}.comms-intro{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:20px}.comms-kicker{font-size:10px;text-transform:uppercase;letter-spacing:.12em;color:var(--purple);font-weight:700;margin:0 0 7px}.comms-intro h3{margin:0;font-size:22px;letter-spacing:-.045em}.comms-intro p{margin:7px 0 0;color:#777;font-size:12px;line-height:1.5;max-width:610px}
+    .view-switch{display:flex;gap:3px;padding:4px;border:1px solid #dedede;border-radius:12px;background:#fff;width:max-content}.view-switch button{border:0;background:transparent;color:#555;font-size:11px;font-weight:700;padding:7px 13px;border-radius:8px}.view-switch button.active{color:#fff;background:var(--purple)}.calendar-shell{background:#fff;border:1px solid #dcdcdc;border-radius:17px;padding:18px;min-height:360px}.week-grid{display:grid;grid-template-columns:repeat(7,minmax(145px,1fr));gap:12px;overflow-x:auto}.day-column{border-left:1px solid #ededed;min-height:340px;padding:0 12px 12px}.day-column:first-child{border-left:0}.day-heading{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #e8e8e8;padding:0 0 12px;margin-bottom:18px}.day-heading span{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#777;font-weight:700}.day-heading strong{font-size:18px;letter-spacing:-.04em}
+    .event-card{width:100%;display:block;text-align:left;border:1px solid #d7d0f4;border-left:3px solid var(--purple);border-radius:11px;background:#fcfbff;padding:11px;margin-bottom:16px;transition:.18s}.event-card:hover{transform:translateY(-2px);box-shadow:0 9px 18px rgba(48,29,117,.08);border-color:var(--purple)}.event-time{display:block;font-size:10px;color:#777;margin-bottom:8px}.event-person{display:block;font-size:14px;font-weight:700;letter-spacing:-.025em;color:#171717;margin-bottom:8px}.event-meta{display:flex;gap:6px;flex-wrap:wrap}.event-meta span,.status-dot{font-size:9px;font-weight:700;border-radius:5px;padding:4px 5px;background:#f0edfa;color:#4e35ad}.event-meta .status-no{background:#fff5df;color:#936100}
+    .month-grid{display:grid;grid-template-columns:repeat(7,minmax(104px,1fr));overflow-x:auto;border-top:1px solid #e5e5e5;border-left:1px solid #e5e5e5}.month-name{font-size:10px;text-transform:uppercase;letter-spacing:.1em;color:#777;font-weight:700;padding:0 0 10px}.month-cell{min-height:126px;border-right:1px solid #e5e5e5;border-bottom:1px solid #e5e5e5;padding:9px;background:#fff}.month-cell.muted-day{background:#fcfcfc;color:#b1b1b1}.month-date{display:block;font-size:11px;font-weight:700;margin-bottom:8px}.event-chip{display:flex;align-items:center;gap:5px;width:100%;border:0;border-radius:6px;background:var(--purple-wash);color:#25185a;padding:5px 6px;margin-bottom:5px;text-align:left;font-size:9px;font-weight:700;white-space:nowrap;overflow:hidden}.event-chip:hover{background:#e6ddff}.chip-icon{width:12px;height:12px;object-fit:contain;flex:0 0 auto}.chip-name{overflow:hidden;text-overflow:ellipsis}
+    .all-list{border:1px solid #dedede;border-radius:16px;background:#fff;overflow:hidden;max-width:760px}.all-row{width:100%;display:grid;grid-template-columns:1fr 35px 100px;align-items:center;gap:13px;padding:16px 18px;text-align:left;border:0;background:#fff}.all-row+.all-row{border-top:1px solid var(--line)}.all-row:hover{background:#fcfbff}.all-name{font-size:14px;font-weight:700}.all-channel{font-size:11px;color:#777}.channel-logo{width:28px;height:28px;border:1px solid #e0e0e0;border-radius:8px;display:grid;place-items:center;background:#fff}.channel-logo img{width:17px;height:17px;object-fit:contain}
+    .detail-wrap{margin-top:20px;max-width:760px}.detail-card{border:1px solid #1c1c1c;border-radius:15px;background:#fff;padding:18px;box-shadow:5px 5px 0 var(--purple-wash)}.detail-title{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.detail-title h4{font-size:19px;letter-spacing:-.04em;margin:0}.detail-close{width:30px;height:30px;border:1px solid #ddd;border-radius:8px;background:#fff;display:grid;place-items:center}.detail-meta{display:flex;flex-wrap:wrap;gap:7px;margin:12px 0}.detail-pill{font-size:10px;font-weight:700;padding:5px 7px;background:#f4f4f4;border-radius:6px}.detail-copy{font-size:12px;color:#555;line-height:1.5;margin:12px 0}.message-subject{font-size:14px;font-weight:700;margin:10px 0}.visual-block{display:flex;margin-top:14px;border:1px solid #e3e3e3;border-radius:11px;overflow:hidden;min-height:102px;background:#fcfcfc}.visual-block img{width:105px;object-fit:cover}.visual-label{display:flex;flex-direction:column;justify-content:center;padding:12px;gap:4px}.visual-label strong{font-size:11px}.visual-label span{font-size:10px;color:#777;line-height:1.35}.no-visual{margin-top:14px;border:1px dashed #bdbdbd;border-radius:10px;min-height:80px;padding:11px;display:flex;align-items:center;justify-content:center;gap:8px;color:#777;font-size:11px;text-align:center;background:#fcfcfc}.add-inline{margin-top:15px;border:1px solid #151515;background:#151515;color:#fff;border-radius:8px;padding:8px 10px;font-size:11px;font-weight:700}
+    .profile-overlay{position:fixed;inset:0;z-index:30;background:rgba(15,15,15,.14);opacity:0;pointer-events:none;transition:.25s}.profile-overlay.open{opacity:1;pointer-events:auto}.profile-panel{position:fixed;z-index:31;right:0;top:0;width:min(460px,100%);height:calc(100 * min(var(--vh,1vh),1vh));background:#fff;border-left:1px solid var(--purple);box-shadow:-18px 0 46px rgba(0,0,0,.09);transform:translateX(104%);transition:.32s;overflow-y:auto}.profile-panel.open{transform:translateX(0)}.profile-inner{padding:38px 32px}.profile-close{position:absolute;top:19px;right:20px;width:34px;height:34px;border:1px solid #ddd;border-radius:9px;background:#fff;display:grid;place-items:center}.profile-header{display:flex;gap:16px;align-items:center;margin:18px 0 30px}.profile-name{margin:0;font-size:27px;letter-spacing:-.055em}.profile-subtitle{margin:7px 0 0;font-size:12px;color:#777}.profile-row{display:grid;grid-template-columns:43px 1fr;gap:14px;align-items:center;margin-bottom:17px}.icon-tile{width:43px;height:43px;border:1px solid #454545;border-radius:7px;background:#242424;color:#fff;display:grid;place-items:center}.profile-label{display:block;font-size:12px;font-weight:700;margin-bottom:3px}.profile-value{font-size:12px;color:#333}.profile-actions{display:flex;gap:8px;margin-top:28px}.small-btn{border:0;border-radius:8px;padding:9px 12px;font-size:12px;font-weight:700}.save-btn{background:#151515;color:#fff}.unknown-logo{width:30px;height:30px;object-fit:contain}
+    @media(max-width:900px){.contact-grid,.network-list{grid-template-columns:repeat(2,minmax(0,1fr))}.comms-intro{display:block}.view-switch{margin-top:15px}.week-grid{grid-template-columns:repeat(7,155px)}.month-grid{grid-template-columns:repeat(7,112px)}}@media(max-width:650px){.sidebar{width:66px;flex-basis:66px;padding:16px 4px}.brand-name,.nav-item span{display:none}.brand-mark{margin-bottom:23px}.nav-item{width:52px}.main-area{width:calc(100% - 66px);padding:21px 15px}.table-head{display:none}.customer-row{grid-template-columns:1fr 70px}.customer-row>:nth-child(2),.customer-row>:nth-child(3),.customer-row>:nth-child(4){display:none}.contact-grid,.network-list{grid-template-columns:1fr}.comms-top{display:block}.comms-controls{margin-top:14px}.comms-inner{padding:18px}.tool-row{gap:8px}.tool-title{width:100%;margin-bottom:3px}.view-switch{width:100%}.view-switch button{flex:1}.all-row{grid-template-columns:1fr 35px 85px;padding:14px}.calendar-shell{padding:13px}}
+  </style>
+  
+  
+ <style>.sidebar,.topbar,#crmToolbar{display:none!important}.main-area{width:100%!important;padding:0!important}.comms-top{padding:8px 0}.tool-icon{min-width:44px;min-height:44px}.all-row{min-height:48px}.comms-hub{min-height:600px}body{overflow-x:hidden}.profile-panel{max-width:100vw}.comms-inner{padding:22px}@media(max-width:650px){.comms-inner{padding:12px}.all-row{grid-template-columns:minmax(0,1fr) 28px 75px;gap:8px}.all-name{overflow-wrap:anywhere}.tool-row{gap:8px}.context-bar button{min-height:40px}.comms-intro{margin-bottom:14px}}</style></head>
+ <body data-template-id="__page-root" style="background: rgb(255, 255, 255);">
+  <div class="app-shell">
+   <aside class="sidebar" aria-label="Personal CRM navigation">
+    <div class="brand-mark" aria-hidden="true">
+     <i data-lucide="layers-2" width="18"></i>
+    </div>
+    <div data-template-id="brand-name" class="canva-text brand-name" style="color: rgb(21, 21, 21); font-weight: 700; font-style: normal; font-size: 10px;">organize
+me</div>
+    <nav class="space-y-3" aria-label="Primary navigation"><button class="nav-item active" type="button" data-view="customers"><i data-lucide="users" width="18"></i><span>Customers</span></button> <button class="nav-item" type="button" data-view="contacts"><i data-lucide="contact-round" width="18"></i><span>Contacts</span></button> <button class="nav-item" type="button" data-view="touchpoints"><i data-lucide="activity" width="18"></i><span>Touchpoints</span></button> <button class="nav-item" type="button" data-view="followups"><i data-lucide="kanban-square" width="18"></i><span>Follow-ups</span></button> <button class="nav-item" type="button" data-view="network"><i data-lucide="git-fork" width="18"></i><span>Network</span></button> <button class="nav-item" type="button" data-view="comms"><i data-lucide="messages-square" width="18"></i><span>Comms</span></button>
+    </nav>
+   </aside>
+   <main class="main-area">
+    <header class="topbar">
+     <div>
+      <p id="pageEyebrow" class="eyebrow">Workspace / personal CRM</p>
+      <h1 id="pageTitle">Customers</h1>
+     </div><span data-template-id="mock-chip" class="canva-tag mock-chip" style="background: rgb(255, 255, 255); color: rgb(119, 119, 119); font-weight: 600; font-style: normal; font-size: 11px;">Personal CRM</span>
+    </header>
+    <section id="crmToolbar" class="toolbar" aria-label="CRM controls">
+     <div class="search-wrap">
+      <i data-lucide="search"></i><label class="sr-only" for="crmSearch">Search contacts</label><input id="crmSearch" class="control search-input" type="search" placeholder="Search people, companies, email…">
+     </div><label class="sr-only" for="crmStatus">Filter relationship status</label> <select id="crmStatus" class="control"><option value="">All statuses</option><option>Active</option><option>Prospect</option></select>
+    </section>
+    <section id="customers" class="view active" aria-label="Customers">
+     <div class="panel">
+      <div class="table-head">
+       <span>Person</span><span>Company</span><span>Phone</span><span>Email</span><span></span>
+      </div>
+      <div id="customerList"></div>
+     </div>
+    </section>
+    <section id="contacts" class="view" aria-label="Contact cards">
+     <div id="contactList" class="contact-grid"></div>
+    </section>
+    <section id="touchpoints" class="view" aria-label="Touchpoints">
+     <div class="panel timeline-panel">
+      <div id="touchpointList" class="timeline"></div>
+     </div>
+    </section>
+    <section id="followups" class="view" aria-label="Follow-ups">
+     <div id="followupBoard" class="pipeline"></div>
+    </section>
+    <section id="network" class="view" aria-label="Network">
+     <div class="network-panel">
+      <h2 data-template-id="network-heading" class="canva-text" style="margin: 0px; letter-spacing: -0.045em; color: rgb(21, 21, 21); font-weight: 700; font-style: normal; font-size: 21px;">Network</h2>
+      <p data-template-id="network-helper" class="canva-text" style="margin: 6px 0px 0px; color: rgb(119, 119, 119); font-weight: 400; font-style: normal; font-size: 13px;">A lightweight map of people and relationship groups connected to you.</p>
+      <div id="networkList" class="network-list"></div>
+     </div>
+    </section>
+    <section id="comms" class="view" aria-label="Mock communications workspace">
+     <div class="comms-top">
+      <div>
+       <h2 data-template-id="comms-heading" class="canva-text" style="margin: 0px; letter-spacing: -0.045em; color: rgb(21, 21, 21); font-weight: 700; font-style: normal; font-size: 21px;">Comms</h2>
+       <p data-template-id="comms-note" class="canva-text comms-note" style="color: rgb(119, 119, 119); font-weight: 400; font-style: normal; font-size: 12px;">Mock communications workspace · no live integrations.</p>
+      </div>
+      <div class="comms-controls">
+       <div class="search-wrap" style="min-width:190px;flex:none">
+        <i data-lucide="search"></i><label class="sr-only" for="commsSearch">Search mock communications</label><input id="commsSearch" class="control search-input" type="search" placeholder="Search mock messages">
+       </div>
+      </div>
+     </div>
+     <div class="comms-hub">
+      <div class="comms-inner">
+       <div class="tool-row" aria-label="Communication tools"><span data-template-id="comms-tools-label" class="canva-text tool-title" style="color: rgb(136, 136, 136); font-weight: 700; font-style: normal; font-size: 10px; letter-spacing: 0.08rem;">Communication tools</span> <button class="tool-icon" type="button" data-channel="All Comms" aria-label="Open All Comms" title="All Comms" aria-expanded="false"><i data-lucide="inbox" width="19"></i></button> <button class="tool-icon" type="button" data-channel="WhatsApp" aria-label="Open WhatsApp communications" title="WhatsApp" aria-expanded="false"><img data-template-id="whatsapp-logo" class="canva-image channel-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp logo"></button> <button class="tool-icon" type="button" data-channel="Messenger" aria-label="Open Facebook Messenger communications" title="Facebook Messenger" aria-expanded="false"><img data-template-id="messenger-logo" class="canva-image channel-image" loading="lazy" src="logos/inbox-messenger.svg" alt="Facebook Messenger logo"></button> <button class="tool-icon" type="button" data-channel="Gmail" aria-label="Open Gmail communications" title="Gmail" aria-expanded="false"><img data-template-id="gmail-logo" class="canva-image channel-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail logo"></button> <button class="tool-icon" type="button" data-channel="LinkedIn" aria-label="Open LinkedIn communications" title="LinkedIn" aria-expanded="false"><img data-template-id="linkedin-logo" class="canva-image channel-image" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn logo"></button> <button class="tool-icon" type="button" data-channel="Apple iCloud" aria-label="Open Apple iCloud communications" title="Apple iCloud" aria-expanded="false"><img data-template-id="apple-logo" class="canva-image channel-image" loading="lazy" src="logos/inbox-apple.svg" alt="Apple logo"></button> <button class="tool-icon" type="button" data-channel="VIZIO" aria-label="Open VIZIO communications" title="VIZIO" aria-expanded="false"><img data-template-id="vizio-logo" class="canva-image channel-image wordmark" loading="lazy" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22120%22%20height%3D%2260%22%20viewBox%3D%220%200%20120%2060%22%3E%3Crect%20width%3D%22120%22%20height%3D%2260%22%20rx%3D%228%22%20fill%3D%22%23f4f2fa%22/%3E%3Ctext%20x%3D%2260%22%20y%3D%2235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2218%22%20fill%3D%22%23333%22%3EVIZIO%3C/text%3E%3C/svg%3E" alt="VIZIO logo"></button> <button class="tool-icon" type="button" data-channel="yeedi" aria-label="Open yeedi communications" title="yeedi" aria-expanded="false"><img data-template-id="yeedi-logo" class="canva-image channel-image wordmark" loading="lazy" src="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%22120%22%20height%3D%2260%22%20viewBox%3D%220%200%20120%2060%22%3E%3Crect%20width%3D%22120%22%20height%3D%2260%22%20rx%3D%228%22%20fill%3D%22%23f4f2fa%22/%3E%3Ctext%20x%3D%2260%22%20y%3D%2235%22%20text-anchor%3D%22middle%22%20font-family%3D%22Arial%22%20font-size%3D%2218%22%20fill%3D%22%23333%22%3Eyeedi%3C/text%3E%3C/svg%3E" alt="yeedi logo"></button> <button class="tool-icon" type="button" data-channel="Discord" aria-label="Open Discord communications" title="Discord" aria-expanded="false"><img data-template-id="discord-logo" class="canva-image channel-image" loading="lazy" src="logos/07450366f4c8.png" alt="Discord logo"></button>
+       </div>
+       <div id="contextBar" class="context-bar" role="toolbar" aria-label="Selected communication navigation"><button id="contextText" type="button" class="mode-active" aria-pressed="true">Text</button> <button id="contextVisual" type="button" aria-pressed="false">Visual</button> <button id="contextCalendar" type="button" aria-pressed="false">Calendar</button> <button id="contextClose" type="button" class="context-close" aria-label="Close communication navigation"><i data-lucide="x" width="14"></i></button>
+       </div>
+       <section class="comms-content" aria-live="polite">
+        <div id="hubPlaceholder" class="hub-placeholder">
+         <i data-lucide="mouse-pointer-click"></i>
+         <p data-template-id="comms-select-prompt" class="canva-text" style="color: rgb(119, 119, 119); font-weight: 400; font-style: normal; font-size: 13px;">Choose a communication tool to see mock people who reached out.</p>
+        </div>
+        <div id="channelContent" hidden="">
+         <div class="comms-intro">
+          <div>
+           <p id="channelKicker" class="comms-kicker"></p>
+           <h3 id="channelTitle"></h3>
+           <p id="channelDescription"></p>
+          </div>
+          <div id="calendarToggle" class="view-switch" role="group" aria-label="Calendar view">
+           <button type="button" data-calendar-view="week">Week</button><button type="button" data-calendar-view="month">Calendar</button>
+          </div>
+         </div>
+         <div id="commsLayout"></div>
+         <div id="detailWrap" class="detail-wrap"></div>
+        </div>
+       </section>
+      </div>
+     </div>
+    </section>
+   </main>
+  </div>
+  <div id="profileOverlay" class="profile-overlay"></div>
+  <aside id="profilePanel" class="profile-panel" aria-label="Contact profile">
+   <div class="profile-inner"><button id="profileClose" class="profile-close" type="button" aria-label="Close profile"><i data-lucide="x" width="18"></i></button>
+    <header class="profile-header">
+     <div class="avatar" style="width:70px;height:70px">
+      <i data-lucide="user-round"></i>
+     </div>
+     <div>
+      <h2 id="profileName" class="profile-name"></h2>
+      <p id="profileSubtitle" class="profile-subtitle"></p>
+     </div>
+    </header>
+    <section id="profileDetails">
+     <div class="profile-row">
+      <div class="icon-tile">
+       <i data-lucide="phone"></i>
+      </div>
+      <div>
+       <span class="profile-label">Phone number</span><span id="profilePhone" class="profile-value"></span>
+      </div>
+     </div>
+     <div class="profile-row">
+      <div class="icon-tile">
+       <i data-lucide="at-sign"></i>
+      </div>
+      <div>
+       <span class="profile-label">Email</span><span id="profileEmail" class="profile-value"></span>
+      </div>
+     </div>
+     <div class="profile-row">
+      <div class="icon-tile">
+       <i data-lucide="sticky-note"></i>
+      </div>
+      <div>
+       <span class="profile-label">Notes</span><span id="profileNotes" class="profile-value"></span>
+      </div>
+     </div>
+    </section>
+    <section id="unknownContent" hidden="">
+     <div class="flex items-center gap-3">
+      <img data-template-id="gmail-logo-profile" class="canva-image unknown-logo" loading="lazy" src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Gmail_icon_%282020%29.svg" alt="Gmail logo identifying the unknown sender channel">
+      <p data-template-id="unknown-sender-copy" class="canva-text detail-copy" style="color: rgb(85, 85, 85); font-weight: 400; font-style: normal; font-size: 12px;">Unknown sender. This is fictional mock data and does not represent a real person, company, or affiliation.</p>
+     </div><img data-template-id="unknown-sender-mock-image" class="canva-image w-full rounded-xl border border-zinc-200 mt-4" loading="lazy" src="https://images.pexels.com/photos/2693212/pexels-photo-2693212.png?auto=compress&amp;cs=tinysrgb&amp;w=400" alt="Vibrant abstract painting featuring swirling pastel colors and dynamic textures.">
+    </section>
+    <div class="profile-actions">
+     <button id="profileAction" class="small-btn save-btn" type="button">Add connection</button>
+    </div>
+   </div>
+  </aside>
+  <script>
+    const contacts=[
+      {id:"cheryl",name:"Cheryl Wells",company:"Hyatt",phone:"+1 832 803 1234",email:"cheryl.wells1@hyatt.com",date:"2018-Apr",label:"PSR",status:"Active",followup:"In progress",notes:"Contract for MIST Houston regionals 2018"},
+      {id:"vera",name:"Vera Jusi",company:"Hyatt",phone:"",email:"vera.jusi@hyatt.com",date:"2018-Feb",label:"Customer",status:"Active",followup:"Waiting",notes:"Contract for MIST Houston regionals 2018"},
+      {id:"lesley",name:"Lesley Close",company:"Hyatt",phone:"",email:"lesley.close@hyatt.com",date:"2018-Jan",label:"PSR",status:"Prospect",followup:"To contact",notes:"Contract for MIST Houston regionals 2018"},
+      {id:"sam",name:"Sam",company:"Personal network",phone:"",email:"",date:"Recent",label:"Connection",status:"Active",followup:"To contact",notes:"Known personal connection in the CRM."}
+    ];
+    const messages=[
+      {id:"cheryl-gmail",channel:"Gmail",sender:"Cheryl Wells",known:"cheryl",email:"cheryl.wells1@hyatt.com",day:14,time:"9:42 AM",weekday:"Mon",subject:"MIST Houston regional contract",preview:"Following up on the Houston regionals contract. Let me know what you need from our team.",status:"Reply sent",visual:false},
+      {id:"sam-whatsapp",channel:"WhatsApp",sender:"Sam",known:"sam",email:"",day:14,time:"8:17 AM",weekday:"Mon",subject:"Catch-up this week",preview:"Are you free to catch up this week? This is mock workspace content.",status:"No reply",visual:false},
+      {id:"lesley-messenger",channel:"Messenger",sender:"Lesley Close",known:"lesley",email:"lesley.close@hyatt.com",day:18,time:"12:06 PM",weekday:"Fri",subject:"Project message",preview:"A mock message about the ongoing regional program conversation.",status:"Reply sent",visual:false},
+      {id:"cheryl-linkedin",channel:"LinkedIn",sender:"Cheryl Wells",known:"cheryl",email:"cheryl.wells1@hyatt.com",day:19,time:"3:40 PM",weekday:"Sat",subject:"Quick professional update",preview:"A short mock professional-network update is ready for review.",status:"Reply sent",visual:false},
+      {id:"jordan-gmail",channel:"Gmail",sender:"Unknown sender",known:null,email:"unknown.sender@example.com",day:20,time:"4:26 PM",weekday:"Sun",subject:"A small studio hello",preview:"This fictional mock sender shared an abstract visual reference for a possible conversation.",status:"No reply",visual:true},
+      {id:"icloud",channel:"Apple iCloud",sender:"Apple iCloud",known:null,email:"",day:15,time:"10:14 AM",weekday:"Tue",subject:"System communication",preview:"A fictional mock system entry delivered through Apple iCloud.",status:"No reply",visual:false},
+      {id:"vizio",channel:"VIZIO",sender:"VIZIO",known:null,email:"",day:16,time:"1:02 PM",weekday:"Wed",subject:"Device update",preview:"A fictional mock VIZIO communication for this workspace.",status:"Reply sent",visual:false},
+      {id:"yeedi",channel:"yeedi",sender:"yeedi",known:null,email:"",day:17,time:"4:08 PM",weekday:"Thu",subject:"Home care update",preview:"A fictional mock yeedi communication for this workspace.",status:"No reply",visual:false},
+      {id:"discord",channel:"Discord",sender:"Discord",known:null,email:"",day:18,time:"6:20 PM",weekday:"Fri",subject:"Community update",preview:"A fictional mock Discord communication for this workspace.",status:"Reply sent",visual:false}
+    ];
+    const $=s=>document.querySelector(s), initials=n=>n.split(" ").map(x=>x[0]).slice(0,2).join("");
+    let activeChannel=null,activeMode="text",calendarView="week",selectedMessage=null;
+    const logoId={"WhatsApp":"whatsapp-logo","Messenger":"messenger-logo","Gmail":"gmail-logo","LinkedIn":"linkedin-logo","Apple iCloud":"apple-logo","VIZIO":"vizio-logo","yeedi":"yeedi-logo","Discord":"discord-logo"};
+
+    function openProfile(id){const c=contacts.find(x=>x.id===id);if(!c)return;$("#profileName").textContent=c.name;$("#profileSubtitle").textContent=c.company+" · "+c.status;$("#profilePhone").textContent=c.phone||"No contact details added yet";$("#profileEmail").textContent=c.email||"No contact details added yet";$("#profileNotes").textContent=c.notes;$("#profileDetails").hidden=false;$("#unknownContent").hidden=true;$("#profileAction").textContent="Add connection";$("#profilePanel").classList.add("open");$("#profileOverlay").classList.add("open");$("#profileClose").focus()}
+    function openUnknown(){$("#profileName").textContent="Unknown sender";$("#profileSubtitle").textContent="Fictional mock contact";$("#profileDetails").hidden=true;$("#unknownContent").hidden=false;$("#profileAction").textContent="Add to CRM";$("#profilePanel").classList.add("open");$("#profileOverlay").classList.add("open");$("#profileClose").focus()}
+    function closeProfile(){$("#profilePanel").classList.remove("open");$("#profileOverlay").classList.remove("open")}
+    function crmVisible(){const q=$("#crmSearch").value.toLowerCase(),status=$("#crmStatus").value;return contacts.filter(c=>(!q||Object.values(c).join(" ").toLowerCase().includes(q))&&(!status||c.status===status))}
+    function renderCustomers(){$("#customerList").innerHTML=crmVisible().map(c=>`<button class="customer-row" type="button" data-contact="${c.id}"><span class="name-cell"><span class="mini-avatar">${initials(c.name)}</span>${c.name}</span><span>${c.company}</span><span class="muted">${c.phone||"—"}</span><span class="muted">${c.email||"—"}</span><span class="info-btn">More info</span></button>`).join("")||'<div class="p-6 text-sm text-gray-500">No matching contacts.</div>';document.querySelectorAll("[data-contact]").forEach(el=>el.addEventListener("click",()=>openProfile(el.dataset.contact)))}
+    function renderCards(){$("#contactList").innerHTML=crmVisible().map(c=>`<article class="contact-card" tabindex="0" role="button" data-contact="${c.id}"><div class="contact-card-top"><div class="avatar">${initials(c.name)}</div><span class="tag">${c.label}</span></div><h2>${c.name}</h2><p>${c.company} · ${c.status}</p><p>${c.email||"No email added"}</p><div class="card-footer"><span class="muted">Last contacted ${c.date}</span><span class="info-btn">More info</span></div></article>`).join("");document.querySelectorAll(".contact-card").forEach(el=>{el.addEventListener("click",()=>openProfile(el.dataset.contact));el.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();openProfile(el.dataset.contact)}})})}
+    function renderTouchpoints(){$("#touchpointList").innerHTML=contacts.slice(0,3).map(c=>`<article class="time-item"><div class="time-date">${c.date}</div><h2>Email touchpoint</h2><p class="muted" style="font-size:11px;margin:0">${c.name} — ${c.email}</p></article>`).join("")}
+    function renderBoard(){const stages=["To contact","In progress","Waiting","Done"];$("#followupBoard").innerHTML=stages.map((stage,index)=>`<section class="pipe-col"><div class="pipe-title"><span>${stage}</span><span>${contacts.filter(c=>c.followup===stage).length}</span></div>${contacts.filter(c=>c.followup===stage).map(c=>`<article class="pipe-card"><h3>${c.name}</h3><p>${c.company} · ${c.status}</p><div class="move-row">${index?`<button class="move-btn" data-move="${c.id}" data-direction="-1">← Move</button>`:"<span></span>"}${index<3?`<button class="move-btn" data-move="${c.id}" data-direction="1">Move →</button>`:"<span></span>"}</div></article>`).join("")}</section>`).join("");document.querySelectorAll("[data-move]").forEach(b=>b.addEventListener("click",()=>{const stages=["To contact","In progress","Waiting","Done"],c=contacts.find(x=>x.id===b.dataset.move),i=stages.indexOf(c.followup)+Number(b.dataset.direction);if(stages[i]){c.followup=stages[i];renderBoard()}}))}
+    function renderNetwork(){const names=["Sam","Cheryl Wells","Vera Jusi","Lesley Close","Daniel Jackson","Amenity Team"];$("#networkList").innerHTML=names.map(name=>`<button class="network-node" type="button" data-network="${name}">${name}</button>`).join("");document.querySelectorAll("[data-network]").forEach(b=>b.addEventListener("click",()=>{const c=contacts.find(x=>x.name===b.dataset.network);c?openProfile(c.id):openUnknown()}))}
+    function currentMessages(){const q=$("#commsSearch").value.toLowerCase();return messages.filter(m=>(activeChannel==="All Comms"||m.channel===activeChannel)&&(!q||Object.values(m).join(" ").toLowerCase().includes(q)))}
+    function logoMarkup(channel){return logoId[channel]?`<img class="chip-icon" src="${document.querySelector(`[data-template-id="${logoId[channel]}"]`)?.src||""}" alt="">`:'<i data-lucide="inbox" width="13"></i>'}
+    function bindMessageButtons(){document.querySelectorAll("[data-message]").forEach(el=>el.addEventListener("click",()=>{selectedMessage=el.dataset.message;renderComms()}));document.querySelectorAll("[data-open-person]").forEach(el=>el.addEventListener("click",()=>{selectedMessage=el.dataset.openPerson;renderComms()}));document.querySelectorAll("[data-close-detail]").forEach(el=>el.addEventListener("click",()=>{selectedMessage=null;renderComms()}));document.querySelectorAll("[data-add-crm]").forEach(el=>el.addEventListener("click",openUnknown));lucide.createIcons()}
+    function detailHTML(m){const relationship=m.known?"Known CRM contact":"Unknown sender";const visual=activeMode==="visual"?(m.visual?`<div class="visual-block"><img src="${document.querySelector('[data-template-id="unknown-sender-mock-image"]').src}" alt=""><div class="visual-label"><strong>Mock visual attachment</strong><span>Abstract reference · mock content</span></div></div>`:`<div class="no-visual"><i data-lucide="image-off" width="17"></i><span>No visual attached to this message.</span></div>`):`<p class="detail-copy">${m.preview}</p>`;return `<article class="detail-card"><div class="detail-title"><div><h4>${m.sender}</h4><div class="detail-meta"><span class="detail-pill">${relationship}</span><span class="detail-pill">${m.channel}</span><span class="detail-pill">${m.status}</span></div></div><button class="detail-close" type="button" data-close-detail aria-label="Close message detail"><i data-lucide="x" width="15"></i></button></div><p class="message-subject">${m.subject}</p><p class="detail-copy"><strong>Message preview</strong><br>${m.preview}</p><div class="detail-meta"><span class="detail-pill">${m.channel}</span><span class="detail-pill">${m.weekday}, ${m.day} · ${m.time}</span><span class="detail-pill">${m.status}</span></div>${visual}${activeMode==="text"&&m.visual?'<div class="no-visual"><i data-lucide="image" width="17"></i><span>Mock image available in Visual mode.</span></div>':''}${!m.known?'<button class="add-inline" type="button" data-add-crm>Add to CRM</button>':''}</article>`}
+    function renderAllComms(items){$("#calendarToggle").hidden=true;const selected=messages.find(m=>m.id===selectedMessage);$("#commsLayout").innerHTML=`<div class="all-list" aria-label="All people who reached out">${items.map(m=>`<button type="button" class="all-row" data-open-person="${m.id}"><span class="all-name">${m.sender}</span><span class="channel-logo">${logoMarkup(m.channel)}</span><span class="all-channel">${m.channel}</span></button>`).join("")||'<div class="p-6 text-sm text-zinc-500">No mock communications match this search.</div>'}</div>`;$("#detailWrap").innerHTML=selected?detailHTML(selected):""}
+    function renderWeek(items){const days=[["Mon",14],["Tue",15],["Wed",16],["Thu",17],["Fri",18],["Sat",19],["Sun",20]];$("#commsLayout").innerHTML=`<div class="calendar-shell"><div class="week-grid">${days.map(([name,num])=>`<section class="day-column"><div class="day-heading"><span>${name}</span><strong>${num}</strong></div>${items.filter(m=>m.day===num).map(m=>`<button class="event-card" type="button" data-message="${m.id}"><span class="event-time">${m.time}</span><span class="event-person">${m.sender}</span><span class="event-meta"><span>${m.channel}</span><span class="${m.status==="No reply"?"status-no":""}">${m.status}</span></span></button>`).join("")}</section>`).join("")}</div></div>`}
+    function renderMonth(items){let html='<div class="calendar-shell"><p class="month-name">September 2026</p><div class="month-grid"><div class="month-cell muted-day"></div>';for(let d=1;d<=30;d++){html+=`<section class="month-cell"><span class="month-date">${d}</span>${items.filter(m=>m.day===d).map(m=>`<button class="event-chip" type="button" data-message="${m.id}" aria-label="${m.sender}, ${m.channel}, ${m.status}">${logoMarkup(m.channel)}<span class="chip-name">${m.sender}</span></button>`).join("")}</section>`}$("#commsLayout").innerHTML=html+"</div></div>"}
+    function renderComms(){if(!activeChannel)return;const items=currentMessages(),selected=messages.find(m=>m.id===selectedMessage);$("#channelKicker").textContent=activeChannel==="All Comms"?"Inbox overview":"Channel activity";$("#channelTitle").textContent=activeChannel==="All Comms"?"All Comms":activeChannel+" calendar";$("#channelDescription").textContent=activeChannel==="All Comms"?"A minimal index of people who reached out, grouped by the channel they used.":"Select a calendar event to view the contact, channel, relationship label, and reply status.";if(activeChannel==="All Comms"||activeMode!=="calendar")renderAllComms(items);else{$("#calendarToggle").hidden=false;document.querySelectorAll("[data-calendar-view]").forEach(b=>b.classList.toggle("active",b.dataset.calendarView===calendarView));calendarView==="week"?renderWeek(items):renderMonth(items)}$("#detailWrap").innerHTML=selected?detailHTML(selected):"";bindMessageButtons()}
+    function openChannel(channel,tool){if(activeChannel===channel){closeChannel();return}activeChannel=channel;activeMode=channel==="All Comms"?"text":"calendar";selectedMessage=null;$("#hubPlaceholder").hidden=true;$("#channelContent").hidden=false;$("#contextBar").classList.add("open");document.querySelectorAll(".tool-icon").forEach(b=>{const on=b===tool;b.classList.toggle("selected",on);b.setAttribute("aria-expanded",String(on))});setMode(activeMode)}
+    function closeChannel(){activeChannel=null;selectedMessage=null;$("#contextBar").classList.remove("open");$("#channelContent").hidden=true;$("#hubPlaceholder").hidden=false;document.querySelectorAll(".tool-icon").forEach(b=>{b.classList.remove("selected");b.setAttribute("aria-expanded","false")})}
+    function setMode(mode){activeMode=mode;calendarView=mode==="calendar"?calendarView:"week";$("#contextText").classList.toggle("mode-active",mode==="text");$("#contextText").setAttribute("aria-pressed",String(mode==="text"));$("#contextVisual").classList.toggle("mode-active",mode==="visual");$("#contextVisual").setAttribute("aria-pressed",String(mode==="visual"));$("#contextCalendar").classList.toggle("mode-active",mode==="calendar");$("#contextCalendar").setAttribute("aria-pressed",String(mode==="calendar"));renderComms()}
+    document.querySelectorAll(".nav-item").forEach(button=>button.addEventListener("click",()=>{document.querySelectorAll(".nav-item").forEach(x=>x.classList.remove("active"));button.classList.add("active");document.querySelectorAll(".view").forEach(v=>v.classList.toggle("active",v.id===button.dataset.view));const comms=button.dataset.view==="comms";$("#crmToolbar").style.display=(comms||["network","touchpoints","followups"].includes(button.dataset.view))?"none":"flex";$("#pageTitle").textContent=comms?"Comms":button.querySelector("span").textContent;$("#pageEyebrow").textContent=comms?"Workspace / communications":"Workspace / personal CRM"}));
+    ["crmSearch","crmStatus"].forEach(id=>$("#"+id).addEventListener(id==="crmSearch"?"input":"change",()=>{renderCustomers();renderCards()}));$("#commsSearch").addEventListener("input",()=>{selectedMessage=null;renderComms()});document.querySelectorAll(".tool-icon").forEach(tool=>tool.addEventListener("click",()=>openChannel(tool.dataset.channel,tool)));$("#contextText").addEventListener("click",()=>setMode("text"));$("#contextVisual").addEventListener("click",()=>setMode("visual"));$("#contextCalendar").addEventListener("click",()=>setMode("calendar"));$("#contextClose").addEventListener("click",closeChannel);document.querySelectorAll("[data-calendar-view]").forEach(button=>button.addEventListener("click",()=>{calendarView=button.dataset.calendarView;selectedMessage=null;renderComms()}));$("#profileClose").addEventListener("click",closeProfile);$("#profileOverlay").addEventListener("click",closeProfile);$("#profileAction").addEventListener("click",closeProfile);document.addEventListener("keydown",e=>{if(e.key==="Escape"){if($("#profilePanel").classList.contains("open"))closeProfile();else if(selectedMessage){selectedMessage=null;renderComms()}else if(activeChannel)closeChannel()}});lucide.createIcons();renderCustomers();renderCards();renderTouchpoints();renderBoard();renderNetwork();document.querySelector('[data-view="comms"]').click();openChannel("All Comms",document.querySelector('[data-channel="All Comms"]'));
+  </script>
+ 
+</body></html>
