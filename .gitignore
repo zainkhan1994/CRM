@@ -2,3 +2,7 @@
 *.log
 node_modules/
 .env
+
+.apple-env/
+apple-history*.json
+crm-apple-export*.json
