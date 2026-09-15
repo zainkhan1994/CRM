@@ -2332,5 +2332,1240 @@
       "domain": "activeandfitdirect.com",
       "sectionId": "h-fit"
     }
-  ]
+  ],
+  "contactAssignments": {
+    "44": [
+      "p-housing"
+    ],
+    "59": [
+      "p-tech"
+    ],
+    "69": [
+      "p-news"
+    ],
+    "73": [
+      "p-news"
+    ],
+    "77": [
+      "p-news"
+    ],
+    "80": [
+      "p-jobs"
+    ],
+    "112": [
+      "p-jobs"
+    ],
+    "156": [
+      "p-tech"
+    ],
+    "158": [
+      "p-jobs"
+    ],
+    "182": [
+      "p-learn"
+    ],
+    "194": [
+      "p-learn"
+    ],
+    "209": [
+      "p-jobs"
+    ],
+    "241": [
+      "p-events-buildtulsa"
+    ],
+    "242": [
+      "p-events-buildtulsa"
+    ],
+    "256": [
+      "p-tech"
+    ],
+    "260": [
+      "p-events"
+    ],
+    "262": [
+      "p-events"
+    ],
+    "267": [
+      "p-events"
+    ],
+    "290": [
+      "p-jobs"
+    ],
+    "310": [
+      "p-learn"
+    ],
+    "311": [
+      "p-learn"
+    ],
+    "312": [
+      "p-learn"
+    ],
+    "323": [
+      "h-providers"
+    ],
+    "394": [
+      "p-learn"
+    ],
+    "395": [
+      "p-learn"
+    ],
+    "398": [
+      "p-jobs"
+    ],
+    "411": [
+      "p-learn"
+    ],
+    "490": [
+      "p-learn"
+    ],
+    "495": [
+      "p-news"
+    ],
+    "502": [
+      "p-shop"
+    ],
+    "512": [
+      "p-news"
+    ],
+    "517": [
+      "p-tech"
+    ],
+    "596": [
+      "p-news"
+    ],
+    "597": [
+      "p-news"
+    ],
+    "711": [
+      "p-learn"
+    ],
+    "725": [
+      "p-events-exp"
+    ],
+    "789": [
+      "p-jobs"
+    ],
+    "790": [
+      "p-learn"
+    ],
+    "791": [
+      "p-research"
+    ],
+    "799": [
+      "p-research"
+    ],
+    "804": [
+      "p-learn"
+    ],
+    "813": [
+      "p-news"
+    ],
+    "815": [
+      "p-learn"
+    ],
+    "820": [
+      "p-tech"
+    ],
+    "833": [
+      "p-learn"
+    ],
+    "909": [
+      "p-jobs"
+    ],
+    "1347": [
+      "p-learn"
+    ],
+    "1367": [
+      "p-learn"
+    ],
+    "1471": [
+      "p-events"
+    ],
+    "1564": [
+      "p-learn"
+    ],
+    "1570": [
+      "p-jobs"
+    ],
+    "1573": [
+      "p-events"
+    ],
+    "1631": [
+      "p-jobs"
+    ],
+    "1634": [
+      "p-jobs"
+    ],
+    "1657": [
+      "p-learn"
+    ],
+    "1658": [
+      "p-learn"
+    ],
+    "1692": [
+      "p-jobs"
+    ],
+    "1716": [
+      "p-jobs"
+    ],
+    "1717": [
+      "p-jobs"
+    ],
+    "1718": [
+      "p-news"
+    ],
+    "1769": [
+      "p-news"
+    ],
+    "1770": [
+      "p-events"
+    ],
+    "1774": [
+      "p-news"
+    ],
+    "1853": [
+      "p-events"
+    ],
+    "1861": [
+      "p-learn"
+    ],
+    "1916": [
+      "p-news"
+    ],
+    "1925": [
+      "p-learn"
+    ],
+    "1928": [
+      "h-prov-mdacc"
+    ],
+    "2012": [
+      "p-news"
+    ],
+    "2031": [
+      "p-jobs"
+    ],
+    "2032": [
+      "p-jobs"
+    ],
+    "2039": [
+      "p-learn"
+    ],
+    "2040": [
+      "p-jobs"
+    ],
+    "2053": [
+      "h-providers"
+    ],
+    "2055": [
+      "h-providers"
+    ],
+    "2087": [
+      "p-jobs"
+    ],
+    "2102": [
+      "p-news"
+    ],
+    "2151": [
+      "p-tech"
+    ],
+    "2154": [
+      "p-learn"
+    ],
+    "2189": [
+      "p-tech"
+    ],
+    "2200": [
+      "p-events"
+    ],
+    "2204": [
+      "p-shop"
+    ],
+    "2214": [
+      "p-research"
+    ],
+    "2294": [
+      "p-events"
+    ],
+    "2296": [
+      "p-jobs"
+    ],
+    "2317": [
+      "p-learn"
+    ],
+    "2358": [
+      "p-jobs"
+    ],
+    "2359": [
+      "p-jobs"
+    ],
+    "2386": [
+      "p-housing"
+    ],
+    "2408": [
+      "p-learn"
+    ],
+    "2409": [
+      "p-learn"
+    ],
+    "2410": [
+      "p-learn"
+    ],
+    "2411": [
+      "p-learn"
+    ],
+    "2412": [
+      "p-learn"
+    ],
+    "2413": [
+      "p-learn"
+    ],
+    "2414": [
+      "p-learn"
+    ],
+    "2438": [
+      "p-events"
+    ],
+    "2451": [
+      "p-learn"
+    ],
+    "2473": [
+      "p-learn"
+    ],
+    "2490": [
+      "p-events"
+    ],
+    "2494": [
+      "p-news"
+    ],
+    "2497": [
+      "p-news"
+    ],
+    "2553": [
+      "p-learn"
+    ],
+    "2596": [
+      "p-shop"
+    ],
+    "2633": [
+      "p-events"
+    ],
+    "2655": [
+      "p-shop"
+    ],
+    "2660": [
+      "p-nonprofit"
+    ],
+    "2682": [
+      "p-jobs"
+    ],
+    "2701": [
+      "p-learn"
+    ],
+    "2702": [
+      "p-learn"
+    ],
+    "2703": [
+      "p-learn"
+    ],
+    "2771": [
+      "p-shop-target"
+    ],
+    "2781": [
+      "p-learn"
+    ],
+    "2838": [
+      "p-news"
+    ],
+    "2849": [
+      "p-jobs"
+    ],
+    "2862": [
+      "p-learn"
+    ],
+    "2900": [
+      "p-learn"
+    ],
+    "2919": [
+      "p-events-typros"
+    ],
+    "2926": [
+      "p-news"
+    ],
+    "3017": [
+      "p-learn"
+    ],
+    "3100": [
+      "p-research"
+    ],
+    "2": [
+      "p-tech"
+    ],
+    "3": [
+      "p-tech"
+    ],
+    "4": [
+      "p-shop"
+    ],
+    "5": [
+      "p-shop"
+    ],
+    "6": [
+      "p-accounts-payment"
+    ],
+    "16": [
+      "p-jobs"
+    ],
+    "17": [
+      "p-jobs"
+    ],
+    "19": [
+      "p-people-networking"
+    ],
+    "21": [
+      "p-shop"
+    ],
+    "22": [
+      "p-learn"
+    ],
+    "24": [
+      "p-tech"
+    ],
+    "25": [
+      "p-tech"
+    ],
+    "27": [
+      "h-fit"
+    ],
+    "32": [
+      "p-auto-autonation"
+    ],
+    "34": [
+      "p-events"
+    ],
+    "35": [
+      "p-events"
+    ],
+    "36": [
+      "p-events"
+    ],
+    "37": [
+      "p-events"
+    ],
+    "41": [
+      "p-tech"
+    ],
+    "45": [
+      "p-events"
+    ],
+    "46": [
+      "p-ai"
+    ],
+    "47": [
+      "p-ai"
+    ],
+    "48": [
+      "p-tech"
+    ],
+    "49": [
+      "p-tech"
+    ],
+    "50": [
+      "p-tech"
+    ],
+    "51": [
+      "p-tech"
+    ],
+    "61": [
+      "p-social"
+    ],
+    "67": [
+      "p-bills-pso"
+    ],
+    "74": [
+      "p-tech"
+    ],
+    "75": [
+      "p-tech"
+    ],
+    "78": [
+      "p-events-tulsaai"
+    ],
+    "79": [
+      "p-events-tulsaai"
+    ],
+    "83": [
+      "p-jobs"
+    ],
+    "84": [
+      "p-jobs"
+    ],
+    "85": [
+      "p-jobs"
+    ],
+    "87": [
+      "p-shop"
+    ],
+    "88": [
+      "p-shop"
+    ],
+    "108": [
+      "p-ent-movies"
+    ],
+    "109": [
+      "p-housing"
+    ],
+    "110": [
+      "p-housing"
+    ],
+    "111": [
+      "p-travel-ground"
+    ],
+    "113": [
+      "p-shop-food"
+    ],
+    "116": [
+      "p-learn"
+    ],
+    "124": [
+      "p-learn"
+    ],
+    "125": [
+      "p-learn"
+    ],
+    "128": [
+      "p-tech"
+    ],
+    "129": [
+      "p-jobs"
+    ],
+    "130": [
+      "p-tech"
+    ],
+    "131": [
+      "p-tech"
+    ],
+    "133": [
+      "p-tech"
+    ],
+    "134": [
+      "p-ai"
+    ],
+    "135": [
+      "p-ai"
+    ],
+    "136": [
+      "p-ai"
+    ],
+    "138": [
+      "p-research"
+    ],
+    "141": [
+      "p-jobs"
+    ],
+    "143": [
+      "p-jobs"
+    ],
+    "144": [
+      "p-jobs"
+    ],
+    "145": [
+      "p-jobs"
+    ],
+    "146": [
+      "p-jobs"
+    ],
+    "147": [
+      "p-jobs"
+    ],
+    "148": [
+      "p-jobs"
+    ],
+    "173": [
+      "p-people-networking"
+    ],
+    "230": [
+      "p-people-networking"
+    ],
+    "231": [
+      "p-ai"
+    ],
+    "232": [
+      "p-ai"
+    ],
+    "233": [
+      "p-ai"
+    ],
+    "234": [
+      "p-ai"
+    ],
+    "235": [
+      "p-ai"
+    ],
+    "243": [
+      "p-people-networking"
+    ],
+    "244": [
+      "p-people-networking"
+    ],
+    "254": [
+      "p-events"
+    ],
+    "255": [
+      "p-events"
+    ],
+    "257": [
+      "p-events"
+    ],
+    "258": [
+      "p-events"
+    ],
+    "259": [
+      "p-events"
+    ],
+    "261": [
+      "p-events"
+    ],
+    "263": [
+      "p-events"
+    ],
+    "264": [
+      "p-events"
+    ],
+    "265": [
+      "p-events"
+    ],
+    "266": [
+      "p-events"
+    ],
+    "277": [
+      "p-tech"
+    ],
+    "278": [
+      "p-tech"
+    ],
+    "279": [
+      "p-tech"
+    ],
+    "280": [
+      "p-tech"
+    ],
+    "281": [
+      "p-tech"
+    ],
+    "283": [
+      "p-people-networking"
+    ],
+    "351": [
+      "p-tech"
+    ],
+    "357": [
+      "p-tech"
+    ],
+    "358": [
+      "p-tech"
+    ],
+    "359": [
+      "p-tech"
+    ],
+    "360": [
+      "p-tech"
+    ],
+    "361": [
+      "p-tech"
+    ],
+    "362": [
+      "p-tech"
+    ],
+    "364": [
+      "p-people-networking"
+    ],
+    "386": [
+      "p-people-networking"
+    ],
+    "413": [
+      "p-learn"
+    ],
+    "441": [
+      "p-people-networking"
+    ],
+    "461": [
+      "p-people-networking"
+    ],
+    "488": [
+      "p-people-networking"
+    ],
+    "497": [
+      "h-fit"
+    ],
+    "508": [
+      "p-tech"
+    ],
+    "509": [
+      "p-tech"
+    ],
+    "551": [
+      "p-people-networking"
+    ],
+    "577": [
+      "p-tech"
+    ],
+    "592": [
+      "p-tech"
+    ],
+    "695": [
+      "p-people-networking"
+    ],
+    "696": [
+      "p-tech"
+    ],
+    "697": [
+      "p-tech"
+    ],
+    "698": [
+      "p-tech"
+    ],
+    "751": [
+      "p-people-networking"
+    ],
+    "784": [
+      "h-fit"
+    ],
+    "793": [
+      "p-people-networking"
+    ],
+    "811": [
+      "p-learn"
+    ],
+    "812": [
+      "p-learn"
+    ],
+    "814": [
+      "p-learn"
+    ],
+    "816": [
+      "p-people-networking"
+    ],
+    "839": [
+      "p-tech"
+    ],
+    "840": [
+      "p-tech"
+    ],
+    "841": [
+      "p-tech"
+    ],
+    "842": [
+      "p-tech"
+    ],
+    "843": [
+      "p-tech"
+    ],
+    "857": [
+      "p-people-networking"
+    ],
+    "1143": [
+      "p-learn"
+    ],
+    "1144": [
+      "p-learn"
+    ],
+    "1145": [
+      "p-learn"
+    ],
+    "1146": [
+      "p-learn"
+    ],
+    "1147": [
+      "p-learn"
+    ],
+    "1148": [
+      "p-learn"
+    ],
+    "1313": [
+      "p-events"
+    ],
+    "1314": [
+      "p-events"
+    ],
+    "1315": [
+      "p-events"
+    ],
+    "1316": [
+      "p-events"
+    ],
+    "1317": [
+      "p-events"
+    ],
+    "1318": [
+      "p-events"
+    ],
+    "1319": [
+      "p-events"
+    ],
+    "1320": [
+      "p-events"
+    ],
+    "1355": [
+      "p-tech"
+    ],
+    "1365": [
+      "p-people-networking"
+    ],
+    "1368": [
+      "p-people-networking"
+    ],
+    "1391": [
+      "p-people-networking"
+    ],
+    "1392": [
+      "p-people-networking"
+    ],
+    "1393": [
+      "p-people-networking"
+    ],
+    "1395": [
+      "p-ai"
+    ],
+    "1396": [
+      "p-ai"
+    ],
+    "1397": [
+      "p-ai"
+    ],
+    "1398": [
+      "p-ai"
+    ],
+    "1399": [
+      "p-ai"
+    ],
+    "1400": [
+      "p-ai"
+    ],
+    "1428": [
+      "p-events-tulsaai"
+    ],
+    "1435": [
+      "p-people-networking"
+    ],
+    "1472": [
+      "p-people-networking"
+    ],
+    "1473": [
+      "p-people-networking"
+    ],
+    "1568": [
+      "p-people-networking"
+    ],
+    "1571": [
+      "p-people-networking"
+    ],
+    "1572": [
+      "p-people-networking"
+    ],
+    "1579": [
+      "p-people-networking"
+    ],
+    "1581": [
+      "p-people-networking"
+    ],
+    "1600": [
+      "p-people-networking"
+    ],
+    "1647": [
+      "p-people-networking"
+    ],
+    "1665": [
+      "p-people-networking"
+    ],
+    "1676": [
+      "p-people-networking"
+    ],
+    "1691": [
+      "p-people-networking"
+    ],
+    "1712": [
+      "p-social"
+    ],
+    "1713": [
+      "p-social"
+    ],
+    "1714": [
+      "p-jobs"
+    ],
+    "1715": [
+      "p-jobs"
+    ],
+    "1726": [
+      "p-people-networking"
+    ],
+    "1749": [
+      "p-events"
+    ],
+    "1768": [
+      "p-tech"
+    ],
+    "1771": [
+      "p-events-tulsaai"
+    ],
+    "1772": [
+      "p-events-tulsaai"
+    ],
+    "1773": [
+      "p-events-tulsaai"
+    ],
+    "1784": [
+      "p-tech"
+    ],
+    "1798": [
+      "p-tech"
+    ],
+    "1857": [
+      "p-people-networking"
+    ],
+    "1882": [
+      "p-tech"
+    ],
+    "1883": [
+      "p-tech"
+    ],
+    "1884": [
+      "p-tech"
+    ],
+    "1885": [
+      "p-tech"
+    ],
+    "1886": [
+      "p-tech"
+    ],
+    "1909": [
+      "p-people-networking"
+    ],
+    "1942": [
+      "p-people-networking"
+    ],
+    "1960": [
+      "p-people-networking"
+    ],
+    "2005": [
+      "p-people-networking"
+    ],
+    "2020": [
+      "p-tech"
+    ],
+    "2021": [
+      "p-tech"
+    ],
+    "2022": [
+      "p-tech"
+    ],
+    "2023": [
+      "p-tech"
+    ],
+    "2085": [
+      "p-jobs"
+    ],
+    "2086": [
+      "p-jobs"
+    ],
+    "2088": [
+      "p-jobs"
+    ],
+    "2098": [
+      "p-shop"
+    ],
+    "2100": [
+      "p-ai"
+    ],
+    "2158": [
+      "p-people-networking"
+    ],
+    "2195": [
+      "p-ai"
+    ],
+    "2196": [
+      "p-people-networking"
+    ],
+    "2197": [
+      "p-people-networking"
+    ],
+    "2199": [
+      "p-people-networking"
+    ],
+    "2222": [
+      "p-people-networking"
+    ],
+    "2230": [
+      "p-accounts-payment"
+    ],
+    "2231": [
+      "p-accounts-payment"
+    ],
+    "2232": [
+      "p-accounts-payment"
+    ],
+    "2233": [
+      "p-accounts-payment"
+    ],
+    "2265": [
+      "p-ai"
+    ],
+    "2266": [
+      "p-ai"
+    ],
+    "2267": [
+      "p-ai"
+    ],
+    "2268": [
+      "p-ai"
+    ],
+    "2276": [
+      "p-people-networking"
+    ],
+    "2300": [
+      "p-people-networking"
+    ],
+    "2389": [
+      "p-people-networking"
+    ],
+    "2403": [
+      "p-people-networking"
+    ],
+    "2406": [
+      "p-people-networking"
+    ],
+    "2419": [
+      "p-tech"
+    ],
+    "2420": [
+      "p-tech"
+    ],
+    "2421": [
+      "p-tech"
+    ],
+    "2422": [
+      "p-tech"
+    ],
+    "2439": [
+      "p-people-networking"
+    ],
+    "2455": [
+      "p-people-networking"
+    ],
+    "2457": [
+      "p-people-networking"
+    ],
+    "2465": [
+      "p-people-networking"
+    ],
+    "2466": [
+      "p-people-networking"
+    ],
+    "2467": [
+      "p-people-networking"
+    ],
+    "2468": [
+      "p-people-networking"
+    ],
+    "2476": [
+      "p-people-networking"
+    ],
+    "2477": [
+      "p-people-networking"
+    ],
+    "2484": [
+      "p-tech"
+    ],
+    "2485": [
+      "p-tech"
+    ],
+    "2486": [
+      "p-tech"
+    ],
+    "2487": [
+      "p-tech"
+    ],
+    "2521": [
+      "p-people-networking"
+    ],
+    "2528": [
+      "p-people-networking"
+    ],
+    "2558": [
+      "p-people-networking"
+    ],
+    "2613": [
+      "p-tech"
+    ],
+    "2614": [
+      "p-tech"
+    ],
+    "2615": [
+      "p-tech"
+    ],
+    "2616": [
+      "p-tech"
+    ],
+    "2617": [
+      "p-tech"
+    ],
+    "2618": [
+      "p-tech"
+    ],
+    "2715": [
+      "p-people-networking"
+    ],
+    "2760": [
+      "p-jobs"
+    ],
+    "2761": [
+      "p-jobs"
+    ],
+    "2762": [
+      "p-jobs"
+    ],
+    "2763": [
+      "p-jobs"
+    ],
+    "2773": [
+      "p-people-networking"
+    ],
+    "2774": [
+      "p-tech"
+    ],
+    "2787": [
+      "p-people-networking"
+    ],
+    "2795": [
+      "p-people-networking"
+    ],
+    "2803": [
+      "p-people-networking"
+    ],
+    "2893": [
+      "p-people-networking"
+    ],
+    "2894": [
+      "p-people-networking"
+    ],
+    "2895": [
+      "p-people-networking"
+    ],
+    "2898": [
+      "p-people-networking"
+    ],
+    "2899": [
+      "p-people-networking"
+    ],
+    "2975": [
+      "p-events"
+    ],
+    "2976": [
+      "p-events"
+    ],
+    "2977": [
+      "p-events"
+    ],
+    "2978": [
+      "p-events"
+    ],
+    "2979": [
+      "p-events"
+    ],
+    "2980": [
+      "p-events"
+    ],
+    "2981": [
+      "p-events"
+    ],
+    "2982": [
+      "p-events"
+    ],
+    "2983": [
+      "p-events"
+    ],
+    "2984": [
+      "p-events"
+    ],
+    "2985": [
+      "p-events"
+    ],
+    "2986": [
+      "p-events"
+    ],
+    "2987": [
+      "p-events"
+    ],
+    "2988": [
+      "p-events"
+    ],
+    "2989": [
+      "p-events"
+    ],
+    "2990": [
+      "p-events"
+    ],
+    "2991": [
+      "p-events"
+    ],
+    "2992": [
+      "p-events"
+    ],
+    "2993": [
+      "p-events"
+    ],
+    "2994": [
+      "p-events"
+    ],
+    "2995": [
+      "p-events"
+    ],
+    "2996": [
+      "p-events"
+    ],
+    "3012": [
+      "p-people-networking"
+    ],
+    "3013": [
+      "p-people-networking"
+    ],
+    "3014": [
+      "p-people-networking"
+    ],
+    "3015": [
+      "p-people-networking"
+    ],
+    "3021": [
+      "p-people-networking"
+    ],
+    "3022": [
+      "p-people-networking"
+    ],
+    "3024": [
+      "p-people-networking"
+    ],
+    "3044": [
+      "p-people-networking"
+    ],
+    "3083": [
+      "p-people-networking"
+    ],
+    "3085": [
+      "p-people-networking"
+    ],
+    "3101": [
+      "p-people-networking"
+    ],
+    "3117": [
+      "p-people-networking"
+    ],
+    "3118": [
+      "p-people-networking"
+    ],
+    "3119": [
+      "p-people-networking"
+    ],
+    "3132": [
+      "p-people-networking"
+    ]
+  }
 }
