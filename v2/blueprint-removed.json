@@ -833,12 +833,12 @@
     },
     {
       "id": "removed-78",
-      "name": "Extended (Uncles, aunts, cousins \u2013 optional future expansion)",
+      "name": "Extended (Uncles, aunts, cousins – optional future expansion)",
       "type": "file",
       "description": "",
       "parentId": "removed-73",
       "parentName": "Groups",
-      "hierarchyPath": "P - Personal > Contacts_Network > Family > Groups > Extended (Uncles, aunts, cousins \u2013 optional future expansion)",
+      "hierarchyPath": "P - Personal > Contacts_Network > Family > Groups > Extended (Uncles, aunts, cousins – optional future expansion)",
       "depth": "4",
       "childCount": "0"
     },
@@ -961,7 +961,7 @@
       "parentId": "removed-dev",
       "parentName": "Developer / Tech",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Developer / Tech > GDG Tulsa",
-      "description": "Co-Organizer \u00b7 Developer community",
+      "description": "Co-Organizer · Developer community",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -974,7 +974,7 @@
       "parentId": "removed-dev",
       "parentName": "Developer / Tech",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Developer / Tech > Techlahoma",
-      "description": "Member \u00b7 Developer community",
+      "description": "Member · Developer community",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -983,11 +983,11 @@
     },
     {
       "id": "removed-dev2",
-      "name": "AI Tinkerers \u2014 Tulsa",
+      "name": "AI Tinkerers — Tulsa",
       "parentId": "removed-dev",
       "parentName": "Developer / Tech",
-      "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Developer / Tech > AI Tinkerers \u2014 Tulsa",
-      "description": "Member \u00b7 AI / ML community",
+      "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Developer / Tech > AI Tinkerers — Tulsa",
+      "description": "Member · AI / ML community",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1000,7 +1000,7 @@
       "parentId": "removed-dev",
       "parentName": "Developer / Tech",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Developer / Tech > Tulsa AI Meetup",
-      "description": "Member \u00b7 AI / ML community",
+      "description": "Member · AI / ML community",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1025,7 +1025,7 @@
       "parentId": "removed-cowork",
       "parentName": "Coworking / Innovation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Coworking / Innovation > Gradient Tulsa",
-      "description": "Member \u00b7 Innovation hub",
+      "description": "Member · Innovation hub",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1037,7 +1037,7 @@
       "parentId": "removed-cowork",
       "parentName": "Coworking / Innovation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Coworking / Innovation > 36 Degrees North",
-      "description": "Alumni member \u00b7 Coworking (pre-Gradient)",
+      "description": "Alumni member · Coworking (pre-Gradient)",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1049,7 +1049,7 @@
       "parentId": "removed-cowork",
       "parentName": "Coworking / Innovation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Coworking / Innovation > The Root Coworking",
-      "description": "Visitor \u00b7 Coworking space",
+      "description": "Visitor · Coworking space",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1061,7 +1061,7 @@
       "parentId": "removed-cowork",
       "parentName": "Coworking / Innovation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Coworking / Innovation > Gradient Events (Planning Pod)",
-      "description": "Member \u00b7 Tulsa events",
+      "description": "Member · Tulsa events",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1085,7 +1085,7 @@
       "parentId": "removed-talent",
       "parentName": "Talent / Remote / Relocation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Talent / Remote / Relocation > Tulsa Remote",
-      "description": "Member \u00b7 Remote-worker community",
+      "description": "Member · Remote-worker community",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1097,7 +1097,7 @@
       "parentId": "removed-talent",
       "parentName": "Talent / Remote / Relocation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Talent / Remote / Relocation > inTulsa Talent",
-      "description": "Member \u00b7 Talent program",
+      "description": "Member · Talent program",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1109,7 +1109,7 @@
       "parentId": "removed-talent",
       "parentName": "Talent / Remote / Relocation",
       "hierarchyPath": "P - Personal > Contacts_Network > Professional_Network > Organizations > Tulsa > Talent / Remote / Relocation > MakeMyMove",
-      "description": "Participant \u00b7 Relocation program",
+      "description": "Participant · Relocation program",
       "depth": "6",
       "type": "folder",
       "childCount": "0",
@@ -1844,7 +1844,7 @@
       "id": "removed-218",
       "name": "Account_Number",
       "type": "file",
-      "description": "Account Number \u2013 \u2022\u2022\u20226820",
+      "description": "Account Number – •••6820",
       "parentId": "removed-217",
       "parentName": "Checking",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Checking > Account_Number",
@@ -1866,7 +1866,7 @@
       "id": "removed-220",
       "name": "Electronic_Transfers",
       "type": "file",
-      "description": "Electronic Transfers \u2013 111000025",
+      "description": "Electronic Transfers – 111000025",
       "parentId": "removed-219",
       "parentName": "Routing_Numbers",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Checking > Routing_Numbers > Electronic_Transfers",
@@ -1877,7 +1877,7 @@
       "id": "removed-221",
       "name": "Checks",
       "type": "file",
-      "description": "Checks \u2013 113000023",
+      "description": "Checks – 113000023",
       "parentId": "removed-219",
       "parentName": "Routing_Numbers",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Checking > Routing_Numbers > Checks",
@@ -1888,7 +1888,7 @@
       "id": "removed-222",
       "name": "Wire_Transfers",
       "type": "file",
-      "description": "Wire Transfers \u2013 026009593",
+      "description": "Wire Transfers – 026009593",
       "parentId": "removed-219",
       "parentName": "Routing_Numbers",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Checking > Routing_Numbers > Wire_Transfers",
@@ -1899,7 +1899,7 @@
       "id": "removed-223",
       "name": "Status",
       "type": "file",
-      "description": "Status \u2013 Active",
+      "description": "Status – Active",
       "parentId": "removed-217",
       "parentName": "Checking",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Checking > Status",
@@ -1921,7 +1921,7 @@
       "id": "removed-225",
       "name": "Visa_2328",
       "type": "file",
-      "description": "Visa \u2022\u2022\u20222328",
+      "description": "Visa •••2328",
       "parentId": "removed-224",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Credit_Cards > Visa_2328",
@@ -1932,7 +1932,7 @@
       "id": "removed-226",
       "name": "Limit",
       "type": "file",
-      "description": "Limit \u2013 [placeholder]",
+      "description": "Limit – [placeholder]",
       "parentId": "removed-224",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Credit_Cards > Limit",
@@ -1943,7 +1943,7 @@
       "id": "removed-227",
       "name": "Balance",
       "type": "file",
-      "description": "Balance \u2013 [placeholder]",
+      "description": "Balance – [placeholder]",
       "parentId": "removed-224",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Credit_Cards > Balance",
@@ -1954,7 +1954,7 @@
       "id": "removed-228",
       "name": "Payment_Due_Date",
       "type": "file",
-      "description": "Payment Due Date \u2013 [placeholder]",
+      "description": "Payment Due Date – [placeholder]",
       "parentId": "removed-224",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Credit_Cards > Payment_Due_Date",
@@ -1976,7 +1976,7 @@
       "id": "removed-230",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-229",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Notes > Login_Info",
@@ -1987,7 +1987,7 @@
       "id": "removed-231",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-229",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Bank_of_America > Notes > Last_Statement",
@@ -2009,7 +2009,7 @@
       "id": "removed-234",
       "name": "Amex_2913",
       "type": "file",
-      "description": "Amex \u2022\u2022\u20222913",
+      "description": "Amex •••2913",
       "parentId": "removed-233",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Credit_Cards > Amex_2913",
@@ -2020,7 +2020,7 @@
       "id": "removed-235",
       "name": "Amex_9974",
       "type": "file",
-      "description": "Amex \u2022\u2022\u20229974",
+      "description": "Amex •••9974",
       "parentId": "removed-233",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Credit_Cards > Amex_9974",
@@ -2031,7 +2031,7 @@
       "id": "removed-236",
       "name": "Limit",
       "type": "file",
-      "description": "Limit \u2013 [placeholder]",
+      "description": "Limit – [placeholder]",
       "parentId": "removed-233",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Credit_Cards > Limit",
@@ -2042,7 +2042,7 @@
       "id": "removed-237",
       "name": "Balance",
       "type": "file",
-      "description": "Balance \u2013 [placeholder]",
+      "description": "Balance – [placeholder]",
       "parentId": "removed-233",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Credit_Cards > Balance",
@@ -2053,7 +2053,7 @@
       "id": "removed-238",
       "name": "Payment_Due_Date",
       "type": "file",
-      "description": "Payment Due Date \u2013 [placeholder]",
+      "description": "Payment Due Date – [placeholder]",
       "parentId": "removed-233",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Credit_Cards > Payment_Due_Date",
@@ -2075,7 +2075,7 @@
       "id": "removed-240",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-239",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Notes > Login_Info",
@@ -2086,7 +2086,7 @@
       "id": "removed-241",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-239",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Credit_One_Bank > Notes > Last_Statement",
@@ -2108,7 +2108,7 @@
       "id": "removed-244",
       "name": "Home_Furnishings_8058",
       "type": "file",
-      "description": "Home Furnishings \u2022\u2022\u20228058",
+      "description": "Home Furnishings •••8058",
       "parentId": "removed-243",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Wells_Fargo > Credit_Cards > Home_Furnishings_8058",
@@ -2119,7 +2119,7 @@
       "id": "removed-245",
       "name": "Limit",
       "type": "file",
-      "description": "Limit \u2013 [placeholder]",
+      "description": "Limit – [placeholder]",
       "parentId": "removed-243",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Wells_Fargo > Credit_Cards > Limit",
@@ -2130,7 +2130,7 @@
       "id": "removed-246",
       "name": "Balance",
       "type": "file",
-      "description": "Balance \u2013 [placeholder]",
+      "description": "Balance – [placeholder]",
       "parentId": "removed-243",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Wells_Fargo > Credit_Cards > Balance",
@@ -2141,7 +2141,7 @@
       "id": "removed-247",
       "name": "Payment_Due_Date",
       "type": "file",
-      "description": "Payment Due Date \u2013 [placeholder]",
+      "description": "Payment Due Date – [placeholder]",
       "parentId": "removed-243",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Wells_Fargo > Credit_Cards > Payment_Due_Date",
@@ -2163,7 +2163,7 @@
       "id": "removed-249",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-248",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Wells_Fargo > Notes > Login_Info",
@@ -2174,7 +2174,7 @@
       "id": "removed-250",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-248",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Wells_Fargo > Notes > Last_Statement",
@@ -2207,7 +2207,7 @@
       "id": "removed-253",
       "name": "Indigo_Platinum_Card_6612",
       "type": "file",
-      "description": "Indigo Platinum Card \u2022\u2022\u20226612",
+      "description": "Indigo Platinum Card •••6612",
       "parentId": "removed-252",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Indigo_Platinum > Credit_Cards > Indigo_Platinum_Card_6612",
@@ -2218,7 +2218,7 @@
       "id": "removed-254",
       "name": "Limit",
       "type": "file",
-      "description": "Limit \u2013 [placeholder]",
+      "description": "Limit – [placeholder]",
       "parentId": "removed-252",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Indigo_Platinum > Credit_Cards > Limit",
@@ -2229,7 +2229,7 @@
       "id": "removed-255",
       "name": "Balance",
       "type": "file",
-      "description": "Balance \u2013 [placeholder]",
+      "description": "Balance – [placeholder]",
       "parentId": "removed-252",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Indigo_Platinum > Credit_Cards > Balance",
@@ -2240,7 +2240,7 @@
       "id": "removed-256",
       "name": "Payment_Due_Date",
       "type": "file",
-      "description": "Payment Due Date \u2013 [placeholder]",
+      "description": "Payment Due Date – [placeholder]",
       "parentId": "removed-252",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Indigo_Platinum > Credit_Cards > Payment_Due_Date",
@@ -2262,7 +2262,7 @@
       "id": "removed-258",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-257",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Indigo_Platinum > Notes > Login_Info",
@@ -2273,7 +2273,7 @@
       "id": "removed-259",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-257",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Indigo_Platinum > Notes > Last_Statement",
@@ -2295,7 +2295,7 @@
       "id": "removed-262",
       "name": "Account_1070",
       "type": "file",
-      "description": "Account \u2022\u2022\u20221070",
+      "description": "Account •••1070",
       "parentId": "removed-261",
       "parentName": "Checking",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Checking > Account_1070",
@@ -2306,7 +2306,7 @@
       "id": "removed-263",
       "name": "Routing_Number",
       "type": "file",
-      "description": "Routing Number \u2013 [placeholder]",
+      "description": "Routing Number – [placeholder]",
       "parentId": "removed-261",
       "parentName": "Checking",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Checking > Routing_Number",
@@ -2317,7 +2317,7 @@
       "id": "removed-264",
       "name": "Status",
       "type": "file",
-      "description": "Status \u2013 [placeholder]",
+      "description": "Status – [placeholder]",
       "parentId": "removed-261",
       "parentName": "Checking",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Checking > Status",
@@ -2339,7 +2339,7 @@
       "id": "removed-266",
       "name": "Investment_Account_1802",
       "type": "file",
-      "description": "Investment Account \u2022\u2022\u20221802",
+      "description": "Investment Account •••1802",
       "parentId": "removed-265",
       "parentName": "Brokerage",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Brokerage > Investment_Account_1802",
@@ -2350,7 +2350,7 @@
       "id": "removed-267",
       "name": "Portfolio_Value",
       "type": "file",
-      "description": "Portfolio Value \u2013 [placeholder]",
+      "description": "Portfolio Value – [placeholder]",
       "parentId": "removed-265",
       "parentName": "Brokerage",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Brokerage > Portfolio_Value",
@@ -2361,7 +2361,7 @@
       "id": "removed-268",
       "name": "Holdings",
       "type": "file",
-      "description": "Holdings \u2013 [placeholder]",
+      "description": "Holdings – [placeholder]",
       "parentId": "removed-265",
       "parentName": "Brokerage",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Brokerage > Holdings",
@@ -2372,7 +2372,7 @@
       "id": "removed-269",
       "name": "Connected_Bank",
       "type": "file",
-      "description": "Connected Bank \u2013 [placeholder]",
+      "description": "Connected Bank – [placeholder]",
       "parentId": "removed-265",
       "parentName": "Brokerage",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Brokerage > Connected_Bank",
@@ -2394,7 +2394,7 @@
       "id": "removed-271",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-270",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Notes > Login_Info",
@@ -2405,7 +2405,7 @@
       "id": "removed-272",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-270",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Robinhood > Notes > Last_Statement",
@@ -2427,7 +2427,7 @@
       "id": "removed-275",
       "name": "Account_Type",
       "type": "file",
-      "description": "Account Type \u2013 [placeholder]",
+      "description": "Account Type – [placeholder]",
       "parentId": "removed-274",
       "parentName": "Investment",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Acorns > Investment > Account_Type",
@@ -2438,7 +2438,7 @@
       "id": "removed-276",
       "name": "Balance",
       "type": "file",
-      "description": "Balance \u2013 [placeholder]",
+      "description": "Balance – [placeholder]",
       "parentId": "removed-274",
       "parentName": "Investment",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Acorns > Investment > Balance",
@@ -2449,7 +2449,7 @@
       "id": "removed-277",
       "name": "Goal",
       "type": "file",
-      "description": "Goal \u2013 [placeholder]",
+      "description": "Goal – [placeholder]",
       "parentId": "removed-274",
       "parentName": "Investment",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Acorns > Investment > Goal",
@@ -2460,7 +2460,7 @@
       "id": "removed-278",
       "name": "Recurring_Amount",
       "type": "file",
-      "description": "Recurring Amount \u2013 [placeholder]",
+      "description": "Recurring Amount – [placeholder]",
       "parentId": "removed-274",
       "parentName": "Investment",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Acorns > Investment > Recurring_Amount",
@@ -2482,7 +2482,7 @@
       "id": "removed-280",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-279",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Acorns > Notes > Login_Info",
@@ -2493,7 +2493,7 @@
       "id": "removed-281",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-279",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Acorns > Notes > Last_Statement",
@@ -2515,7 +2515,7 @@
       "id": "removed-284",
       "name": "Apple_Card",
       "type": "file",
-      "description": "Apple Card \u2013 Linked to Apple Account",
+      "description": "Apple Card – Linked to Apple Account",
       "parentId": "removed-283",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Apple_Credit > Credit_Cards > Apple_Card",
@@ -2526,7 +2526,7 @@
       "id": "removed-285",
       "name": "Limit",
       "type": "file",
-      "description": "Limit \u2013 [placeholder]",
+      "description": "Limit – [placeholder]",
       "parentId": "removed-283",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Apple_Credit > Credit_Cards > Limit",
@@ -2537,7 +2537,7 @@
       "id": "removed-286",
       "name": "Balance",
       "type": "file",
-      "description": "Balance \u2013 [placeholder]",
+      "description": "Balance – [placeholder]",
       "parentId": "removed-283",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Apple_Credit > Credit_Cards > Balance",
@@ -2548,7 +2548,7 @@
       "id": "removed-287",
       "name": "Payment_Due_Date",
       "type": "file",
-      "description": "Payment Due Date \u2013 [placeholder]",
+      "description": "Payment Due Date – [placeholder]",
       "parentId": "removed-283",
       "parentName": "Credit_Cards",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Apple_Credit > Credit_Cards > Payment_Due_Date",
@@ -2570,7 +2570,7 @@
       "id": "removed-289",
       "name": "Login_Info",
       "type": "file",
-      "description": "Login Info \u2013 [placeholder]",
+      "description": "Login Info – [placeholder]",
       "parentId": "removed-288",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Apple_Credit > Notes > Login_Info",
@@ -2581,7 +2581,7 @@
       "id": "removed-290",
       "name": "Last_Statement",
       "type": "file",
-      "description": "Last Statement \u2013 [placeholder]",
+      "description": "Last Statement – [placeholder]",
       "parentId": "removed-288",
       "parentName": "Notes",
       "hierarchyPath": "P - Personal > Financial > Accounts_Banking > Apple_Credit > Notes > Last_Statement",
@@ -3604,17 +3604,6 @@
       "childCount": "0"
     },
     {
-      "id": "removed-602",
-      "name": "Employers",
-      "type": "folder",
-      "description": "All employers and organizations worked with",
-      "parentId": "removed",
-      "parentName": "W - Work",
-      "hierarchyPath": "W - Work > Employers",
-      "depth": "1",
-      "childCount": "9"
-    },
-    {
       "id": "removed-6031",
       "name": "Pay_Stubs_Benefits",
       "type": "folder",
@@ -3990,24 +3979,6 @@
     "51": [
       "removed-117"
     ],
-    "52": [
-      "removed-602"
-    ],
-    "53": [
-      "removed-602"
-    ],
-    "54": [
-      "removed-602"
-    ],
-    "55": [
-      "removed-602"
-    ],
-    "56": [
-      "removed-602"
-    ],
-    "57": [
-      "removed-602"
-    ],
     "58": [
       "removed-502"
     ],
@@ -4053,41 +4024,11 @@
     "80": [
       "removed-dev2"
     ],
-    "83": [
-      "removed-602"
-    ],
-    "84": [
-      "removed-602"
-    ],
-    "85": [
-      "removed-602"
-    ],
     "121": [
       "removed-368"
     ],
-    "144": [
-      "removed-602"
-    ],
-    "145": [
-      "removed-602"
-    ],
-    "146": [
-      "removed-602"
-    ],
-    "147": [
-      "removed-602"
-    ],
-    "148": [
-      "removed-602"
-    ],
     "160": [
       "removed-502"
-    ],
-    "209": [
-      "removed-602"
-    ],
-    "213": [
-      "removed-602"
     ],
     "228": [
       "removed-502"
@@ -4108,7 +4049,6 @@
       "removed-363"
     ],
     "257": [
-      "removed-602",
       "removed-363"
     ],
     "258": [
@@ -4142,9 +4082,6 @@
       "removed-704",
       "removed-363"
     ],
-    "269": [
-      "removed-602"
-    ],
     "272": [
       "removed-363"
     ],
@@ -4163,9 +4100,6 @@
     "281": [
       "removed-117"
     ],
-    "290": [
-      "removed-602"
-    ],
     "317": [
       "removed-622"
     ],
@@ -4174,9 +4108,6 @@
     ],
     "323": [
       "removed-502"
-    ],
-    "332": [
-      "removed-602"
     ],
     "355": [
       "removed-704"
@@ -4208,9 +4139,6 @@
     "369": [
       "removed-136"
     ],
-    "371": [
-      "removed-602"
-    ],
     "376": [
       "removed-207"
     ],
@@ -4228,9 +4156,6 @@
     ],
     "394": [
       "removed-702"
-    ],
-    "398": [
-      "removed-602"
     ],
     "431": [
       "removed-300"
@@ -4308,9 +4233,6 @@
     "544": [
       "removed-300"
     ],
-    "550": [
-      "removed-602"
-    ],
     "552": [
       "removed-117"
     ],
@@ -4348,7 +4270,6 @@
       "removed-363"
     ],
     "619": [
-      "removed-602",
       "removed-363"
     ],
     "620": [
@@ -4387,9 +4308,6 @@
     "652": [
       "removed-117"
     ],
-    "658": [
-      "removed-602"
-    ],
     "659": [
       "removed-136"
     ],
@@ -4413,9 +4331,6 @@
     ],
     "689": [
       "removed-368"
-    ],
-    "695": [
-      "removed-602"
     ],
     "696": [
       "removed-117"
@@ -4471,20 +4386,11 @@
     "784": [
       "removed-522"
     ],
-    "787": [
-      "removed-602"
-    ],
     "792": [
       "removed-502"
     ],
-    "816": [
-      "removed-602"
-    ],
     "817": [
       "removed-210"
-    ],
-    "819": [
-      "removed-602"
     ],
     "824": [
       "removed-502"
@@ -4509,7 +4415,6 @@
     ],
     "849": [
       "removed-622",
-      "removed-602",
       "removed-704"
     ],
     "861": [
@@ -4622,8 +4527,7 @@
     ],
     "1135": [
       "removed-136",
-      "removed-704",
-      "removed-602"
+      "removed-704"
     ],
     "1149": [
       "removed-622"
@@ -4663,7 +4567,6 @@
       "removed-90"
     ],
     "1163": [
-      "removed-602",
       "removed-90"
     ],
     "1164": [
@@ -4806,7 +4709,6 @@
       "removed-90"
     ],
     "1209": [
-      "removed-602",
       "removed-90"
     ],
     "1210": [
@@ -5086,9 +4988,6 @@
     "1297": [
       "removed-90"
     ],
-    "1305": [
-      "removed-602"
-    ],
     "1322": [
       "removed-90"
     ],
@@ -5103,9 +5002,6 @@
     ],
     "1335": [
       "removed-368"
-    ],
-    "1345": [
-      "removed-602"
     ],
     "1348": [
       "removed-522"
@@ -5132,9 +5028,6 @@
     "1363": [
       "removed-622"
     ],
-    "1365": [
-      "removed-602"
-    ],
     "1366": [
       "removed-502"
     ],
@@ -5156,9 +5049,6 @@
     "1383": [
       "removed-368"
     ],
-    "1423": [
-      "removed-602"
-    ],
     "1428": [
       "removed-dev2"
     ],
@@ -5168,7 +5058,6 @@
       "removed-117",
       "removed-90",
       "removed-363",
-      "removed-602",
       "removed-514"
     ],
     "1440": [
@@ -5208,21 +5097,6 @@
     "1482": [
       "removed-622"
     ],
-    "1500": [
-      "removed-602"
-    ],
-    "1506": [
-      "removed-602"
-    ],
-    "1519": [
-      "removed-602"
-    ],
-    "1524": [
-      "removed-602"
-    ],
-    "1532": [
-      "removed-602"
-    ],
     "1544": [
       "removed-622",
       "removed-363"
@@ -5236,24 +5110,6 @@
     "1559": [
       "removed-502"
     ],
-    "1566": [
-      "removed-602"
-    ],
-    "1567": [
-      "removed-602"
-    ],
-    "1568": [
-      "removed-602"
-    ],
-    "1569": [
-      "removed-602"
-    ],
-    "1570": [
-      "removed-602"
-    ],
-    "1571": [
-      "removed-602"
-    ],
     "1573": [
       "removed-363"
     ],
@@ -5264,7 +5120,6 @@
       "removed-talent1"
     ],
     "1580": [
-      "removed-602",
       "removed-talent1"
     ],
     "1581": [
@@ -5301,12 +5156,6 @@
     "1625": [
       "removed-cowork0"
     ],
-    "1631": [
-      "removed-602"
-    ],
-    "1634": [
-      "removed-602"
-    ],
     "1640": [
       "removed-368"
     ],
@@ -5322,21 +5171,6 @@
     "1674": [
       "removed-502"
     ],
-    "1714": [
-      "removed-602"
-    ],
-    "1715": [
-      "removed-602"
-    ],
-    "1716": [
-      "removed-602"
-    ],
-    "1717": [
-      "removed-602"
-    ],
-    "1718": [
-      "removed-602"
-    ],
     "1734": [
       "removed-117"
     ],
@@ -5346,21 +5180,6 @@
     ],
     "1755": [
       "removed-502"
-    ],
-    "1757": [
-      "removed-602"
-    ],
-    "1758": [
-      "removed-602"
-    ],
-    "1759": [
-      "removed-602"
-    ],
-    "1760": [
-      "removed-602"
-    ],
-    "1761": [
-      "removed-602"
     ],
     "1766": [
       "removed-502"
@@ -5502,9 +5321,6 @@
     "1926": [
       "removed-368"
     ],
-    "1931": [
-      "removed-602"
-    ],
     "1937": [
       "removed-514"
     ],
@@ -5518,14 +5334,8 @@
       "removed-dev1",
       "removed-363"
     ],
-    "1952": [
-      "removed-602"
-    ],
     "1969": [
       "removed-136"
-    ],
-    "1973": [
-      "removed-602"
     ],
     "1981": [
       "removed-117"
@@ -5553,15 +5363,6 @@
     ],
     "2028": [
       "removed-117"
-    ],
-    "2031": [
-      "removed-602"
-    ],
-    "2032": [
-      "removed-602"
-    ],
-    "2040": [
-      "removed-602"
     ],
     "2043": [
       "removed-136"
@@ -5595,18 +5396,6 @@
       "removed-704",
       "removed-702"
     ],
-    "2085": [
-      "removed-602"
-    ],
-    "2086": [
-      "removed-602"
-    ],
-    "2087": [
-      "removed-602"
-    ],
-    "2088": [
-      "removed-602"
-    ],
     "2095": [
       "removed-622"
     ],
@@ -5625,7 +5414,6 @@
       "removed-502",
       "removed-117",
       "removed-622",
-      "removed-602",
       "removed-704",
       "removed-702",
       "removed-90",
@@ -5636,9 +5424,6 @@
     ],
     "2136": [
       "removed-622"
-    ],
-    "2141": [
-      "removed-602"
     ],
     "2145": [
       "removed-502"
@@ -5662,8 +5447,7 @@
       "removed-310"
     ],
     "2184": [
-      "removed-368",
-      "removed-602"
+      "removed-368"
     ],
     "2187": [
       "removed-210"
@@ -5680,7 +5464,6 @@
     "2203": [
       "removed-368",
       "removed-117",
-      "removed-602",
       "removed-704",
       "removed-702",
       "removed-363"
@@ -5715,8 +5498,7 @@
     ],
     "2251": [
       "removed-136",
-      "removed-622",
-      "removed-602"
+      "removed-622"
     ],
     "2278": [
       "removed-704",
@@ -5724,9 +5506,6 @@
     ],
     "2294": [
       "removed-363"
-    ],
-    "2296": [
-      "removed-602"
     ],
     "2315": [
       "removed-308",
@@ -5767,9 +5546,6 @@
     ],
     "2375": [
       "removed-363"
-    ],
-    "2376": [
-      "removed-602"
     ],
     "2383": [
       "removed-368"
@@ -5854,17 +5630,11 @@
     "2629": [
       "removed-368"
     ],
-    "2643": [
-      "removed-602"
-    ],
     "2650": [
       "removed-704"
     ],
     "2652": [
       "removed-622"
-    ],
-    "2682": [
-      "removed-602"
     ],
     "2684": [
       "removed-136"
@@ -5921,21 +5691,6 @@
     "2738": [
       "removed-502"
     ],
-    "2760": [
-      "removed-602"
-    ],
-    "2761": [
-      "removed-602"
-    ],
-    "2762": [
-      "removed-602"
-    ],
-    "2763": [
-      "removed-602"
-    ],
-    "2788": [
-      "removed-602"
-    ],
     "2792": [
       "removed-502"
     ],
@@ -5947,9 +5702,6 @@
     ],
     "2801": [
       "removed-cowork2"
-    ],
-    "2806": [
-      "removed-602"
     ],
     "2815": [
       "removed-210"
@@ -6049,9 +5801,6 @@
     "2912": [
       "removed-368"
     ],
-    "2913": [
-      "removed-602"
-    ],
     "2929": [
       "removed-90"
     ],
@@ -6066,21 +5815,6 @@
     ],
     "2946": [
       "removed-117"
-    ],
-    "2961": [
-      "removed-602"
-    ],
-    "2962": [
-      "removed-602"
-    ],
-    "2963": [
-      "removed-602"
-    ],
-    "2964": [
-      "removed-602"
-    ],
-    "2966": [
-      "removed-602"
     ],
     "2972": [
       "removed-502"
@@ -6151,39 +5885,8 @@
     "2996": [
       "removed-363"
     ],
-    "2997": [
-      "removed-602"
-    ],
-    "2998": [
-      "removed-602"
-    ],
-    "2999": [
-      "removed-602"
-    ],
-    "3000": [
-      "removed-602"
-    ],
-    "3001": [
-      "removed-602"
-    ],
-    "3002": [
-      "removed-602"
-    ],
-    "3003": [
-      "removed-602"
-    ],
-    "3004": [
-      "removed-602"
-    ],
-    "3005": [
-      "removed-602"
-    ],
-    "3016": [
-      "removed-602"
-    ],
     "3026": [
-      "removed-136",
-      "removed-602"
+      "removed-136"
     ],
     "3027": [
       "removed-136"
@@ -6200,33 +5903,6 @@
     "3079": [
       "removed-363"
     ],
-    "3091": [
-      "removed-602"
-    ],
-    "3092": [
-      "removed-602"
-    ],
-    "3093": [
-      "removed-602"
-    ],
-    "3094": [
-      "removed-602"
-    ],
-    "3095": [
-      "removed-602"
-    ],
-    "3096": [
-      "removed-602"
-    ],
-    "3097": [
-      "removed-602"
-    ],
-    "3098": [
-      "removed-602"
-    ],
-    "3099": [
-      "removed-602"
-    ],
     "3125": [
       "removed-136"
     ],
@@ -6240,7 +5916,6 @@
       "removed-90"
     ],
     "3129": [
-      "removed-602",
       "removed-90"
     ],
     "3130": [
@@ -6255,47 +5930,8 @@
     "162": [
       "removed-502"
     ],
-    "268": [
-      "removed-602"
-    ],
-    "270": [
-      "removed-602"
-    ],
-    "329": [
-      "removed-602"
-    ],
-    "330": [
-      "removed-602"
-    ],
-    "331": [
-      "removed-602"
-    ],
-    "333": [
-      "removed-602"
-    ],
-    "334": [
-      "removed-602"
-    ],
-    "335": [
-      "removed-602"
-    ],
-    "336": [
-      "removed-602"
-    ],
-    "337": [
-      "removed-602"
-    ],
     "395": [
       "removed-702"
-    ],
-    "397": [
-      "removed-602"
-    ],
-    "399": [
-      "removed-602"
-    ],
-    "400": [
-      "removed-602"
     ],
     "437": [
       "removed-522"
@@ -6314,9 +5950,6 @@
     ],
     "533": [
       "removed-502"
-    ],
-    "551": [
-      "removed-602"
     ],
     "595": [
       "removed-300"
@@ -6339,9 +5972,6 @@
     "602": [
       "removed-300"
     ],
-    "788": [
-      "removed-602"
-    ],
     "825": [
       "removed-502"
     ],
@@ -6350,21 +5980,6 @@
     ],
     "827": [
       "removed-502"
-    ],
-    "1306": [
-      "removed-602"
-    ],
-    "1420": [
-      "removed-602"
-    ],
-    "1421": [
-      "removed-602"
-    ],
-    "1422": [
-      "removed-602"
-    ],
-    "1424": [
-      "removed-602"
     ],
     "1470": [
       "removed-704"
@@ -6396,146 +6011,8 @@
     "1489": [
       "removed-622"
     ],
-    "1490": [
-      "removed-602"
-    ],
-    "1491": [
-      "removed-602"
-    ],
-    "1492": [
-      "removed-602"
-    ],
-    "1493": [
-      "removed-602"
-    ],
-    "1494": [
-      "removed-602"
-    ],
-    "1495": [
-      "removed-602"
-    ],
-    "1496": [
-      "removed-602"
-    ],
-    "1497": [
-      "removed-602"
-    ],
-    "1498": [
-      "removed-602"
-    ],
-    "1499": [
-      "removed-602"
-    ],
-    "1501": [
-      "removed-602"
-    ],
-    "1502": [
-      "removed-602"
-    ],
-    "1503": [
-      "removed-602"
-    ],
-    "1504": [
-      "removed-602"
-    ],
-    "1505": [
-      "removed-602"
-    ],
-    "1507": [
-      "removed-602"
-    ],
-    "1508": [
-      "removed-602"
-    ],
-    "1509": [
-      "removed-602"
-    ],
-    "1510": [
-      "removed-602"
-    ],
-    "1511": [
-      "removed-602"
-    ],
-    "1512": [
-      "removed-602"
-    ],
-    "1513": [
-      "removed-602"
-    ],
-    "1514": [
-      "removed-602"
-    ],
-    "1515": [
-      "removed-602"
-    ],
-    "1516": [
-      "removed-602"
-    ],
-    "1517": [
-      "removed-602"
-    ],
-    "1518": [
-      "removed-602"
-    ],
-    "1520": [
-      "removed-602"
-    ],
-    "1521": [
-      "removed-602"
-    ],
-    "1522": [
-      "removed-602"
-    ],
-    "1523": [
-      "removed-602"
-    ],
-    "1525": [
-      "removed-602"
-    ],
-    "1526": [
-      "removed-602"
-    ],
-    "1527": [
-      "removed-602"
-    ],
-    "1528": [
-      "removed-602"
-    ],
-    "1529": [
-      "removed-602"
-    ],
-    "1530": [
-      "removed-602"
-    ],
-    "1531": [
-      "removed-602"
-    ],
-    "1533": [
-      "removed-602"
-    ],
-    "1534": [
-      "removed-602"
-    ],
-    "1535": [
-      "removed-602"
-    ],
-    "1536": [
-      "removed-602"
-    ],
-    "1537": [
-      "removed-602"
-    ],
-    "1538": [
-      "removed-602"
-    ],
-    "1539": [
-      "removed-602"
-    ],
     "1558": [
       "removed-502"
-    ],
-    "1572": [
-      "removed-602"
     ],
     "1585": [
       "removed-368"
@@ -6549,18 +6026,6 @@
     "1589": [
       "removed-368"
     ],
-    "1630": [
-      "removed-602"
-    ],
-    "1632": [
-      "removed-602"
-    ],
-    "1633": [
-      "removed-602"
-    ],
-    "1635": [
-      "removed-602"
-    ],
     "1657": [
       "removed-702"
     ],
@@ -6569,9 +6034,6 @@
     ],
     "1665": [
       "removed-622"
-    ],
-    "1719": [
-      "removed-602"
     ],
     "1854": [
       "removed-117",
@@ -6604,24 +6066,9 @@
     "1920": [
       "removed-368"
     ],
-    "1953": [
-      "removed-602"
-    ],
-    "1954": [
-      "removed-602"
-    ],
-    "1955": [
-      "removed-602"
-    ],
     "2082": [
       "removed-702",
       "removed-704"
-    ],
-    "2140": [
-      "removed-602"
-    ],
-    "2142": [
-      "removed-602"
     ],
     "2146": [
       "removed-502"
@@ -6655,21 +6102,6 @@
     ],
     "2295": [
       "removed-363"
-    ],
-    "2297": [
-      "removed-602"
-    ],
-    "2298": [
-      "removed-602"
-    ],
-    "2299": [
-      "removed-602"
-    ],
-    "2300": [
-      "removed-602"
-    ],
-    "2301": [
-      "removed-602"
     ],
     "2334": [
       "removed-502"
@@ -6710,12 +6142,6 @@
     "2632": [
       "removed-368"
     ],
-    "2644": [
-      "removed-602"
-    ],
-    "2645": [
-      "removed-602"
-    ],
     "2651": [
       "removed-704"
     ],
@@ -6733,15 +6159,6 @@
     ],
     "2899": [
       "removed-368"
-    ],
-    "2967": [
-      "removed-602"
-    ],
-    "3006": [
-      "removed-602"
-    ],
-    "3007": [
-      "removed-602"
     ]
   }
 }

@@ -3142,7 +3142,10 @@
     "name": "Employers & Organizations",
     "parentId": "w",
     "order": 0,
-    "aliases": [],
+    "aliases": [
+      "602",
+      "w-employers-1"
+    ],
     "hierarchyPath": "W - Work > Employers & Organizations"
   },
   {
@@ -4102,17 +4105,6 @@
       "601"
     ],
     "hierarchyPath": "Chronological work history and career progression"
-  },
-  {
-    "id": "w-employers-1",
-    "name": "Employers",
-    "description": "All employers and organizations worked with",
-    "parentId": "w",
-    "order": 99,
-    "aliases": [
-      "602"
-    ],
-    "hierarchyPath": "All employers and organizations worked with"
   },
   {
     "id": "w-pay-stubs-benefits",
@@ -5164,8 +5156,8 @@
     "hierarchyPath": ""
   },
   {
-    "id": "pr-extended-(uncles,-aunts,-cousins-\u2013-optional-future-expansion)",
-    "name": "Extended (Uncles, aunts, cousins \u2013 optional future expansion)",
+    "id": "pr-extended-(uncles,-aunts,-cousins-–-optional-future-expansion)",
+    "name": "Extended (Uncles, aunts, cousins – optional future expansion)",
     "description": "",
     "parentId": "node-73",
     "order": 99,

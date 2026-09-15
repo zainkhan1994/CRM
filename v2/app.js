@@ -385,25 +385,45 @@ Promise.all(['blueprint.json','blueprint-links.json','blueprint-removed.json'].m
 function matchingSections(domain,rules){domain=domain.toLowerCase();const matches=rules.filter(r=>{const d=r.domain.toLowerCase();return domain===d||(!['gmail.com','yahoo.com','outlook.com','hotmail.com','icloud.com','substack.com','e2ma.net','zendesk.com'].includes(d)&&domain.endsWith('.'+d));});const longest=Math.max(0,...matches.map(r=>r.domain.length));return [...new Set(matches.filter(r=>r.domain.length===longest).map(r=>r.sectionId))];}
 
 const personalEmailDomains=new Set(['gmail.com','yahoo.com','hotmail.com','outlook.com','icloud.com','aol.com','msn.com','live.com','me.com','mac.com','mail.com','proton.me','protonmail.com','ymail.com']);
+const employerDomains=new Map([
+ ['rcubedco.com','w-emp-rcubed'],
+ ['redriverdevelopment.com','w-emp-redriver'],
+ ['redriverdev.com','w-emp-redriver'],
+ ['trulohomes.com','w-emp-trulo'],
+ ['roserockdev.com','w-emp-roserock'],
+ ['roserockdevelopment.com','w-emp-roserock'],
+ ['minaretfoundation.com','w-emp-minaret'],
+ ['ashfordco.com','w-emp-ashford'],
+ ['ashfordcommunities.com','w-emp-ashford'],
+ ['census.gov','w-emp-census'],
+ ['isgh.org','w-emp-isgh'],
+ ['flex.amazon.com','w-emp-amazonflex'],
+ ['gitwit.com','w-emp-gitwit'],
+ ['splash.systems','w-emp-gitwit'],
+ ['tulsaremote.com','w-emp-tulsaremote']
+]);
+
 function inferSectionForDomain(domain, company){
  domain=(domain||'').toLowerCase().trim();
  company=(company||'').toLowerCase().trim();
  const text=domain+' '+company;
+ for(const [d,sec] of employerDomains){if(domain===d||domain.endsWith('.'+d))return sec;}
  if(personalEmailDomains.has(domain))return 'p-people-personal';
- if(domain.endsWith('.gov')||/\b(census|cityof|county|police|court)\b/.test(text))return 'p-gov';
- if(domain.endsWith('.edu')||/\b(school|academy|university|college|learn|course|training|educat)\b/.test(text))return 'p-learn';
- if(/\b(health|clinic|medical|hospital|doctor|dental|derm|pharm|physician|therapy|care|wellness)\b/.test(text))return 'h-providers';
- if(/\b(job|recruit|career|talent|hire|staffing|workforce|employ)\b/.test(text))return 'p-jobs';
+ if(/\b(usertesting|userinterviews|utest|wilkinsresearch|researchstudies)\b/.test(text))return 'p-research';
+ if(domain.endsWith('.gov')||/\b(census|cityof|county|police|court|governmentjobs)\b/.test(text))return 'p-gov';
+ if(domain.endsWith('.edu')||/\b(school|academy|university|college|learn|course|training|educat|interviewkickstart|meritamerica|maven|elvtr)\b/.test(text))return 'p-learn';
+ if(/\b(health|clinic|medical|hospital|doctor|dental|derm|pharm|physician|therapy|care|wellness|methodist|encompasshealth)\b/.test(text))return 'h-providers';
+ if(/\b(job|recruit|career|talent|hire|staffing|workforce|employ|headhunter|applicant|lionbridge|upwork|icims|indeed|prehired|flextek|sprockets)\b/.test(text))return 'p-jobs';
  if(domain.endsWith('.ai')||/\b(openai|claude|anthropic|llm|gpt)\b/.test(text))return 'p-ai';
  if(domain.endsWith('.dev')||domain.endsWith('.io')||/\b(tech|cloud|software|api|data|code|database|host|cyber)\b/.test(text))return 'p-tech';
  if(/\b(event|hackathon|summit|conference|expo|fest|festival|meetup)\b/.test(text))return 'p-events-tech';
- if(/\b(shop|store|retail|apparel|boutique|clothing|goods|market|wear)\b/.test(text))return 'p-shop-retail';
- if(/\b(food|restaurant|cafe|coffee|pizza|burger|bakery|kitchen|diner|bistro|eats)\b/.test(text))return 'p-shop-food';
- if(/\b(travel|flight|airline|hotel|inn|resort|vacation|cruise|tour)\b/.test(text))return 'p-travel-lodging';
+ if(/\b(shop|store|retail|apparel|boutique|clothing|goods|market|wear|merch|shopify|offerup|walmart|homedepot)\b/.test(text))return 'p-shop-retail';
+ if(/\b(food|restaurant|cafe|coffee|pizza|burger|bakery|kitchen|diner|bistro|eats|toast-restaurants)\b/.test(text))return 'p-shop-food';
+ if(/\b(travel|flight|airline|hotel|inn|resort|vacation|cruise|tour|lodging)\b/.test(text))return 'p-travel-lodging';
  if(/\b(realty|realestate|apartment|properties|homes|housing|living|rent)\b/.test(text))return 'p-housing';
- if(/\b(bank|credit|insurance|financial|capital|wealth|mortgage|invest)\b/.test(text))return 'p-accounts-tools';
+ if(/\b(bank|credit|insurance|financial|capital|wealth|mortgage|invest|payroll|adp|paycom|aflac)\b/.test(text))return 'p-accounts-tools';
  if(domain.endsWith('.org')||/\b(foundation|charity|relief|mission|mosque|islamic|muslim|society|association|nonprofit)\b/.test(text))return 'p-nonprofit';
- return 'w-employers';
+ return null;
 }
 
 function canonicalSection(id){const aliases=blueprintLinks.sectionAliases||{};const seen=new Set();while(aliases[id]&&!seen.has(id)){seen.add(id);id=aliases[id]}return id;}

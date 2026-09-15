@@ -962,7 +962,7 @@
     },
     {
       "domain": "email.meetup.com",
-      "sectionId": "p-social-meetup"
+      "sectionId": "p-events"
     },
     {
       "domain": "googlegroups.com",
@@ -974,7 +974,7 @@
     },
     {
       "domain": "calendly.com",
-      "sectionId": "p-meetings-calendly"
+      "sectionId": "w-tools"
     },
     {
       "domain": "send.calendly.com",
@@ -994,7 +994,7 @@
     },
     {
       "domain": "oncehub.com",
-      "sectionId": "p-meetings-oncehub"
+      "sectionId": "w-tools"
     },
     {
       "domain": "chilipiper.com",
@@ -1786,7 +1786,7 @@
     },
     {
       "domain": "houstonmethodist.org",
-      "sectionId": "h-prov-hm"
+      "sectionId": "h-providers"
     },
     {
       "domain": "mdanderson.org",
@@ -2110,7 +2110,7 @@
     },
     {
       "domain": "us.aflac.com",
-      "sectionId": "h-ins-aflac"
+      "sectionId": "p-accounts-tools"
     },
     {
       "domain": "healthcare.gov",
@@ -2310,7 +2310,7 @@
     },
     {
       "domain": "adp.com",
-      "sectionId": "p-jobs"
+      "sectionId": "p-accounts-tools"
     },
     {
       "domain": "accredible.com",
@@ -2546,7 +2546,7 @@
     },
     {
       "domain": "gdg.community.dev",
-      "sectionId": "p-events-gdg"
+      "sectionId": "p-tech-google"
     },
     {
       "domain": "luma-mail.com",
@@ -2558,7 +2558,7 @@
     },
     {
       "domain": "calendar.luma-mail.com",
-      "sectionId": "p-events-luma"
+      "sectionId": "p-events"
     },
     {
       "domain": "wattsco.mailer.appfolio.us",
@@ -2590,7 +2590,7 @@
     },
     {
       "domain": "joinsatellite.io",
-      "sectionId": "p-tech"
+      "sectionId": "p-jobs"
     },
     {
       "domain": "mail.aitinkerers.org",
@@ -2646,7 +2646,7 @@
     },
     {
       "domain": "intulsa.com",
-      "sectionId": "p-talent-intulsa"
+      "sectionId": "w-emp-tulsaremote"
     },
     {
       "domain": "pinecone.io",
@@ -2703,6 +2703,134 @@
     {
       "domain": "tulsastem.org",
       "sectionId": "p-events-tulsastem"
+    },
+    {
+      "domain": "redriverdev.com",
+      "sectionId": "w-emp-redriver"
+    },
+    {
+      "domain": "roserockdevelopment.com",
+      "sectionId": "w-emp-roserock"
+    },
+    {
+      "domain": "ashfordcommunities.com",
+      "sectionId": "w-emp-ashford"
+    },
+    {
+      "domain": "flex.amazon.com",
+      "sectionId": "w-emp-amazonflex"
+    },
+    {
+      "domain": "applyresponse.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "list.maven.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "lionbridge.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "nelsonrecruiting.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "talent.icims.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "community.upwork.com",
+      "sectionId": "p-jobs-upwork"
+    },
+    {
+      "domain": "email.upwork.com",
+      "sectionId": "p-jobs-upwork"
+    },
+    {
+      "domain": "alert.refer.io",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "novaspaceinc.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "sprockets.ai",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "elvtr.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "flextekresources.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "msgint.paycomonline.com",
+      "sectionId": "p-accounts-tools"
+    },
+    {
+      "domain": "bf08x.hs-send.com",
+      "sectionId": "p-events"
+    },
+    {
+      "domain": "billionwaysincorporated.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "careerchina.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "encompasshealth.com",
+      "sectionId": "h-providers"
+    },
+    {
+      "domain": "fortbendisd.gov",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "foxforceltd.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "hello.tealhq.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "notifications.hubspot.com",
+      "sectionId": "w-tools-hubspot"
+    },
+    {
+      "domain": "meador.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "my-career-education.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "remini.app",
+      "sectionId": "p-ai"
+    },
+    {
+      "domain": "streamlinegreen.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "texasperformancesolutions.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "threshold360.com",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "txheadhuntersinc.com",
+      "sectionId": "p-jobs"
     }
   ],
   "contactAssignments": {
@@ -2740,7 +2868,7 @@
       "p-learn"
     ],
     "209": [
-      "p-jobs"
+      "p-events"
     ],
     "241": [
       "p-events-buildtulsa"
@@ -2782,7 +2910,7 @@
       "p-learn"
     ],
     "398": [
-      "p-jobs"
+      "p-learn"
     ],
     "411": [
       "p-learn"
@@ -2857,7 +2985,7 @@
       "p-learn"
     ],
     "1570": [
-      "p-jobs"
+      "p-learn-interviewkickstart"
     ],
     "1573": [
       "p-events"
@@ -2884,7 +3012,7 @@
       "p-jobs"
     ],
     "1718": [
-      "p-news"
+      "p-learn"
     ],
     "1769": [
       "p-news"
@@ -2914,16 +3042,16 @@
       "p-news"
     ],
     "2031": [
-      "p-jobs"
+      "p-accounts-tools"
     ],
     "2032": [
-      "p-jobs"
+      "p-accounts-tools"
     ],
     "2039": [
       "p-learn"
     ],
     "2040": [
-      "p-jobs"
+      "p-learn"
     ],
     "2053": [
       "h-providers"
@@ -2959,7 +3087,7 @@
       "p-events"
     ],
     "2296": [
-      "p-jobs"
+      "p-jobs-prehired"
     ],
     "2317": [
       "p-learn"
@@ -3376,7 +3504,7 @@
       "p-tech"
     ],
     "551": [
-      "p-people-networking"
+      "p-learn"
     ],
     "577": [
       "p-tech"
@@ -3385,7 +3513,7 @@
       "p-tech"
     ],
     "695": [
-      "p-people-networking"
+      "h-providers"
     ],
     "696": [
       "p-tech"
@@ -3415,7 +3543,7 @@
       "p-learn"
     ],
     "816": [
-      "p-people-networking"
+      "p-learn"
     ],
     "839": [
       "p-tech"
@@ -3481,7 +3609,7 @@
       "p-tech"
     ],
     "1365": [
-      "p-people-networking"
+      "p-jobs"
     ],
     "1368": [
       "p-people-networking"
@@ -3526,13 +3654,13 @@
       "p-people-networking"
     ],
     "1568": [
-      "p-people-networking"
+      "p-learn-interviewkickstart"
     ],
     "1571": [
-      "p-people-networking"
+      "p-learn-interviewkickstart"
     ],
     "1572": [
-      "p-people-networking"
+      "p-learn-interviewkickstart"
     ],
     "1579": [
       "p-people-networking"
@@ -3694,7 +3822,7 @@
       "p-people-networking"
     ],
     "2300": [
-      "p-people-networking"
+      "p-jobs-prehired"
     ],
     "2389": [
       "p-people-networking"
@@ -3967,7 +4095,7 @@
       "p-tech-do"
     ],
     "849": [
-      "p-events-gdg"
+      "p-tech-google"
     ],
     "1242": [
       "p-tech-google"
@@ -3977,6 +4105,486 @@
     ],
     "2079": [
       "p-gov-nasa"
+    ],
+    "52": [
+      "p-accounts-tools"
+    ],
+    "53": [
+      "p-accounts-tools"
+    ],
+    "54": [
+      "p-accounts-tools"
+    ],
+    "55": [
+      "p-accounts-tools"
+    ],
+    "56": [
+      "p-accounts-tools"
+    ],
+    "57": [
+      "p-accounts-tools"
+    ],
+    "213": [
+      "p-jobs"
+    ],
+    "269": [
+      "w-tools"
+    ],
+    "332": [
+      "p-gov-tulsa"
+    ],
+    "371": [
+      "p-jobs-upwork"
+    ],
+    "550": [
+      "p-learn"
+    ],
+    "619": [
+      "p-events"
+    ],
+    "658": [
+      "p-jobs-upwork"
+    ],
+    "787": [
+      "p-jobs"
+    ],
+    "819": [
+      "p-jobs"
+    ],
+    "1135": [
+      "p-jobs"
+    ],
+    "1163": [
+      "p-tech-google"
+    ],
+    "1209": [
+      "p-tech-google"
+    ],
+    "1305": [
+      "p-gov-houston"
+    ],
+    "1345": [
+      "p-learn-harmony"
+    ],
+    "1423": [
+      "h-providers"
+    ],
+    "1431": [
+      "w-tools-hubspot"
+    ],
+    "1500": [
+      "p-jobs-indeed"
+    ],
+    "1506": [
+      "p-jobs-indeed"
+    ],
+    "1519": [
+      "p-jobs-indeed"
+    ],
+    "1524": [
+      "p-jobs-indeed"
+    ],
+    "1532": [
+      "p-jobs-indeed"
+    ],
+    "1566": [
+      "p-learn-interviewkickstart"
+    ],
+    "1567": [
+      "p-learn-interviewkickstart"
+    ],
+    "1569": [
+      "p-learn-interviewkickstart"
+    ],
+    "1580": [
+      "w-emp-tulsaremote"
+    ],
+    "1757": [
+      "p-research-ut"
+    ],
+    "1758": [
+      "p-research-ut"
+    ],
+    "1759": [
+      "p-research-ut"
+    ],
+    "1760": [
+      "p-research-ut"
+    ],
+    "1761": [
+      "p-research-ut"
+    ],
+    "1931": [
+      "p-jobs"
+    ],
+    "1952": [
+      "p-learn-meritamerica"
+    ],
+    "1973": [
+      "p-shop-homedepot"
+    ],
+    "2126": [
+      "w-tools-hubspot"
+    ],
+    "2141": [
+      "p-jobs"
+    ],
+    "2184": [
+      "w-tools"
+    ],
+    "2203": [
+      "p-events-eventbrite"
+    ],
+    "2251": [
+      "p-accounts-paypal"
+    ],
+    "2376": [
+      "p-ai"
+    ],
+    "2643": [
+      "p-jobs"
+    ],
+    "2788": [
+      "p-jobs"
+    ],
+    "2806": [
+      "p-tech"
+    ],
+    "2913": [
+      "p-jobs"
+    ],
+    "2961": [
+      "p-jobs-upwork"
+    ],
+    "2962": [
+      "p-jobs-upwork"
+    ],
+    "2963": [
+      "p-jobs-upwork"
+    ],
+    "2964": [
+      "p-jobs-upwork"
+    ],
+    "2966": [
+      "p-accounts-tools"
+    ],
+    "2997": [
+      "p-research-ui"
+    ],
+    "2998": [
+      "p-research-ui"
+    ],
+    "2999": [
+      "p-research-ui"
+    ],
+    "3000": [
+      "p-research-ui"
+    ],
+    "3001": [
+      "p-research-ui"
+    ],
+    "3002": [
+      "p-research-ui"
+    ],
+    "3003": [
+      "p-research-ui"
+    ],
+    "3004": [
+      "p-research-ui"
+    ],
+    "3005": [
+      "p-research-ut"
+    ],
+    "3016": [
+      "p-research-ut"
+    ],
+    "3026": [
+      "p-accounts-venmo"
+    ],
+    "3091": [
+      "p-research-wilkins"
+    ],
+    "3092": [
+      "p-research-wilkins"
+    ],
+    "3093": [
+      "p-research-wilkins"
+    ],
+    "3094": [
+      "p-research-wilkins"
+    ],
+    "3095": [
+      "p-research-wilkins"
+    ],
+    "3096": [
+      "p-research-wilkins"
+    ],
+    "3097": [
+      "p-research-wilkins"
+    ],
+    "3098": [
+      "p-research-wilkins"
+    ],
+    "3099": [
+      "p-research-wilkins"
+    ],
+    "3129": [
+      "p-tech-google"
+    ],
+    "268": [
+      "w-tools"
+    ],
+    "270": [
+      "w-tools"
+    ],
+    "329": [
+      "p-gov-tulsa"
+    ],
+    "330": [
+      "p-gov-tulsa"
+    ],
+    "331": [
+      "p-gov-tulsa"
+    ],
+    "333": [
+      "p-gov-tulsa"
+    ],
+    "334": [
+      "p-gov-tulsa"
+    ],
+    "335": [
+      "p-gov-tulsa"
+    ],
+    "336": [
+      "p-gov-tulsa"
+    ],
+    "337": [
+      "p-gov-tulsa"
+    ],
+    "397": [
+      "p-learn"
+    ],
+    "399": [
+      "p-learn"
+    ],
+    "400": [
+      "p-learn"
+    ],
+    "788": [
+      "p-jobs"
+    ],
+    "1306": [
+      "p-gov-houston"
+    ],
+    "1420": [
+      "h-providers"
+    ],
+    "1421": [
+      "h-providers"
+    ],
+    "1422": [
+      "h-providers"
+    ],
+    "1424": [
+      "h-providers"
+    ],
+    "1490": [
+      "p-jobs-indeed"
+    ],
+    "1491": [
+      "p-jobs-indeed"
+    ],
+    "1492": [
+      "p-jobs-indeed"
+    ],
+    "1493": [
+      "p-jobs-indeed"
+    ],
+    "1494": [
+      "p-jobs-indeed"
+    ],
+    "1495": [
+      "p-jobs-indeed"
+    ],
+    "1496": [
+      "p-jobs-indeed"
+    ],
+    "1497": [
+      "p-jobs-indeed"
+    ],
+    "1498": [
+      "p-jobs-indeed"
+    ],
+    "1499": [
+      "p-jobs-indeed"
+    ],
+    "1501": [
+      "p-jobs-indeed"
+    ],
+    "1502": [
+      "p-jobs-indeed"
+    ],
+    "1503": [
+      "p-jobs-indeed"
+    ],
+    "1504": [
+      "p-jobs-indeed"
+    ],
+    "1505": [
+      "p-jobs-indeed"
+    ],
+    "1507": [
+      "p-jobs-indeed"
+    ],
+    "1508": [
+      "p-jobs-indeed"
+    ],
+    "1509": [
+      "p-jobs-indeed"
+    ],
+    "1510": [
+      "p-jobs-indeed"
+    ],
+    "1511": [
+      "p-jobs-indeed"
+    ],
+    "1512": [
+      "p-jobs-indeed"
+    ],
+    "1513": [
+      "p-jobs-indeed"
+    ],
+    "1514": [
+      "p-jobs-indeed"
+    ],
+    "1515": [
+      "p-jobs-indeed"
+    ],
+    "1516": [
+      "p-jobs-indeed"
+    ],
+    "1517": [
+      "p-jobs-indeed"
+    ],
+    "1518": [
+      "p-jobs-indeed"
+    ],
+    "1520": [
+      "p-jobs-indeed"
+    ],
+    "1521": [
+      "p-jobs-indeed"
+    ],
+    "1522": [
+      "p-jobs-indeed"
+    ],
+    "1523": [
+      "p-jobs-indeed"
+    ],
+    "1525": [
+      "p-jobs-indeed"
+    ],
+    "1526": [
+      "p-jobs-indeed"
+    ],
+    "1527": [
+      "p-jobs-indeed"
+    ],
+    "1528": [
+      "p-jobs-indeed"
+    ],
+    "1529": [
+      "p-jobs-indeed"
+    ],
+    "1530": [
+      "p-jobs-indeed"
+    ],
+    "1531": [
+      "p-jobs-indeed"
+    ],
+    "1533": [
+      "p-jobs-indeed"
+    ],
+    "1534": [
+      "p-jobs-indeed"
+    ],
+    "1535": [
+      "p-jobs-indeed"
+    ],
+    "1536": [
+      "p-jobs-indeed"
+    ],
+    "1537": [
+      "p-jobs-indeed"
+    ],
+    "1538": [
+      "p-jobs-indeed"
+    ],
+    "1539": [
+      "p-jobs-indeed"
+    ],
+    "1630": [
+      "p-jobs"
+    ],
+    "1632": [
+      "p-jobs"
+    ],
+    "1633": [
+      "p-jobs"
+    ],
+    "1635": [
+      "p-jobs"
+    ],
+    "1719": [
+      "p-learn"
+    ],
+    "1953": [
+      "p-learn-meritamerica"
+    ],
+    "1954": [
+      "p-learn-meritamerica"
+    ],
+    "1955": [
+      "p-learn-meritamerica"
+    ],
+    "2140": [
+      "p-jobs"
+    ],
+    "2142": [
+      "p-jobs"
+    ],
+    "2297": [
+      "p-jobs-prehired"
+    ],
+    "2298": [
+      "p-jobs-prehired"
+    ],
+    "2299": [
+      "p-jobs-prehired"
+    ],
+    "2301": [
+      "p-jobs-prehired"
+    ],
+    "2644": [
+      "p-jobs"
+    ],
+    "2645": [
+      "p-jobs"
+    ],
+    "2967": [
+      "p-accounts-tools"
+    ],
+    "3006": [
+      "p-research-ut"
+    ],
+    "3007": [
+      "p-research-ut"
+    ],
+    "1104": [
+      "w-emp-rcubed"
+    ],
+    "2342": [
+      "w-emp-rcubed"
     ]
   },
   "sectionAliases": {
@@ -4044,7 +4652,7 @@
     "526": "h-bettersleep",
     "527": "h-fit-lifetime",
     "601": "w-work-timeline",
-    "602": "w-employers-1",
+    "602": "w-employers",
     "603": "w-emp-rcubed",
     "6031": "w-pay-stubs-benefits",
     "6032": "w-business-documents",
@@ -4149,7 +4757,7 @@
     "75": "pr-siblings-(sister,-brother,-sister-2)",
     "76": "pr-in-laws-(sister-in-law,-brother-in-law)",
     "77": "pr-kids-(all-nieces-and-nephews)",
-    "78": "pr-extended-(uncles,-aunts,-cousins-\u2013-optional-future-expansion)",
+    "78": "pr-extended-(uncles,-aunts,-cousins-–-optional-future-expansion)",
     "79": "p-people-friends",
     "80": "pr-childhood",
     "81": "pr-high-school",
@@ -4326,6 +4934,7 @@
     "254": "p-ent-hulu",
     "255": "p-ent-crunchy",
     "256": "p-ent-disney",
-    "257": "p-ent-hbo"
+    "257": "p-ent-hbo",
+    "w-employers-1": "w-employers"
   }
 }
