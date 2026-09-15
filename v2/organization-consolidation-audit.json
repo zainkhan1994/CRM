@@ -1,0 +1,155 @@
+{
+  "mergedSections": [
+    {
+      "removedId": "p-accounts-primerica",
+      "name": "Primerica",
+      "canonicalId": "p-ins-primerica"
+    },
+    {
+      "removedId": "p-events-gh",
+      "name": "GitHub",
+      "canonicalId": "w-tools-github"
+    },
+    {
+      "removedId": "p-events-nasa",
+      "name": "NASA",
+      "canonicalId": "p-gov-nasa"
+    },
+    {
+      "removedId": "p-events-google",
+      "name": "Google",
+      "canonicalId": "p-tech-google"
+    },
+    {
+      "removedId": "p-events-ms",
+      "name": "Microsoft",
+      "canonicalId": "p-tech-microsoft"
+    },
+    {
+      "removedId": "p-social-slack",
+      "name": "Slack",
+      "canonicalId": "w-tools-slack"
+    },
+    {
+      "removedId": "p-social-groups-eb",
+      "name": "Eventbrite",
+      "canonicalId": "p-events-eventbrite"
+    },
+    {
+      "removedId": "p-tech-github",
+      "name": "GitHub",
+      "canonicalId": "w-tools-github"
+    },
+    {
+      "removedId": "p-gov-usps",
+      "name": "USPS",
+      "canonicalId": "p-shop-usps"
+    },
+    {
+      "removedId": "p-gov-census",
+      "name": "US Census Bureau",
+      "canonicalId": "w-emp-census"
+    },
+    {
+      "removedId": "p-auto-sf",
+      "name": "State Farm Auto",
+      "canonicalId": "p-ins-sf"
+    },
+    {
+      "removedId": "p-auto-prog",
+      "name": "Progressive",
+      "canonicalId": "p-ins-prog"
+    },
+    {
+      "removedId": "h-prov-hillcrest-med",
+      "name": "Hillcrest Medical Center",
+      "canonicalId": "h-prov-hillcrest"
+    },
+    {
+      "removedId": "h-prov-asc-stjohn",
+      "name": "Ascension St. John",
+      "canonicalId": "h-prov-ascension"
+    },
+    {
+      "removedId": "h-prov-asc-ok",
+      "name": "Ascension Oklahoma",
+      "canonicalId": "h-prov-ascension"
+    },
+    {
+      "removedId": "h-prov-asc-health",
+      "name": "Ascension Health",
+      "canonicalId": "h-prov-ascension"
+    },
+    {
+      "removedId": "h-tele-healow",
+      "name": "Healow",
+      "canonicalId": "h-portal-healow"
+    },
+    {
+      "removedId": "h-tele-mychart",
+      "name": "MyChart",
+      "canonicalId": "h-portal-mychart"
+    },
+    {
+      "removedId": "h-ins-nyl",
+      "name": "New York Life",
+      "canonicalId": "p-ins-nyl"
+    },
+    {
+      "removedId": "h-ins-primerica",
+      "name": "Primerica",
+      "canonicalId": "p-ins-primerica"
+    },
+    {
+      "removedId": "h-ins-sf",
+      "name": "State Farm (Medical Claims)",
+      "canonicalId": "p-ins-sf"
+    },
+    {
+      "removedId": "w-emp-gulfcoast",
+      "name": "Gulf Coast Regional Blood Center",
+      "canonicalId": "h-blood-gulfcoast"
+    },
+    {
+      "removedId": "pr-ai",
+      "name": "AI & Knowledge Tools",
+      "canonicalId": "p-ai"
+    },
+    {
+      "removedId": "pr-ai-openai",
+      "name": "ChatGPT / OpenAI",
+      "canonicalId": "p-ai-openai"
+    },
+    {
+      "removedId": "pr-ai-claude",
+      "name": "Claude / Anthropic",
+      "canonicalId": "p-ai-claude"
+    },
+    {
+      "removedId": "pr-ai-perplexity",
+      "name": "Perplexity",
+      "canonicalId": "p-ai-perplexity"
+    },
+    {
+      "removedId": "pr-ai-rewind",
+      "name": "Rewind",
+      "canonicalId": "p-ai-rewind"
+    },
+    {
+      "removedId": "pr-pm-github",
+      "name": "GitHub",
+      "canonicalId": "w-tools-github"
+    },
+    {
+      "removedId": "pr-pm-asana",
+      "name": "Asana",
+      "canonicalId": "w-tools-asana"
+    },
+    {
+      "removedId": "pr-pm-miro",
+      "name": "Miro",
+      "canonicalId": "w-tools-miro"
+    }
+  ],
+  "organizationContacts": 1207
+}

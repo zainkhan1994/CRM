@@ -102,7 +102,7 @@
     },
     {
       "domain": "primerica.com",
-      "sectionId": "p-accounts-primerica"
+      "sectionId": "p-ins-primerica"
     },
     {
       "domain": "paypal.com",
@@ -750,15 +750,15 @@
     },
     {
       "domain": "github.com",
-      "sectionId": "p-events-gh"
+      "sectionId": "w-tools-github"
     },
     {
       "domain": "nasa.gov",
-      "sectionId": "p-events-nasa"
+      "sectionId": "p-gov-nasa"
     },
     {
       "domain": "mail.nasa.gov",
-      "sectionId": "p-events-nasa"
+      "sectionId": "p-gov-nasa"
     },
     {
       "domain": "iondistrict.com",
@@ -934,23 +934,23 @@
     },
     {
       "domain": "slack.com",
-      "sectionId": "p-social-slack"
+      "sectionId": "w-tools-slack"
     },
     {
       "domain": "email.slack.com",
-      "sectionId": "p-social-slack"
+      "sectionId": "w-tools-slack"
     },
     {
       "domain": "email.slack-core.com",
-      "sectionId": "p-social-slack"
+      "sectionId": "w-tools-slack"
     },
     {
       "domain": "email.slackhq.com",
-      "sectionId": "p-social-slack"
+      "sectionId": "w-tools-slack"
     },
     {
       "domain": "slack-mail.com",
-      "sectionId": "p-social-slack"
+      "sectionId": "w-tools-slack"
     },
     {
       "domain": "textfree.us",
@@ -1494,11 +1494,11 @@
     },
     {
       "domain": "census.gov",
-      "sectionId": "p-gov-census"
+      "sectionId": "w-emp-census"
     },
     {
       "domain": "notify.csod.com",
-      "sectionId": "p-gov-census"
+      "sectionId": "w-emp-census"
     },
     {
       "domain": "cityoftulsa.org",
@@ -1694,15 +1694,15 @@
     },
     {
       "domain": "statefarm.com",
-      "sectionId": "p-auto-sf"
+      "sectionId": "p-ins-sf"
     },
     {
       "domain": "statefarmclaims.com",
-      "sectionId": "p-auto-sf"
+      "sectionId": "p-ins-sf"
     },
     {
       "domain": "e.progressive.com",
-      "sectionId": "p-auto-prog"
+      "sectionId": "p-ins-prog"
     },
     {
       "domain": "launchgood.com",
@@ -1746,11 +1746,11 @@
     },
     {
       "domain": "hillcrest.com",
-      "sectionId": "h-prov-hillcrest-med"
+      "sectionId": "h-prov-hillcrest"
     },
     {
       "domain": "hello.hillcrest.com",
-      "sectionId": "h-prov-hillcrest-med"
+      "sectionId": "h-prov-hillcrest"
     },
     {
       "domain": "uticaparkclinic.com",
@@ -1770,19 +1770,19 @@
     },
     {
       "domain": "ascension.org",
-      "sectionId": "h-prov-asc-stjohn"
+      "sectionId": "h-prov-ascension"
     },
     {
       "domain": "communication.ascension.org",
-      "sectionId": "h-prov-asc-stjohn"
+      "sectionId": "h-prov-ascension"
     },
     {
       "domain": "ascension.visitpay.com",
-      "sectionId": "h-prov-asc-stjohn"
+      "sectionId": "h-prov-ascension"
     },
     {
       "domain": "consumerexperience.ascension.org",
-      "sectionId": "h-prov-asc-stjohn"
+      "sectionId": "h-prov-ascension"
     },
     {
       "domain": "houstonmethodist.org",
@@ -1846,11 +1846,11 @@
     },
     {
       "domain": "healow.com",
-      "sectionId": "h-tele-healow"
+      "sectionId": "h-portal-healow"
     },
     {
       "domain": "patientmychart.com",
-      "sectionId": "h-tele-mychart"
+      "sectionId": "h-portal-mychart"
     },
     {
       "domain": "skymd.com",
@@ -2125,10 +2125,6 @@
       "sectionId": "h-ins-kandk"
     },
     {
-      "domain": "patientmychart.com",
-      "sectionId": "h-portal-mychart"
-    },
-    {
       "domain": "eclinicalmail.com",
       "sectionId": "h-portal-eclinical"
     },
@@ -2171,10 +2167,6 @@
     {
       "domain": "ashfordco.com",
       "sectionId": "w-emp-ashford"
-    },
-    {
-      "domain": "census.gov",
-      "sectionId": "w-emp-census"
     },
     {
       "domain": "asana.com",
@@ -2290,7 +2282,7 @@
     },
     {
       "domain": "swellbox.com",
-      "sectionId": "h-prov-asc-health"
+      "sectionId": "h-prov-ascension"
     },
     {
       "domain": "tr.nothingbundtcakes.com",
@@ -2302,7 +2294,7 @@
     },
     {
       "domain": "wantyourfeedback.com",
-      "sectionId": "h-prov-hillcrest-med"
+      "sectionId": "h-prov-hillcrest"
     },
     {
       "domain": "wildapricot.org",
@@ -3567,5 +3559,37 @@
     "3132": [
       "p-people-networking"
     ]
+  },
+  "sectionAliases": {
+    "p-accounts-primerica": "p-ins-primerica",
+    "h-ins-primerica": "p-ins-primerica",
+    "p-gov-usps": "p-shop-usps",
+    "p-events-gh": "w-tools-github",
+    "p-tech-github": "w-tools-github",
+    "pr-pm-github": "w-tools-github",
+    "p-events-nasa": "p-gov-nasa",
+    "p-events-google": "p-tech-google",
+    "p-events-ms": "p-tech-microsoft",
+    "p-social-groups-eb": "p-events-eventbrite",
+    "p-social-slack": "w-tools-slack",
+    "pr-ai": "p-ai",
+    "pr-ai-openai": "p-ai-openai",
+    "pr-ai-claude": "p-ai-claude",
+    "pr-ai-perplexity": "p-ai-perplexity",
+    "pr-ai-rewind": "p-ai-rewind",
+    "p-gov-census": "w-emp-census",
+    "p-auto-prog": "p-ins-prog",
+    "h-ins-nyl": "p-ins-nyl",
+    "h-tele-healow": "h-portal-healow",
+    "h-tele-mychart": "h-portal-mychart",
+    "w-emp-gulfcoast": "h-blood-gulfcoast",
+    "pr-pm-asana": "w-tools-asana",
+    "pr-pm-miro": "w-tools-miro",
+    "h-prov-asc-stjohn": "h-prov-ascension",
+    "h-prov-asc-ok": "h-prov-ascension",
+    "h-prov-asc-health": "h-prov-ascension",
+    "h-prov-hillcrest-med": "h-prov-hillcrest",
+    "p-auto-sf": "p-ins-sf",
+    "h-ins-sf": "p-ins-sf"
   }
 }

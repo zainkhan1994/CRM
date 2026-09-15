@@ -15,7 +15,7 @@ try{
 }catch{}
 function savePlacement(){try{localStorage.setItem(placementKey,JSON.stringify(placements));if(typeof queueSync==='function')queueSync();return true}catch{alert('Could not save this move. Browser storage is unavailable.');return false}}
 function allBlueprint(){return [...(blueprintRows||[]),...(blueprintRemoved.nodes||[])];}
-function effectiveBlueprint(){const rows=allBlueprint().map(n=>({...n,parentId:placements.parents[n.id]??n.parentId}));const hidden=new Set(Object.keys(placements.deleted).filter(k=>k.startsWith('node:')&&placements.deleted[k]).map(k=>k.slice(5)));let changed=true;while(changed){changed=false;for(const n of rows)if(hidden.has(n.parentId)&&!hidden.has(n.id)){hidden.add(n.id);changed=true}}return rows.filter(n=>!hidden.has(n.id));}
+function effectiveBlueprint(){const migratedParents={};for(const [id,parent] of Object.entries(placements.parents)){const target=canonicalSection(id),dest=canonicalSection(parent);if(target!==dest)migratedParents[target]=dest;}const rows=allBlueprint().map(n=>({...n,parentId:migratedParents[n.id]??n.parentId}));const hidden=new Set(Object.keys(placements.deleted).filter(k=>k.startsWith('node:')&&placements.deleted[k]).map(k=>canonicalSection(k.slice(5))));let changed=true;while(changed){changed=false;for(const n of rows)if(hidden.has(n.parentId)&&!hidden.has(n.id)){hidden.add(n.id);changed=true}}return rows.filter(n=>!hidden.has(n.id));}
 
 function moveItem(kind,id,target){
  if(!blueprintRows||(!effectiveBlueprint().some(n=>n.id===target)&&target!=='unmatched'))return false;

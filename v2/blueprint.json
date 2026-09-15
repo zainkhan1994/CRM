@@ -3,2497 +3,3098 @@
     "id": "p",
     "name": "P - Personal",
     "parentId": null,
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal"
   },
   {
     "id": "h",
     "name": "H - Health",
     "parentId": null,
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health"
   },
   {
     "id": "w",
     "name": "W - Work",
     "parentId": null,
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "W - Work"
   },
   {
     "id": "pr",
     "name": "P - Projects",
     "parentId": null,
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Projects"
   },
   {
     "id": "p-accounts",
     "name": "Accounts & Banking",
     "parentId": "p",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking"
   },
   {
     "id": "p-accounts-banks",
     "name": "Banks & Credit Cards",
     "parentId": "p-accounts",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards"
   },
   {
     "id": "p-accounts-boa",
     "name": "Bank of America",
     "parentId": "p-accounts-banks",
     "order": 0,
-    "logo": "logos/library-438b0e5ecade.svg"
+    "logo": "logos/library-438b0e5ecade.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Bank of America"
   },
   {
     "id": "p-accounts-wf",
     "name": "Wells Fargo",
     "parentId": "p-accounts-banks",
     "order": 1,
-    "logo": "logos/library-4d9c3a3947f1.png"
+    "logo": "logos/library-4d9c3a3947f1.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Wells Fargo"
   },
   {
     "id": "p-accounts-chase",
     "name": "Chase",
     "parentId": "p-accounts-banks",
     "order": 2,
-    "logo": "logos/library-8eaf78ea1452.png"
+    "logo": "logos/library-8eaf78ea1452.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Chase"
   },
   {
     "id": "p-accounts-creditone",
     "name": "Credit One Bank",
     "parentId": "p-accounts-banks",
     "order": 3,
-    "logo": "logos/7a8e7fccd6cc.png"
+    "logo": "logos/7a8e7fccd6cc.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Credit One Bank"
   },
   {
     "id": "p-accounts-synchrony",
     "name": "Synchrony",
     "parentId": "p-accounts-banks",
     "order": 4,
-    "logo": "logos/library-dc3787ed773b.png"
+    "logo": "logos/library-dc3787ed773b.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Synchrony"
   },
   {
     "id": "p-accounts-nordstrom",
     "name": "Nordstrom",
     "parentId": "p-accounts-banks",
     "order": 5,
-    "logo": "logos/library-2d186a49ca92.png"
+    "logo": "logos/library-2d186a49ca92.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Nordstrom"
   },
   {
     "id": "p-accounts-amex",
     "name": "American Express",
     "parentId": "p-accounts-banks",
     "order": 6,
-    "logo": "logos/american-express.svg"
+    "logo": "logos/american-express.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > American Express"
   },
   {
     "id": "p-accounts-applecard",
     "name": "Apple Credit",
     "parentId": "p-accounts-banks",
     "order": 7,
-    "logo": "logos/apple-card.png"
+    "logo": "logos/apple-card.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Apple Credit"
   },
   {
     "id": "p-accounts-othercards",
     "name": "Other Cards",
     "parentId": "p-accounts-banks",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Other Cards"
   },
   {
     "id": "p-accounts-invest",
     "name": "Investing & Savings",
     "parentId": "p-accounts",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Investing & Savings"
   },
   {
     "id": "p-accounts-robinhood",
     "name": "Robinhood",
     "parentId": "p-accounts-invest",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Investing & Savings > Robinhood"
   },
   {
     "id": "p-accounts-acorns",
     "name": "Acorns",
     "parentId": "p-accounts-invest",
     "order": 1,
-    "logo": "logos/library-998951b2774a.png"
+    "logo": "logos/library-998951b2774a.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Investing & Savings > Acorns"
   },
   {
     "id": "p-accounts-ubiquity",
     "name": "Ubiquity Retirement",
     "parentId": "p-accounts-invest",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Investing & Savings > Ubiquity Retirement"
   },
   {
     "id": "p-accounts-mtrust",
     "name": "Millennium Trust",
     "parentId": "p-accounts-invest",
-    "order": 3
-  },
-  {
-    "id": "p-accounts-primerica",
-    "name": "Primerica",
-    "parentId": "p-accounts-invest",
-    "order": 4
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Investing & Savings > Millennium Trust"
   },
   {
     "id": "p-accounts-payment",
     "name": "Payment Apps",
     "parentId": "p-accounts",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps"
   },
   {
     "id": "p-accounts-paypal",
     "name": "PayPal",
     "parentId": "p-accounts-payment",
     "order": 0,
-    "logo": "logos/brand-paypal.svg"
+    "logo": "logos/brand-paypal.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps > PayPal"
   },
   {
     "id": "p-accounts-venmo",
     "name": "Venmo",
     "parentId": "p-accounts-payment",
     "order": 1,
-    "logo": "logos/brand-venmo.svg"
+    "logo": "logos/brand-venmo.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps > Venmo"
   },
   {
     "id": "p-accounts-cashapp",
     "name": "Cash App",
     "parentId": "p-accounts-payment",
     "order": 2,
-    "logo": "logos/library-73bf122fc05b.png"
+    "logo": "logos/library-73bf122fc05b.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps > Cash App"
   },
   {
     "id": "p-accounts-squareup",
     "name": "SquareUp",
     "parentId": "p-accounts-payment",
     "order": 3,
-    "logo": "logos/library-dc72677a954b.png"
+    "logo": "logos/library-dc72677a954b.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps > SquareUp"
   },
   {
     "id": "p-accounts-zelle",
     "name": "Zelle",
     "parentId": "p-accounts-payment",
     "order": 4,
-    "logo": "logos/library-22e5ee1f6b0f.png"
+    "logo": "logos/library-22e5ee1f6b0f.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps > Zelle"
   },
   {
     "id": "p-accounts-xoom",
     "name": "Xoom",
     "parentId": "p-accounts-payment",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Payment Apps > Xoom"
   },
   {
     "id": "p-accounts-tools",
     "name": "Financial Tools",
     "parentId": "p-accounts",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools"
   },
   {
     "id": "p-accounts-rocket",
     "name": "Rocket Money",
     "parentId": "p-accounts-tools",
     "order": 0,
-    "logo": "logos/library-fe5e0ca67592.png"
+    "logo": "logos/library-fe5e0ca67592.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Rocket Money"
   },
   {
     "id": "p-accounts-plaid",
     "name": "Plaid",
     "parentId": "p-accounts-tools",
     "order": 1,
-    "logo": "logos/library-88e78d6df7f7.png"
+    "logo": "logos/library-88e78d6df7f7.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Plaid"
   },
   {
     "id": "p-accounts-kikoff",
     "name": "Kikoff",
     "parentId": "p-accounts-tools",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Kikoff"
   },
   {
     "id": "p-accounts-chime",
     "name": "Chime",
     "parentId": "p-accounts-tools",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Chime"
   },
   {
     "id": "p-accounts-perpay",
     "name": "Perpay",
     "parentId": "p-accounts-tools",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Perpay"
   },
   {
     "id": "p-accounts-upstart",
     "name": "Upstart",
     "parentId": "p-accounts-tools",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Upstart"
   },
   {
     "id": "p-accounts-greatlakes",
     "name": "Great Lakes",
     "parentId": "p-accounts-tools",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Financial Tools > Great Lakes"
   },
   {
     "id": "p-accounts-credit",
     "name": "Credit & Debt",
     "parentId": "p-accounts",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt"
   },
   {
     "id": "p-accounts-lexlaw",
     "name": "Lexington Law",
     "parentId": "p-accounts-credit",
     "order": 0,
-    "logo": "logos/library-ed171d86763a.png"
+    "logo": "logos/library-ed171d86763a.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt > Lexington Law"
   },
   {
     "id": "p-accounts-labaton",
     "name": "Labaton",
     "parentId": "p-accounts-credit",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt > Labaton"
   },
   {
     "id": "p-accounts-bullock",
     "name": "Bullock Legal Group",
     "parentId": "p-accounts-credit",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt > Bullock Legal Group"
   },
   {
     "id": "p-accounts-gilligan",
     "name": "Gilligan Law Firm",
     "parentId": "p-accounts-credit",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt > Gilligan Law Firm"
   },
   {
     "id": "p-accounts-moody",
     "name": "Moody Law Firm",
     "parentId": "p-accounts-credit",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Accounts & Banking > Credit & Debt > Moody Law Firm"
   },
   {
     "id": "p-bills",
     "name": "Bills & Utilities",
     "parentId": "p",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities"
   },
   {
     "id": "p-bills-electric",
     "name": "Electric",
     "parentId": "p-bills",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Electric"
   },
   {
     "id": "p-bills-pso",
     "name": "PSO",
     "parentId": "p-bills-electric",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Electric > PSO"
   },
   {
     "id": "p-bills-gas",
     "name": "Gas",
     "parentId": "p-bills",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Gas"
   },
   {
     "id": "p-bills-ong",
     "name": "ONG",
     "parentId": "p-bills-gas",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Gas > ONG"
   },
   {
     "id": "p-bills-utilities",
     "name": "Utilities",
     "parentId": "p-bills",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Utilities"
   },
   {
     "id": "p-bills-gokinetic",
     "name": "GoKinetic",
     "parentId": "p-bills-utilities",
     "order": 0,
-    "logo": "logos/library-8fd4cacbdf65.svg"
+    "logo": "logos/library-8fd4cacbdf65.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Utilities > GoKinetic"
   },
   {
     "id": "p-bills-windstream",
     "name": "Windstream",
     "parentId": "p-bills-utilities",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Utilities > Windstream"
   },
   {
     "id": "p-bills-att",
     "name": "AT&T",
     "parentId": "p-bills-utilities",
     "order": 2,
-    "logo": "logos/library-cd69865e4a85.png"
+    "logo": "logos/library-cd69865e4a85.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Utilities > AT&T"
   },
   {
     "id": "p-bills-tmobile",
     "name": "T-Mobile",
     "parentId": "p-bills-utilities",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Utilities > T-Mobile"
   },
   {
     "id": "p-bills-comcast",
     "name": "Comcast Business",
     "parentId": "p-bills-utilities",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Bills & Utilities > Utilities > Comcast Business"
   },
   {
     "id": "p-shop",
     "name": "Shopping & Rewards",
     "parentId": "p",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards"
   },
   {
     "id": "p-shop-retail",
     "name": "Retail",
     "parentId": "p-shop",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail"
   },
   {
     "id": "p-shop-amazon",
     "name": "Amazon",
     "parentId": "p-shop-retail",
     "order": 0,
-    "logo": "logos/library-92b345ecda74.png"
+    "logo": "logos/library-92b345ecda74.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Amazon"
   },
   {
     "id": "p-shop-walmart",
     "name": "Walmart",
     "parentId": "p-shop-retail",
     "order": 1,
-    "logo": "logos/library-f446ffa560c7.png"
+    "logo": "logos/library-f446ffa560c7.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Walmart"
   },
   {
     "id": "p-shop-target",
     "name": "Target",
     "parentId": "p-shop-retail",
     "order": 2,
-    "logo": "logos/library-24ed6d60a315.png"
+    "logo": "logos/library-24ed6d60a315.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Target"
   },
   {
     "id": "p-shop-bestbuy",
     "name": "Best Buy",
     "parentId": "p-shop-retail",
     "order": 3,
-    "logo": "logos/library-3e0ebf480257.png"
+    "logo": "logos/library-3e0ebf480257.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Best Buy"
   },
   {
     "id": "p-shop-homedepot",
     "name": "Home Depot",
     "parentId": "p-shop-retail",
     "order": 4,
-    "logo": "logos/library-9372e11da46d.png"
+    "logo": "logos/library-9372e11da46d.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Home Depot"
   },
   {
     "id": "p-shop-lowes",
     "name": "Lowe's",
     "parentId": "p-shop-retail",
     "order": 5,
-    "logo": "logos/library-1187b94435f2.png"
+    "logo": "logos/library-1187b94435f2.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Lowe's"
   },
   {
     "id": "p-shop-officedepot",
     "name": "Office Depot",
     "parentId": "p-shop-retail",
     "order": 6,
-    "logo": "logos/library-d2b18a0ac474.png"
+    "logo": "logos/library-d2b18a0ac474.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Office Depot"
   },
   {
     "id": "p-shop-ebay",
     "name": "eBay",
     "parentId": "p-shop-retail",
     "order": 7,
-    "logo": "logos/library-d14390a8e325.png"
+    "logo": "logos/library-d14390a8e325.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > eBay"
   },
   {
     "id": "p-shop-etsy",
     "name": "Etsy",
     "parentId": "p-shop-retail",
     "order": 8,
-    "logo": "logos/library-db0ec0124f27.png"
+    "logo": "logos/library-db0ec0124f27.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Etsy"
   },
   {
     "id": "p-shop-michaels",
     "name": "Michaels",
     "parentId": "p-shop-retail",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Michaels"
   },
   {
     "id": "p-shop-kohls",
     "name": "Kohl's",
     "parentId": "p-shop-retail",
-    "order": 10
+    "order": 10,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Kohl's"
   },
   {
     "id": "p-shop-tjx",
     "name": "TJ Maxx",
     "parentId": "p-shop-retail",
-    "order": 11
+    "order": 11,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > TJ Maxx"
   },
   {
     "id": "p-shop-fivebelow",
     "name": "Five Below",
     "parentId": "p-shop-retail",
-    "order": 12
+    "order": 12,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Five Below"
   },
   {
     "id": "p-shop-gamestop",
     "name": "GameStop",
     "parentId": "p-shop-retail",
-    "order": 13
+    "order": 13,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > GameStop"
   },
   {
     "id": "p-shop-bn",
     "name": "Barnes & Noble",
     "parentId": "p-shop-retail",
-    "order": 14
+    "order": 14,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Retail > Barnes & Noble"
   },
   {
     "id": "p-shop-food",
     "name": "Food & Coffee",
     "parentId": "p-shop",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee"
   },
   {
     "id": "p-shop-doordash",
     "name": "DoorDash",
     "parentId": "p-shop-food",
     "order": 0,
-    "logo": "logos/library-2d6369b35254.png"
+    "logo": "logos/library-2d6369b35254.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > DoorDash"
   },
   {
     "id": "p-shop-starbucks",
     "name": "Starbucks",
     "parentId": "p-shop-food",
     "order": 1,
-    "logo": "logos/library-98f811f515cb.png"
+    "logo": "logos/library-98f811f515cb.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Starbucks"
   },
   {
     "id": "p-shop-hellofresh",
     "name": "HelloFresh",
     "parentId": "p-shop-food",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > HelloFresh"
   },
   {
     "id": "p-shop-factor",
     "name": "Factor",
     "parentId": "p-shop-food",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Factor"
   },
   {
     "id": "p-shop-thrive",
     "name": "Thrive Market",
     "parentId": "p-shop-food",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Thrive Market"
   },
   {
     "id": "p-shop-culvers",
     "name": "Culver's",
     "parentId": "p-shop-food",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Culver's"
   },
   {
     "id": "p-shop-daves",
     "name": "Dave's Hot Chicken",
     "parentId": "p-shop-food",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Dave's Hot Chicken"
   },
   {
     "id": "p-shop-pizzahut",
     "name": "Pizza Hut",
     "parentId": "p-shop-food",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Pizza Hut"
   },
   {
     "id": "p-shop-peiwei",
     "name": "Pei Wei",
     "parentId": "p-shop-food",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Pei Wei"
   },
   {
     "id": "p-shop-nbcakes",
     "name": "Nothing Bundt Cakes",
     "parentId": "p-shop-food",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Food & Coffee > Nothing Bundt Cakes"
   },
   {
     "id": "p-shop-shipping",
     "name": "Shipping & Tracking",
     "parentId": "p-shop",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Shipping & Tracking"
   },
   {
     "id": "p-shop-fedex",
     "name": "FedEx",
     "parentId": "p-shop-shipping",
     "order": 0,
-    "logo": "logos/library-6b9745f27175.png"
+    "logo": "logos/library-6b9745f27175.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Shipping & Tracking > FedEx"
   },
   {
     "id": "p-shop-ups",
     "name": "UPS",
     "parentId": "p-shop-shipping",
     "order": 1,
-    "logo": "logos/library-aa30d5daf2b7.png"
+    "logo": "logos/library-aa30d5daf2b7.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Shipping & Tracking > UPS"
   },
   {
     "id": "p-shop-usps",
     "name": "USPS",
     "parentId": "p-shop-shipping",
-    "order": 2
+    "order": 2,
+    "aliases": [
+      "USPS"
+    ],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Shipping & Tracking > USPS"
   },
   {
     "id": "p-shop-rewards",
     "name": "Rewards & Cashback",
     "parentId": "p-shop",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Rewards & Cashback"
   },
   {
     "id": "p-shop-honey",
     "name": "Honey",
     "parentId": "p-shop-rewards",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Rewards & Cashback > Honey"
   },
   {
     "id": "p-shop-topcashback",
     "name": "TopCashback",
     "parentId": "p-shop-rewards",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Rewards & Cashback > TopCashback"
   },
   {
     "id": "p-shop-nift",
     "name": "Nift",
     "parentId": "p-shop-rewards",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Shopping & Rewards > Rewards & Cashback > Nift"
   },
   {
     "id": "p-travel",
     "name": "Travel & Navigation",
     "parentId": "p",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation"
   },
   {
     "id": "p-travel-airlines",
     "name": "Airlines",
     "parentId": "p-travel",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Airlines"
   },
   {
     "id": "p-travel-delta",
     "name": "Delta",
     "parentId": "p-travel-airlines",
     "order": 0,
-    "logo": "logos/library-25b0c76781d2.png"
+    "logo": "logos/library-25b0c76781d2.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Airlines > Delta"
   },
   {
     "id": "p-travel-united",
     "name": "United",
     "parentId": "p-travel-airlines",
     "order": 1,
-    "logo": "logos/library-7b2df104aab8.png"
+    "logo": "logos/library-7b2df104aab8.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Airlines > United"
   },
   {
     "id": "p-travel-southwest",
     "name": "Southwest",
     "parentId": "p-travel-airlines",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Airlines > Southwest"
   },
   {
     "id": "p-travel-aa",
     "name": "American Airlines",
     "parentId": "p-travel-airlines",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Airlines > American Airlines"
   },
   {
     "id": "p-travel-emirates",
     "name": "Emirates",
     "parentId": "p-travel-airlines",
     "order": 4,
-    "logo": "logos/library-d00642992aa3.png"
+    "logo": "logos/library-d00642992aa3.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Airlines > Emirates"
   },
   {
     "id": "p-travel-lodging",
     "name": "Lodging",
     "parentId": "p-travel",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging"
   },
   {
     "id": "p-travel-airbnb",
     "name": "Airbnb",
     "parentId": "p-travel-lodging",
     "order": 0,
-    "logo": "logos/library-22eb834812f7.png"
+    "logo": "logos/library-22eb834812f7.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > Airbnb"
   },
   {
     "id": "p-travel-hilton",
     "name": "Hilton",
     "parentId": "p-travel-lodging",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > Hilton"
   },
   {
     "id": "p-travel-marriott",
     "name": "Marriott",
     "parentId": "p-travel-lodging",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > Marriott"
   },
   {
     "id": "p-travel-hyatt",
     "name": "Hyatt",
     "parentId": "p-travel-lodging",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > Hyatt"
   },
   {
     "id": "p-travel-ihg",
     "name": "IHG",
     "parentId": "p-travel-lodging",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > IHG"
   },
   {
     "id": "p-travel-hotels",
     "name": "Hotels.com",
     "parentId": "p-travel-lodging",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > Hotels.com"
   },
   {
     "id": "p-travel-hotwire",
     "name": "Hotwire",
     "parentId": "p-travel-lodging",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Lodging > Hotwire"
   },
   {
     "id": "p-travel-ground",
     "name": "Ground Transport",
     "parentId": "p-travel",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport"
   },
   {
     "id": "p-travel-uber",
     "name": "Uber",
     "parentId": "p-travel-ground",
     "order": 0,
-    "logo": "logos/library-f73cbbc736b3.png"
+    "logo": "logos/library-f73cbbc736b3.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport > Uber"
   },
   {
     "id": "p-travel-lyft",
     "name": "Lyft",
     "parentId": "p-travel-ground",
     "order": 1,
-    "logo": "logos/library-64d8375cdeac.png"
+    "logo": "logos/library-64d8375cdeac.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport > Lyft"
   },
   {
     "id": "p-travel-parkmobile",
     "name": "ParkMobile",
     "parentId": "p-travel-ground",
     "order": 2,
-    "logo": "logos/library-252705780ad0.png"
+    "logo": "logos/library-252705780ad0.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport > ParkMobile"
   },
   {
     "id": "p-travel-spothero",
     "name": "SpotHero",
     "parentId": "p-travel-ground",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport > SpotHero"
   },
   {
     "id": "p-travel-honk",
     "name": "HONK",
     "parentId": "p-travel-ground",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport > HONK"
   },
   {
     "id": "p-travel-rentalcars",
     "name": "Airport Rental Cars",
     "parentId": "p-travel-ground",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Ground Transport > Airport Rental Cars"
   },
   {
     "id": "p-travel-agencies",
     "name": "Travel Agencies",
     "parentId": "p-travel",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Travel Agencies"
   },
   {
     "id": "p-travel-cheapoair",
     "name": "CheapOair",
     "parentId": "p-travel-agencies",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Travel Agencies > CheapOair"
   },
   {
     "id": "p-travel-vtg",
     "name": "VacationsToGo",
     "parentId": "p-travel-agencies",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Travel & Navigation > Travel Agencies > VacationsToGo"
   },
   {
     "id": "p-events",
     "name": "Events & Conferences",
     "parentId": "p",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences"
   },
   {
     "id": "p-events-tech",
     "name": "Tech / Community",
     "parentId": "p-events",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community"
   },
   {
     "id": "p-events-mlh",
     "name": "MLH",
     "parentId": "p-events-tech",
-    "order": 0
-  },
-  {
-    "id": "p-events-gh",
-    "name": "GitHub",
-    "parentId": "p-events-tech",
-    "order": 1,
-    "logo": "logos/brand-github.svg"
-  },
-  {
-    "id": "p-events-nasa",
-    "name": "NASA",
-    "parentId": "p-events-tech",
-    "order": 2
-  },
-  {
-    "id": "p-events-google",
-    "name": "Google",
-    "parentId": "p-events-tech",
-    "order": 3
-  },
-  {
-    "id": "p-events-ms",
-    "name": "Microsoft",
-    "parentId": "p-events-tech",
-    "order": 4,
-    "logo": "logos/brand-microsoft.svg"
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > MLH"
   },
   {
     "id": "p-events-ion",
     "name": "Ion District",
     "parentId": "p-events-tech",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Ion District"
   },
   {
     "id": "p-events-buildtulsa",
     "name": "Build in Tulsa",
     "parentId": "p-events-tech",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Build in Tulsa"
   },
   {
     "id": "p-events-tulsaai",
     "name": "Tulsa AI Community",
     "parentId": "p-events-tech",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Tulsa AI Community"
   },
   {
     "id": "p-events-hecw",
     "name": "Houston Energy & Climate Week",
     "parentId": "p-events-tech",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Houston Energy & Climate Week"
   },
   {
     "id": "p-events-houhack",
     "name": "Houston Hackathon",
     "parentId": "p-events-tech",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Houston Hackathon"
   },
   {
     "id": "p-events-local",
     "name": "Local / Community",
     "parentId": "p-events",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Local / Community"
   },
   {
     "id": "p-events-dtp",
     "name": "Downtown Tulsa Partnership",
     "parentId": "p-events-local",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Local / Community > Downtown Tulsa Partnership"
   },
   {
     "id": "p-events-exp",
     "name": "Experience Tulsa",
     "parentId": "p-events-local",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Local / Community > Experience Tulsa"
   },
   {
     "id": "p-events-fablab",
     "name": "Fab Lab Tulsa",
     "parentId": "p-events-local",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Local / Community > Fab Lab Tulsa"
   },
   {
     "id": "p-events-typros",
     "name": "TYPROS",
     "parentId": "p-events-local",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Local / Community > TYPROS"
   },
   {
     "id": "p-events-tulsaero",
     "name": "Tulsa Aerospace",
     "parentId": "p-events-local",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Local / Community > Tulsa Aerospace"
   },
   {
     "id": "p-events-ticketing",
     "name": "Ticketing",
     "parentId": "p-events",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing"
   },
   {
     "id": "p-events-eventbrite",
     "name": "Eventbrite",
     "parentId": "p-events-ticketing",
     "order": 0,
-    "logo": "logos/library-934bb7003f19.png"
+    "logo": "logos/library-934bb7003f19.png",
+    "aliases": [
+      "Eventbrite"
+    ],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing > Eventbrite"
   },
   {
     "id": "p-events-ticketmaster",
     "name": "Ticketmaster",
     "parentId": "p-events-ticketing",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing > Ticketmaster"
   },
   {
     "id": "p-events-seatgeek",
     "name": "SeatGeek",
     "parentId": "p-events-ticketing",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing > SeatGeek"
   },
   {
     "id": "p-events-tixr",
     "name": "Tixr",
     "parentId": "p-events-ticketing",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing > Tixr"
   },
   {
     "id": "p-events-fevo",
     "name": "Fevo",
     "parentId": "p-events-ticketing",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing > Fevo"
   },
   {
     "id": "p-events-evite",
     "name": "Evite",
     "parentId": "p-events-ticketing",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Events & Conferences > Ticketing > Evite"
   },
   {
     "id": "p-social",
     "name": "Social & Community",
     "parentId": "p",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community"
   },
   {
     "id": "p-social-media",
     "name": "Social Media",
     "parentId": "p-social",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media"
   },
   {
     "id": "p-social-facebook",
     "name": "Facebook",
     "parentId": "p-social-media",
     "order": 0,
-    "logo": "logos/brand-facebook.svg"
+    "logo": "logos/brand-facebook.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > Facebook"
   },
   {
     "id": "p-social-instagram",
     "name": "Instagram",
     "parentId": "p-social-media",
     "order": 1,
-    "logo": "logos/brand-instagram.svg"
+    "logo": "logos/brand-instagram.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > Instagram"
   },
   {
     "id": "p-social-tiktok",
     "name": "TikTok",
     "parentId": "p-social-media",
     "order": 2,
-    "logo": "logos/brand-tiktok.svg"
+    "logo": "logos/brand-tiktok.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > TikTok"
   },
   {
     "id": "p-social-snapchat",
     "name": "Snapchat",
     "parentId": "p-social-media",
     "order": 3,
-    "logo": "logos/brand-snapchat.svg"
+    "logo": "logos/brand-snapchat.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > Snapchat"
   },
   {
     "id": "p-social-youtube",
     "name": "YouTube",
     "parentId": "p-social-media",
     "order": 4,
-    "logo": "logos/brand-youtube.svg"
+    "logo": "logos/brand-youtube.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > YouTube"
   },
   {
     "id": "p-social-linkedin",
     "name": "LinkedIn",
     "parentId": "p-social-media",
     "order": 5,
-    "logo": "logos/library-a19015a70c65.png"
+    "logo": "logos/library-a19015a70c65.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > LinkedIn"
   },
   {
     "id": "p-social-reddit",
     "name": "Reddit",
     "parentId": "p-social-media",
     "order": 6,
-    "logo": "logos/brand-reddit.svg"
+    "logo": "logos/brand-reddit.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > Reddit"
   },
   {
     "id": "p-social-nextdoor",
     "name": "Nextdoor",
     "parentId": "p-social-media",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Social Media > Nextdoor"
   },
   {
     "id": "p-social-dm",
     "name": "Direct Messaging",
     "parentId": "p-social",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Direct Messaging"
   },
   {
     "id": "p-social-discord",
     "name": "Discord",
     "parentId": "p-social-dm",
     "order": 0,
-    "logo": "logos/brand-discord.svg"
-  },
-  {
-    "id": "p-social-slack",
-    "name": "Slack",
-    "parentId": "p-social-dm",
-    "order": 1,
-    "logo": "logos/library-06f4f65faef0.png"
+    "logo": "logos/brand-discord.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Direct Messaging > Discord"
   },
   {
     "id": "p-social-textfree",
     "name": "TextFree",
     "parentId": "p-social-dm",
     "order": 2,
-    "logo": "logos/library-15a36af724da.png"
+    "logo": "logos/library-15a36af724da.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Direct Messaging > TextFree"
   },
   {
     "id": "p-social-groups",
     "name": "Communities & Groups",
     "parentId": "p-social",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Communities & Groups"
   },
   {
     "id": "p-social-meetup",
     "name": "Meetup",
     "parentId": "p-social-groups",
     "order": 0,
-    "logo": "logos/library-f1e9c1ea546f.png"
-  },
-  {
-    "id": "p-social-groups-eb",
-    "name": "Eventbrite",
-    "parentId": "p-social-groups",
-    "order": 1,
-    "logo": "logos/library-934bb7003f19.png"
+    "logo": "logos/library-f1e9c1ea546f.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Communities & Groups > Meetup"
   },
   {
     "id": "p-social-ggroups",
     "name": "Google Groups",
     "parentId": "p-social-groups",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Social & Community > Communities & Groups > Google Groups"
   },
   {
     "id": "p-meetings",
     "name": "Meetings & Scheduling",
     "parentId": "p",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling"
   },
   {
     "id": "p-meetings-fireflies",
     "name": "Fireflies",
     "parentId": "p-meetings",
     "order": 0,
-    "logo": "logos/library-e65a2239d5b1.png"
+    "logo": "logos/library-e65a2239d5b1.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Fireflies"
   },
   {
     "id": "p-meetings-calendly",
     "name": "Calendly",
     "parentId": "p-meetings",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Calendly"
   },
   {
     "id": "p-meetings-cal",
     "name": "Cal.com",
     "parentId": "p-meetings",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Cal.com"
   },
   {
     "id": "p-meetings-koalendar",
     "name": "Koalendar",
     "parentId": "p-meetings",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Koalendar"
   },
   {
     "id": "p-meetings-doodle",
     "name": "Doodle",
     "parentId": "p-meetings",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Doodle"
   },
   {
     "id": "p-meetings-oncehub",
     "name": "OnceHub",
     "parentId": "p-meetings",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > OnceHub"
   },
   {
     "id": "p-meetings-chilipiper",
     "name": "Chili Piper",
     "parentId": "p-meetings",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Chili Piper"
   },
   {
     "id": "p-meetings-zoom",
     "name": "Zoom",
     "parentId": "p-meetings",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Zoom"
   },
   {
     "id": "p-meetings-gmeet",
     "name": "Google Meet",
     "parentId": "p-meetings",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Google Meet"
   },
   {
     "id": "p-meetings-teams",
     "name": "Microsoft Teams",
     "parentId": "p-meetings",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Meetings & Scheduling > Microsoft Teams"
   },
   {
     "id": "p-learn",
     "name": "Learning & Self-Improvement",
     "parentId": "p",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement"
   },
   {
     "id": "p-learn-brilliant",
     "name": "Brilliant",
     "parentId": "p-learn",
     "order": 0,
-    "logo": "logos/library-697588706111.png"
+    "logo": "logos/library-697588706111.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Brilliant"
   },
   {
     "id": "p-learn-mimo",
     "name": "Mimo",
     "parentId": "p-learn",
     "order": 1,
-    "logo": "logos/library-cd1c7c3a441b.png"
+    "logo": "logos/library-cd1c7c3a441b.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Mimo"
   },
   {
     "id": "p-learn-noji",
     "name": "Noji",
     "parentId": "p-learn",
     "order": 2,
-    "logo": "logos/library-71ce70dd87cb.png"
+    "logo": "logos/library-71ce70dd87cb.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Noji"
   },
   {
     "id": "p-learn-coursera",
     "name": "Coursera",
     "parentId": "p-learn",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Coursera"
   },
   {
     "id": "p-learn-coursehero",
     "name": "Course Hero",
     "parentId": "p-learn",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Course Hero"
   },
   {
     "id": "p-learn-leetcode",
     "name": "LeetCode",
     "parentId": "p-learn",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > LeetCode"
   },
   {
     "id": "p-learn-quizlet",
     "name": "Quizlet",
     "parentId": "p-learn",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Quizlet"
   },
   {
     "id": "p-learn-typing",
     "name": "Typing.com",
     "parentId": "p-learn",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Typing.com"
   },
   {
     "id": "p-learn-ibm",
     "name": "IBM SkillsBuild",
     "parentId": "p-learn",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > IBM SkillsBuild"
   },
   {
     "id": "p-learn-uipath",
     "name": "UiPath Academy",
     "parentId": "p-learn",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > UiPath Academy"
   },
   {
     "id": "p-tech",
     "name": "Tech & Cloud Services",
     "parentId": "p",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services"
   },
   {
     "id": "p-tech-google",
     "name": "Google",
     "parentId": "p-tech",
-    "order": 0
+    "order": 0,
+    "aliases": [
+      "Google"
+    ],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Google"
   },
   {
     "id": "p-tech-microsoft",
     "name": "Microsoft",
     "parentId": "p-tech",
     "order": 1,
-    "logo": "logos/brand-microsoft.svg"
+    "logo": "logos/brand-microsoft.svg",
+    "aliases": [
+      "Microsoft"
+    ],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Microsoft"
   },
   {
     "id": "p-tech-apple",
     "name": "Apple",
     "parentId": "p-tech",
     "order": 2,
-    "logo": "logos/library-5e62c68891b4.png"
+    "logo": "logos/library-5e62c68891b4.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Apple"
   },
   {
     "id": "p-tech-dropbox",
     "name": "Dropbox",
     "parentId": "p-tech",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Dropbox"
   },
   {
     "id": "p-tech-box",
     "name": "Box",
     "parentId": "p-tech",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Box"
   },
   {
     "id": "p-tech-onedrive",
     "name": "OneDrive",
     "parentId": "p-tech",
-    "order": 5
-  },
-  {
-    "id": "p-tech-github",
-    "name": "GitHub",
-    "parentId": "p-tech",
-    "order": 6,
-    "logo": "logos/brand-github.svg"
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > OneDrive"
   },
   {
     "id": "p-tech-vercel",
     "name": "Vercel",
     "parentId": "p-tech",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Vercel"
   },
   {
     "id": "p-tech-netlify",
     "name": "Netlify",
     "parentId": "p-tech",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Netlify"
   },
   {
     "id": "p-tech-do",
     "name": "DigitalOcean",
     "parentId": "p-tech",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > DigitalOcean"
   },
   {
     "id": "p-tech-supabase",
     "name": "Supabase",
     "parentId": "p-tech",
-    "order": 10
+    "order": 10,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Tech & Cloud Services > Supabase"
   },
   {
     "id": "p-ai",
     "name": "AI & Knowledge Tools",
     "parentId": "p",
-    "order": 9
+    "order": 9,
+    "aliases": [
+      "AI & Knowledge Tools"
+    ],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools"
   },
   {
     "id": "p-ai-openai",
     "name": "ChatGPT / OpenAI",
     "parentId": "p-ai",
-    "order": 0
+    "order": 0,
+    "aliases": [
+      "ChatGPT / OpenAI"
+    ],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > ChatGPT / OpenAI"
   },
   {
     "id": "p-ai-claude",
     "name": "Claude / Anthropic",
     "parentId": "p-ai",
-    "order": 1
+    "order": 1,
+    "aliases": [
+      "Claude / Anthropic"
+    ],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Claude / Anthropic"
   },
   {
     "id": "p-ai-perplexity",
     "name": "Perplexity",
     "parentId": "p-ai",
     "order": 2,
-    "logo": "logos/library-8e348bb1bfcc.png"
+    "logo": "logos/library-8e348bb1bfcc.png",
+    "aliases": [
+      "Perplexity"
+    ],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Perplexity"
   },
   {
     "id": "p-ai-gemini",
     "name": "Gemini",
     "parentId": "p-ai",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Gemini"
   },
   {
     "id": "p-ai-midjourney",
     "name": "Midjourney",
     "parentId": "p-ai",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Midjourney"
   },
   {
     "id": "p-ai-elevenlabs",
     "name": "ElevenLabs",
     "parentId": "p-ai",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > ElevenLabs"
   },
   {
     "id": "p-ai-synthesia",
     "name": "Synthesia",
     "parentId": "p-ai",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Synthesia"
   },
   {
     "id": "p-ai-rewind",
     "name": "Rewind",
     "parentId": "p-ai",
     "order": 7,
-    "logo": "logos/library-f170527ef3e4.png"
+    "logo": "logos/library-f170527ef3e4.png",
+    "aliases": [
+      "Rewind"
+    ],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Rewind"
   },
   {
     "id": "p-ai-limitless",
     "name": "Limitless",
     "parentId": "p-ai",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > AI & Knowledge Tools > Limitless"
   },
   {
     "id": "p-research",
     "name": "Market Research & User Testing",
     "parentId": "p",
-    "order": 10
+    "order": 10,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing"
   },
   {
     "id": "p-research-ut",
     "name": "UserTesting",
     "parentId": "p-research",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > UserTesting"
   },
   {
     "id": "p-research-ui",
     "name": "User Interviews",
     "parentId": "p-research",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > User Interviews"
   },
   {
     "id": "p-research-fi",
     "name": "Focus Insite",
     "parentId": "p-research",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > Focus Insite"
   },
   {
     "id": "p-research-fpg",
     "name": "Focus Pointe Global",
     "parentId": "p-research",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > Focus Pointe Global"
   },
   {
     "id": "p-research-rpv",
     "name": "Rare Patient Voice",
     "parentId": "p-research",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > Rare Patient Voice"
   },
   {
     "id": "p-research-wilkins",
     "name": "Wilkins Research",
     "parentId": "p-research",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > Wilkins Research"
   },
   {
     "id": "p-research-angus",
     "name": "Angus Reid Forum",
     "parentId": "p-research",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > Angus Reid Forum"
   },
   {
     "id": "p-research-ipsos",
     "name": "Ipsos i-Say",
     "parentId": "p-research",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Market Research & User Testing > Ipsos i-Say"
   },
   {
     "id": "p-ent",
     "name": "Entertainment & Media",
     "parentId": "p",
-    "order": 11
+    "order": 11,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media"
   },
   {
     "id": "p-ent-stream",
     "name": "Streaming",
     "parentId": "p-ent",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming"
   },
   {
     "id": "p-ent-netflix",
     "name": "Netflix",
     "parentId": "p-ent-stream",
     "order": 0,
-    "logo": "logos/library-8c651705174c.png"
+    "logo": "logos/library-8c651705174c.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Netflix"
   },
   {
     "id": "p-ent-disney",
     "name": "Disney+",
     "parentId": "p-ent-stream",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Disney+"
   },
   {
     "id": "p-ent-prime",
     "name": "Prime Video",
     "parentId": "p-ent-stream",
     "order": 2,
-    "logo": "logos/library-e86251f67f66.png"
+    "logo": "logos/library-e86251f67f66.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Prime Video"
   },
   {
     "id": "p-ent-crunchy",
     "name": "Crunchyroll",
     "parentId": "p-ent-stream",
     "order": 3,
-    "logo": "logos/library-c2ab27af3129.png"
+    "logo": "logos/library-c2ab27af3129.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Crunchyroll"
   },
   {
     "id": "p-ent-hbo",
     "name": "HBO Max",
     "parentId": "p-ent-stream",
     "order": 4,
-    "logo": "logos/library-17b558095dd7.png"
+    "logo": "logos/library-17b558095dd7.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > HBO Max"
   },
   {
     "id": "p-ent-hulu",
     "name": "Hulu",
     "parentId": "p-ent-stream",
     "order": 5,
-    "logo": "logos/library-b019549df8c5.png"
+    "logo": "logos/library-b019549df8c5.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Hulu"
   },
   {
     "id": "p-ent-paramount",
     "name": "Paramount+",
     "parentId": "p-ent-stream",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Paramount+"
   },
   {
     "id": "p-ent-peacock",
     "name": "Peacock",
     "parentId": "p-ent-stream",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Peacock"
   },
   {
     "id": "p-ent-starz",
     "name": "Starz",
     "parentId": "p-ent-stream",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Starz"
   },
   {
     "id": "p-ent-vudu",
     "name": "Vudu",
     "parentId": "p-ent-stream",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Streaming > Vudu"
   },
   {
     "id": "p-ent-music",
     "name": "Music / Audio",
     "parentId": "p-ent",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Music / Audio"
   },
   {
     "id": "p-ent-spotify",
     "name": "Spotify",
     "parentId": "p-ent-music",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Music / Audio > Spotify"
   },
   {
     "id": "p-ent-soundcloud",
     "name": "SoundCloud",
     "parentId": "p-ent-music",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Music / Audio > SoundCloud"
   },
   {
     "id": "p-ent-sony",
     "name": "Sony",
     "parentId": "p-ent-music",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Music / Audio > Sony"
   },
   {
     "id": "p-ent-movies",
     "name": "Movies & Events",
     "parentId": "p-ent",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Movies & Events"
   },
   {
     "id": "p-ent-amc",
     "name": "AMC",
     "parentId": "p-ent-movies",
     "order": 0,
-    "logo": "logos/library-de8f8a76dec6.png"
+    "logo": "logos/library-de8f8a76dec6.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Movies & Events > AMC"
   },
   {
     "id": "p-ent-fandango",
     "name": "Fandango",
     "parentId": "p-ent-movies",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Movies & Events > Fandango"
   },
   {
     "id": "p-ent-marvel",
     "name": "Marvel",
     "parentId": "p-ent-movies",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Movies & Events > Marvel"
   },
   {
     "id": "p-ent-gaming",
     "name": "Gaming",
     "parentId": "p-ent",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Gaming"
   },
   {
     "id": "p-ent-wbgames",
     "name": "WB Games",
     "parentId": "p-ent-gaming",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Gaming > WB Games"
   },
   {
     "id": "p-ent-twitch",
     "name": "Twitch",
     "parentId": "p-ent-gaming",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Gaming > Twitch"
   },
   {
     "id": "p-ent-whatnot",
     "name": "Whatnot",
     "parentId": "p-ent-gaming",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Entertainment & Media > Gaming > Whatnot"
   },
   {
     "id": "p-gov",
     "name": "Government & Civic",
     "parentId": "p",
-    "order": 12
+    "order": 12,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic"
   },
   {
     "id": "p-gov-nasa",
     "name": "NASA",
     "parentId": "p-gov",
-    "order": 0
-  },
-  {
-    "id": "p-gov-usps",
-    "name": "USPS",
-    "parentId": "p-gov",
-    "order": 1
+    "order": 0,
+    "aliases": [
+      "NASA"
+    ],
+    "hierarchyPath": "P - Personal > Government & Civic > NASA"
   },
   {
     "id": "p-gov-irs",
     "name": "IRS",
     "parentId": "p-gov",
-    "order": 2
-  },
-  {
-    "id": "p-gov-census",
-    "name": "US Census Bureau",
-    "parentId": "p-gov",
-    "order": 3
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > IRS"
   },
   {
     "id": "p-gov-tulsa",
     "name": "City of Tulsa",
     "parentId": "p-gov",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > City of Tulsa"
   },
   {
     "id": "p-gov-houston",
     "name": "City of Houston",
     "parentId": "p-gov",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > City of Houston"
   },
   {
     "id": "p-gov-fortbend",
     "name": "Fort Bend County",
     "parentId": "p-gov",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > Fort Bend County"
   },
   {
     "id": "p-gov-twc",
     "name": "Texas Workforce Commission",
     "parentId": "p-gov",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > Texas Workforce Commission"
   },
   {
     "id": "p-gov-vote",
     "name": "Vote / Election",
     "parentId": "p-gov",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > Vote / Election"
   },
   {
     "id": "p-gov-login",
     "name": "Login.gov",
     "parentId": "p-gov",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Government & Civic > Login.gov"
   },
   {
     "id": "p-daily",
     "name": "Daily Life & Digital Presence",
     "parentId": "p",
-    "order": 13
+    "order": 13,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence"
   },
   {
     "id": "p-daily-email",
     "name": "Email Accounts",
     "parentId": "p-daily",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Email Accounts"
   },
   {
     "id": "p-daily-gmail",
     "name": "Gmail",
     "parentId": "p-daily-email",
     "order": 0,
-    "logo": "logos/library-a4da8e34ce37.svg"
+    "logo": "logos/library-a4da8e34ce37.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Email Accounts > Gmail"
   },
   {
     "id": "p-daily-outlook",
     "name": "Outlook",
     "parentId": "p-daily-email",
     "order": 1,
-    "logo": "logos/library-5a64d15f7fc8.png"
+    "logo": "logos/library-5a64d15f7fc8.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Email Accounts > Outlook"
   },
   {
     "id": "p-daily-yahoo",
     "name": "Yahoo",
     "parentId": "p-daily-email",
     "order": 2,
-    "logo": "logos/library-36c9e7d57d8d.png"
+    "logo": "logos/library-36c9e7d57d8d.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Email Accounts > Yahoo"
   },
   {
     "id": "p-daily-appleid",
     "name": "Apple IDs",
     "parentId": "p-daily-email",
     "order": 3,
-    "logo": "logos/library-fda93ef24114.png"
+    "logo": "logos/library-fda93ef24114.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Email Accounts > Apple IDs"
   },
   {
     "id": "p-daily-routines",
     "name": "Routines Preferences",
     "parentId": "p-daily",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Routines Preferences"
   },
   {
     "id": "p-daily-accounts",
     "name": "Digital Accounts",
     "parentId": "p-daily",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Digital Accounts"
   },
   {
     "id": "p-people",
     "name": "People",
     "parentId": "p",
-    "order": 14
+    "order": 14,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People"
   },
   {
     "id": "p-people-family",
     "name": "Family",
     "parentId": "p-people",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Family"
   },
   {
     "id": "p-people-friends",
     "name": "Friends",
     "parentId": "p-people",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Friends"
   },
   {
     "id": "p-people-personal",
     "name": "Personal Contacts",
     "parentId": "p-people",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts"
   },
   {
     "id": "p-people-gmail",
     "name": "Gmail",
     "parentId": "p-people-personal",
     "order": 0,
-    "logo": "logos/library-a4da8e34ce37.svg"
+    "logo": "logos/library-a4da8e34ce37.svg",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts > Gmail"
   },
   {
     "id": "p-people-yahoo",
     "name": "Yahoo",
     "parentId": "p-people-personal",
     "order": 1,
-    "logo": "logos/library-36c9e7d57d8d.png"
+    "logo": "logos/library-36c9e7d57d8d.png",
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts > Yahoo"
   },
   {
     "id": "p-people-hotmail",
     "name": "Outlook / Hotmail",
     "parentId": "p-people-personal",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts > Outlook / Hotmail"
   },
   {
     "id": "p-people-aol",
     "name": "AOL",
     "parentId": "p-people-personal",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts > AOL"
   },
   {
     "id": "p-people-icloud",
     "name": "iCloud",
     "parentId": "p-people-personal",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts > iCloud"
   },
   {
     "id": "p-people-other",
     "name": "Other Personal Domains",
     "parentId": "p-people-personal",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Personal Contacts > Other Personal Domains"
   },
   {
     "id": "p-people-networking",
     "name": "Networking / Acquaintances",
     "parentId": "p-people",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > People > Networking / Acquaintances"
   },
   {
     "id": "p-news",
     "name": "Newsletters & Subscriptions",
     "parentId": "p",
-    "order": 15
+    "order": 15,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Newsletters & Subscriptions"
   },
   {
     "id": "p-news-beehiiv",
     "name": "Beehiiv",
     "parentId": "p-news",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Newsletters & Subscriptions > Beehiiv"
   },
   {
     "id": "p-news-substack",
     "name": "Substack",
     "parentId": "p-news",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Newsletters & Subscriptions > Substack"
   },
   {
     "id": "p-news-medium",
     "name": "Medium",
     "parentId": "p-news",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Newsletters & Subscriptions > Medium"
   },
   {
     "id": "p-news-dailydev",
     "name": "Daily.dev",
     "parentId": "p-news",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Newsletters & Subscriptions > Daily.dev"
   },
   {
     "id": "p-news-roadmap",
     "name": "Roadmap.sh",
     "parentId": "p-news",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Newsletters & Subscriptions > Roadmap.sh"
   },
   {
     "id": "p-jobs",
     "name": "Jobs & Recruiting",
     "parentId": "p",
-    "order": 16
+    "order": 16,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting"
   },
   {
     "id": "p-jobs-indeed",
     "name": "Indeed",
     "parentId": "p-jobs",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting > Indeed"
   },
   {
     "id": "p-jobs-li",
     "name": "LinkedIn Jobs",
     "parentId": "p-jobs",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting > LinkedIn Jobs"
   },
   {
     "id": "p-jobs-zr",
     "name": "ZipRecruiter",
     "parentId": "p-jobs",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting > ZipRecruiter"
   },
   {
     "id": "p-jobs-workable",
     "name": "Workable",
     "parentId": "p-jobs",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting > Workable"
   },
   {
     "id": "p-jobs-greenhouse",
     "name": "Greenhouse",
     "parentId": "p-jobs",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting > Greenhouse"
   },
   {
     "id": "p-jobs-lever",
     "name": "Lever",
     "parentId": "p-jobs",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Jobs & Recruiting > Lever"
   },
   {
     "id": "p-housing",
     "name": "Real Estate & Housing",
     "parentId": "p",
-    "order": 17
+    "order": 17,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Real Estate & Housing"
   },
   {
     "id": "p-housing-apts",
     "name": "Apartments.com",
     "parentId": "p-housing",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Real Estate & Housing > Apartments.com"
   },
   {
     "id": "p-housing-appfolio",
     "name": "AppFolio",
     "parentId": "p-housing",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Real Estate & Housing > AppFolio"
   },
   {
     "id": "p-housing-realpage",
     "name": "RealPage",
     "parentId": "p-housing",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Real Estate & Housing > RealPage"
   },
   {
     "id": "p-housing-ess",
     "name": "Extra Space Storage",
     "parentId": "p-housing",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Real Estate & Housing > Extra Space Storage"
   },
   {
     "id": "p-housing-lifestorage",
     "name": "Life Storage",
     "parentId": "p-housing",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Real Estate & Housing > Life Storage"
   },
   {
     "id": "p-auto",
     "name": "Automotive",
     "parentId": "p",
-    "order": 18
+    "order": 18,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Automotive"
   },
   {
     "id": "p-auto-autonation",
     "name": "AutoNation",
     "parentId": "p-auto",
-    "order": 0
-  },
-  {
-    "id": "p-auto-sf",
-    "name": "State Farm Auto",
-    "parentId": "p-auto",
-    "order": 1
-  },
-  {
-    "id": "p-auto-prog",
-    "name": "Progressive",
-    "parentId": "p-auto",
-    "order": 2
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Automotive > AutoNation"
   },
   {
     "id": "p-nonprofit",
     "name": "Nonprofits & Donations",
     "parentId": "p",
-    "order": 19
+    "order": 19,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Nonprofits & Donations"
   },
   {
     "id": "p-np-launchgood",
     "name": "LaunchGood",
     "parentId": "p-nonprofit",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Nonprofits & Donations > LaunchGood"
   },
   {
     "id": "p-np-gofundme",
     "name": "GoFundMe",
     "parentId": "p-nonprofit",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Nonprofits & Donations > GoFundMe"
   },
   {
     "id": "p-np-actblue",
     "name": "ActBlue",
     "parentId": "p-nonprofit",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Nonprofits & Donations > ActBlue"
   },
   {
     "id": "p-np-wikimedia",
     "name": "Wikimedia",
     "parentId": "p-nonprofit",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Nonprofits & Donations > Wikimedia"
   },
   {
     "id": "p-np-hhrd",
     "name": "Islamic Relief",
     "parentId": "p-nonprofit",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Nonprofits & Donations > Islamic Relief"
   },
   {
     "id": "p-ins",
     "name": "Insurance (Non-Health)",
     "parentId": "p",
-    "order": 20
+    "order": 20,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Insurance (Non-Health)"
   },
   {
     "id": "p-ins-sf",
     "name": "State Farm",
     "parentId": "p-ins",
-    "order": 0
+    "order": 0,
+    "aliases": [
+      "State Farm Auto",
+      "State Farm (Medical Claims)"
+    ],
+    "hierarchyPath": "P - Personal > Insurance (Non-Health) > State Farm"
   },
   {
     "id": "p-ins-prog",
     "name": "Progressive",
     "parentId": "p-ins",
-    "order": 1
+    "order": 1,
+    "aliases": [
+      "Progressive"
+    ],
+    "hierarchyPath": "P - Personal > Insurance (Non-Health) > Progressive"
   },
   {
     "id": "p-ins-nyl",
     "name": "New York Life",
     "parentId": "p-ins",
-    "order": 2
+    "order": 2,
+    "aliases": [
+      "New York Life"
+    ],
+    "hierarchyPath": "P - Personal > Insurance (Non-Health) > New York Life"
   },
   {
     "id": "p-ins-primerica",
     "name": "Primerica",
     "parentId": "p-ins",
-    "order": 3
+    "order": 3,
+    "aliases": [
+      "Primerica"
+    ],
+    "hierarchyPath": "P - Personal > Insurance (Non-Health) > Primerica"
   },
   {
     "id": "h-providers",
     "name": "Providers & Clinics",
     "parentId": "h",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics"
   },
   {
     "id": "h-prov-hillcrest",
     "name": "Hillcrest HealthCare System",
     "parentId": "h-providers",
-    "order": 0
-  },
-  {
-    "id": "h-prov-hillcrest-med",
-    "name": "Hillcrest Medical Center",
-    "parentId": "h-prov-hillcrest",
-    "order": 0
+    "order": 0,
+    "aliases": [
+      "Hillcrest Medical Center"
+    ],
+    "hierarchyPath": "H - Health > Providers & Clinics > Hillcrest HealthCare System"
   },
   {
     "id": "h-prov-utica",
     "name": "Utica Park Clinic",
     "parentId": "h-prov-hillcrest",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Hillcrest HealthCare System > Utica Park Clinic"
   },
   {
     "id": "h-prov-ascension",
     "name": "Ascension",
     "parentId": "h-providers",
-    "order": 1
-  },
-  {
-    "id": "h-prov-asc-stjohn",
-    "name": "Ascension St. John",
-    "parentId": "h-prov-ascension",
-    "order": 0
-  },
-  {
-    "id": "h-prov-asc-ok",
-    "name": "Ascension Oklahoma",
-    "parentId": "h-prov-ascension",
-    "order": 1
-  },
-  {
-    "id": "h-prov-asc-health",
-    "name": "Ascension Health",
-    "parentId": "h-prov-ascension",
-    "order": 2
+    "order": 1,
+    "aliases": [
+      "Ascension St. John",
+      "Ascension Oklahoma",
+      "Ascension Health"
+    ],
+    "hierarchyPath": "H - Health > Providers & Clinics > Ascension"
   },
   {
     "id": "h-prov-hm",
     "name": "Houston Methodist",
     "parentId": "h-providers",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Houston Methodist"
   },
   {
     "id": "h-prov-mdacc",
     "name": "MD Anderson",
     "parentId": "h-providers",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > MD Anderson"
   },
   {
     "id": "h-prov-kelsey",
     "name": "Kelsey-Seybold Clinic",
     "parentId": "h-providers",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Kelsey-Seybold Clinic"
   },
   {
     "id": "h-prov-kaiser",
     "name": "Kaiser Permanente",
     "parentId": "h-providers",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Kaiser Permanente"
   },
   {
     "id": "h-prov-complete-derm",
     "name": "Complete Dermatology",
     "parentId": "h-providers",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Complete Dermatology"
   },
   {
     "id": "h-prov-tulsaderm",
     "name": "Tulsa Dermatology",
     "parentId": "h-providers",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Tulsa Dermatology"
   },
   {
     "id": "h-prov-dtd",
     "name": "Downtown Tulsa Dental",
     "parentId": "h-providers",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Downtown Tulsa Dental"
   },
   {
     "id": "h-prov-eldridge",
     "name": "Eldridge Dental",
     "parentId": "h-providers",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Eldridge Dental"
   },
   {
     "id": "h-prov-advanced",
     "name": "Advanced Dentistry",
     "parentId": "h-providers",
-    "order": 10
+    "order": 10,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Advanced Dentistry"
   },
   {
     "id": "h-prov-urbn",
     "name": "URBN Dental",
     "parentId": "h-providers",
-    "order": 11
+    "order": 11,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > URBN Dental"
   },
   {
     "id": "h-prov-vpj",
     "name": "Varghese P. John DMD PC",
     "parentId": "h-providers",
-    "order": 12
+    "order": 12,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Providers & Clinics > Varghese P. John DMD PC"
   },
   {
     "id": "h-tele",
     "name": "Telehealth & Virtual Care",
     "parentId": "h",
-    "order": 1
-  },
-  {
-    "id": "h-tele-healow",
-    "name": "Healow",
-    "parentId": "h-tele",
-    "order": 0,
-    "logo": "logos/library-6f6c4c9fd05e.png"
-  },
-  {
-    "id": "h-tele-mychart",
-    "name": "MyChart",
-    "parentId": "h-tele",
     "order": 1,
-    "logo": "logos/library-6fcd9a3522ed.png"
+    "aliases": [],
+    "hierarchyPath": "H - Health > Telehealth & Virtual Care"
   },
   {
     "id": "h-tele-skymd",
     "name": "SkyMD",
     "parentId": "h-tele",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Telehealth & Virtual Care > SkyMD"
   },
   {
     "id": "h-tele-dod",
     "name": "Doctor On Demand",
     "parentId": "h-tele",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Telehealth & Virtual Care > Doctor On Demand"
   },
   {
     "id": "h-tele-bh",
     "name": "BetterHelp",
     "parentId": "h-tele",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Telehealth & Virtual Care > BetterHelp"
   },
   {
     "id": "h-tele-zocdoc",
     "name": "Zocdoc",
     "parentId": "h-tele",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Telehealth & Virtual Care > Zocdoc"
   },
   {
     "id": "h-labs",
     "name": "Labs, Diagnostics & Research",
     "parentId": "h",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research"
   },
   {
     "id": "h-labs-labcorp",
     "name": "Labcorp",
     "parentId": "h-labs",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > Labcorp"
   },
   {
     "id": "h-labs-quest",
     "name": "Quest Diagnostics",
     "parentId": "h-labs",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > Quest Diagnostics"
   },
   {
     "id": "h-labs-ct",
     "name": "ClinicalTrials.gov",
     "parentId": "h-labs",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > ClinicalTrials.gov"
   },
   {
     "id": "h-labs-s37",
     "name": "Science 37",
     "parentId": "h-labs",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > Science 37"
   },
   {
     "id": "h-labs-care",
     "name": "Care Access",
     "parentId": "h-labs",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > Care Access"
   },
   {
     "id": "h-labs-iqvia",
     "name": "IQVIA",
     "parentId": "h-labs",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > IQVIA"
   },
   {
     "id": "h-labs-cw",
     "name": "CenterWatch",
     "parentId": "h-labs",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Labs, Diagnostics & Research > CenterWatch"
   },
   {
     "id": "h-pharm",
     "name": "Pharmacy",
     "parentId": "h",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Pharmacy"
   },
   {
     "id": "h-pharm-cvs",
     "name": "CVS Pharmacy",
     "parentId": "h-pharm",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Pharmacy > CVS Pharmacy"
   },
   {
     "id": "h-pharm-walgreens",
     "name": "Walgreens",
     "parentId": "h-pharm",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Pharmacy > Walgreens"
   },
   {
     "id": "h-pharm-amazon",
     "name": "Amazon Pharmacy",
     "parentId": "h-pharm",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Pharmacy > Amazon Pharmacy"
   },
   {
     "id": "h-pharm-nimble",
     "name": "NimbleRx",
     "parentId": "h-pharm",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Pharmacy > NimbleRx"
   },
   {
     "id": "h-pharm-goodrx",
     "name": "GoodRx",
     "parentId": "h-pharm",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Pharmacy > GoodRx"
   },
   {
     "id": "h-blood",
     "name": "Blood & Plasma",
     "parentId": "h",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Blood & Plasma"
   },
   {
     "id": "h-blood-gulfcoast",
     "name": "Gulf Coast Regional Blood Center",
     "parentId": "h-blood",
-    "order": 0
+    "order": 0,
+    "aliases": [
+      "Gulf Coast Regional Blood Center"
+    ],
+    "hierarchyPath": "H - Health > Blood & Plasma > Gulf Coast Regional Blood Center"
   },
   {
     "id": "h-blood-obi",
     "name": "Oklahoma Blood Institute (OBI)",
     "parentId": "h-blood",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Blood & Plasma > Oklahoma Blood Institute (OBI)"
   },
   {
     "id": "h-blood-csl",
     "name": "CSL Plasma",
     "parentId": "h-blood",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Blood & Plasma > CSL Plasma"
   },
   {
     "id": "h-blood-biolife",
     "name": "BioLife Plasma",
     "parentId": "h-blood",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Blood & Plasma > BioLife Plasma"
   },
   {
     "id": "h-blood-grifols",
     "name": "Grifols Plasma",
     "parentId": "h-blood",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Blood & Plasma > Grifols Plasma"
   },
   {
     "id": "h-fit",
     "name": "Fitness & Wellness",
     "parentId": "h",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness"
   },
   {
     "id": "h-fit-lifetime",
     "name": "Life Time",
     "parentId": "h-fit",
     "order": 0,
-    "logo": "logos/library-95765bebbde4.png"
+    "logo": "logos/library-95765bebbde4.png",
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > Life Time"
   },
   {
     "id": "h-fit-la",
     "name": "LA Fitness",
     "parentId": "h-fit",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > LA Fitness"
   },
   {
     "id": "h-fit-equinox",
     "name": "Equinox",
     "parentId": "h-fit",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > Equinox"
   },
   {
     "id": "h-fit-anytime",
     "name": "Anytime Fitness",
     "parentId": "h-fit",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > Anytime Fitness"
   },
   {
     "id": "h-fit-genesis",
     "name": "Genesis Health Clubs",
     "parentId": "h-fit",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > Genesis Health Clubs"
   },
   {
     "id": "h-fit-hotworx",
     "name": "HOTWORX",
     "parentId": "h-fit",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > HOTWORX"
   },
   {
     "id": "h-fit-maxout",
     "name": "Max Out Fitness",
     "parentId": "h-fit",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > Max Out Fitness"
   },
   {
     "id": "h-fit-toennies",
     "name": "Toennies Fitness",
     "parentId": "h-fit",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > Toennies Fitness"
   },
   {
     "id": "h-fit-ymca",
     "name": "YMCA Tulsa",
     "parentId": "h-fit",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Fitness & Wellness > YMCA Tulsa"
   },
   {
     "id": "h-ins",
     "name": "Insurance & Billing",
     "parentId": "h",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing"
   },
   {
     "id": "h-ins-regence",
     "name": "Regence",
     "parentId": "h-ins",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing > Regence"
   },
   {
     "id": "h-ins-optum",
     "name": "Optum Financial",
     "parentId": "h-ins",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing > Optum Financial"
   },
   {
     "id": "h-ins-aflac",
     "name": "Aflac",
     "parentId": "h-ins",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing > Aflac"
   },
   {
     "id": "h-ins-marketplace",
     "name": "Health Insurance Marketplace",
     "parentId": "h-ins",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing > Health Insurance Marketplace"
   },
   {
     "id": "h-ins-hmarkets",
     "name": "HealthMarkets",
     "parentId": "h-ins",
-    "order": 4
-  },
-  {
-    "id": "h-ins-nyl",
-    "name": "New York Life",
-    "parentId": "h-ins",
-    "order": 5
-  },
-  {
-    "id": "h-ins-primerica",
-    "name": "Primerica",
-    "parentId": "h-ins",
-    "order": 6
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing > HealthMarkets"
   },
   {
     "id": "h-ins-kandk",
     "name": "KandK Insurance",
     "parentId": "h-ins",
-    "order": 7
-  },
-  {
-    "id": "h-ins-sf",
-    "name": "State Farm (Medical Claims)",
-    "parentId": "h-ins",
-    "order": 8
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Insurance & Billing > KandK Insurance"
   },
   {
     "id": "h-portals",
     "name": "Patient Portals & Records",
     "parentId": "h",
-    "order": 7
+    "order": 7,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Patient Portals & Records"
   },
   {
     "id": "h-portal-mychart",
     "name": "MyChart",
     "parentId": "h-portals",
     "order": 0,
-    "logo": "logos/library-6fcd9a3522ed.png"
+    "logo": "logos/library-6fcd9a3522ed.png",
+    "aliases": [
+      "MyChart"
+    ],
+    "hierarchyPath": "H - Health > Patient Portals & Records > MyChart"
   },
   {
     "id": "h-portal-healow",
     "name": "Healow",
     "parentId": "h-portals",
     "order": 1,
-    "logo": "logos/library-6f6c4c9fd05e.png"
+    "logo": "logos/library-6f6c4c9fd05e.png",
+    "aliases": [
+      "Healow"
+    ],
+    "hierarchyPath": "H - Health > Patient Portals & Records > Healow"
   },
   {
     "id": "h-portal-eclinical",
     "name": "eClinical",
     "parentId": "h-portals",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Patient Portals & Records > eClinical"
   },
   {
     "id": "h-portal-updox",
     "name": "Updox",
     "parentId": "h-portals",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Patient Portals & Records > Updox"
   },
   {
     "id": "h-portal-relatient",
     "name": "Relatient",
     "parentId": "h-portals",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Patient Portals & Records > Relatient"
   },
   {
     "id": "h-portal-visitpay",
     "name": "VisitPay",
     "parentId": "h-portals",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Patient Portals & Records > VisitPay"
   },
   {
     "id": "h-portal-docubill",
     "name": "DocuBill",
     "parentId": "h-portals",
-    "order": 6
+    "order": 6,
+    "aliases": [],
+    "hierarchyPath": "H - Health > Patient Portals & Records > DocuBill"
   },
   {
     "id": "w-employers",
     "name": "Employers & Organizations",
     "parentId": "w",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations"
   },
   {
     "id": "w-emp-rcubed",
     "name": "R-Cubed",
     "parentId": "w-employers",
-    "order": 0
+    "order": 0,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > R-Cubed"
   },
   {
     "id": "w-emp-redriver",
     "name": "Red River Development",
     "parentId": "w-employers",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > Red River Development"
   },
   {
     "id": "w-emp-trulo",
     "name": "Trulo Homes",
     "parentId": "w-employers",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > Trulo Homes"
   },
   {
     "id": "w-emp-roserock",
     "name": "Rose Rock Development",
     "parentId": "w-employers",
-    "order": 3
+    "order": 3,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > Rose Rock Development"
   },
   {
     "id": "w-emp-minaret",
     "name": "Minaret Foundation",
     "parentId": "w-employers",
-    "order": 4
+    "order": 4,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > Minaret Foundation"
   },
   {
     "id": "w-emp-ashford",
     "name": "Ashford Communities",
     "parentId": "w-employers",
-    "order": 5
+    "order": 5,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > Ashford Communities"
   },
   {
     "id": "w-emp-census",
     "name": "US Census Bureau",
     "parentId": "w-employers",
-    "order": 6
-  },
-  {
-    "id": "w-emp-gulfcoast",
-    "name": "Gulf Coast Regional Blood Center",
-    "parentId": "w-employers",
-    "order": 7
+    "order": 6,
+    "aliases": [
+      "US Census Bureau"
+    ],
+    "hierarchyPath": "W - Work > Employers & Organizations > US Census Bureau"
   },
   {
     "id": "w-emp-isgh",
     "name": "ISGH",
     "parentId": "w-employers",
-    "order": 8
+    "order": 8,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > ISGH"
   },
   {
     "id": "w-emp-amazonflex",
     "name": "Amazon Flex",
     "parentId": "w-employers",
-    "order": 9
+    "order": 9,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Employers & Organizations > Amazon Flex"
   },
   {
     "id": "w-tools",
     "name": "Work Tools",
     "parentId": "w",
-    "order": 1
+    "order": 1,
+    "aliases": [],
+    "hierarchyPath": "W - Work > Work Tools"
   },
   {
     "id": "w-tools-slack",
     "name": "Slack",
     "parentId": "w-tools",
     "order": 0,
-    "logo": "logos/library-06f4f65faef0.png"
+    "logo": "logos/library-06f4f65faef0.png",
+    "aliases": [
+      "Slack"
+    ],
+    "hierarchyPath": "W - Work > Work Tools > Slack"
   },
   {
     "id": "w-tools-asana",
     "name": "Asana",
     "parentId": "w-tools",
     "order": 1,
-    "logo": "logos/library-d10340a3b87f.png"
+    "logo": "logos/library-d10340a3b87f.png",
+    "aliases": [
+      "Asana"
+    ],
+    "hierarchyPath": "W - Work > Work Tools > Asana"
   },
   {
     "id": "w-tools-github",
     "name": "GitHub",
     "parentId": "w-tools",
     "order": 2,
-    "logo": "logos/brand-github.svg"
+    "logo": "logos/brand-github.svg",
+    "aliases": [
+      "GitHub"
+    ],
+    "hierarchyPath": "W - Work > Work Tools > GitHub"
   },
   {
     "id": "w-tools-miro",
     "name": "Miro",
     "parentId": "w-tools",
     "order": 3,
-    "logo": "logos/library-76d74cb0510d.png"
+    "logo": "logos/library-76d74cb0510d.png",
+    "aliases": [
+      "Miro"
+    ],
+    "hierarchyPath": "W - Work > Work Tools > Miro"
   },
   {
     "id": "w-tools-notion",
     "name": "Notion",
     "parentId": "w-tools",
     "order": 4,
-    "logo": "logos/library-4d9df066d32d.png"
+    "logo": "logos/library-4d9df066d32d.png",
+    "aliases": [],
+    "hierarchyPath": "W - Work > Work Tools > Notion"
   },
   {
     "id": "w-tools-obsidian",
     "name": "Obsidian",
     "parentId": "w-tools",
     "order": 5,
-    "logo": "logos/library-98b3da42e667.png"
-  },
-  {
-    "id": "pr-ai",
-    "name": "AI & Knowledge Tools",
-    "parentId": "pr",
-    "order": 0
-  },
-  {
-    "id": "pr-ai-openai",
-    "name": "ChatGPT / OpenAI",
-    "parentId": "pr-ai",
-    "order": 0
-  },
-  {
-    "id": "pr-ai-claude",
-    "name": "Claude / Anthropic",
-    "parentId": "pr-ai",
-    "order": 1
-  },
-  {
-    "id": "pr-ai-perplexity",
-    "name": "Perplexity",
-    "parentId": "pr-ai",
-    "order": 2,
-    "logo": "logos/library-8e348bb1bfcc.png"
-  },
-  {
-    "id": "pr-ai-rewind",
-    "name": "Rewind",
-    "parentId": "pr-ai",
-    "order": 3,
-    "logo": "logos/library-f170527ef3e4.png"
+    "logo": "logos/library-98b3da42e667.png",
+    "aliases": [],
+    "hierarchyPath": "W - Work > Work Tools > Obsidian"
   },
   {
     "id": "pr-pm",
     "name": "Project Management & Dev",
     "parentId": "pr",
-    "order": 1
-  },
-  {
-    "id": "pr-pm-github",
-    "name": "GitHub",
-    "parentId": "pr-pm",
-    "order": 0,
-    "logo": "logos/brand-github.svg"
-  },
-  {
-    "id": "pr-pm-asana",
-    "name": "Asana",
-    "parentId": "pr-pm",
     "order": 1,
-    "logo": "logos/library-d10340a3b87f.png"
-  },
-  {
-    "id": "pr-pm-miro",
-    "name": "Miro",
-    "parentId": "pr-pm",
-    "order": 2,
-    "logo": "logos/library-76d74cb0510d.png"
+    "aliases": [],
+    "hierarchyPath": "P - Projects > Project Management & Dev"
   },
   {
     "id": "pr-mlh",
     "name": "Major League Hacking (MLH)",
     "parentId": "pr",
-    "order": 2
+    "order": 2,
+    "aliases": [],
+    "hierarchyPath": "P - Projects > Major League Hacking (MLH)"
   },
   {
     "id": "p-learn-atlas-school",
     "name": "Atlas School",
     "parentId": "p-learn",
-    "order": 100
+    "order": 100,
+    "aliases": [],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > Atlas School"
   }
 ]
