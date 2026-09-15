@@ -37,7 +37,36 @@ function decorateNetwork(){
  for(const row of area.querySelectorAll('[data-open]')){row.draggable=true;row.dataset.moveKind='contact';row.dataset.moveId=row.dataset.open;addMoveButton(row,'contact',row.dataset.open)}
  for(const node of area.querySelectorAll('[data-blueprint-id]')){const id=node.dataset.blueprintId;if(!allBlueprint().some(n=>n.id===id)||id==='removed')continue;const summary=node.querySelector(':scope > summary');summary.draggable=true;summary.dataset.moveKind='node';summary.dataset.moveId=id;addMoveButton(summary,'node',id)}
 }
-function addMoveButton(el,kind,id){const b=document.createElement('button');b.type='button';b.className='move-control';b.textContent='Move';b.setAttribute('aria-label','Move '+(el.textContent||'item').trim());b.onclick=e=>{e.stopPropagation();e.preventDefault();chooseDestination(kind,id)};if(el.tagName==='BUTTON')el.after(b);else el.append(b);const del=document.createElement('button');del.type='button';del.className='move-control delete-control';del.textContent='Delete';del.onclick=e=>{e.preventDefault();e.stopPropagation();deleteItem(kind,id)};b.after(del)}
+function addMoveButton(el,kind,id){
+ el.querySelector('.row-actions')?.remove();
+ let labelText='';
+ if(kind==='node'){
+  const nodeObj=allBlueprint().find(n=>n.id===id);
+  labelText=nodeObj?nodeObj.name.replaceAll('_',' '):(el.querySelector('span')?.textContent||'section');
+ }else{
+  const contactObj=contacts.find(c=>c.id===id)||companies.find(c=>c.id===id);
+  labelText=contactObj?contactObj.name:(el.querySelector('.account-name')?.textContent||el.querySelector('span')?.textContent||'contact');
+ }
+ const cleanName=String(labelText).trim();
+ const actions=document.createElement('span');
+ actions.className='row-actions';
+ const b=document.createElement('button');
+ b.type='button';
+ b.className='row-action-btn move-btn';
+ b.setAttribute('aria-label','Move '+cleanName);
+ b.setAttribute('title','Move '+cleanName);
+ b.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path><polyline points="12 10 16 14 12 18"></polyline><line x1="8" y1="14" x2="16" y2="14"></line></svg>';
+ b.onclick=e=>{e.stopPropagation();e.preventDefault();chooseDestination(kind,id)};
+ const del=document.createElement('button');
+ del.type='button';
+ del.className='row-action-btn delete-btn';
+ del.setAttribute('aria-label','Delete '+cleanName);
+ del.setAttribute('title','Delete '+cleanName);
+ del.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>';
+ del.onclick=e=>{e.preventDefault();e.stopPropagation();deleteItem(kind,id)};
+ actions.append(b,del);
+ el.append(actions);
+}
 let dragged=null;
 document.addEventListener('dragstart',e=>{const el=e.target.closest('[data-move-kind]');if(!el)return;dragged={kind:el.dataset.moveKind,id:el.dataset.moveId};e.dataTransfer.effectAllowed='move';e.dataTransfer.setData('text/plain',JSON.stringify(dragged))});
 document.addEventListener('dragover',e=>{const node=e.target.closest('[data-blueprint-id]');if(!dragged||!node)return;e.preventDefault();document.querySelectorAll('.drop-target').forEach(n=>n.classList.remove('drop-target'));node.classList.add('drop-target');e.dataTransfer.dropEffect='move'});
