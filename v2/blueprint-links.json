@@ -2219,6 +2219,118 @@
     {
       "domain": "atlasschool.com",
       "sectionId": "p-learn-atlas-school"
+    },
+    {
+      "domain": "3ecfb.e2ma.net",
+      "sectionId": "p-events-fablab"
+    },
+    {
+      "domain": "birdeye.com",
+      "sectionId": "p-housing-ess"
+    },
+    {
+      "domain": "express.medallia.com",
+      "sectionId": "h-fit-lifetime"
+    },
+    {
+      "domain": "express.sea1.medallia.com",
+      "sectionId": "p-accounts-creditone"
+    },
+    {
+      "domain": "governmentjobs.com",
+      "sectionId": "p-gov-houston"
+    },
+    {
+      "domain": "labcorpservicemessage.com",
+      "sectionId": "h-labs-labcorp"
+    },
+    {
+      "domain": "mktg.t-mobile.com",
+      "sectionId": "p-bills-tmobile"
+    },
+    {
+      "domain": "nothingbundtcakes-email.com",
+      "sectionId": "p-shop-nbcakes"
+    },
+    {
+      "domain": "notification.intuit.com",
+      "sectionId": "p-accounts-gilligan"
+    },
+    {
+      "domain": "proxyvote.com",
+      "sectionId": "p-accounts-acorns"
+    },
+    {
+      "domain": "public.govdelivery.com",
+      "sectionId": "p-gov-twc"
+    },
+    {
+      "domain": "roktpowered.com",
+      "sectionId": "p-shop-pizzahut"
+    },
+    {
+      "domain": "sfauthentication.com",
+      "sectionId": "p-ins-sf"
+    },
+    {
+      "domain": "smsservicesnow.com",
+      "sectionId": "p-accounts-creditone"
+    },
+    {
+      "domain": "statefarminfo.com",
+      "sectionId": "p-ins-sf"
+    },
+    {
+      "domain": "statefarmservice.com",
+      "sectionId": "p-ins-sf"
+    },
+    {
+      "domain": "stripe.com",
+      "sectionId": "w-tools-obsidian"
+    },
+    {
+      "domain": "swellbox.com",
+      "sectionId": "h-prov-asc-health"
+    },
+    {
+      "domain": "tr.nothingbundtcakes.com",
+      "sectionId": "p-shop-nbcakes"
+    },
+    {
+      "domain": "trustpilotmail.com",
+      "sectionId": "p-accounts-mtrust"
+    },
+    {
+      "domain": "wantyourfeedback.com",
+      "sectionId": "h-prov-hillcrest-med"
+    },
+    {
+      "domain": "wildapricot.org",
+      "sectionId": "p-events-typros"
+    },
+    {
+      "domain": "36n.co",
+      "sectionId": "p-events"
+    },
+    {
+      "domain": "getmistified.com",
+      "sectionId": "p-events"
+    },
+    {
+      "domain": "adp.com",
+      "sectionId": "p-jobs"
+    },
+    {
+      "domain": "accredible.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "123test.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "activeandfitdirect.com",
+      "sectionId": "h-fit"
     }
   ]
 }

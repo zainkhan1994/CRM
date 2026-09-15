@@ -1,0 +1,142 @@
+[
+  {
+    "domain": "3ecfb.e2ma.net",
+    "target": "p-events-fablab",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "birdeye.com",
+    "target": "p-housing-ess",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "express.medallia.com",
+    "target": "h-fit-lifetime",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "express.sea1.medallia.com",
+    "target": "p-accounts-creditone",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "governmentjobs.com",
+    "target": "p-gov-houston",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "labcorpservicemessage.com",
+    "target": "h-labs-labcorp",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "mktg.t-mobile.com",
+    "target": "p-bills-tmobile",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "nothingbundtcakes-email.com",
+    "target": "p-shop-nbcakes",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "notification.intuit.com",
+    "target": "p-accounts-gilligan",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "proxyvote.com",
+    "target": "p-accounts-acorns",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "public.govdelivery.com",
+    "target": "p-gov-twc",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "roktpowered.com",
+    "target": "p-shop-pizzahut",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "sfauthentication.com",
+    "target": "p-ins-sf",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "smsservicesnow.com",
+    "target": "p-accounts-creditone",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "statefarminfo.com",
+    "target": "p-ins-sf",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "statefarmservice.com",
+    "target": "p-ins-sf",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "stripe.com",
+    "target": "w-tools-obsidian",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "swellbox.com",
+    "target": "h-prov-asc-health",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "tr.nothingbundtcakes.com",
+    "target": "p-shop-nbcakes",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "trustpilotmail.com",
+    "target": "p-accounts-mtrust",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "wantyourfeedback.com",
+    "target": "h-prov-hillcrest-med",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "wildapricot.org",
+    "target": "p-events-typros",
+    "evidence": "Exact saved company/name match"
+  },
+  {
+    "domain": "36n.co",
+    "target": "p-events",
+    "evidence": "Known organization/service domain"
+  },
+  {
+    "domain": "getmistified.com",
+    "target": "p-events",
+    "evidence": "Known organization/service domain"
+  },
+  {
+    "domain": "adp.com",
+    "target": "p-jobs",
+    "evidence": "Known organization/service domain"
+  },
+  {
+    "domain": "accredible.com",
+    "target": "p-learn",
+    "evidence": "Known organization/service domain"
+  },
+  {
+    "domain": "123test.com",
+    "target": "p-learn",
+    "evidence": "Known organization/service domain"
+  },
+  {
+    "domain": "activeandfitdirect.com",
+    "target": "h-fit",
+    "evidence": "Known organization/service domain"
+  }
+]
