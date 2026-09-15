@@ -5,87 +5,32 @@ const groupBy=(items,key)=>items.reduce((groups,item)=>{const k=key(item);(group
 const initials=n=>String(n).split(/\s+/).map(s=>s[0]).slice(0,2).join('').toUpperCase();
 let contacts=[],companies=[],view=new URLSearchParams(location.search).get('tab')==='inbox'?'inbox':'people',layout='cards',page=0,search='',label='',sort='name'; const size=24;
 const names={people:'Contacts',companies:'Companies',history:'Touchpoints',network:'Network',inbox:'Inbox'};
-$('#brand-icon').innerHTML=icon('layers');$('#search-icon').innerHTML=icon('search');$('#nav').innerHTML=[['people','person','People'],['companies','company','Companies'],['history','history','History'],['network','network','Network'],['inbox','email','Inbox']].map(([v,i,t])=>`<button data-go="${v}" class="${v===view?'active':''}" aria-label="${t}">${icon(i)}<span>${t}</span></button>`).join('');
-function filtered(){const source=view==='companies'?companies:contacts;return source.filter(c=>(!search||[c.name,c.company,c.email,c.domain].join(' ').toLowerCase().includes(search))&&(!label||(c.labels||[c.label]).includes(label))).sort((a,b)=>sort==='recent'?b.date.localeCompare(a.date):a.name.localeCompare(b.name));}
-function field(i,title,value){return `<div class="field"><span class="icon-tile">${icon(i)}</span><div class="field-body"><b>${title}</b><span class="value">${value||'Not added'}</span></div></div>`;}
-function card(c,full=false){return `<div class="identity-head"><span class="identity-symbol">${c.logo?`<img class="brand-logo" src="${esc(c.logo)}" alt="${esc(c.company)} logo">`:icon(c.members?'company':'person')}</span><div><h2 ${full?'id="profile-name"':''}>${esc(c.name)}</h2>${c.members?'':`<p>${esc(c.company)}</p>`}</div></div>${field('phone','Phone number',esc(c.phone))}${field('email','Email',esc(c.email))}${field('calendar','Date contacted',esc(c.date))}${field('tag','Label',c.label?`<span class="tag">${esc(c.label)}</span>`:'Unlabelled')}${field('logo','Logo',c.logo?`<img class="field-logo" src="${esc(c.logo)}" alt="${esc(c.company)} logo">`:'Not added')}`;}
-function render(){document.body.classList.toggle('inbox-active',view==='inbox');document.body.classList.toggle('history-active',view==='history');$('#search').placeholder=view==='history'?'Search people, dates, companies, notes…':'Search people, companies, email…';$('#search').setAttribute('aria-label',view==='history'?'Search people, dates, companies, notes':'Search people, companies or email');$('.eyebrow').textContent=view==='inbox'?'Workspace / communications':'Workspace / personal CRM';document.querySelectorAll('[data-go]').forEach(b=>{if(b.closest('nav')){b.classList.toggle('active',b.dataset.go===view);b.setAttribute('aria-current',b.dataset.go===view?'page':'false')}});$('#title').textContent=names[view];document.querySelectorAll('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layout===layout)));$('#view-options').hidden=['network','history'].includes(view);if(view==='inbox'){$('#content').innerHTML='<iframe sandbox="allow-scripts" class="inbox-frame" title="Canva Inbox — demo communications" src="inbox.html?v=logos5"></iframe>';$('#pagination').innerHTML='';$('#result-count').textContent='';$('#view-options').hidden=true;return;}let list=filtered(),slice=list.slice(page*size,(page+1)*size);$('#result-count').textContent=`${list.length.toLocaleString()} ${view==='companies'?'companies':'contacts'}`;
- if(view==='network'){renderNetwork(list);$('#pagination').innerHTML='';return;}if(view==='history'){renderHistory(list);$('#pagination').innerHTML='';return;}
- if(!slice.length)$('#content').innerHTML='<p class="empty">No contacts match your search.</p>';
- else if(layout==='cards')$('#content').innerHTML=`<div class="cards">${slice.map(c=>`<article class="identity-card">${card(c)}<div class="card-action"><button data-open="${esc(c.id)}">More info →</button></div></article>`).join('')}</div>`;
- else $('#content').innerHTML=`<div class="table-wrap"><table><thead><tr>${['Person','Company','Phone number','Email','Last contacted','Label',''].map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${slice.map(c=>`<tr><td><button class="person-link" data-open="${esc(c.id)}"><span class="mini-avatar">${esc(initials(c.name))}</span>${esc(c.name)}</button></td><td>${esc(c.company)}</td><td class="muted">${esc(c.phone||'—')}</td><td class="muted">${esc(c.email)}</td><td>${esc(c.date)}</td><td>${c.label?`<span class="tag">${esc(c.label)}</span>`:'—'}</td><td><button class="more" data-open="${esc(c.id)}">More info</button></td></tr>`).join('')}</tbody></table></div>`;
- const pages=Math.ceil(list.length/size);$('#pagination').innerHTML=pages>1?`<button data-page="-1" ${page===0?'disabled':''}>Previous</button><span>${page+1} / ${pages}</span><button data-page="1" ${page+1>=pages?'disabled':''}>Next</button>`:'';
-}
-function message(m){return `<details class="message"><summary>${esc(m.subject||'(No subject)')}<time>${esc(m.date)}</time></summary><div class="message-body"><small>Saved spreadsheet snippet</small><p>${esc(m.snippet)}</p><small>${esc(m.status||'')} · ${esc(m.context||'')} · ${m.copies||1} source row(s)</small></div></details>`;}
-async function historyFor(c){if(c.members){return (await Promise.all(c.members.map(historyFor))).flat().sort((a,b)=>b.date.localeCompare(a.date));}const r=await fetch(`history/${c.id}.json`);if(!r.ok)throw Error('History unavailable');return r.json();}
-let openToken=0;
-function renderNetwork(list){const groups=groupBy(list,c=>c.domain);$('#content').innerHTML=`<div class="network"><h2>Network</h2><p class="muted">People and companies, connected by domain.</p>${Object.entries(groups).sort(([a],[b])=>a.localeCompare(b)).map(([d,cs])=>`<details><summary>${esc(d)} <small>${cs.length} ${cs.length===1?'contact':'contacts'} · ${cs.reduce((n,c)=>n+c.count,0)} messages</small></summary>${cs.map(c=>`<button data-open="${c.id}">${icon('person')} &nbsp; ${esc(c.name)}<br><span class="muted">${esc(c.email)}</span></button>`).join('')}</details>`).join('')}</div>`;}
-function renderHistory(list){$('#content').innerHTML=`<div class="network">${list.slice(0,100).map(c=>`<details><summary>${esc(c.name)} <small>${c.count} messages · last ${esc(c.date)}</small></summary><button data-open="${c.id}">Open contact history →</button></details>`).join('')}${list.length>100?'<p class="muted">Search to narrow the contact history list.</p>':''}</div>`;}
-document.addEventListener('click',e=>{let b=e.target.closest('button');if(!b)return;if(b.dataset.go){view=b.dataset.go;page=0;render();}if(b.dataset.layout){layout=b.dataset.layout;page=0;render();}if(b.dataset.open)openProfile(b.dataset.open);if(b.dataset.page){page+=Number(b.dataset.page);render();$('#content').scrollIntoView({block:'start'});}});
-$('#search').addEventListener('input',e=>{search=e.target.value.toLowerCase().trim();page=0;render()});$('#labels').onchange=e=>{label=e.target.value;page=0;render()};$('#sort').onchange=e=>{sort=e.target.value;page=0;render()};$('.close').onclick=()=>$('#profile').close();$('#profile').addEventListener('click',e=>{if(e.target===$('#profile'))$('#profile').close()});
-fetch('contacts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{contacts=data;const groups=groupBy(data,c=>c.organizationId||c.domain);companies=Object.entries(groups).map(([domain,members])=>({id:'company-'+domain,name:members[0].organizationName||(domain==='hyatt.com'?'Hyatt':domain),company:members[0].organizationName||domain,domain:members[0].domain,domains:[...new Set(members.map(c=>c.domain))],email:members.map(c=>c.email).join(', '),phone:'',date:members.reduce((d,c)=>c.date>d?c.date:d,''),label:'',members,count:members.reduce((n,c)=>n+c.count,0)}));companies.forEach(c=>{const m=c.members.find(x=>x.logo);if(m){c.logo=m.logo;c.name=m.company;c.company=m.company;c.blueprintPath=m.blueprintPath;}c.labels=[...new Set(c.members.flatMap(x=>x.labels||[]))];c.label=c.labels.join(', ');});$('#peopleCount').textContent=data.length.toLocaleString();$('#companyCount').textContent=companies.length.toLocaleString();$('#historyCount').textContent=data.reduce((n,c)=>n+c.count,0).toLocaleString();$('#labels').innerHTML='<option value="">All labels</option>'+[...new Set(data.flatMap(c=>c.labels||[c.label]).filter(Boolean))].sort().map(l=>`<option>${esc(l)}</option>`).join('');render();}).catch(()=>{$('#content').innerHTML='<p class="empty">Contacts could not load. Please reload the page to retry.</p>'});
-if(document.modelContext?.registerTool){const lifecycle=new AbortController();try{Promise.resolve(document.modelContext.registerTool({name:'find_contacts',description:'Search the imported contacts and update the visible contact list.',inputSchema:{type:'object',properties:{query:{type:'string'}},required:['query'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},execute(input){if(!input||typeof input.query!=='string')throw new Error('query must be a string');view='people';search=input.query.toLowerCase().trim();$('#search').value=input.query;page=0;render();return {count:filtered().length,contacts:filtered().slice(0,20).map(c=>({id:c.id,name:c.name,email:c.email}))};}},{signal:lifecycle.signal})).catch(()=>{});}catch{}addEventListener('pagehide',()=>lifecycle.abort(),{once:true});}
+let domainLogos={};
+fetch('domain-logos.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{domainLogos=d;}).catch(()=>{});
 
-fetch('data-summary.json').then(r=>r.json()).then(d=>{$('#coverage').textContent=d.sourceRows.toLocaleString()+' source rows · '+d.uniqueRecords.toLocaleString()+' distinct records · '+d.firstDate+' to '+d.lastDate;}).catch(()=>{});
-renderNetwork=function(list){const tree={children:new Map(),contacts:[]};for(const c of list){let n=tree;for(const part of [...(c.blueprintPath||['Unlabelled']),c.domain]){if(!n.children.has(part))n.children.set(part,{children:new Map(),contacts:[]});n=n.children.get(part);}n.contacts.push(c);}function branch(n){return [...n.children].sort(([a],[b])=>a.localeCompare(b)).map(([name,child])=>`<details><summary>${esc(name)}</summary>${branch(child)}</details>`).join('')+n.contacts.map(c=>`<button data-open="${esc(c.id)}">${c.logo?`<img src="${esc(c.logo)}" alt="" style="width:28px;height:28px;object-fit:contain;vertical-align:middle;margin-right:8px">`:icon('person')} ${esc(c.name)}<br><span class="muted">${esc(c.email)}</span></button>`).join('');}$('#content').innerHTML='<div class="network">'+branch(tree)+'</div>';};
-let drawerToken=0;
-function drawerTab(name){document.querySelectorAll('[data-drawer-tab]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.drawerTab===name)));document.querySelectorAll('[data-drawer-panel]').forEach(p=>p.hidden=p.dataset.drawerPanel!==name);}
-async function openProfile(id){const c=contacts.find(c=>c.id===id)||companies.find(c=>c.id===id);if(!c)return;const token=++drawerToken;const members=c.members||[c];const emails=members.map(p=>p.email);const prop=(label,value)=>`<div class="drawer-prop"><span>${label}</span><b>${esc(value)}</b></div>`;
-$('#profile-content').innerHTML=`<section class="drawer-identity"><div class="drawer-avatar">${c.logo?`<img src="${esc(c.logo)}" alt="${esc(c.company)} logo">`:icon(c.members?'company':'person')}</div><h2 id="profile-name">${esc(c.name)}</h2><p>${c.members?`${members.length} contacts`:esc(c.company)}</p><div class="drawer-actions">${c.phone?`<a href="tel:${esc(c.phone)}" aria-label="Call">${icon('phone')}</a>`:`<button disabled aria-label="No phone number">${icon('phone')}</button>`}<a href="mailto:${esc(emails.join(','))}" aria-label="Compose email">${icon('email')}</a><button data-switch-drawer="notes" aria-label="Show notes">${icon('notes')}</button></div></section><div class="drawer-tabs" role="tablist" aria-label="Contact details"><button role="tab" aria-selected="true" data-drawer-tab="overview">Overview</button><button role="tab" aria-selected="false" data-drawer-tab="activity">Activity</button><button role="tab" aria-selected="false" data-drawer-tab="notes">Notes</button></div><section class="drawer-section" role="tabpanel" data-drawer-panel="overview"><h3>Contact details</h3><div class="drawer-line">${icon('email')}<div>${emails.map(e=>`<span>${esc(e)}</span>`).join('')}<small>Email</small></div></div><div class="drawer-line">${icon('phone')}<div>${esc(c.phone||'Not added')}<small>Phone</small></div></div><div class="drawer-line">${icon('company')}<div>${esc(c.domain)}<small>${esc(c.blueprintPath?.join(' / ')||'Unlabelled')}</small></div></div><h3>Properties</h3><div class="drawer-props">${prop('Source','Spreadsheet')}${prop('Label',c.label||'Unlabelled')}${prop('Records',c.count.toLocaleString())}${prop('Last contacted',c.date)}</div>${c.members?`<h3>People</h3>${members.map(m=>`<button class="drawer-person" data-open="${esc(m.id)}">${esc(m.name)}<small>${esc(m.email)}</small></button>`).join('')}`:''}</section><section class="drawer-section" role="tabpanel" data-drawer-panel="activity" hidden><h3>Contact history</h3><div id="drawer-history">Loading history…</div></section><section class="drawer-section" role="tabpanel" data-drawer-panel="notes" hidden><h3>Notes & context</h3><div id="drawer-notes">Loading saved context…</div></section>`;
-if(!$('#profile').open){if(innerWidth<=700)$('#profile').showModal();else $('#profile').show();}document.body.classList.add('drawer-open');
-try{const history=await historyFor(c);if(token!==drawerToken)return;$('#drawer-history').innerHTML=Object.entries(groupBy(history,m=>m.date.slice(0,4))).sort(([a],[b])=>b.localeCompare(a)).map(([year,rows])=>`<details><summary>${year} · ${rows.length} records</summary>${Object.entries(groupBy(rows,m=>m.date.slice(0,7))).map(([month,rs])=>`<details><summary>${month}</summary>${rs.map(message).join('')}</details>`).join('')}</details>`).join('');const notes=[...new Set(history.map(m=>m.context).filter(s=>s&&s!=='No prior context'))];$('#drawer-notes').innerHTML=notes.length?notes.map(n=>`<p class="context-note">${esc(n)}</p>`).join(''):'<p class="muted">No notes in the imported spreadsheet.</p>';}catch{if(token===drawerToken){$('#drawer-history').textContent='History could not load. Reopen this contact to retry.';$('#drawer-notes').textContent='Context unavailable.';}}}
-document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.drawerTab)drawerTab(b.dataset.drawerTab);if(b.dataset.switchDrawer)drawerTab(b.dataset.switchDrawer);});
-$('#profile').addEventListener('close',()=>{document.body.classList.remove('drawer-open');drawerToken++;});
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#profile').open)$('#profile').close();const b=e.target.closest('[data-drawer-tab]');if(b&&['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();const tabs=[...document.querySelectorAll('[data-drawer-tab]')];const next=tabs[(tabs.indexOf(b)+(e.key==='ArrowRight'?1:2))%3];next.focus();drawerTab(next.dataset.drawerTab);}});
-
-let blueprintRows=null,blueprintLinks={},blueprintRemoved={nodes:[],links:{}},blueprintFailed=false;
-const blueprintExpanded=new Set();
-const blueprintKey=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
-renderNetwork=function(list){
- if(!blueprintRows){$('#content').innerHTML=`<p class="empty">${blueprintFailed?'Blueprint could not load. Reload to retry.':'Loading complete blueprint…'}</p>`;return;}
- const nodes=new Map(effectiveBlueprint().map(r=>[r.id,{...r,children:[],people:[]}]));const roots=[];
- for(const n of nodes.values()){if(n.parentId&&nodes.has(n.parentId))nodes.get(n.parentId).children.push(n);else roots.push(n);}
- const matched=new Set();for(const c of list){let active=placements.contacts[c.id]??blueprintLinks.contactAssignments?.[c.id]??(blueprintLinks.links?matchingSections(c.domain,blueprintLinks.links):(blueprintLinks[c.id]||[]));if(!active||!active.length){const inferred=inferSectionForDomain(c.domain,c.company);if(inferred)active=[inferred];}for(const id of active){const n=nodes.get(id)||nodes.get(canonicalSection(id));if(n){n.people.push(c);matched.add(c.id);}}if(!Object.hasOwn(placements.contacts,c.id))for(const id of blueprintRemoved.links[c.id]||[]){const n=nodes.get(id)||nodes.get(canonicalSection(id));if(n){n.people.push(c);let ancestor=n;const seen=new Set();while(ancestor&&!seen.has(ancestor.id)){seen.add(ancestor.id);if(blueprintRows.some(r=>r.id===ancestor.id)){matched.add(c.id);break;}ancestor=nodes.get(ancestor.parentId);}}}}for(const n of nodes.values())n.people=[...new Map(n.people.map(c=>[c.id,c])).values()];for(const n of nodes.values())n.children.sort((a,b)=>(a.order??999)-(b.order??999));roots.sort((a,b)=>(a.order??999)-(b.order??999));
- function getNodeIcon(n){
-  const text=(n.name+' '+(n.id||'')).toLowerCase();
-  if(text.includes('account')||text.includes('bank')||text.includes('credit card'))return icon('banking');
-  if(text.includes('bill')||text.includes('utilit')||text.includes('electric')||text.includes('gas'))return icon('bills');
-  if(text.includes('shop')||text.includes('reward')||text.includes('retail')||text.includes('food'))return icon('shopping');
-  if(text.includes('travel')||text.includes('navigat')||text.includes('airline')||text.includes('transit'))return icon('travel');
-  if(text.includes('event')||text.includes('conference'))return icon('events');
-  if(text.includes('social')||text.includes('communit'))return icon('community');
-  if(text.includes('meet')||text.includes('schedul'))return icon('meetings');
-  if(text.includes('learn')||text.includes('improve')||text.includes('educat')||text.includes('school'))return icon('education');
-  if(text.includes('developer')||text.includes('tech'))return icon('tech');
-  if(text.includes('cloud'))return icon('cloud');
-  if(text.includes('ai')||text.includes('artificial')||text.includes('knowledge'))return icon('ai');
-  if(text.includes('research')||text.includes('test')||text.includes('analyt'))return icon('research');
-  if(text.includes('entertain')||text.includes('media')||text.includes('stream'))return icon('entertainment');
-  if(text.includes('gov')||text.includes('civic'))return icon('civic');
-  if(text.includes('daily')||text.includes('presence'))return icon('daily');
-  if(text.includes('news')||text.includes('subscript'))return icon('news');
-  if(text.includes('job')||text.includes('recruit'))return icon('jobs');
-  if(text.includes('housing')||text.includes('real estate'))return icon('housing');
-  if(text.includes('auto'))return icon('auto');
-  if(text.includes('nonprofit')||text.includes('donat'))return icon('nonprofit');
-  if(text.includes('insur'))return icon('insurance');
-  if(text.includes('health')||text.includes('provider')||text.includes('clinic')||text.includes('lab')||text.includes('pharm'))return icon('health');
-  if(text.includes('cowork')||text.includes('innovat'))return icon('coworking');
-  if(text.includes('talent')||text.includes('remote')||text.includes('relocat'))return icon('talent');
-  if(text.includes('people')||text.includes('friend')||text.includes('family')||text.includes('contact'))return icon('person');
-  if(n.id==='p')return icon('person');
-  if(n.id==='h')return icon('health');
-  if(n.id==='w')return icon('work');
-  if(n.id==='pr')return icon('projects');
-  return icon('folder');
- }
-
- function resolveBrandLogo(c, fallbackLogo = null) {
+function resolveBrandLogo(c, fallbackLogo = null) {
   if (c && c.logo) return c.logo;
   const comp = (c?.company || '').toLowerCase().trim();
   const dom = (c?.domain || '').toLowerCase().trim();
   const name = (c?.name || '').toLowerCase().trim();
   const text = `${comp} ${dom} ${name}`;
+
+  if (text.includes('rose rock') || dom.includes('roserock')) return 'logos/rose-rock-development.png';
+  if (text.includes('minaret') || dom.includes('minaret')) return 'logos/minaret-foundation.png';
+  if (text.includes('ashford') || dom.includes('ashford')) return 'logos/ashford-communities.png';
+  if (text.includes('trulo') || dom.includes('trulo')) return 'logos/trulo-homes.png';
+  if (text.includes('r-cubed') || text.includes('rcubed') || dom.includes('rcubed')) return 'logos/r-cubed.png';
+  if (text.includes('isgh') || dom.includes('isgh')) return 'logos/isgh.png';
+  if (text.includes('maryam') || dom.includes('maryam')) return 'logos/maryam-islamic-center.png';
+
+  if (dom && typeof domainLogos !== 'undefined' && domainLogos[dom]) return domainLogos[dom];
+  if (dom && typeof domainLogos !== 'undefined') {
+    const parts = dom.split('.');
+    if (parts.length > 2) {
+      const root = parts.slice(-2).join('.');
+      if (domainLogos[root]) return domainLogos[root];
+    }
+  }
 
   if (text.includes('indeed')) return 'logos/indeed.png';
   if (text.includes('kilocode') || text.includes('kilo code')) return 'logos/kilocode.png';
@@ -181,6 +126,91 @@ renderNetwork=function(list){
     if (matchedNode) return matchedNode.logo;
   }
   return fallbackLogo || null;
+}
+
+$('#brand-icon').innerHTML=icon('layers');$('#search-icon').innerHTML=icon('search');$('#nav').innerHTML=[['people','person','People'],['companies','company','Companies'],['history','history','History'],['network','network','Network'],['inbox','email','Inbox']].map(([v,i,t])=>`<button data-go="${v}" class="${v===view?'active':''}" aria-label="${t}">${icon(i)}<span>${t}</span></button>`).join('');
+function filtered(){const source=view==='companies'?companies:contacts;return source.filter(c=>(!search||[c.name,c.company,c.email,c.domain].join(' ').toLowerCase().includes(search))&&(!label||(c.labels||[c.label]).includes(label))).sort((a,b)=>sort==='recent'?b.date.localeCompare(a.date):a.name.localeCompare(b.name));}
+function field(i,title,value){return `<div class="field"><span class="icon-tile">${icon(i)}</span><div class="field-body"><b>${title}</b><span class="value">${value||'Not added'}</span></div></div>`;}
+function card(c,full=false){const l=c.logo||resolveBrandLogo(c);return `<div class="identity-head"><span class="identity-symbol">${l?`<img class="brand-logo" src="${esc(l)}" alt="${esc(c.company||c.name)} logo">`:icon(c.members?'company':'person')}</span><div><h2 ${full?'id="profile-name"':''}>${esc(c.name)}</h2>${c.members?'':`<p>${esc(c.company)}</p>`}</div></div>${field('phone','Phone number',esc(c.phone))}${field('email','Email',esc(c.email))}${field('calendar','Date contacted',esc(c.date))}${field('tag','Label',c.label?`<span class="tag">${esc(c.label)}</span>`:'Unlabelled')}${field('logo','Logo',l?`<img class="field-logo" src="${esc(l)}" alt="${esc(c.company||c.name)} logo">`:'Not added')}`;}
+function render(){document.body.classList.toggle('inbox-active',view==='inbox');document.body.classList.toggle('history-active',view==='history');$('#search').placeholder=view==='history'?'Search people, dates, companies, notes…':'Search people, companies, email…';$('#search').setAttribute('aria-label',view==='history'?'Search people, dates, companies, notes':'Search people, companies or email');$('.eyebrow').textContent=view==='inbox'?'Workspace / communications':'Workspace / personal CRM';document.querySelectorAll('[data-go]').forEach(b=>{if(b.closest('nav')){b.classList.toggle('active',b.dataset.go===view);b.setAttribute('aria-current',b.dataset.go===view?'page':'false')}});$('#title').textContent=names[view];document.querySelectorAll('[data-layout]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layout===layout)));$('#view-options').hidden=['network','history'].includes(view);if(view==='inbox'){$('#content').innerHTML='<iframe sandbox="allow-scripts" class="inbox-frame" title="Canva Inbox — demo communications" src="inbox.html?v=logos5"></iframe>';$('#pagination').innerHTML='';$('#result-count').textContent='';$('#view-options').hidden=true;return;}let list=filtered(),slice=list.slice(page*size,(page+1)*size);$('#result-count').textContent=`${list.length.toLocaleString()} ${view==='companies'?'companies':'contacts'}`;
+ if(view==='network'){renderNetwork(list);$('#pagination').innerHTML='';return;}if(view==='history'){renderHistory(list);$('#pagination').innerHTML='';return;}
+ if(!slice.length)$('#content').innerHTML='<p class="empty">No contacts match your search.</p>';
+ else if(layout==='cards')$('#content').innerHTML=`<div class="cards">${slice.map(c=>`<article class="identity-card">${card(c)}<div class="card-action"><button data-open="${esc(c.id)}">More info →</button></div></article>`).join('')}</div>`;
+ else {
+  const col1=view==='companies'?'Company':'Person';
+  const col2=view==='companies'?'Contacts':'Company';
+  $('#content').innerHTML=`<div class="table-wrap"><table><thead><tr>${[col1,col2,'Phone number','Email','Last contacted','Label',''].map(t=>`<th scope="col">${t}</th>`).join('')}</tr></thead><tbody>${slice.map(c=>{
+    const l=c.logo||resolveBrandLogo(c);
+    const avatar=l?`<img src="${esc(l)}" alt="" onerror="this.parentElement.textContent='${esc(initials(c.name))}'">`:esc(initials(c.name));
+    const sub=view==='companies'?`${(c.members||[]).length} ${(c.members||[]).length===1?'contact':'contacts'}`:esc(c.company);
+    return `<tr><td><button class="person-link" data-open="${esc(c.id)}"><span class="mini-avatar">${avatar}</span>${esc(c.name)}</button></td><td>${sub}</td><td class="muted">${esc(c.phone||'—')}</td><td class="muted">${esc(c.email)}</td><td>${esc(c.date)}</td><td>${c.label?`<span class="tag">${esc(c.label)}</span>`:'—'}</td><td><button class="more" data-open="${esc(c.id)}">More info</button></td></tr>`;
+  }).join('')}</tbody></table></div>`;
+ }
+ const pages=Math.ceil(list.length/size);$('#pagination').innerHTML=pages>1?`<button data-page="-1" ${page===0?'disabled':''}>Previous</button><span>${page+1} / ${pages}</span><button data-page="1" ${page+1>=pages?'disabled':''}>Next</button>`:'';
+}
+function message(m){return `<details class="message"><summary>${esc(m.subject||'(No subject)')}<time>${esc(m.date)}</time></summary><div class="message-body"><small>Saved spreadsheet snippet</small><p>${esc(m.snippet)}</p><small>${esc(m.status||'')} · ${esc(m.context||'')} · ${m.copies||1} source row(s)</small></div></details>`;}
+async function historyFor(c){if(c.members){return (await Promise.all(c.members.map(historyFor))).flat().sort((a,b)=>b.date.localeCompare(a.date));}const r=await fetch(`history/${c.id}.json`);if(!r.ok)throw Error('History unavailable');return r.json();}
+let openToken=0;
+function renderNetwork(list){const groups=groupBy(list,c=>c.domain);$('#content').innerHTML=`<div class="network"><h2>Network</h2><p class="muted">People and companies, connected by domain.</p>${Object.entries(groups).sort(([a],[b])=>a.localeCompare(b)).map(([d,cs])=>`<details><summary>${esc(d)} <small>${cs.length} ${cs.length===1?'contact':'contacts'} · ${cs.reduce((n,c)=>n+c.count,0)} messages</small></summary>${cs.map(c=>`<button data-open="${c.id}">${icon('person')} &nbsp; ${esc(c.name)}<br><span class="muted">${esc(c.email)}</span></button>`).join('')}</details>`).join('')}</div>`;}
+function renderHistory(list){$('#content').innerHTML=`<div class="network">${list.slice(0,100).map(c=>`<details><summary>${esc(c.name)} <small>${c.count} messages · last ${esc(c.date)}</small></summary><button data-open="${c.id}">Open contact history →</button></details>`).join('')}${list.length>100?'<p class="muted">Search to narrow the contact history list.</p>':''}</div>`;}
+document.addEventListener('click',e=>{let b=e.target.closest('button');if(!b)return;if(b.dataset.go){view=b.dataset.go;page=0;render();}if(b.dataset.layout){layout=b.dataset.layout;page=0;render();}if(b.dataset.open)openProfile(b.dataset.open);if(b.dataset.page){page+=Number(b.dataset.page);render();$('#content').scrollIntoView({block:'start'});}});
+$('#search').addEventListener('input',e=>{search=e.target.value.toLowerCase().trim();page=0;render()});$('#labels').onchange=e=>{label=e.target.value;page=0;render()};$('#sort').onchange=e=>{sort=e.target.value;page=0;render()};$('.close').onclick=()=>$('#profile').close();$('#profile').addEventListener('click',e=>{if(e.target===$('#profile'))$('#profile').close()});
+fetch('contacts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{contacts=data;const groups=groupBy(data,c=>c.organizationId||c.domain);companies=Object.entries(groups).map(([domain,members])=>({id:'company-'+domain,name:members[0].organizationName||(domain==='hyatt.com'?'Hyatt':domain),company:members[0].organizationName||domain,domain:members[0].domain,domains:[...new Set(members.map(c=>c.domain))],email:members.map(c=>c.email).join(', '),phone:'',date:members.reduce((d,c)=>c.date>d?c.date:d,''),label:'',members,count:members.reduce((n,c)=>n+c.count,0)}));companies.forEach(c=>{const m=c.members.find(x=>x.logo);if(m){c.logo=m.logo;c.name=m.company||c.name;c.company=m.company||c.company;c.blueprintPath=m.blueprintPath;}if(!c.logo)c.logo=resolveBrandLogo(c);c.labels=[...new Set(c.members.flatMap(x=>x.labels||[]))];c.label=c.labels.join(', ');});$('#peopleCount').textContent=data.length.toLocaleString();$('#companyCount').textContent=companies.length.toLocaleString();$('#historyCount').textContent=data.reduce((n,c)=>n+c.count,0).toLocaleString();$('#labels').innerHTML='<option value="">All labels</option>'+[...new Set(data.flatMap(c=>c.labels||[c.label]).filter(Boolean))].sort().map(l=>`<option>${esc(l)}</option>`).join('');render();}).catch(()=>{$('#content').innerHTML='<p class="empty">Contacts could not load. Please reload the page to retry.</p>'});
+if(document.modelContext?.registerTool){const lifecycle=new AbortController();try{Promise.resolve(document.modelContext.registerTool({name:'find_contacts',description:'Search the imported contacts and update the visible contact list.',inputSchema:{type:'object',properties:{query:{type:'string'}},required:['query'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},execute(input){if(!input||typeof input.query!=='string')throw new Error('query must be a string');view='people';search=input.query.toLowerCase().trim();$('#search').value=input.query;page=0;render();return {count:filtered().length,contacts:filtered().slice(0,20).map(c=>({id:c.id,name:c.name,email:c.email}))};}},{signal:lifecycle.signal})).catch(()=>{});}catch{}addEventListener('pagehide',()=>lifecycle.abort(),{once:true});}
+
+fetch('data-summary.json').then(r=>r.json()).then(d=>{$('#coverage').textContent=d.sourceRows.toLocaleString()+' source rows · '+d.uniqueRecords.toLocaleString()+' distinct records · '+d.firstDate+' to '+d.lastDate;}).catch(()=>{});
+renderNetwork=function(list){const tree={children:new Map(),contacts:[]};for(const c of list){let n=tree;for(const part of [...(c.blueprintPath||['Unlabelled']),c.domain]){if(!n.children.has(part))n.children.set(part,{children:new Map(),contacts:[]});n=n.children.get(part);}n.contacts.push(c);}function branch(n){return [...n.children].sort(([a],[b])=>a.localeCompare(b)).map(([name,child])=>`<details><summary>${esc(name)}</summary>${branch(child)}</details>`).join('')+n.contacts.map(c=>`<button data-open="${esc(c.id)}">${c.logo?`<img src="${esc(c.logo)}" alt="" style="width:28px;height:28px;object-fit:contain;vertical-align:middle;margin-right:8px">`:icon('person')} ${esc(c.name)}<br><span class="muted">${esc(c.email)}</span></button>`).join('');}$('#content').innerHTML='<div class="network">'+branch(tree)+'</div>';};
+let drawerToken=0;
+function drawerTab(name){document.querySelectorAll('[data-drawer-tab]').forEach(b=>b.setAttribute('aria-selected',String(b.dataset.drawerTab===name)));document.querySelectorAll('[data-drawer-panel]').forEach(p=>p.hidden=p.dataset.drawerPanel!==name);}
+async function openProfile(id){const c=contacts.find(c=>c.id===id)||companies.find(c=>c.id===id);if(!c)return;const token=++drawerToken;const members=c.members||[c];const emails=members.map(p=>p.email);const prop=(label,value)=>`<div class="drawer-prop"><span>${label}</span><b>${esc(value)}</b></div>`;
+const l=c.logo||resolveBrandLogo(c);
+$('#profile-content').innerHTML=`<section class="drawer-identity"><div class="drawer-avatar">${l?`<img src="${esc(l)}" alt="${esc(c.company||c.name)} logo">`:icon(c.members?'company':'person')}</div><h2 id="profile-name">${esc(c.name)}</h2><p>${c.members?`${members.length} contacts`:esc(c.company)}</p><div class="drawer-actions">${c.phone?`<a href="tel:${esc(c.phone)}" aria-label="Call">${icon('phone')}</a>`:`<button disabled aria-label="No phone number">${icon('phone')}</button>`}<a href="mailto:${esc(emails.join(','))}" aria-label="Compose email">${icon('email')}</a><button data-switch-drawer="notes" aria-label="Show notes">${icon('notes')}</button></div></section><div class="drawer-tabs" role="tablist" aria-label="Contact details"><button role="tab" aria-selected="true" data-drawer-tab="overview">Overview</button><button role="tab" aria-selected="false" data-drawer-tab="activity">Activity</button><button role="tab" aria-selected="false" data-drawer-tab="notes">Notes</button></div><section class="drawer-section" role="tabpanel" data-drawer-panel="overview"><h3>Contact details</h3><div class="drawer-line">${icon('email')}<div>${emails.map(e=>`<span>${esc(e)}</span>`).join('')}<small>Email</small></div></div><div class="drawer-line">${icon('phone')}<div>${esc(c.phone||'Not added')}<small>Phone</small></div></div><div class="drawer-line">${icon('company')}<div>${esc(c.domain)}<small>${esc(c.blueprintPath?.join(' / ')||'Unlabelled')}</small></div></div><h3>Properties</h3><div class="drawer-props">${prop('Source','Spreadsheet')}${prop('Label',c.label||'Unlabelled')}${prop('Records',c.count.toLocaleString())}${prop('Last contacted',c.date)}</div>${c.members?`<h3>People</h3>${members.map(m=>{const ml=m.logo||resolveBrandLogo(m);return `<button class="drawer-person" data-open="${esc(m.id)}">${ml?`<img src="${esc(ml)}" alt="" style="width:24px;height:24px;object-fit:contain;border-radius:50%;margin-right:8px;vertical-align:middle">`:''}${esc(m.name)}<small>${esc(m.email)}</small></button>`;}).join('')}`:''}</section><section class="drawer-section" role="tabpanel" data-drawer-panel="activity" hidden><h3>Contact history</h3><div id="drawer-history">Loading history…</div></section><section class="drawer-section" role="tabpanel" data-drawer-panel="notes" hidden><h3>Notes & context</h3><div id="drawer-notes">Loading saved context…</div></section>`;
+if(!$('#profile').open){if(innerWidth<=700)$('#profile').showModal();else $('#profile').show();}document.body.classList.add('drawer-open');
+try{const history=await historyFor(c);if(token!==drawerToken)return;$('#drawer-history').innerHTML=Object.entries(groupBy(history,m=>m.date.slice(0,4))).sort(([a],[b])=>b.localeCompare(a)).map(([year,rows])=>`<details><summary>${year} · ${rows.length} records</summary>${Object.entries(groupBy(rows,m=>m.date.slice(0,7))).map(([month,rs])=>`<details><summary>${month}</summary>${rs.map(message).join('')}</details>`).join('')}</details>`).join('');const notes=[...new Set(history.map(m=>m.context).filter(s=>s&&s!=='No prior context'))];$('#drawer-notes').innerHTML=notes.length?notes.map(n=>`<p class="context-note">${esc(n)}</p>`).join(''):'<p class="muted">No notes in the imported spreadsheet.</p>';}catch{if(token===drawerToken){$('#drawer-history').textContent='History could not load. Reopen this contact to retry.';$('#drawer-notes').textContent='Context unavailable.';}}}
+document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;if(b.dataset.drawerTab)drawerTab(b.dataset.drawerTab);if(b.dataset.switchDrawer)drawerTab(b.dataset.switchDrawer);});
+$('#profile').addEventListener('close',()=>{document.body.classList.remove('drawer-open');drawerToken++;});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'&&$('#profile').open)$('#profile').close();const b=e.target.closest('[data-drawer-tab]');if(b&&['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();const tabs=[...document.querySelectorAll('[data-drawer-tab]')];const next=tabs[(tabs.indexOf(b)+(e.key==='ArrowRight'?1:2))%3];next.focus();drawerTab(next.dataset.drawerTab);}});
+
+let blueprintRows=null,blueprintLinks={},blueprintRemoved={nodes:[],links:{}},blueprintFailed=false;
+const blueprintExpanded=new Set();
+const blueprintKey=s=>String(s||'').toLowerCase().replace(/[^a-z0-9]/g,'');
+renderNetwork=function(list){
+ if(!blueprintRows){$('#content').innerHTML=`<p class="empty">${blueprintFailed?'Blueprint could not load. Reload to retry.':'Loading complete blueprint…'}</p>`;return;}
+ const nodes=new Map(effectiveBlueprint().map(r=>[r.id,{...r,children:[],people:[]}]));const roots=[];
+ for(const n of nodes.values()){if(n.parentId&&nodes.has(n.parentId))nodes.get(n.parentId).children.push(n);else roots.push(n);}
+ const matched=new Set();for(const c of list){let active=placements.contacts[c.id]??blueprintLinks.contactAssignments?.[c.id]??(blueprintLinks.links?matchingSections(c.domain,blueprintLinks.links):(blueprintLinks[c.id]||[]));if(!active||!active.length){const inferred=inferSectionForDomain(c.domain,c.company);if(inferred)active=[inferred];}for(const id of active){const n=nodes.get(id)||nodes.get(canonicalSection(id));if(n){n.people.push(c);matched.add(c.id);}}if(!Object.hasOwn(placements.contacts,c.id))for(const id of blueprintRemoved.links[c.id]||[]){const n=nodes.get(id)||nodes.get(canonicalSection(id));if(n){n.people.push(c);let ancestor=n;const seen=new Set();while(ancestor&&!seen.has(ancestor.id)){seen.add(ancestor.id);if(blueprintRows.some(r=>r.id===ancestor.id)){matched.add(c.id);break;}ancestor=nodes.get(ancestor.parentId);}}}}for(const n of nodes.values())n.people=[...new Map(n.people.map(c=>[c.id,c])).values()];for(const n of nodes.values())n.children.sort((a,b)=>(a.order??999)-(b.order??999));roots.sort((a,b)=>(a.order??999)-(b.order??999));
+ function getNodeIcon(n){
+  const text=(n.name+' '+(n.id||'')).toLowerCase();
+  if(text.includes('account')||text.includes('bank')||text.includes('credit card'))return icon('banking');
+  if(text.includes('bill')||text.includes('utilit')||text.includes('electric')||text.includes('gas'))return icon('bills');
+  if(text.includes('shop')||text.includes('reward')||text.includes('retail')||text.includes('food'))return icon('shopping');
+  if(text.includes('travel')||text.includes('navigat')||text.includes('airline')||text.includes('transit'))return icon('travel');
+  if(text.includes('event')||text.includes('conference'))return icon('events');
+  if(text.includes('social')||text.includes('communit'))return icon('community');
+  if(text.includes('meet')||text.includes('schedul'))return icon('meetings');
+  if(text.includes('learn')||text.includes('improve')||text.includes('educat')||text.includes('school'))return icon('education');
+  if(text.includes('developer')||text.includes('tech'))return icon('tech');
+  if(text.includes('cloud'))return icon('cloud');
+  if(text.includes('ai')||text.includes('artificial')||text.includes('knowledge'))return icon('ai');
+  if(text.includes('research')||text.includes('test')||text.includes('analyt'))return icon('research');
+  if(text.includes('entertain')||text.includes('media')||text.includes('stream'))return icon('entertainment');
+  if(text.includes('gov')||text.includes('civic'))return icon('civic');
+  if(text.includes('daily')||text.includes('presence'))return icon('daily');
+  if(text.includes('news')||text.includes('subscript'))return icon('news');
+  if(text.includes('job')||text.includes('recruit'))return icon('jobs');
+  if(text.includes('housing')||text.includes('real estate'))return icon('housing');
+  if(text.includes('auto'))return icon('auto');
+  if(text.includes('nonprofit')||text.includes('donat'))return icon('nonprofit');
+  if(text.includes('insur'))return icon('insurance');
+  if(text.includes('health')||text.includes('provider')||text.includes('clinic')||text.includes('lab')||text.includes('pharm'))return icon('health');
+  if(text.includes('cowork')||text.includes('innovat'))return icon('coworking');
+  if(text.includes('talent')||text.includes('remote')||text.includes('relocat'))return icon('talent');
+  if(text.includes('people')||text.includes('friend')||text.includes('family')||text.includes('contact'))return icon('person');
+  if(n.id==='p')return icon('person');
+  if(n.id==='h')return icon('health');
+  if(n.id==='w')return icon('work');
+  if(n.id==='pr')return icon('projects');
+  return icon('folder');
  }
 
  function accounts(people, fallbackNodeLogo = null){
@@ -206,7 +236,7 @@ renderNetwork=function(list){
   if((q||label)&&!selfMatch&&!children&&!hasPeople)return '';
 
   const nodeLogo=n.logo||resolveBrandLogo({company:n.name,domain:n.id});
-  const nodeIcon=hasChildren?getNodeIcon(n):(nodeLogo?`<img src="${esc(nodeLogo)}" alt="">`:getNodeIcon(n));
+  const nodeIcon=nodeLogo?`<img src="${esc(nodeLogo)}" alt="">`:getNodeIcon(n);
 
   let peopleHtml='';
   if(hasPeople){

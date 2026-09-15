@@ -3158,7 +3158,7 @@
     "order": 0,
     "aliases": [],
     "hierarchyPath": "W - Work > Employers & Organizations > R-Cubed",
-    "logo": "logos/brand-emrcubed.webp"
+    "logo": "logos/r-cubed.png"
   },
   {
     "id": "w-emp-redriver",
@@ -3789,7 +3789,8 @@
       "620",
       "maryam-islamic-center"
     ],
-    "hierarchyPath": "w-emp-isgh > Maryam Islamic Center"
+    "hierarchyPath": "w-emp-isgh > Maryam Islamic Center",
+    "logo": "logos/maryam-islamic-center.png"
   },
   {
     "id": "w-tools-sub",
@@ -4260,7 +4261,8 @@
     "aliases": [
       "606"
     ],
-    "hierarchyPath": "Trulo Homes - Bentoville location"
+    "hierarchyPath": "Trulo Homes - Bentoville location",
+    "logo": "logos/trulo-homes.png"
   },
   {
     "id": "w-trulo-homes-jenks",
@@ -4271,7 +4273,8 @@
     "aliases": [
       "607"
     ],
-    "hierarchyPath": "Trulo Homes - Jenks location"
+    "hierarchyPath": "Trulo Homes - Jenks location",
+    "logo": "logos/trulo-homes.png"
   },
   {
     "id": "w-trulo-homes-whitestone",
@@ -4282,7 +4285,8 @@
     "aliases": [
       "608"
     ],
-    "hierarchyPath": "Trulo Homes - Whitestone location"
+    "hierarchyPath": "Trulo Homes - Whitestone location",
+    "logo": "logos/trulo-homes.png"
   },
   {
     "id": "w-trulo-homes-kansas-city",
@@ -4293,7 +4297,8 @@
     "aliases": [
       "609"
     ],
-    "hierarchyPath": "Trulo Homes - Kansas City location"
+    "hierarchyPath": "Trulo Homes - Kansas City location",
+    "logo": "logos/trulo-homes.png"
   },
   {
     "id": "w-reunion",
