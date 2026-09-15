@@ -1,597 +1,2224 @@
 {
   "links": [
-    {"domain": "bofa.com",                    "sectionId": "p-accounts-boa"},
-    {"domain": "bankofamerica.com",           "sectionId": "p-accounts-boa"},
-    {"domain": "ealerts.bankofamerica.com",   "sectionId": "p-accounts-boa"},
-    {"domain": "ealerts2.bankofamerica.com",  "sectionId": "p-accounts-boa"},
-    {"domain": "ims.bankofamerica.com",       "sectionId": "p-accounts-boa"},
-    {"domain": "servicing.bankofamerica.com", "sectionId": "p-accounts-boa"},
-    {"domain": "wellsfargo.com",              "sectionId": "p-accounts-wf"},
-    {"domain": "mail1.wellsfargo.com",        "sectionId": "p-accounts-wf"},
-    {"domain": "notify.wellsfargo.com",       "sectionId": "p-accounts-wf"},
-    {"domain": "jpmorgan.com",                "sectionId": "p-accounts-chase"},
-    {"domain": "creditonebank.com",           "sectionId": "p-accounts-creditone"},
-    {"domain": "creditone.com",               "sectionId": "p-accounts-creditone"},
-    {"domain": "emails.creditonebank.com",    "sectionId": "p-accounts-creditone"},
-    {"domain": "offers.creditonebank.com",    "sectionId": "p-accounts-creditone"},
-    {"domain": "synchronybank.com",           "sectionId": "p-accounts-synchrony"},
-    {"domain": "synchronyfinancial.com",      "sectionId": "p-accounts-synchrony"},
-    {"domain": "nordstrom.com",               "sectionId": "p-accounts-nordstrom"},
-    {"domain": "narvar.com",                  "sectionId": "p-accounts-nordstrom"},
-    {"domain": "americanexpress.com",         "sectionId": "p-accounts-amex"},
-
-    {"domain": "robinhood.com",               "sectionId": "p-accounts-robinhood"},
-    {"domain": "acorns.com",                  "sectionId": "p-accounts-acorns"},
-    {"domain": "noreply.acorns.com",          "sectionId": "p-accounts-acorns"},
-    {"domain": "notifications.acorns.com",    "sectionId": "p-accounts-acorns"},
-    {"domain": "myubiquity.com",              "sectionId": "p-accounts-ubiquity"},
-    {"domain": "mtrustcompany.com",           "sectionId": "p-accounts-mtrust"},
-    {"domain": "primerica.com",               "sectionId": "p-accounts-primerica"},
-
-    {"domain": "paypal.com",                  "sectionId": "p-accounts-paypal"},
-    {"domain": "mail.paypal.com",             "sectionId": "p-accounts-paypal"},
-    {"domain": "service.paypal.com",          "sectionId": "p-accounts-paypal"},
-    {"domain": "news.paypal.com",             "sectionId": "p-accounts-paypal"},
-    {"domain": "communications.paypal.com",   "sectionId": "p-accounts-paypal"},
-    {"domain": "emails.paypal.com",           "sectionId": "p-accounts-paypal"},
-    {"domain": "venmo.com",                   "sectionId": "p-accounts-venmo"},
-    {"domain": "email.venmo.com",             "sectionId": "p-accounts-venmo"},
-    {"domain": "squareup.com",                "sectionId": "p-accounts-squareup"},
-    {"domain": "messaging.squareup.com",      "sectionId": "p-accounts-squareup"},
-    {"domain": "squaremktg.com",              "sectionId": "p-accounts-squareup"},
-    {"domain": "xoom.com",                    "sectionId": "p-accounts-xoom"},
-    {"domain": "emails.xoom.com",             "sectionId": "p-accounts-xoom"},
-    {"domain": "messages.xoom.com",           "sectionId": "p-accounts-xoom"},
-
-    {"domain": "rocketmoney.com",             "sectionId": "p-accounts-rocket"},
-    {"domain": "email.rocketmoney.com",       "sectionId": "p-accounts-rocket"},
-    {"domain": "insights.rocketmoney.com",    "sectionId": "p-accounts-rocket"},
-    {"domain": "truebill.com",                "sectionId": "p-accounts-rocket"},
-    {"domain": "plaid.com",                   "sectionId": "p-accounts-plaid"},
-    {"domain": "mail.kikoff.com",             "sectionId": "p-accounts-kikoff"},
-    {"domain": "notify.chime.com",            "sectionId": "p-accounts-chime"},
-    {"domain": "perpay.com",                  "sectionId": "p-accounts-perpay"},
-    {"domain": "upstart.com",                 "sectionId": "p-accounts-upstart"},
-    {"domain": "eml.upstart.com",             "sectionId": "p-accounts-upstart"},
-    {"domain": "notifications.upstart.com",   "sectionId": "p-accounts-upstart"},
-    {"domain": "borrowerservices.mygreatlakes.org", "sectionId": "p-accounts-greatlakes"},
-
-    {"domain": "lexingtonlaw.com",            "sectionId": "p-accounts-lexlaw"},
-    {"domain": "mail.lexingtonlaw.com",       "sectionId": "p-accounts-lexlaw"},
-    {"domain": "labaton.com",                 "sectionId": "p-accounts-labaton"},
-    {"domain": "lks-lantern.com",             "sectionId": "p-accounts-labaton"},
-    {"domain": "bullocklegalgroup.com",       "sectionId": "p-accounts-bullock"},
-    {"domain": "glaw.me",                     "sectionId": "p-accounts-gilligan"},
-    {"domain": "simplyconvert.com",           "sectionId": "p-accounts-moody"},
-
-    {"domain": "psoklahoma.com",              "sectionId": "p-bills-pso"},
-    {"domain": "psoaep.com",                  "sectionId": "p-bills-pso"},
-    {"domain": "aep.com",                     "sectionId": "p-bills-pso"},
-    {"domain": "aep-email.com",               "sectionId": "p-bills-pso"},
-    {"domain": "customer-comms.aep.com",      "sectionId": "p-bills-pso"},
-    {"domain": "oklahomanaturalgas.com",      "sectionId": "p-bills-ong"},
-    {"domain": "windstream.com",              "sectionId": "p-bills-windstream"},
-    {"domain": "att-mail.com",                "sectionId": "p-bills-att"},
-    {"domain": "att-offers.com",              "sectionId": "p-bills-att"},
-    {"domain": "emaildl.att-mail.com",        "sectionId": "p-bills-att"},
-    {"domain": "marketing.t-mobile.com",      "sectionId": "p-bills-tmobile"},
-    {"domain": "t-mobile-email.com",          "sectionId": "p-bills-tmobile"},
-    {"domain": "notifications.t-mobile.com",  "sectionId": "p-bills-tmobile"},
-    {"domain": "notice.comcastbusiness.com",  "sectionId": "p-bills-comcast"},
-
-    {"domain": "amazon.com",                  "sectionId": "p-shop-amazon"},
-    {"domain": "amazon.jobs",                 "sectionId": "p-shop-amazon"},
-    {"domain": "pharmacy.amazon.com",         "sectionId": "p-shop-amazon"},
-    {"domain": "gc.email.amazon.com",         "sectionId": "p-shop-amazon"},
-    {"domain": "gift-cards.amazon.com",       "sectionId": "p-shop-amazon"},
-    {"domain": "mail.amazon.jobs",            "sectionId": "p-shop-amazon"},
-    {"domain": "health.amazon",               "sectionId": "p-shop-amazon"},
-    {"domain": "walmart.com",                 "sectionId": "p-shop-walmart"},
-    {"domain": "relay.walmart.com",           "sectionId": "p-shop-walmart"},
-    {"domain": "em.walmart.com",              "sectionId": "p-shop-walmart"},
-    {"domain": "target.com",                  "sectionId": "p-shop-target"},
-    {"domain": "oe.target.com",               "sectionId": "p-shop-target"},
-    {"domain": "oe1.target.com",              "sectionId": "p-shop-target"},
-    {"domain": "bestbuy.com",                 "sectionId": "p-shop-bestbuy"},
-    {"domain": "emailinfo.bestbuy.com",       "sectionId": "p-shop-bestbuy"},
-    {"domain": "survey.bestbuy.com",          "sectionId": "p-shop-bestbuy"},
-    {"domain": "homedepot.com",               "sectionId": "p-shop-homedepot"},
-    {"domain": "mg.homedepot.com",            "sectionId": "p-shop-homedepot"},
-    {"domain": "lowes.com",                   "sectionId": "p-shop-lowes"},
-    {"domain": "e.lowes.com",                 "sectionId": "p-shop-lowes"},
-    {"domain": "noreply.lowes.com",           "sectionId": "p-shop-lowes"},
-    {"domain": "notifications.lowes.com",     "sectionId": "p-shop-lowes"},
-    {"domain": "receipt.lowes.com",           "sectionId": "p-shop-lowes"},
-    {"domain": "officedepot.com",             "sectionId": "p-shop-officedepot"},
-    {"domain": "ebay.com",                    "sectionId": "p-shop-ebay"},
-    {"domain": "info.ebay.com",               "sectionId": "p-shop-ebay"},
-    {"domain": "reply.ebay.com",              "sectionId": "p-shop-ebay"},
-    {"domain": "reply5.ebay.com",             "sectionId": "p-shop-ebay"},
-    {"domain": "etsy.com",                    "sectionId": "p-shop-etsy"},
-    {"domain": "email.etsy.com",              "sectionId": "p-shop-etsy"},
-    {"domain": "mail.etsy.com",               "sectionId": "p-shop-etsy"},
-    {"domain": "michaels.com",                "sectionId": "p-shop-michaels"},
-    {"domain": "emdeals.michaels.com",        "sectionId": "p-shop-michaels"},
-    {"domain": "send.michaels.com",           "sectionId": "p-shop-michaels"},
-    {"domain": "s.kohls.com",                 "sectionId": "p-shop-kohls"},
-    {"domain": "tjx.com",                     "sectionId": "p-shop-tjx"},
-    {"domain": "tjmaxx.tjx.com",              "sectionId": "p-shop-tjx"},
-    {"domain": "tjxeurope.com",               "sectionId": "p-shop-tjx"},
-    {"domain": "fivebelow.com",               "sectionId": "p-shop-fivebelow"},
-    {"domain": "gamestop.com",                "sectionId": "p-shop-gamestop"},
-    {"domain": "info.gamestop.com",           "sectionId": "p-shop-gamestop"},
-    {"domain": "emails.gamestop.com",         "sectionId": "p-shop-gamestop"},
-    {"domain": "barnesandnoble.com",          "sectionId": "p-shop-bn"},
-    {"domain": "mail.barnesandnoble.com",     "sectionId": "p-shop-bn"},
-
-    {"domain": "doordash.com",                "sectionId": "p-shop-doordash"},
-    {"domain": "starbucks.com",               "sectionId": "p-shop-starbucks"},
-    {"domain": "e.starbucks.com",             "sectionId": "p-shop-starbucks"},
-    {"domain": "hellofresh.com",              "sectionId": "p-shop-hellofresh"},
-    {"domain": "bx.hellofresh.com",           "sectionId": "p-shop-hellofresh"},
-    {"domain": "c.hellofresh.com",            "sectionId": "p-shop-hellofresh"},
-    {"domain": "h.hellofresh.com",            "sectionId": "p-shop-hellofresh"},
-    {"domain": "r.hellofresh.com",            "sectionId": "p-shop-hellofresh"},
-    {"domain": "s.hellofresh.com",            "sectionId": "p-shop-hellofresh"},
-    {"domain": "factor75.com",                "sectionId": "p-shop-factor"},
-    {"domain": "r.factor75.com",              "sectionId": "p-shop-factor"},
-    {"domain": "s.factor75.com",              "sectionId": "p-shop-factor"},
-    {"domain": "thrivemarket.com",            "sectionId": "p-shop-thrive"},
-    {"domain": "eclub.culvers.com",           "sectionId": "p-shop-culvers"},
-    {"domain": "my.culvers.com",              "sectionId": "p-shop-culvers"},
-    {"domain": "daveshotchicken.com",         "sectionId": "p-shop-daves"},
-    {"domain": "gettattle.com",               "sectionId": "p-shop-daves"},
-    {"domain": "orders.pizzahut.com",         "sectionId": "p-shop-pizzahut"},
-    {"domain": "mail.pizzahut.com",           "sectionId": "p-shop-pizzahut"},
-    {"domain": "mywei.peiwei.com",            "sectionId": "p-shop-peiwei"},
-    {"domain": "e.nothingbundtcakes.com",     "sectionId": "p-shop-nbcakes"},
-    {"domain": "t.nothingbundtcakes.com",     "sectionId": "p-shop-nbcakes"},
-
-    {"domain": "fedex.com",                   "sectionId": "p-shop-fedex"},
-    {"domain": "message.fedex.com",           "sectionId": "p-shop-fedex"},
-    {"domain": "ups.com",                     "sectionId": "p-shop-ups"},
-    {"domain": "ttmail.timetrade.com",        "sectionId": "p-shop-ups"},
-    {"domain": "usps.com",                    "sectionId": "p-shop-usps"},
-    {"domain": "email-special.usps.com",      "sectionId": "p-shop-usps"},
-    {"domain": "email.informeddelivery.usps.com", "sectionId": "p-shop-usps"},
-
-    {"domain": "joinhoney.com",               "sectionId": "p-shop-honey"},
-    {"domain": "my.joinhoney.com",            "sectionId": "p-shop-honey"},
-    {"domain": "topcashback.com",             "sectionId": "p-shop-topcashback"},
-    {"domain": "e.topcashback.com",           "sectionId": "p-shop-topcashback"},
-    {"domain": "gonift.com",                  "sectionId": "p-shop-nift"},
-
-    {"domain": "delta.com",                   "sectionId": "p-travel-delta"},
-    {"domain": "e.delta.com",                 "sectionId": "p-travel-delta"},
-    {"domain": "t.delta.com",                 "sectionId": "p-travel-delta"},
-    {"domain": "united.com",                  "sectionId": "p-travel-united"},
-    {"domain": "southwest.com",               "sectionId": "p-travel-southwest"},
-    {"domain": "aa.com",                      "sectionId": "p-travel-aa"},
-    {"domain": "emirates.email",              "sectionId": "p-travel-emirates"},
-    {"domain": "airbnb.com",                  "sectionId": "p-travel-airbnb"},
-    {"domain": "hilton.com",                  "sectionId": "p-travel-hilton"},
-    {"domain": "h1.hilton.com",               "sectionId": "p-travel-hilton"},
-    {"domain": "h1.hiltonhhonors.com",        "sectionId": "p-travel-hilton"},
-    {"domain": "h2.hilton.com",               "sectionId": "p-travel-hilton"},
-    {"domain": "res.hilton.com",              "sectionId": "p-travel-hilton"},
-    {"domain": "marriott.com",                "sectionId": "p-travel-marriott"},
-    {"domain": "email-marriott.com",          "sectionId": "p-travel-marriott"},
-    {"domain": "res-marriott.com",            "sectionId": "p-travel-marriott"},
-    {"domain": "hyatt.com",                   "sectionId": "p-travel-hyatt"},
-    {"domain": "ihg.com",                     "sectionId": "p-travel-ihg"},
-    {"domain": "mc.ihg.com",                  "sectionId": "p-travel-ihg"},
-    {"domain": "tx.ihg.com",                  "sectionId": "p-travel-ihg"},
-    {"domain": "eg.hotels.com",               "sectionId": "p-travel-hotels"},
-    {"domain": "hotwire.com",                 "sectionId": "p-travel-hotwire"},
-    {"domain": "e.hotwire.com",               "sectionId": "p-travel-hotwire"},
-
-    {"domain": "uber.com",                    "sectionId": "p-travel-uber"},
-    {"domain": "email-support.uber.com",      "sectionId": "p-travel-uber"},
-    {"domain": "parkmobile.io",               "sectionId": "p-travel-parkmobile"},
-    {"domain": "parkmobile.zendesk.com",      "sectionId": "p-travel-parkmobile"},
-    {"domain": "spothero.com",                "sectionId": "p-travel-spothero"},
-    {"domain": "emails.spothero.com",         "sectionId": "p-travel-spothero"},
-    {"domain": "honkmobile.com",              "sectionId": "p-travel-honk"},
-    {"domain": "airportrentalcars.com",       "sectionId": "p-travel-rentalcars"},
-    {"domain": "travel.airportrentalcars.com", "sectionId": "p-travel-rentalcars"},
-    {"domain": "mycheapoair.com",             "sectionId": "p-travel-cheapoair"},
-    {"domain": "vacationstogo.com",           "sectionId": "p-travel-vtg"},
-    {"domain": "list.vacationstogo.com",      "sectionId": "p-travel-vtg"},
-
-    {"domain": "mlh.io",                      "sectionId": "p-events-mlh"},
-    {"domain": "github.com",                  "sectionId": "p-events-gh"},
-    {"domain": "nasa.gov",                    "sectionId": "p-events-nasa"},
-    {"domain": "mail.nasa.gov",               "sectionId": "p-events-nasa"},
-    {"domain": "iondistrict.com",             "sectionId": "p-events-ion"},
-    {"domain": "ionhouston.com",              "sectionId": "p-events-ion"},
-    {"domain": "downtowntulsa.com",           "sectionId": "p-events-dtp"},
-    {"domain": "neonemails.com",              "sectionId": "p-events-dtp"},
-    {"domain": "experiencetulsa.com",         "sectionId": "p-events-exp"},
-    {"domain": "fablabtulsa.org",             "sectionId": "p-events-fablab"},
-    {"domain": "utulsa.edu",                  "sectionId": "p-events-fablab"},
-    {"domain": "eventbrite.com",              "sectionId": "p-events-eventbrite"},
-    {"domain": "campaign.eventbrite.com",     "sectionId": "p-events-eventbrite"},
-    {"domain": "email.eventbrite.com",        "sectionId": "p-events-eventbrite"},
-    {"domain": "event.eventbrite.com",        "sectionId": "p-events-eventbrite"},
-    {"domain": "order.eventbrite.com",        "sectionId": "p-events-eventbrite"},
-    {"domain": "plans.eventbrite.com",        "sectionId": "p-events-eventbrite"},
-    {"domain": "reminder.eventbrite.com",     "sectionId": "p-events-eventbrite"},
-    {"domain": "qemailserver.com",            "sectionId": "p-events-eventbrite"},
-    {"domain": "email.ticketmaster.com",      "sectionId": "p-events-ticketmaster"},
-    {"domain": "seatgeek.com",                "sectionId": "p-events-seatgeek"},
-    {"domain": "tixr.com",                    "sectionId": "p-events-tixr"},
-    {"domain": "fevo.com",                    "sectionId": "p-events-fevo"},
-    {"domain": "mail.eviteideas.com",         "sectionId": "p-events-evite"},
-    {"domain": "mailva.evite.com",            "sectionId": "p-events-evite"},
-
-    {"domain": "facebook.com",                "sectionId": "p-social-facebook"},
-    {"domain": "facebookmail.com",            "sectionId": "p-social-facebook"},
-    {"domain": "business.facebook.com",       "sectionId": "p-social-facebook"},
-    {"domain": "support.facebook.com",        "sectionId": "p-social-facebook"},
-    {"domain": "priority.facebookmail.com",   "sectionId": "p-social-facebook"},
-    {"domain": "instagram.com",               "sectionId": "p-social-instagram"},
-    {"domain": "mail.instagram.com",          "sectionId": "p-social-instagram"},
-    {"domain": "priority.instagram.com",      "sectionId": "p-social-instagram"},
-    {"domain": "tiktok.com",                  "sectionId": "p-social-tiktok"},
-    {"domain": "email.tiktok.com",            "sectionId": "p-social-tiktok"},
-    {"domain": "service.tiktok.com",          "sectionId": "p-social-tiktok"},
-    {"domain": "shop-us.tiktok.com",          "sectionId": "p-social-tiktok"},
-    {"domain": "snapchat.com",                "sectionId": "p-social-snapchat"},
-    {"domain": "email.snapchat.com",          "sectionId": "p-social-snapchat"},
-    {"domain": "youtube.com",                 "sectionId": "p-social-youtube"},
-    {"domain": "linkedin.com",                "sectionId": "p-social-linkedin"},
-    {"domain": "reddit.com",                  "sectionId": "p-social-reddit"},
-    {"domain": "nextdoor.com",                "sectionId": "p-social-nextdoor"},
-    {"domain": "ms.email.nextdoor.com",       "sectionId": "p-social-nextdoor"},
-    {"domain": "is.email.nextdoor.com",       "sectionId": "p-social-nextdoor"},
-    {"domain": "rs.email.nextdoor.com",       "sectionId": "p-social-nextdoor"},
-
-    {"domain": "discord.com",                 "sectionId": "p-social-discord"},
-    {"domain": "slack.com",                   "sectionId": "p-social-slack"},
-    {"domain": "email.slack.com",             "sectionId": "p-social-slack"},
-    {"domain": "email.slack-core.com",        "sectionId": "p-social-slack"},
-    {"domain": "email.slackhq.com",           "sectionId": "p-social-slack"},
-    {"domain": "slack-mail.com",              "sectionId": "p-social-slack"},
-    {"domain": "textfree.us",                 "sectionId": "p-social-textfree"},
-    {"domain": "meetup.com",                  "sectionId": "p-social-meetup"},
-    {"domain": "email.meetup.com",            "sectionId": "p-social-meetup"},
-    {"domain": "googlegroups.com",            "sectionId": "p-social-ggroups"},
-
-    {"domain": "fireflies.ai",                "sectionId": "p-meetings-fireflies"},
-    {"domain": "calendly.com",                "sectionId": "p-meetings-calendly"},
-    {"domain": "send.calendly.com",           "sectionId": "p-meetings-calendly"},
-    {"domain": "cal.com",                     "sectionId": "p-meetings-cal"},
-    {"domain": "koalendar.com",               "sectionId": "p-meetings-koalendar"},
-    {"domain": "doodle.com",                  "sectionId": "p-meetings-doodle"},
-    {"domain": "oncehub.com",                 "sectionId": "p-meetings-oncehub"},
-    {"domain": "chilipiper.com",              "sectionId": "p-meetings-chilipiper"},
-    {"domain": "zoom.us",                     "sectionId": "p-meetings-zoom"},
-    {"domain": "e.zoom.us",                   "sectionId": "p-meetings-zoom"},
-    {"domain": "meet.google.com",             "sectionId": "p-meetings-gmeet"},
-    {"domain": "email.teams.microsoft.com",   "sectionId": "p-meetings-teams"},
-
-    {"domain": "brilliant.org",               "sectionId": "p-learn-brilliant"},
-    {"domain": "account.brilliant.org",       "sectionId": "p-learn-brilliant"},
-    {"domain": "mimo.org",                    "sectionId": "p-learn-mimo"},
-    {"domain": "getmimo.com",                 "sectionId": "p-learn-mimo"},
-    {"domain": "coursera.org",                "sectionId": "p-learn-coursera"},
-    {"domain": "email.coursera.org",          "sectionId": "p-learn-coursera"},
-    {"domain": "t.mail.coursera.org",         "sectionId": "p-learn-coursera"},
-    {"domain": "learneroutcomes.coursera.org", "sectionId": "p-learn-coursera"},
-    {"domain": "coursehero.com",              "sectionId": "p-learn-coursehero"},
-    {"domain": "lifecycle.coursehero.com",    "sectionId": "p-learn-coursehero"},
-    {"domain": "leetcode.com",                "sectionId": "p-learn-leetcode"},
-    {"domain": "quizlet.com",                 "sectionId": "p-learn-quizlet"},
-    {"domain": "typing.com",                  "sectionId": "p-learn-typing"},
-    {"domain": "skillup.online",              "sectionId": "p-learn-ibm"},
-    {"domain": "skilluponline.com",           "sectionId": "p-learn-ibm"},
-    {"domain": "uipath.com",                  "sectionId": "p-learn-uipath"},
-
-    {"domain": "google.com",                  "sectionId": "p-tech-google"},
-    {"domain": "accounts.google.com",         "sectionId": "p-tech-google"},
-    {"domain": "cloud.google.com",            "sectionId": "p-tech-google"},
-    {"domain": "developers.google.com",       "sectionId": "p-tech-google"},
-    {"domain": "workspace.google.com",        "sectionId": "p-tech-google"},
-    {"domain": "feedback.google.com",         "sectionId": "p-tech-google"},
-    {"domain": "payments.google.com",         "sectionId": "p-tech-google"},
-    {"domain": "discuss.google.dev",          "sectionId": "p-tech-google"},
-    {"domain": "discuss.ai.google.dev",       "sectionId": "p-tech-google"},
-    {"domain": "cloud.withgoogle.com",        "sectionId": "p-tech-google"},
-    {"domain": "withgoogle.com",              "sectionId": "p-tech-google"},
-    {"domain": "skills.google",               "sectionId": "p-tech-google"},
-    {"domain": "productexperts.withgoogle.com", "sectionId": "p-tech-google"},
-    {"domain": "groups.google.com",           "sectionId": "p-tech-google"},
-    {"domain": "kaggle.com",                  "sectionId": "p-tech-google"},
-    {"domain": "microsoft.com",               "sectionId": "p-tech-microsoft"},
-    {"domain": "email.microsoft.com",         "sectionId": "p-tech-microsoft"},
-    {"domain": "engage.microsoft.com",        "sectionId": "p-tech-microsoft"},
-    {"domain": "email2.office.com",           "sectionId": "p-tech-microsoft"},
-    {"domain": "notificationmail.microsoft.com", "sectionId": "p-tech-microsoft"},
-    {"domain": "accountprotection.microsoft.com", "sectionId": "p-tech-microsoft"},
-    {"domain": "email3.bing.com",             "sectionId": "p-tech-microsoft"},
-    {"domain": "apple.com",                   "sectionId": "p-tech-apple"},
-    {"domain": "email.apple.com",             "sectionId": "p-tech-apple"},
-    {"domain": "orders.apple.com",            "sectionId": "p-tech-apple"},
-    {"domain": "insideapple.apple.com",       "sectionId": "p-tech-apple"},
-    {"domain": "dropbox.com",                 "sectionId": "p-tech-dropbox"},
-    {"domain": "dropboxmail.com",             "sectionId": "p-tech-dropbox"},
-    {"domain": "em-s.dropbox.com",            "sectionId": "p-tech-dropbox"},
-    {"domain": "box.com",                     "sectionId": "p-tech-box"},
-    {"domain": "onedrive.com",                "sectionId": "p-tech-onedrive"},
-    {"domain": "vercel.com",                  "sectionId": "p-tech-vercel"},
-    {"domain": "info.vercel.com",             "sectionId": "p-tech-vercel"},
-    {"domain": "netlify.com",                 "sectionId": "p-tech-netlify"},
-    {"domain": "digitalocean.com",            "sectionId": "p-tech-do"},
-    {"domain": "info.digitalocean.com",       "sectionId": "p-tech-do"},
-    {"domain": "supabase.com",                "sectionId": "p-tech-supabase"},
-    {"domain": "mail.app.supabase.io",        "sectionId": "p-tech-supabase"},
-
-    {"domain": "openai.com",                  "sectionId": "p-ai-openai"},
-    {"domain": "email.openai.com",            "sectionId": "p-ai-openai"},
-    {"domain": "mail.openai.com",             "sectionId": "p-ai-openai"},
-    {"domain": "tm.openai.com",               "sectionId": "p-ai-openai"},
-    {"domain": "forum.mail.openai.com",       "sectionId": "p-ai-openai"},
-    {"domain": "anthropic.com",               "sectionId": "p-ai-claude"},
-    {"domain": "email.anthropic.com",         "sectionId": "p-ai-claude"},
-    {"domain": "mail.anthropic.com",          "sectionId": "p-ai-claude"},
-    {"domain": "email2.anthropic.com",        "sectionId": "p-ai-claude"},
-    {"domain": "claude.com",                  "sectionId": "p-ai-claude"},
-    {"domain": "email.claude.com",            "sectionId": "p-ai-claude"},
-    {"domain": "perplexity.ai",               "sectionId": "p-ai-perplexity"},
-    {"domain": "midjourney.com",              "sectionId": "p-ai-midjourney"},
-    {"domain": "elevenlabs.io",               "sectionId": "p-ai-elevenlabs"},
-    {"domain": "synthesia.io",                "sectionId": "p-ai-synthesia"},
-    {"domain": "info.synthesia.io",           "sectionId": "p-ai-synthesia"},
-    {"domain": "rewind.ai",                   "sectionId": "p-ai-rewind"},
-    {"domain": "limitless.ai",                "sectionId": "p-ai-limitless"},
-
-    {"domain": "usertesting.com",             "sectionId": "p-research-ut"},
-    {"domain": "m.utest.com",                 "sectionId": "p-research-ut"},
-    {"domain": "utest.com",                   "sectionId": "p-research-ut"},
-    {"domain": "userinterviews.com",          "sectionId": "p-research-ui"},
-    {"domain": "focusinsite.com",             "sectionId": "p-research-fi"},
-    {"domain": "mail.focusinsite.com",        "sectionId": "p-research-fi"},
-    {"domain": "focuspointeglobal.com",       "sectionId": "p-research-fpg"},
-    {"domain": "rarepatientvoice.com",        "sectionId": "p-research-rpv"},
-    {"domain": "wilkinsresearch.com",         "sectionId": "p-research-wilkins"},
-    {"domain": "angusreidusa.com",            "sectionId": "p-research-angus"},
-    {"domain": "i-say.com",                   "sectionId": "p-research-ipsos"},
-
-    {"domain": "netflix.com",                 "sectionId": "p-ent-netflix"},
-    {"domain": "join.netflix.com",            "sectionId": "p-ent-netflix"},
-    {"domain": "disneyplus.com",              "sectionId": "p-ent-disney"},
-    {"domain": "mail.disneyplus.com",         "sectionId": "p-ent-disney"},
-    {"domain": "mail2.disneyplus.com",        "sectionId": "p-ent-disney"},
-    {"domain": "primevideo.com",              "sectionId": "p-ent-prime"},
-    {"domain": "channels.primevideo.com",     "sectionId": "p-ent-prime"},
-    {"domain": "crunchyroll.com",             "sectionId": "p-ent-crunchy"},
-    {"domain": "mail.crunchyroll.com",        "sectionId": "p-ent-crunchy"},
-    {"domain": "hbomax.com",                  "sectionId": "p-ent-hbo"},
-    {"domain": "service.hbomax.com",          "sectionId": "p-ent-hbo"},
-    {"domain": "hulumail.com",                "sectionId": "p-ent-hulu"},
-    {"domain": "paramountplus.com",           "sectionId": "p-ent-paramount"},
-    {"domain": "transactions.paramountplus.com", "sectionId": "p-ent-paramount"},
-    {"domain": "peacocktv.com",               "sectionId": "p-ent-peacock"},
-    {"domain": "starz.com",                   "sectionId": "p-ent-starz"},
-    {"domain": "vudu.com",                    "sectionId": "p-ent-vudu"},
-    {"domain": "spotify.com",                 "sectionId": "p-ent-spotify"},
-    {"domain": "legal.spotify.com",           "sectionId": "p-ent-spotify"},
-    {"domain": "soundcloud.com",              "sectionId": "p-ent-soundcloud"},
-    {"domain": "announcements.soundcloud.com", "sectionId": "p-ent-soundcloud"},
-    {"domain": "sony.com",                    "sectionId": "p-ent-sony"},
-    {"domain": "acm.account.sony.com",        "sectionId": "p-ent-sony"},
-    {"domain": "account.sony.com",            "sectionId": "p-ent-sony"},
-    {"domain": "playstation.com",             "sectionId": "p-ent-sony"},
-    {"domain": "email.sel.sony.com",          "sectionId": "p-ent-sony"},
-    {"domain": "electronics.sony.com",        "sectionId": "p-ent-sony"},
-    {"domain": "amctheatres.com",             "sectionId": "p-ent-amc"},
-    {"domain": "email.amctheatres.com",       "sectionId": "p-ent-amc"},
-    {"domain": "custhelp.com",                "sectionId": "p-ent-amc"},
-    {"domain": "movies.fandango.com",         "sectionId": "p-ent-fandango"},
-    {"domain": "mail.marvel.com",             "sectionId": "p-ent-marvel"},
-    {"domain": "accounts.wbgames.com",        "sectionId": "p-ent-wbgames"},
-    {"domain": "twitch.tv",                   "sectionId": "p-ent-twitch"},
-    {"domain": "whatnot.com",                 "sectionId": "p-ent-whatnot"},
-
-    {"domain": "irs.gov",                     "sectionId": "p-gov-irs"},
-    {"domain": "census.gov",                  "sectionId": "p-gov-census"},
-    {"domain": "notify.csod.com",             "sectionId": "p-gov-census"},
-    {"domain": "cityoftulsa.org",             "sectionId": "p-gov-tulsa"},
-    {"domain": "houstontx.gov",               "sectionId": "p-gov-houston"},
-    {"domain": "fortbendcountytx.gov",        "sectionId": "p-gov-fortbend"},
-    {"domain": "fbctx.gov",                   "sectionId": "p-gov-fortbend"},
-    {"domain": "twc.state.tx.us",             "sectionId": "p-gov-twc"},
-    {"domain": "twc.texas.gov",               "sectionId": "p-gov-twc"},
-    {"domain": "vote.hctx.net",               "sectionId": "p-gov-vote"},
-    {"domain": "login.gov",                   "sectionId": "p-gov-login"},
-    {"domain": "gsa.gov",                     "sectionId": "p-gov-login"},
-
-    {"domain": "outlook.com",                 "sectionId": "p-daily-outlook"},
-    {"domain": "outlook.fr",                  "sectionId": "p-daily-outlook"},
-    {"domain": "yahoo.com",                   "sectionId": "p-daily-yahoo"},
-    {"domain": "cc.yahoo.com",                "sectionId": "p-daily-yahoo"},
-    {"domain": "yahoo-inc.com",               "sectionId": "p-daily-yahoo"},
-
-    {"domain": "gmail.com",                   "sectionId": "p-people-gmail"},
-    {"domain": "ymail.com",                   "sectionId": "p-people-yahoo"},
-    {"domain": "hotmail.com",                 "sectionId": "p-people-hotmail"},
-    {"domain": "aol.com",                     "sectionId": "p-people-aol"},
-    {"domain": "icloud.com",                  "sectionId": "p-people-icloud"},
-
-    {"domain": "beehiiv.com",                 "sectionId": "p-news-beehiiv"},
-    {"domain": "mail.beehiiv.com",            "sectionId": "p-news-beehiiv"},
-    {"domain": "substack.com",                "sectionId": "p-news-substack"},
-    {"domain": "medium.com",                  "sectionId": "p-news-medium"},
-    {"domain": "daily.dev",                   "sectionId": "p-news-dailydev"},
-    {"domain": "mail.daily.dev",              "sectionId": "p-news-dailydev"},
-    {"domain": "roadmap.sh",                  "sectionId": "p-news-roadmap"},
-    {"domain": "email.roadmap.sh",            "sectionId": "p-news-roadmap"},
-
-    {"domain": "indeed.com",                  "sectionId": "p-jobs-indeed"},
-    {"domain": "indeedemail.com",             "sectionId": "p-jobs-indeed"},
-    {"domain": "match.indeed.com",            "sectionId": "p-jobs-indeed"},
-    {"domain": "ziprecruiter.com",            "sectionId": "p-jobs-zr"},
-    {"domain": "workablemail.com",            "sectionId": "p-jobs-workable"},
-    {"domain": "candidates.workablemail.com", "sectionId": "p-jobs-workable"},
-    {"domain": "greenhouse-mail.io",          "sectionId": "p-jobs-greenhouse"},
-    {"domain": "us.greenhouse-mail.io",       "sectionId": "p-jobs-greenhouse"},
-    {"domain": "lever.co",                    "sectionId": "p-jobs-lever"},
-    {"domain": "hire.lever.co",               "sectionId": "p-jobs-lever"},
-
-    {"domain": "apartments.com",              "sectionId": "p-housing-apts"},
-    {"domain": "email.apartments.com",        "sectionId": "p-housing-apts"},
-    {"domain": "appfolio.com",                "sectionId": "p-housing-appfolio"},
-    {"domain": "mailer.appfolio.us",          "sectionId": "p-housing-appfolio"},
-    {"domain": "onlineportal.appfolio.com",   "sectionId": "p-housing-appfolio"},
-    {"domain": "realpage.com",                "sectionId": "p-housing-realpage"},
-    {"domain": "email.extraspace.com",        "sectionId": "p-housing-ess"},
-    {"domain": "info.extraspace.com",         "sectionId": "p-housing-ess"},
-    {"domain": "email.lifestorage.com",       "sectionId": "p-housing-lifestorage"},
-    {"domain": "info.extraspace.com",         "sectionId": "p-housing-lifestorage"},
-
-    {"domain": "autonation.com",              "sectionId": "p-auto-autonation"},
-    {"domain": "statefarm.com",               "sectionId": "p-auto-sf"},
-    {"domain": "statefarmclaims.com",         "sectionId": "p-auto-sf"},
-    {"domain": "e.progressive.com",           "sectionId": "p-auto-prog"},
-
-    {"domain": "launchgood.com",              "sectionId": "p-np-launchgood"},
-    {"domain": "gofundme.com",                "sectionId": "p-np-gofundme"},
-    {"domain": "marketing.gofundme.com",      "sectionId": "p-np-gofundme"},
-    {"domain": "messages.gofundme.com",       "sectionId": "p-np-gofundme"},
-    {"domain": "actblue.com",                 "sectionId": "p-np-actblue"},
-    {"domain": "wikimedia.org",               "sectionId": "p-np-wikimedia"},
-    {"domain": "hhrd.org",                    "sectionId": "p-np-hhrd"},
-    {"domain": "hhrd.us",                     "sectionId": "p-np-hhrd"},
-
-    {"domain": "newyorklife.com",             "sectionId": "p-ins-nyl"},
-    {"domain": "email.newyorklife.com",       "sectionId": "p-ins-nyl"},
-
-    {"domain": "hillcrest.com",               "sectionId": "h-prov-hillcrest-med"},
-    {"domain": "hello.hillcrest.com",         "sectionId": "h-prov-hillcrest-med"},
-    {"domain": "uticaparkclinic.com",         "sectionId": "h-prov-utica"},
-    {"domain": "hello.uticaparkclinic.com",   "sectionId": "h-prov-utica"},
-    {"domain": "pgsurveying.com",             "sectionId": "h-prov-utica"},
-    {"domain": "qualtrics-survey.com",        "sectionId": "h-prov-utica"},
-    {"domain": "ascension.org",               "sectionId": "h-prov-asc-stjohn"},
-    {"domain": "communication.ascension.org", "sectionId": "h-prov-asc-stjohn"},
-    {"domain": "ascension.visitpay.com",      "sectionId": "h-prov-asc-stjohn"},
-    {"domain": "consumerexperience.ascension.org", "sectionId": "h-prov-asc-stjohn"},
-    {"domain": "houstonmethodist.org",        "sectionId": "h-prov-hm"},
-    {"domain": "mdanderson.org",              "sectionId": "h-prov-mdacc"},
-    {"domain": "kelsey-seybold.com",          "sectionId": "h-prov-kelsey"},
-    {"domain": "marketing.kelsey-seybold.com", "sectionId": "h-prov-kelsey"},
-    {"domain": "mykelseyonline.com",          "sectionId": "h-prov-kelsey"},
-    {"domain": "kp.org",                      "sectionId": "h-prov-kaiser"},
-    {"domain": "feedbackhub.kp.org",          "sectionId": "h-prov-kaiser"},
-    {"domain": "respond.kp.org",              "sectionId": "h-prov-kaiser"},
-    {"domain": "complete-derm.com",           "sectionId": "h-prov-complete-derm"},
-    {"domain": "tulsaderm.com",               "sectionId": "h-prov-tulsaderm"},
-    {"domain": "downtowntulsadental.com",     "sectionId": "h-prov-dtd"},
-    {"domain": "patientengagepro.com",        "sectionId": "h-prov-eldridge"},
-    {"domain": "advanceddentistrysugarland.com", "sectionId": "h-prov-advanced"},
-    {"domain": "modento.io",                  "sectionId": "h-prov-urbn"},
-    {"domain": "dentrix.com",                 "sectionId": "h-prov-vpj"},
-
-    {"domain": "healow.com",                  "sectionId": "h-tele-healow"},
-    {"domain": "patientmychart.com",          "sectionId": "h-tele-mychart"},
-    {"domain": "skymd.com",                   "sectionId": "h-tele-skymd"},
-    {"domain": "doctorondemand.com",          "sectionId": "h-tele-dod"},
-    {"domain": "ex.doctorondemand.com",       "sectionId": "h-tele-dod"},
-    {"domain": "betterhelp.com",              "sectionId": "h-tele-bh"},
-    {"domain": "mgb.betterhelp.com",          "sectionId": "h-tele-bh"},
-    {"domain": "zocdoc.com",                  "sectionId": "h-tele-zocdoc"},
-    {"domain": "mail2.zocdoc.com",            "sectionId": "h-tele-zocdoc"},
-    {"domain": "mail3.zocdoc.com",            "sectionId": "h-tele-zocdoc"},
-    {"domain": "mail5.zocdoc.com",            "sectionId": "h-tele-zocdoc"},
-    {"domain": "mail6.zocdoc.com",            "sectionId": "h-tele-zocdoc"},
-
-    {"domain": "labcorp.com",                 "sectionId": "h-labs-labcorp"},
-    {"domain": "labcorpmessage.com",          "sectionId": "h-labs-labcorp"},
-    {"domain": "questdiagnostics.com",        "sectionId": "h-labs-quest"},
-    {"domain": "digital-delivery.com",        "sectionId": "h-labs-quest"},
-    {"domain": "pfizer.com",                  "sectionId": "h-labs-ct"},
-    {"domain": "science37.com",               "sectionId": "h-labs-s37"},
-    {"domain": "science37.net",               "sectionId": "h-labs-s37"},
-    {"domain": "careaccess.com",              "sectionId": "h-labs-care"},
-    {"domain": "mail-careaccess.com",         "sectionId": "h-labs-care"},
-    {"domain": "iqvia.com",                   "sectionId": "h-labs-iqvia"},
-    {"domain": "mail.clinicalresearch.com",   "sectionId": "h-labs-iqvia"},
-    {"domain": "centerwatch.com",             "sectionId": "h-labs-cw"},
-
-    {"domain": "cvshealth.com",               "sectionId": "h-pharm-cvs"},
-    {"domain": "notification.cvshealth.com",  "sectionId": "h-pharm-cvs"},
-    {"domain": "walgreens.com",               "sectionId": "h-pharm-walgreens"},
-    {"domain": "ecs.walgreens.com",           "sectionId": "h-pharm-walgreens"},
-    {"domain": "rxorder.walgreens.com",       "sectionId": "h-pharm-walgreens"},
-    {"domain": "nimblerx.com",                "sectionId": "h-pharm-nimble"},
-    {"domain": "contact.goodrx.com",          "sectionId": "h-pharm-goodrx"},
-
-    {"domain": "giveblood.org",               "sectionId": "h-blood-gulfcoast"},
-    {"domain": "commitforlife.org",           "sectionId": "h-blood-gulfcoast"},
-    {"domain": "obi.org",                     "sectionId": "h-blood-obi"},
-    {"domain": "connectingdonors.org",        "sectionId": "h-blood-obi"},
-    {"domain": "connectingdonors.net",        "sectionId": "h-blood-obi"},
-    {"domain": "cslplasma.com",               "sectionId": "h-blood-csl"},
-    {"domain": "mail.cslplasma.com",          "sectionId": "h-blood-csl"},
-    {"domain": "email-biolifeplasma.com",     "sectionId": "h-blood-biolife"},
-    {"domain": "grifolsdonorhub.com",         "sectionId": "h-blood-grifols"},
-    {"domain": "mail.grifolsdonorhub.com",    "sectionId": "h-blood-grifols"},
-
-    {"domain": "lt.life",                     "sectionId": "h-fit-lifetime"},
-    {"domain": "lifetime.life",               "sectionId": "h-fit-lifetime"},
-    {"domain": "emails.lifetime.life",        "sectionId": "h-fit-lifetime"},
-    {"domain": "lifetimefitness.com",         "sectionId": "h-fit-lifetime"},
-    {"domain": "trainerize.com",              "sectionId": "h-fit-lifetime"},
-    {"domain": "lafitness.com",               "sectionId": "h-fit-la"},
-    {"domain": "e.lafitness.com",             "sectionId": "h-fit-la"},
-    {"domain": "equinox.com",                 "sectionId": "h-fit-equinox"},
-    {"domain": "results.equinox.com",         "sectionId": "h-fit-equinox"},
-    {"domain": "anytimefitness.com",          "sectionId": "h-fit-anytime"},
-    {"domain": "campaigns.anytimefitness.com", "sectionId": "h-fit-anytime"},
-    {"domain": "genesishealthclubs.com",      "sectionId": "h-fit-genesis"},
-    {"domain": "hotworx.net",                 "sectionId": "h-fit-hotworx"},
-    {"domain": "coachedbymax.com",            "sectionId": "h-fit-maxout"},
-    {"domain": "coachmails.io",               "sectionId": "h-fit-toennies"},
-    {"domain": "ymcatulsa.org",               "sectionId": "h-fit-ymca"},
-
-    {"domain": "regence.com",                 "sectionId": "h-ins-regence"},
-    {"domain": "email.regence.com",           "sectionId": "h-ins-regence"},
-    {"domain": "notifications.regence.com",   "sectionId": "h-ins-regence"},
-    {"domain": "medicalgps.com",              "sectionId": "h-ins-regence"},
-    {"domain": "optum.com",                   "sectionId": "h-ins-optum"},
-    {"domain": "em.optum.com",                "sectionId": "h-ins-optum"},
-    {"domain": "email.optumfinancial.com",    "sectionId": "h-ins-optum"},
-    {"domain": "information.optum.com",       "sectionId": "h-ins-optum"},
-    {"domain": "of.optum.com",                "sectionId": "h-ins-optum"},
-    {"domain": "us.aflac.com",                "sectionId": "h-ins-aflac"},
-    {"domain": "healthcare.gov",              "sectionId": "h-ins-marketplace"},
-    {"domain": "healthmarkets.com",           "sectionId": "h-ins-hmarkets"},
-    {"domain": "kandkinsurance.com",          "sectionId": "h-ins-kandk"},
-
-    {"domain": "patientmychart.com",          "sectionId": "h-portal-mychart"},
-    {"domain": "eclinicalmail.com",           "sectionId": "h-portal-eclinical"},
-    {"domain": "updox.com",                   "sectionId": "h-portal-updox"},
-    {"domain": "relatient.net",               "sectionId": "h-portal-relatient"},
-    {"domain": "mydocbill.com",               "sectionId": "h-portal-docubill"},
-
-    {"domain": "rcubedco.com",                "sectionId": "w-emp-rcubed"},
-    {"domain": "rcubedco.s10.usa1.teams-events.com", "sectionId": "w-emp-rcubed"},
-    {"domain": "redriverdevelopment.com",     "sectionId": "w-emp-redriver"},
-    {"domain": "trulohomes.com",              "sectionId": "w-emp-trulo"},
-    {"domain": "roserockdev.com",             "sectionId": "w-emp-roserock"},
-    {"domain": "minaretfoundation.com",       "sectionId": "w-emp-minaret"},
-    {"domain": "ashfordco.com",               "sectionId": "w-emp-ashford"},
-    {"domain": "census.gov",                  "sectionId": "w-emp-census"},
-
-    {"domain": "asana.com",                   "sectionId": "w-tools-asana"},
-    {"domain": "email1.asana.com",            "sectionId": "w-tools-asana"},
-    {"domain": "miro.com",                    "sectionId": "w-tools-miro"},
-    {"domain": "e.miro.com",                  "sectionId": "w-tools-miro"},
-    {"domain": "notification.miro.com",       "sectionId": "w-tools-miro"},
-    {"domain": "notion.so",                   "sectionId": "w-tools-notion"},
-    {"domain": "mail.notion.so",              "sectionId": "w-tools-notion"},
-    {"domain": "updates.notion.so",           "sectionId": "w-tools-notion"},
-    {"domain": "hello.notion.so",             "sectionId": "w-tools-notion"},
-    {"domain": "obsidian.md",                 "sectionId": "w-tools-obsidian"}
+    {
+      "domain": "bofa.com",
+      "sectionId": "p-accounts-boa"
+    },
+    {
+      "domain": "bankofamerica.com",
+      "sectionId": "p-accounts-boa"
+    },
+    {
+      "domain": "ealerts.bankofamerica.com",
+      "sectionId": "p-accounts-boa"
+    },
+    {
+      "domain": "ealerts2.bankofamerica.com",
+      "sectionId": "p-accounts-boa"
+    },
+    {
+      "domain": "ims.bankofamerica.com",
+      "sectionId": "p-accounts-boa"
+    },
+    {
+      "domain": "servicing.bankofamerica.com",
+      "sectionId": "p-accounts-boa"
+    },
+    {
+      "domain": "wellsfargo.com",
+      "sectionId": "p-accounts-wf"
+    },
+    {
+      "domain": "mail1.wellsfargo.com",
+      "sectionId": "p-accounts-wf"
+    },
+    {
+      "domain": "notify.wellsfargo.com",
+      "sectionId": "p-accounts-wf"
+    },
+    {
+      "domain": "jpmorgan.com",
+      "sectionId": "p-accounts-chase"
+    },
+    {
+      "domain": "creditonebank.com",
+      "sectionId": "p-accounts-creditone"
+    },
+    {
+      "domain": "creditone.com",
+      "sectionId": "p-accounts-creditone"
+    },
+    {
+      "domain": "emails.creditonebank.com",
+      "sectionId": "p-accounts-creditone"
+    },
+    {
+      "domain": "offers.creditonebank.com",
+      "sectionId": "p-accounts-creditone"
+    },
+    {
+      "domain": "synchronybank.com",
+      "sectionId": "p-accounts-synchrony"
+    },
+    {
+      "domain": "synchronyfinancial.com",
+      "sectionId": "p-accounts-synchrony"
+    },
+    {
+      "domain": "nordstrom.com",
+      "sectionId": "p-accounts-nordstrom"
+    },
+    {
+      "domain": "narvar.com",
+      "sectionId": "p-accounts-nordstrom"
+    },
+    {
+      "domain": "americanexpress.com",
+      "sectionId": "p-accounts-amex"
+    },
+    {
+      "domain": "robinhood.com",
+      "sectionId": "p-accounts-robinhood"
+    },
+    {
+      "domain": "acorns.com",
+      "sectionId": "p-accounts-acorns"
+    },
+    {
+      "domain": "noreply.acorns.com",
+      "sectionId": "p-accounts-acorns"
+    },
+    {
+      "domain": "notifications.acorns.com",
+      "sectionId": "p-accounts-acorns"
+    },
+    {
+      "domain": "myubiquity.com",
+      "sectionId": "p-accounts-ubiquity"
+    },
+    {
+      "domain": "mtrustcompany.com",
+      "sectionId": "p-accounts-mtrust"
+    },
+    {
+      "domain": "primerica.com",
+      "sectionId": "p-accounts-primerica"
+    },
+    {
+      "domain": "paypal.com",
+      "sectionId": "p-accounts-paypal"
+    },
+    {
+      "domain": "mail.paypal.com",
+      "sectionId": "p-accounts-paypal"
+    },
+    {
+      "domain": "service.paypal.com",
+      "sectionId": "p-accounts-paypal"
+    },
+    {
+      "domain": "news.paypal.com",
+      "sectionId": "p-accounts-paypal"
+    },
+    {
+      "domain": "communications.paypal.com",
+      "sectionId": "p-accounts-paypal"
+    },
+    {
+      "domain": "emails.paypal.com",
+      "sectionId": "p-accounts-paypal"
+    },
+    {
+      "domain": "venmo.com",
+      "sectionId": "p-accounts-venmo"
+    },
+    {
+      "domain": "email.venmo.com",
+      "sectionId": "p-accounts-venmo"
+    },
+    {
+      "domain": "squareup.com",
+      "sectionId": "p-accounts-squareup"
+    },
+    {
+      "domain": "messaging.squareup.com",
+      "sectionId": "p-accounts-squareup"
+    },
+    {
+      "domain": "squaremktg.com",
+      "sectionId": "p-accounts-squareup"
+    },
+    {
+      "domain": "xoom.com",
+      "sectionId": "p-accounts-xoom"
+    },
+    {
+      "domain": "emails.xoom.com",
+      "sectionId": "p-accounts-xoom"
+    },
+    {
+      "domain": "messages.xoom.com",
+      "sectionId": "p-accounts-xoom"
+    },
+    {
+      "domain": "rocketmoney.com",
+      "sectionId": "p-accounts-rocket"
+    },
+    {
+      "domain": "email.rocketmoney.com",
+      "sectionId": "p-accounts-rocket"
+    },
+    {
+      "domain": "insights.rocketmoney.com",
+      "sectionId": "p-accounts-rocket"
+    },
+    {
+      "domain": "truebill.com",
+      "sectionId": "p-accounts-rocket"
+    },
+    {
+      "domain": "plaid.com",
+      "sectionId": "p-accounts-plaid"
+    },
+    {
+      "domain": "mail.kikoff.com",
+      "sectionId": "p-accounts-kikoff"
+    },
+    {
+      "domain": "notify.chime.com",
+      "sectionId": "p-accounts-chime"
+    },
+    {
+      "domain": "perpay.com",
+      "sectionId": "p-accounts-perpay"
+    },
+    {
+      "domain": "upstart.com",
+      "sectionId": "p-accounts-upstart"
+    },
+    {
+      "domain": "eml.upstart.com",
+      "sectionId": "p-accounts-upstart"
+    },
+    {
+      "domain": "notifications.upstart.com",
+      "sectionId": "p-accounts-upstart"
+    },
+    {
+      "domain": "borrowerservices.mygreatlakes.org",
+      "sectionId": "p-accounts-greatlakes"
+    },
+    {
+      "domain": "lexingtonlaw.com",
+      "sectionId": "p-accounts-lexlaw"
+    },
+    {
+      "domain": "mail.lexingtonlaw.com",
+      "sectionId": "p-accounts-lexlaw"
+    },
+    {
+      "domain": "labaton.com",
+      "sectionId": "p-accounts-labaton"
+    },
+    {
+      "domain": "lks-lantern.com",
+      "sectionId": "p-accounts-labaton"
+    },
+    {
+      "domain": "bullocklegalgroup.com",
+      "sectionId": "p-accounts-bullock"
+    },
+    {
+      "domain": "glaw.me",
+      "sectionId": "p-accounts-gilligan"
+    },
+    {
+      "domain": "simplyconvert.com",
+      "sectionId": "p-accounts-moody"
+    },
+    {
+      "domain": "psoklahoma.com",
+      "sectionId": "p-bills-pso"
+    },
+    {
+      "domain": "psoaep.com",
+      "sectionId": "p-bills-pso"
+    },
+    {
+      "domain": "aep.com",
+      "sectionId": "p-bills-pso"
+    },
+    {
+      "domain": "aep-email.com",
+      "sectionId": "p-bills-pso"
+    },
+    {
+      "domain": "customer-comms.aep.com",
+      "sectionId": "p-bills-pso"
+    },
+    {
+      "domain": "oklahomanaturalgas.com",
+      "sectionId": "p-bills-ong"
+    },
+    {
+      "domain": "windstream.com",
+      "sectionId": "p-bills-windstream"
+    },
+    {
+      "domain": "att-mail.com",
+      "sectionId": "p-bills-att"
+    },
+    {
+      "domain": "att-offers.com",
+      "sectionId": "p-bills-att"
+    },
+    {
+      "domain": "emaildl.att-mail.com",
+      "sectionId": "p-bills-att"
+    },
+    {
+      "domain": "marketing.t-mobile.com",
+      "sectionId": "p-bills-tmobile"
+    },
+    {
+      "domain": "t-mobile-email.com",
+      "sectionId": "p-bills-tmobile"
+    },
+    {
+      "domain": "notifications.t-mobile.com",
+      "sectionId": "p-bills-tmobile"
+    },
+    {
+      "domain": "notice.comcastbusiness.com",
+      "sectionId": "p-bills-comcast"
+    },
+    {
+      "domain": "amazon.com",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "amazon.jobs",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "pharmacy.amazon.com",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "gc.email.amazon.com",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "gift-cards.amazon.com",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "mail.amazon.jobs",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "health.amazon",
+      "sectionId": "p-shop-amazon"
+    },
+    {
+      "domain": "walmart.com",
+      "sectionId": "p-shop-walmart"
+    },
+    {
+      "domain": "relay.walmart.com",
+      "sectionId": "p-shop-walmart"
+    },
+    {
+      "domain": "em.walmart.com",
+      "sectionId": "p-shop-walmart"
+    },
+    {
+      "domain": "target.com",
+      "sectionId": "p-shop-target"
+    },
+    {
+      "domain": "oe.target.com",
+      "sectionId": "p-shop-target"
+    },
+    {
+      "domain": "oe1.target.com",
+      "sectionId": "p-shop-target"
+    },
+    {
+      "domain": "bestbuy.com",
+      "sectionId": "p-shop-bestbuy"
+    },
+    {
+      "domain": "emailinfo.bestbuy.com",
+      "sectionId": "p-shop-bestbuy"
+    },
+    {
+      "domain": "survey.bestbuy.com",
+      "sectionId": "p-shop-bestbuy"
+    },
+    {
+      "domain": "homedepot.com",
+      "sectionId": "p-shop-homedepot"
+    },
+    {
+      "domain": "mg.homedepot.com",
+      "sectionId": "p-shop-homedepot"
+    },
+    {
+      "domain": "lowes.com",
+      "sectionId": "p-shop-lowes"
+    },
+    {
+      "domain": "e.lowes.com",
+      "sectionId": "p-shop-lowes"
+    },
+    {
+      "domain": "noreply.lowes.com",
+      "sectionId": "p-shop-lowes"
+    },
+    {
+      "domain": "notifications.lowes.com",
+      "sectionId": "p-shop-lowes"
+    },
+    {
+      "domain": "receipt.lowes.com",
+      "sectionId": "p-shop-lowes"
+    },
+    {
+      "domain": "officedepot.com",
+      "sectionId": "p-shop-officedepot"
+    },
+    {
+      "domain": "ebay.com",
+      "sectionId": "p-shop-ebay"
+    },
+    {
+      "domain": "info.ebay.com",
+      "sectionId": "p-shop-ebay"
+    },
+    {
+      "domain": "reply.ebay.com",
+      "sectionId": "p-shop-ebay"
+    },
+    {
+      "domain": "reply5.ebay.com",
+      "sectionId": "p-shop-ebay"
+    },
+    {
+      "domain": "etsy.com",
+      "sectionId": "p-shop-etsy"
+    },
+    {
+      "domain": "email.etsy.com",
+      "sectionId": "p-shop-etsy"
+    },
+    {
+      "domain": "mail.etsy.com",
+      "sectionId": "p-shop-etsy"
+    },
+    {
+      "domain": "michaels.com",
+      "sectionId": "p-shop-michaels"
+    },
+    {
+      "domain": "emdeals.michaels.com",
+      "sectionId": "p-shop-michaels"
+    },
+    {
+      "domain": "send.michaels.com",
+      "sectionId": "p-shop-michaels"
+    },
+    {
+      "domain": "s.kohls.com",
+      "sectionId": "p-shop-kohls"
+    },
+    {
+      "domain": "tjx.com",
+      "sectionId": "p-shop-tjx"
+    },
+    {
+      "domain": "tjmaxx.tjx.com",
+      "sectionId": "p-shop-tjx"
+    },
+    {
+      "domain": "tjxeurope.com",
+      "sectionId": "p-shop-tjx"
+    },
+    {
+      "domain": "fivebelow.com",
+      "sectionId": "p-shop-fivebelow"
+    },
+    {
+      "domain": "gamestop.com",
+      "sectionId": "p-shop-gamestop"
+    },
+    {
+      "domain": "info.gamestop.com",
+      "sectionId": "p-shop-gamestop"
+    },
+    {
+      "domain": "emails.gamestop.com",
+      "sectionId": "p-shop-gamestop"
+    },
+    {
+      "domain": "barnesandnoble.com",
+      "sectionId": "p-shop-bn"
+    },
+    {
+      "domain": "mail.barnesandnoble.com",
+      "sectionId": "p-shop-bn"
+    },
+    {
+      "domain": "doordash.com",
+      "sectionId": "p-shop-doordash"
+    },
+    {
+      "domain": "starbucks.com",
+      "sectionId": "p-shop-starbucks"
+    },
+    {
+      "domain": "e.starbucks.com",
+      "sectionId": "p-shop-starbucks"
+    },
+    {
+      "domain": "hellofresh.com",
+      "sectionId": "p-shop-hellofresh"
+    },
+    {
+      "domain": "bx.hellofresh.com",
+      "sectionId": "p-shop-hellofresh"
+    },
+    {
+      "domain": "c.hellofresh.com",
+      "sectionId": "p-shop-hellofresh"
+    },
+    {
+      "domain": "h.hellofresh.com",
+      "sectionId": "p-shop-hellofresh"
+    },
+    {
+      "domain": "r.hellofresh.com",
+      "sectionId": "p-shop-hellofresh"
+    },
+    {
+      "domain": "s.hellofresh.com",
+      "sectionId": "p-shop-hellofresh"
+    },
+    {
+      "domain": "factor75.com",
+      "sectionId": "p-shop-factor"
+    },
+    {
+      "domain": "r.factor75.com",
+      "sectionId": "p-shop-factor"
+    },
+    {
+      "domain": "s.factor75.com",
+      "sectionId": "p-shop-factor"
+    },
+    {
+      "domain": "thrivemarket.com",
+      "sectionId": "p-shop-thrive"
+    },
+    {
+      "domain": "eclub.culvers.com",
+      "sectionId": "p-shop-culvers"
+    },
+    {
+      "domain": "my.culvers.com",
+      "sectionId": "p-shop-culvers"
+    },
+    {
+      "domain": "daveshotchicken.com",
+      "sectionId": "p-shop-daves"
+    },
+    {
+      "domain": "gettattle.com",
+      "sectionId": "p-shop-daves"
+    },
+    {
+      "domain": "orders.pizzahut.com",
+      "sectionId": "p-shop-pizzahut"
+    },
+    {
+      "domain": "mail.pizzahut.com",
+      "sectionId": "p-shop-pizzahut"
+    },
+    {
+      "domain": "mywei.peiwei.com",
+      "sectionId": "p-shop-peiwei"
+    },
+    {
+      "domain": "e.nothingbundtcakes.com",
+      "sectionId": "p-shop-nbcakes"
+    },
+    {
+      "domain": "t.nothingbundtcakes.com",
+      "sectionId": "p-shop-nbcakes"
+    },
+    {
+      "domain": "fedex.com",
+      "sectionId": "p-shop-fedex"
+    },
+    {
+      "domain": "message.fedex.com",
+      "sectionId": "p-shop-fedex"
+    },
+    {
+      "domain": "ups.com",
+      "sectionId": "p-shop-ups"
+    },
+    {
+      "domain": "ttmail.timetrade.com",
+      "sectionId": "p-shop-ups"
+    },
+    {
+      "domain": "usps.com",
+      "sectionId": "p-shop-usps"
+    },
+    {
+      "domain": "email-special.usps.com",
+      "sectionId": "p-shop-usps"
+    },
+    {
+      "domain": "email.informeddelivery.usps.com",
+      "sectionId": "p-shop-usps"
+    },
+    {
+      "domain": "joinhoney.com",
+      "sectionId": "p-shop-honey"
+    },
+    {
+      "domain": "my.joinhoney.com",
+      "sectionId": "p-shop-honey"
+    },
+    {
+      "domain": "topcashback.com",
+      "sectionId": "p-shop-topcashback"
+    },
+    {
+      "domain": "e.topcashback.com",
+      "sectionId": "p-shop-topcashback"
+    },
+    {
+      "domain": "gonift.com",
+      "sectionId": "p-shop-nift"
+    },
+    {
+      "domain": "delta.com",
+      "sectionId": "p-travel-delta"
+    },
+    {
+      "domain": "e.delta.com",
+      "sectionId": "p-travel-delta"
+    },
+    {
+      "domain": "t.delta.com",
+      "sectionId": "p-travel-delta"
+    },
+    {
+      "domain": "united.com",
+      "sectionId": "p-travel-united"
+    },
+    {
+      "domain": "southwest.com",
+      "sectionId": "p-travel-southwest"
+    },
+    {
+      "domain": "aa.com",
+      "sectionId": "p-travel-aa"
+    },
+    {
+      "domain": "emirates.email",
+      "sectionId": "p-travel-emirates"
+    },
+    {
+      "domain": "airbnb.com",
+      "sectionId": "p-travel-airbnb"
+    },
+    {
+      "domain": "hilton.com",
+      "sectionId": "p-travel-hilton"
+    },
+    {
+      "domain": "h1.hilton.com",
+      "sectionId": "p-travel-hilton"
+    },
+    {
+      "domain": "h1.hiltonhhonors.com",
+      "sectionId": "p-travel-hilton"
+    },
+    {
+      "domain": "h2.hilton.com",
+      "sectionId": "p-travel-hilton"
+    },
+    {
+      "domain": "res.hilton.com",
+      "sectionId": "p-travel-hilton"
+    },
+    {
+      "domain": "marriott.com",
+      "sectionId": "p-travel-marriott"
+    },
+    {
+      "domain": "email-marriott.com",
+      "sectionId": "p-travel-marriott"
+    },
+    {
+      "domain": "res-marriott.com",
+      "sectionId": "p-travel-marriott"
+    },
+    {
+      "domain": "hyatt.com",
+      "sectionId": "p-travel-hyatt"
+    },
+    {
+      "domain": "ihg.com",
+      "sectionId": "p-travel-ihg"
+    },
+    {
+      "domain": "mc.ihg.com",
+      "sectionId": "p-travel-ihg"
+    },
+    {
+      "domain": "tx.ihg.com",
+      "sectionId": "p-travel-ihg"
+    },
+    {
+      "domain": "eg.hotels.com",
+      "sectionId": "p-travel-hotels"
+    },
+    {
+      "domain": "hotwire.com",
+      "sectionId": "p-travel-hotwire"
+    },
+    {
+      "domain": "e.hotwire.com",
+      "sectionId": "p-travel-hotwire"
+    },
+    {
+      "domain": "uber.com",
+      "sectionId": "p-travel-uber"
+    },
+    {
+      "domain": "email-support.uber.com",
+      "sectionId": "p-travel-uber"
+    },
+    {
+      "domain": "parkmobile.io",
+      "sectionId": "p-travel-parkmobile"
+    },
+    {
+      "domain": "parkmobile.zendesk.com",
+      "sectionId": "p-travel-parkmobile"
+    },
+    {
+      "domain": "spothero.com",
+      "sectionId": "p-travel-spothero"
+    },
+    {
+      "domain": "emails.spothero.com",
+      "sectionId": "p-travel-spothero"
+    },
+    {
+      "domain": "honkmobile.com",
+      "sectionId": "p-travel-honk"
+    },
+    {
+      "domain": "airportrentalcars.com",
+      "sectionId": "p-travel-rentalcars"
+    },
+    {
+      "domain": "travel.airportrentalcars.com",
+      "sectionId": "p-travel-rentalcars"
+    },
+    {
+      "domain": "mycheapoair.com",
+      "sectionId": "p-travel-cheapoair"
+    },
+    {
+      "domain": "vacationstogo.com",
+      "sectionId": "p-travel-vtg"
+    },
+    {
+      "domain": "list.vacationstogo.com",
+      "sectionId": "p-travel-vtg"
+    },
+    {
+      "domain": "mlh.io",
+      "sectionId": "p-events-mlh"
+    },
+    {
+      "domain": "github.com",
+      "sectionId": "p-events-gh"
+    },
+    {
+      "domain": "nasa.gov",
+      "sectionId": "p-events-nasa"
+    },
+    {
+      "domain": "mail.nasa.gov",
+      "sectionId": "p-events-nasa"
+    },
+    {
+      "domain": "iondistrict.com",
+      "sectionId": "p-events-ion"
+    },
+    {
+      "domain": "ionhouston.com",
+      "sectionId": "p-events-ion"
+    },
+    {
+      "domain": "downtowntulsa.com",
+      "sectionId": "p-events-dtp"
+    },
+    {
+      "domain": "neonemails.com",
+      "sectionId": "p-events-dtp"
+    },
+    {
+      "domain": "experiencetulsa.com",
+      "sectionId": "p-events-exp"
+    },
+    {
+      "domain": "fablabtulsa.org",
+      "sectionId": "p-events-fablab"
+    },
+    {
+      "domain": "utulsa.edu",
+      "sectionId": "p-events-fablab"
+    },
+    {
+      "domain": "eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "campaign.eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "email.eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "event.eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "order.eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "plans.eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "reminder.eventbrite.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "qemailserver.com",
+      "sectionId": "p-events-eventbrite"
+    },
+    {
+      "domain": "email.ticketmaster.com",
+      "sectionId": "p-events-ticketmaster"
+    },
+    {
+      "domain": "seatgeek.com",
+      "sectionId": "p-events-seatgeek"
+    },
+    {
+      "domain": "tixr.com",
+      "sectionId": "p-events-tixr"
+    },
+    {
+      "domain": "fevo.com",
+      "sectionId": "p-events-fevo"
+    },
+    {
+      "domain": "mail.eviteideas.com",
+      "sectionId": "p-events-evite"
+    },
+    {
+      "domain": "mailva.evite.com",
+      "sectionId": "p-events-evite"
+    },
+    {
+      "domain": "facebook.com",
+      "sectionId": "p-social-facebook"
+    },
+    {
+      "domain": "facebookmail.com",
+      "sectionId": "p-social-facebook"
+    },
+    {
+      "domain": "business.facebook.com",
+      "sectionId": "p-social-facebook"
+    },
+    {
+      "domain": "support.facebook.com",
+      "sectionId": "p-social-facebook"
+    },
+    {
+      "domain": "priority.facebookmail.com",
+      "sectionId": "p-social-facebook"
+    },
+    {
+      "domain": "instagram.com",
+      "sectionId": "p-social-instagram"
+    },
+    {
+      "domain": "mail.instagram.com",
+      "sectionId": "p-social-instagram"
+    },
+    {
+      "domain": "priority.instagram.com",
+      "sectionId": "p-social-instagram"
+    },
+    {
+      "domain": "tiktok.com",
+      "sectionId": "p-social-tiktok"
+    },
+    {
+      "domain": "email.tiktok.com",
+      "sectionId": "p-social-tiktok"
+    },
+    {
+      "domain": "service.tiktok.com",
+      "sectionId": "p-social-tiktok"
+    },
+    {
+      "domain": "shop-us.tiktok.com",
+      "sectionId": "p-social-tiktok"
+    },
+    {
+      "domain": "snapchat.com",
+      "sectionId": "p-social-snapchat"
+    },
+    {
+      "domain": "email.snapchat.com",
+      "sectionId": "p-social-snapchat"
+    },
+    {
+      "domain": "youtube.com",
+      "sectionId": "p-social-youtube"
+    },
+    {
+      "domain": "linkedin.com",
+      "sectionId": "p-social-linkedin"
+    },
+    {
+      "domain": "reddit.com",
+      "sectionId": "p-social-reddit"
+    },
+    {
+      "domain": "nextdoor.com",
+      "sectionId": "p-social-nextdoor"
+    },
+    {
+      "domain": "ms.email.nextdoor.com",
+      "sectionId": "p-social-nextdoor"
+    },
+    {
+      "domain": "is.email.nextdoor.com",
+      "sectionId": "p-social-nextdoor"
+    },
+    {
+      "domain": "rs.email.nextdoor.com",
+      "sectionId": "p-social-nextdoor"
+    },
+    {
+      "domain": "discord.com",
+      "sectionId": "p-social-discord"
+    },
+    {
+      "domain": "slack.com",
+      "sectionId": "p-social-slack"
+    },
+    {
+      "domain": "email.slack.com",
+      "sectionId": "p-social-slack"
+    },
+    {
+      "domain": "email.slack-core.com",
+      "sectionId": "p-social-slack"
+    },
+    {
+      "domain": "email.slackhq.com",
+      "sectionId": "p-social-slack"
+    },
+    {
+      "domain": "slack-mail.com",
+      "sectionId": "p-social-slack"
+    },
+    {
+      "domain": "textfree.us",
+      "sectionId": "p-social-textfree"
+    },
+    {
+      "domain": "meetup.com",
+      "sectionId": "p-social-meetup"
+    },
+    {
+      "domain": "email.meetup.com",
+      "sectionId": "p-social-meetup"
+    },
+    {
+      "domain": "googlegroups.com",
+      "sectionId": "p-social-ggroups"
+    },
+    {
+      "domain": "fireflies.ai",
+      "sectionId": "p-meetings-fireflies"
+    },
+    {
+      "domain": "calendly.com",
+      "sectionId": "p-meetings-calendly"
+    },
+    {
+      "domain": "send.calendly.com",
+      "sectionId": "p-meetings-calendly"
+    },
+    {
+      "domain": "cal.com",
+      "sectionId": "p-meetings-cal"
+    },
+    {
+      "domain": "koalendar.com",
+      "sectionId": "p-meetings-koalendar"
+    },
+    {
+      "domain": "doodle.com",
+      "sectionId": "p-meetings-doodle"
+    },
+    {
+      "domain": "oncehub.com",
+      "sectionId": "p-meetings-oncehub"
+    },
+    {
+      "domain": "chilipiper.com",
+      "sectionId": "p-meetings-chilipiper"
+    },
+    {
+      "domain": "zoom.us",
+      "sectionId": "p-meetings-zoom"
+    },
+    {
+      "domain": "e.zoom.us",
+      "sectionId": "p-meetings-zoom"
+    },
+    {
+      "domain": "meet.google.com",
+      "sectionId": "p-meetings-gmeet"
+    },
+    {
+      "domain": "email.teams.microsoft.com",
+      "sectionId": "p-meetings-teams"
+    },
+    {
+      "domain": "brilliant.org",
+      "sectionId": "p-learn-brilliant"
+    },
+    {
+      "domain": "account.brilliant.org",
+      "sectionId": "p-learn-brilliant"
+    },
+    {
+      "domain": "mimo.org",
+      "sectionId": "p-learn-mimo"
+    },
+    {
+      "domain": "getmimo.com",
+      "sectionId": "p-learn-mimo"
+    },
+    {
+      "domain": "coursera.org",
+      "sectionId": "p-learn-coursera"
+    },
+    {
+      "domain": "email.coursera.org",
+      "sectionId": "p-learn-coursera"
+    },
+    {
+      "domain": "t.mail.coursera.org",
+      "sectionId": "p-learn-coursera"
+    },
+    {
+      "domain": "learneroutcomes.coursera.org",
+      "sectionId": "p-learn-coursera"
+    },
+    {
+      "domain": "coursehero.com",
+      "sectionId": "p-learn-coursehero"
+    },
+    {
+      "domain": "lifecycle.coursehero.com",
+      "sectionId": "p-learn-coursehero"
+    },
+    {
+      "domain": "leetcode.com",
+      "sectionId": "p-learn-leetcode"
+    },
+    {
+      "domain": "quizlet.com",
+      "sectionId": "p-learn-quizlet"
+    },
+    {
+      "domain": "typing.com",
+      "sectionId": "p-learn-typing"
+    },
+    {
+      "domain": "skillup.online",
+      "sectionId": "p-learn-ibm"
+    },
+    {
+      "domain": "skilluponline.com",
+      "sectionId": "p-learn-ibm"
+    },
+    {
+      "domain": "uipath.com",
+      "sectionId": "p-learn-uipath"
+    },
+    {
+      "domain": "google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "accounts.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "cloud.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "developers.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "workspace.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "feedback.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "payments.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "discuss.google.dev",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "discuss.ai.google.dev",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "cloud.withgoogle.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "withgoogle.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "skills.google",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "productexperts.withgoogle.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "groups.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "kaggle.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "microsoft.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "email.microsoft.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "engage.microsoft.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "email2.office.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "notificationmail.microsoft.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "accountprotection.microsoft.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "email3.bing.com",
+      "sectionId": "p-tech-microsoft"
+    },
+    {
+      "domain": "apple.com",
+      "sectionId": "p-tech-apple"
+    },
+    {
+      "domain": "email.apple.com",
+      "sectionId": "p-tech-apple"
+    },
+    {
+      "domain": "orders.apple.com",
+      "sectionId": "p-tech-apple"
+    },
+    {
+      "domain": "insideapple.apple.com",
+      "sectionId": "p-tech-apple"
+    },
+    {
+      "domain": "dropbox.com",
+      "sectionId": "p-tech-dropbox"
+    },
+    {
+      "domain": "dropboxmail.com",
+      "sectionId": "p-tech-dropbox"
+    },
+    {
+      "domain": "em-s.dropbox.com",
+      "sectionId": "p-tech-dropbox"
+    },
+    {
+      "domain": "box.com",
+      "sectionId": "p-tech-box"
+    },
+    {
+      "domain": "onedrive.com",
+      "sectionId": "p-tech-onedrive"
+    },
+    {
+      "domain": "vercel.com",
+      "sectionId": "p-tech-vercel"
+    },
+    {
+      "domain": "info.vercel.com",
+      "sectionId": "p-tech-vercel"
+    },
+    {
+      "domain": "netlify.com",
+      "sectionId": "p-tech-netlify"
+    },
+    {
+      "domain": "digitalocean.com",
+      "sectionId": "p-tech-do"
+    },
+    {
+      "domain": "info.digitalocean.com",
+      "sectionId": "p-tech-do"
+    },
+    {
+      "domain": "supabase.com",
+      "sectionId": "p-tech-supabase"
+    },
+    {
+      "domain": "mail.app.supabase.io",
+      "sectionId": "p-tech-supabase"
+    },
+    {
+      "domain": "openai.com",
+      "sectionId": "p-ai-openai"
+    },
+    {
+      "domain": "email.openai.com",
+      "sectionId": "p-ai-openai"
+    },
+    {
+      "domain": "mail.openai.com",
+      "sectionId": "p-ai-openai"
+    },
+    {
+      "domain": "tm.openai.com",
+      "sectionId": "p-ai-openai"
+    },
+    {
+      "domain": "forum.mail.openai.com",
+      "sectionId": "p-ai-openai"
+    },
+    {
+      "domain": "anthropic.com",
+      "sectionId": "p-ai-claude"
+    },
+    {
+      "domain": "email.anthropic.com",
+      "sectionId": "p-ai-claude"
+    },
+    {
+      "domain": "mail.anthropic.com",
+      "sectionId": "p-ai-claude"
+    },
+    {
+      "domain": "email2.anthropic.com",
+      "sectionId": "p-ai-claude"
+    },
+    {
+      "domain": "claude.com",
+      "sectionId": "p-ai-claude"
+    },
+    {
+      "domain": "email.claude.com",
+      "sectionId": "p-ai-claude"
+    },
+    {
+      "domain": "perplexity.ai",
+      "sectionId": "p-ai-perplexity"
+    },
+    {
+      "domain": "midjourney.com",
+      "sectionId": "p-ai-midjourney"
+    },
+    {
+      "domain": "elevenlabs.io",
+      "sectionId": "p-ai-elevenlabs"
+    },
+    {
+      "domain": "synthesia.io",
+      "sectionId": "p-ai-synthesia"
+    },
+    {
+      "domain": "info.synthesia.io",
+      "sectionId": "p-ai-synthesia"
+    },
+    {
+      "domain": "rewind.ai",
+      "sectionId": "p-ai-rewind"
+    },
+    {
+      "domain": "limitless.ai",
+      "sectionId": "p-ai-limitless"
+    },
+    {
+      "domain": "usertesting.com",
+      "sectionId": "p-research-ut"
+    },
+    {
+      "domain": "m.utest.com",
+      "sectionId": "p-research-ut"
+    },
+    {
+      "domain": "utest.com",
+      "sectionId": "p-research-ut"
+    },
+    {
+      "domain": "userinterviews.com",
+      "sectionId": "p-research-ui"
+    },
+    {
+      "domain": "focusinsite.com",
+      "sectionId": "p-research-fi"
+    },
+    {
+      "domain": "mail.focusinsite.com",
+      "sectionId": "p-research-fi"
+    },
+    {
+      "domain": "focuspointeglobal.com",
+      "sectionId": "p-research-fpg"
+    },
+    {
+      "domain": "rarepatientvoice.com",
+      "sectionId": "p-research-rpv"
+    },
+    {
+      "domain": "wilkinsresearch.com",
+      "sectionId": "p-research-wilkins"
+    },
+    {
+      "domain": "angusreidusa.com",
+      "sectionId": "p-research-angus"
+    },
+    {
+      "domain": "i-say.com",
+      "sectionId": "p-research-ipsos"
+    },
+    {
+      "domain": "netflix.com",
+      "sectionId": "p-ent-netflix"
+    },
+    {
+      "domain": "join.netflix.com",
+      "sectionId": "p-ent-netflix"
+    },
+    {
+      "domain": "disneyplus.com",
+      "sectionId": "p-ent-disney"
+    },
+    {
+      "domain": "mail.disneyplus.com",
+      "sectionId": "p-ent-disney"
+    },
+    {
+      "domain": "mail2.disneyplus.com",
+      "sectionId": "p-ent-disney"
+    },
+    {
+      "domain": "primevideo.com",
+      "sectionId": "p-ent-prime"
+    },
+    {
+      "domain": "channels.primevideo.com",
+      "sectionId": "p-ent-prime"
+    },
+    {
+      "domain": "crunchyroll.com",
+      "sectionId": "p-ent-crunchy"
+    },
+    {
+      "domain": "mail.crunchyroll.com",
+      "sectionId": "p-ent-crunchy"
+    },
+    {
+      "domain": "hbomax.com",
+      "sectionId": "p-ent-hbo"
+    },
+    {
+      "domain": "service.hbomax.com",
+      "sectionId": "p-ent-hbo"
+    },
+    {
+      "domain": "hulumail.com",
+      "sectionId": "p-ent-hulu"
+    },
+    {
+      "domain": "paramountplus.com",
+      "sectionId": "p-ent-paramount"
+    },
+    {
+      "domain": "transactions.paramountplus.com",
+      "sectionId": "p-ent-paramount"
+    },
+    {
+      "domain": "peacocktv.com",
+      "sectionId": "p-ent-peacock"
+    },
+    {
+      "domain": "starz.com",
+      "sectionId": "p-ent-starz"
+    },
+    {
+      "domain": "vudu.com",
+      "sectionId": "p-ent-vudu"
+    },
+    {
+      "domain": "spotify.com",
+      "sectionId": "p-ent-spotify"
+    },
+    {
+      "domain": "legal.spotify.com",
+      "sectionId": "p-ent-spotify"
+    },
+    {
+      "domain": "soundcloud.com",
+      "sectionId": "p-ent-soundcloud"
+    },
+    {
+      "domain": "announcements.soundcloud.com",
+      "sectionId": "p-ent-soundcloud"
+    },
+    {
+      "domain": "sony.com",
+      "sectionId": "p-ent-sony"
+    },
+    {
+      "domain": "acm.account.sony.com",
+      "sectionId": "p-ent-sony"
+    },
+    {
+      "domain": "account.sony.com",
+      "sectionId": "p-ent-sony"
+    },
+    {
+      "domain": "playstation.com",
+      "sectionId": "p-ent-sony"
+    },
+    {
+      "domain": "email.sel.sony.com",
+      "sectionId": "p-ent-sony"
+    },
+    {
+      "domain": "electronics.sony.com",
+      "sectionId": "p-ent-sony"
+    },
+    {
+      "domain": "amctheatres.com",
+      "sectionId": "p-ent-amc"
+    },
+    {
+      "domain": "email.amctheatres.com",
+      "sectionId": "p-ent-amc"
+    },
+    {
+      "domain": "custhelp.com",
+      "sectionId": "p-ent-amc"
+    },
+    {
+      "domain": "movies.fandango.com",
+      "sectionId": "p-ent-fandango"
+    },
+    {
+      "domain": "mail.marvel.com",
+      "sectionId": "p-ent-marvel"
+    },
+    {
+      "domain": "accounts.wbgames.com",
+      "sectionId": "p-ent-wbgames"
+    },
+    {
+      "domain": "twitch.tv",
+      "sectionId": "p-ent-twitch"
+    },
+    {
+      "domain": "whatnot.com",
+      "sectionId": "p-ent-whatnot"
+    },
+    {
+      "domain": "irs.gov",
+      "sectionId": "p-gov-irs"
+    },
+    {
+      "domain": "census.gov",
+      "sectionId": "p-gov-census"
+    },
+    {
+      "domain": "notify.csod.com",
+      "sectionId": "p-gov-census"
+    },
+    {
+      "domain": "cityoftulsa.org",
+      "sectionId": "p-gov-tulsa"
+    },
+    {
+      "domain": "houstontx.gov",
+      "sectionId": "p-gov-houston"
+    },
+    {
+      "domain": "fortbendcountytx.gov",
+      "sectionId": "p-gov-fortbend"
+    },
+    {
+      "domain": "fbctx.gov",
+      "sectionId": "p-gov-fortbend"
+    },
+    {
+      "domain": "twc.state.tx.us",
+      "sectionId": "p-gov-twc"
+    },
+    {
+      "domain": "twc.texas.gov",
+      "sectionId": "p-gov-twc"
+    },
+    {
+      "domain": "vote.hctx.net",
+      "sectionId": "p-gov-vote"
+    },
+    {
+      "domain": "login.gov",
+      "sectionId": "p-gov-login"
+    },
+    {
+      "domain": "gsa.gov",
+      "sectionId": "p-gov-login"
+    },
+    {
+      "domain": "outlook.com",
+      "sectionId": "p-daily-outlook"
+    },
+    {
+      "domain": "outlook.fr",
+      "sectionId": "p-daily-outlook"
+    },
+    {
+      "domain": "yahoo.com",
+      "sectionId": "p-daily-yahoo"
+    },
+    {
+      "domain": "cc.yahoo.com",
+      "sectionId": "p-daily-yahoo"
+    },
+    {
+      "domain": "yahoo-inc.com",
+      "sectionId": "p-daily-yahoo"
+    },
+    {
+      "domain": "gmail.com",
+      "sectionId": "p-people-gmail"
+    },
+    {
+      "domain": "ymail.com",
+      "sectionId": "p-people-yahoo"
+    },
+    {
+      "domain": "hotmail.com",
+      "sectionId": "p-people-hotmail"
+    },
+    {
+      "domain": "aol.com",
+      "sectionId": "p-people-aol"
+    },
+    {
+      "domain": "icloud.com",
+      "sectionId": "p-people-icloud"
+    },
+    {
+      "domain": "beehiiv.com",
+      "sectionId": "p-news-beehiiv"
+    },
+    {
+      "domain": "mail.beehiiv.com",
+      "sectionId": "p-news-beehiiv"
+    },
+    {
+      "domain": "substack.com",
+      "sectionId": "p-news-substack"
+    },
+    {
+      "domain": "medium.com",
+      "sectionId": "p-news-medium"
+    },
+    {
+      "domain": "daily.dev",
+      "sectionId": "p-news-dailydev"
+    },
+    {
+      "domain": "mail.daily.dev",
+      "sectionId": "p-news-dailydev"
+    },
+    {
+      "domain": "roadmap.sh",
+      "sectionId": "p-news-roadmap"
+    },
+    {
+      "domain": "email.roadmap.sh",
+      "sectionId": "p-news-roadmap"
+    },
+    {
+      "domain": "indeed.com",
+      "sectionId": "p-jobs-indeed"
+    },
+    {
+      "domain": "indeedemail.com",
+      "sectionId": "p-jobs-indeed"
+    },
+    {
+      "domain": "match.indeed.com",
+      "sectionId": "p-jobs-indeed"
+    },
+    {
+      "domain": "ziprecruiter.com",
+      "sectionId": "p-jobs-zr"
+    },
+    {
+      "domain": "workablemail.com",
+      "sectionId": "p-jobs-workable"
+    },
+    {
+      "domain": "candidates.workablemail.com",
+      "sectionId": "p-jobs-workable"
+    },
+    {
+      "domain": "greenhouse-mail.io",
+      "sectionId": "p-jobs-greenhouse"
+    },
+    {
+      "domain": "us.greenhouse-mail.io",
+      "sectionId": "p-jobs-greenhouse"
+    },
+    {
+      "domain": "lever.co",
+      "sectionId": "p-jobs-lever"
+    },
+    {
+      "domain": "hire.lever.co",
+      "sectionId": "p-jobs-lever"
+    },
+    {
+      "domain": "apartments.com",
+      "sectionId": "p-housing-apts"
+    },
+    {
+      "domain": "email.apartments.com",
+      "sectionId": "p-housing-apts"
+    },
+    {
+      "domain": "appfolio.com",
+      "sectionId": "p-housing-appfolio"
+    },
+    {
+      "domain": "mailer.appfolio.us",
+      "sectionId": "p-housing-appfolio"
+    },
+    {
+      "domain": "onlineportal.appfolio.com",
+      "sectionId": "p-housing-appfolio"
+    },
+    {
+      "domain": "realpage.com",
+      "sectionId": "p-housing-realpage"
+    },
+    {
+      "domain": "email.extraspace.com",
+      "sectionId": "p-housing-ess"
+    },
+    {
+      "domain": "info.extraspace.com",
+      "sectionId": "p-housing-ess"
+    },
+    {
+      "domain": "email.lifestorage.com",
+      "sectionId": "p-housing-lifestorage"
+    },
+    {
+      "domain": "info.extraspace.com",
+      "sectionId": "p-housing-lifestorage"
+    },
+    {
+      "domain": "autonation.com",
+      "sectionId": "p-auto-autonation"
+    },
+    {
+      "domain": "statefarm.com",
+      "sectionId": "p-auto-sf"
+    },
+    {
+      "domain": "statefarmclaims.com",
+      "sectionId": "p-auto-sf"
+    },
+    {
+      "domain": "e.progressive.com",
+      "sectionId": "p-auto-prog"
+    },
+    {
+      "domain": "launchgood.com",
+      "sectionId": "p-np-launchgood"
+    },
+    {
+      "domain": "gofundme.com",
+      "sectionId": "p-np-gofundme"
+    },
+    {
+      "domain": "marketing.gofundme.com",
+      "sectionId": "p-np-gofundme"
+    },
+    {
+      "domain": "messages.gofundme.com",
+      "sectionId": "p-np-gofundme"
+    },
+    {
+      "domain": "actblue.com",
+      "sectionId": "p-np-actblue"
+    },
+    {
+      "domain": "wikimedia.org",
+      "sectionId": "p-np-wikimedia"
+    },
+    {
+      "domain": "hhrd.org",
+      "sectionId": "p-np-hhrd"
+    },
+    {
+      "domain": "hhrd.us",
+      "sectionId": "p-np-hhrd"
+    },
+    {
+      "domain": "newyorklife.com",
+      "sectionId": "p-ins-nyl"
+    },
+    {
+      "domain": "email.newyorklife.com",
+      "sectionId": "p-ins-nyl"
+    },
+    {
+      "domain": "hillcrest.com",
+      "sectionId": "h-prov-hillcrest-med"
+    },
+    {
+      "domain": "hello.hillcrest.com",
+      "sectionId": "h-prov-hillcrest-med"
+    },
+    {
+      "domain": "uticaparkclinic.com",
+      "sectionId": "h-prov-utica"
+    },
+    {
+      "domain": "hello.uticaparkclinic.com",
+      "sectionId": "h-prov-utica"
+    },
+    {
+      "domain": "pgsurveying.com",
+      "sectionId": "h-prov-utica"
+    },
+    {
+      "domain": "qualtrics-survey.com",
+      "sectionId": "h-prov-utica"
+    },
+    {
+      "domain": "ascension.org",
+      "sectionId": "h-prov-asc-stjohn"
+    },
+    {
+      "domain": "communication.ascension.org",
+      "sectionId": "h-prov-asc-stjohn"
+    },
+    {
+      "domain": "ascension.visitpay.com",
+      "sectionId": "h-prov-asc-stjohn"
+    },
+    {
+      "domain": "consumerexperience.ascension.org",
+      "sectionId": "h-prov-asc-stjohn"
+    },
+    {
+      "domain": "houstonmethodist.org",
+      "sectionId": "h-prov-hm"
+    },
+    {
+      "domain": "mdanderson.org",
+      "sectionId": "h-prov-mdacc"
+    },
+    {
+      "domain": "kelsey-seybold.com",
+      "sectionId": "h-prov-kelsey"
+    },
+    {
+      "domain": "marketing.kelsey-seybold.com",
+      "sectionId": "h-prov-kelsey"
+    },
+    {
+      "domain": "mykelseyonline.com",
+      "sectionId": "h-prov-kelsey"
+    },
+    {
+      "domain": "kp.org",
+      "sectionId": "h-prov-kaiser"
+    },
+    {
+      "domain": "feedbackhub.kp.org",
+      "sectionId": "h-prov-kaiser"
+    },
+    {
+      "domain": "respond.kp.org",
+      "sectionId": "h-prov-kaiser"
+    },
+    {
+      "domain": "complete-derm.com",
+      "sectionId": "h-prov-complete-derm"
+    },
+    {
+      "domain": "tulsaderm.com",
+      "sectionId": "h-prov-tulsaderm"
+    },
+    {
+      "domain": "downtowntulsadental.com",
+      "sectionId": "h-prov-dtd"
+    },
+    {
+      "domain": "patientengagepro.com",
+      "sectionId": "h-prov-eldridge"
+    },
+    {
+      "domain": "advanceddentistrysugarland.com",
+      "sectionId": "h-prov-advanced"
+    },
+    {
+      "domain": "modento.io",
+      "sectionId": "h-prov-urbn"
+    },
+    {
+      "domain": "dentrix.com",
+      "sectionId": "h-prov-vpj"
+    },
+    {
+      "domain": "healow.com",
+      "sectionId": "h-tele-healow"
+    },
+    {
+      "domain": "patientmychart.com",
+      "sectionId": "h-tele-mychart"
+    },
+    {
+      "domain": "skymd.com",
+      "sectionId": "h-tele-skymd"
+    },
+    {
+      "domain": "doctorondemand.com",
+      "sectionId": "h-tele-dod"
+    },
+    {
+      "domain": "ex.doctorondemand.com",
+      "sectionId": "h-tele-dod"
+    },
+    {
+      "domain": "betterhelp.com",
+      "sectionId": "h-tele-bh"
+    },
+    {
+      "domain": "mgb.betterhelp.com",
+      "sectionId": "h-tele-bh"
+    },
+    {
+      "domain": "zocdoc.com",
+      "sectionId": "h-tele-zocdoc"
+    },
+    {
+      "domain": "mail2.zocdoc.com",
+      "sectionId": "h-tele-zocdoc"
+    },
+    {
+      "domain": "mail3.zocdoc.com",
+      "sectionId": "h-tele-zocdoc"
+    },
+    {
+      "domain": "mail5.zocdoc.com",
+      "sectionId": "h-tele-zocdoc"
+    },
+    {
+      "domain": "mail6.zocdoc.com",
+      "sectionId": "h-tele-zocdoc"
+    },
+    {
+      "domain": "labcorp.com",
+      "sectionId": "h-labs-labcorp"
+    },
+    {
+      "domain": "labcorpmessage.com",
+      "sectionId": "h-labs-labcorp"
+    },
+    {
+      "domain": "questdiagnostics.com",
+      "sectionId": "h-labs-quest"
+    },
+    {
+      "domain": "digital-delivery.com",
+      "sectionId": "h-labs-quest"
+    },
+    {
+      "domain": "pfizer.com",
+      "sectionId": "h-labs-ct"
+    },
+    {
+      "domain": "science37.com",
+      "sectionId": "h-labs-s37"
+    },
+    {
+      "domain": "science37.net",
+      "sectionId": "h-labs-s37"
+    },
+    {
+      "domain": "careaccess.com",
+      "sectionId": "h-labs-care"
+    },
+    {
+      "domain": "mail-careaccess.com",
+      "sectionId": "h-labs-care"
+    },
+    {
+      "domain": "iqvia.com",
+      "sectionId": "h-labs-iqvia"
+    },
+    {
+      "domain": "mail.clinicalresearch.com",
+      "sectionId": "h-labs-iqvia"
+    },
+    {
+      "domain": "centerwatch.com",
+      "sectionId": "h-labs-cw"
+    },
+    {
+      "domain": "cvshealth.com",
+      "sectionId": "h-pharm-cvs"
+    },
+    {
+      "domain": "notification.cvshealth.com",
+      "sectionId": "h-pharm-cvs"
+    },
+    {
+      "domain": "walgreens.com",
+      "sectionId": "h-pharm-walgreens"
+    },
+    {
+      "domain": "ecs.walgreens.com",
+      "sectionId": "h-pharm-walgreens"
+    },
+    {
+      "domain": "rxorder.walgreens.com",
+      "sectionId": "h-pharm-walgreens"
+    },
+    {
+      "domain": "nimblerx.com",
+      "sectionId": "h-pharm-nimble"
+    },
+    {
+      "domain": "contact.goodrx.com",
+      "sectionId": "h-pharm-goodrx"
+    },
+    {
+      "domain": "giveblood.org",
+      "sectionId": "h-blood-gulfcoast"
+    },
+    {
+      "domain": "commitforlife.org",
+      "sectionId": "h-blood-gulfcoast"
+    },
+    {
+      "domain": "obi.org",
+      "sectionId": "h-blood-obi"
+    },
+    {
+      "domain": "connectingdonors.org",
+      "sectionId": "h-blood-obi"
+    },
+    {
+      "domain": "connectingdonors.net",
+      "sectionId": "h-blood-obi"
+    },
+    {
+      "domain": "cslplasma.com",
+      "sectionId": "h-blood-csl"
+    },
+    {
+      "domain": "mail.cslplasma.com",
+      "sectionId": "h-blood-csl"
+    },
+    {
+      "domain": "email-biolifeplasma.com",
+      "sectionId": "h-blood-biolife"
+    },
+    {
+      "domain": "grifolsdonorhub.com",
+      "sectionId": "h-blood-grifols"
+    },
+    {
+      "domain": "mail.grifolsdonorhub.com",
+      "sectionId": "h-blood-grifols"
+    },
+    {
+      "domain": "lt.life",
+      "sectionId": "h-fit-lifetime"
+    },
+    {
+      "domain": "lifetime.life",
+      "sectionId": "h-fit-lifetime"
+    },
+    {
+      "domain": "emails.lifetime.life",
+      "sectionId": "h-fit-lifetime"
+    },
+    {
+      "domain": "lifetimefitness.com",
+      "sectionId": "h-fit-lifetime"
+    },
+    {
+      "domain": "trainerize.com",
+      "sectionId": "h-fit-lifetime"
+    },
+    {
+      "domain": "lafitness.com",
+      "sectionId": "h-fit-la"
+    },
+    {
+      "domain": "e.lafitness.com",
+      "sectionId": "h-fit-la"
+    },
+    {
+      "domain": "equinox.com",
+      "sectionId": "h-fit-equinox"
+    },
+    {
+      "domain": "results.equinox.com",
+      "sectionId": "h-fit-equinox"
+    },
+    {
+      "domain": "anytimefitness.com",
+      "sectionId": "h-fit-anytime"
+    },
+    {
+      "domain": "campaigns.anytimefitness.com",
+      "sectionId": "h-fit-anytime"
+    },
+    {
+      "domain": "genesishealthclubs.com",
+      "sectionId": "h-fit-genesis"
+    },
+    {
+      "domain": "hotworx.net",
+      "sectionId": "h-fit-hotworx"
+    },
+    {
+      "domain": "coachedbymax.com",
+      "sectionId": "h-fit-maxout"
+    },
+    {
+      "domain": "coachmails.io",
+      "sectionId": "h-fit-toennies"
+    },
+    {
+      "domain": "ymcatulsa.org",
+      "sectionId": "h-fit-ymca"
+    },
+    {
+      "domain": "regence.com",
+      "sectionId": "h-ins-regence"
+    },
+    {
+      "domain": "email.regence.com",
+      "sectionId": "h-ins-regence"
+    },
+    {
+      "domain": "notifications.regence.com",
+      "sectionId": "h-ins-regence"
+    },
+    {
+      "domain": "medicalgps.com",
+      "sectionId": "h-ins-regence"
+    },
+    {
+      "domain": "optum.com",
+      "sectionId": "h-ins-optum"
+    },
+    {
+      "domain": "em.optum.com",
+      "sectionId": "h-ins-optum"
+    },
+    {
+      "domain": "email.optumfinancial.com",
+      "sectionId": "h-ins-optum"
+    },
+    {
+      "domain": "information.optum.com",
+      "sectionId": "h-ins-optum"
+    },
+    {
+      "domain": "of.optum.com",
+      "sectionId": "h-ins-optum"
+    },
+    {
+      "domain": "us.aflac.com",
+      "sectionId": "h-ins-aflac"
+    },
+    {
+      "domain": "healthcare.gov",
+      "sectionId": "h-ins-marketplace"
+    },
+    {
+      "domain": "healthmarkets.com",
+      "sectionId": "h-ins-hmarkets"
+    },
+    {
+      "domain": "kandkinsurance.com",
+      "sectionId": "h-ins-kandk"
+    },
+    {
+      "domain": "patientmychart.com",
+      "sectionId": "h-portal-mychart"
+    },
+    {
+      "domain": "eclinicalmail.com",
+      "sectionId": "h-portal-eclinical"
+    },
+    {
+      "domain": "updox.com",
+      "sectionId": "h-portal-updox"
+    },
+    {
+      "domain": "relatient.net",
+      "sectionId": "h-portal-relatient"
+    },
+    {
+      "domain": "mydocbill.com",
+      "sectionId": "h-portal-docubill"
+    },
+    {
+      "domain": "rcubedco.com",
+      "sectionId": "w-emp-rcubed"
+    },
+    {
+      "domain": "rcubedco.s10.usa1.teams-events.com",
+      "sectionId": "w-emp-rcubed"
+    },
+    {
+      "domain": "redriverdevelopment.com",
+      "sectionId": "w-emp-redriver"
+    },
+    {
+      "domain": "trulohomes.com",
+      "sectionId": "w-emp-trulo"
+    },
+    {
+      "domain": "roserockdev.com",
+      "sectionId": "w-emp-roserock"
+    },
+    {
+      "domain": "minaretfoundation.com",
+      "sectionId": "w-emp-minaret"
+    },
+    {
+      "domain": "ashfordco.com",
+      "sectionId": "w-emp-ashford"
+    },
+    {
+      "domain": "census.gov",
+      "sectionId": "w-emp-census"
+    },
+    {
+      "domain": "asana.com",
+      "sectionId": "w-tools-asana"
+    },
+    {
+      "domain": "email1.asana.com",
+      "sectionId": "w-tools-asana"
+    },
+    {
+      "domain": "miro.com",
+      "sectionId": "w-tools-miro"
+    },
+    {
+      "domain": "e.miro.com",
+      "sectionId": "w-tools-miro"
+    },
+    {
+      "domain": "notification.miro.com",
+      "sectionId": "w-tools-miro"
+    },
+    {
+      "domain": "notion.so",
+      "sectionId": "w-tools-notion"
+    },
+    {
+      "domain": "mail.notion.so",
+      "sectionId": "w-tools-notion"
+    },
+    {
+      "domain": "updates.notion.so",
+      "sectionId": "w-tools-notion"
+    },
+    {
+      "domain": "hello.notion.so",
+      "sectionId": "w-tools-notion"
+    },
+    {
+      "domain": "obsidian.md",
+      "sectionId": "w-tools-obsidian"
+    },
+    {
+      "domain": "atlasschool.com",
+      "sectionId": "p-learn-atlas-school"
+    }
   ]
 }
