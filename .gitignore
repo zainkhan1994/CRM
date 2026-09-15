@@ -6,3 +6,7 @@ node_modules/
 .apple-env/
 apple-history*.json
 crm-apple-export*.json
+
+__pycache__/
+*.sqlite
+*.sqlite-*
