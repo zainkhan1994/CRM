@@ -2,9 +2,18 @@ let undoStack=[];try{undoStack=JSON.parse(localStorage.getItem('crm-undo-v1')||'
 function rememberUndo(before){undoStack.push(before);undoStack=undoStack.slice(-30);try{localStorage.setItem('crm-undo-v1',JSON.stringify(undoStack))}catch{}}
 function undoLast(){if(!undoStack.length)return;placements=JSON.parse(undoStack.pop());placements.deleted??={};try{localStorage.setItem('crm-undo-v1',JSON.stringify(undoStack))}catch{}savePlacement();if(view==='network')render();}
 const placementKey='crm-network-placements-v1';
-let placements={contacts:{},parents:{}};try{const saved=JSON.parse(localStorage.getItem(placementKey));if(saved?.contacts&&saved?.parents)placements=saved;}catch{}
+let placements={contacts:{},parents:{},deleted:{}};
+try{
+ const saved=JSON.parse(localStorage.getItem(placementKey));
+ if(saved&&typeof saved==='object'){
+  placements={
+   contacts:saved.contacts||{},
+   parents:saved.parents||{},
+   deleted:saved.deleted||{}
+  };
+ }
+}catch{}
 function savePlacement(){try{localStorage.setItem(placementKey,JSON.stringify(placements));if(typeof queueSync==='function')queueSync();return true}catch{alert('Could not save this move. Browser storage is unavailable.');return false}}
-placements.deleted??={};
 function allBlueprint(){return [...(blueprintRows||[]),...(blueprintRemoved.nodes||[])];}
 function effectiveBlueprint(){const rows=allBlueprint().map(n=>({...n,parentId:placements.parents[n.id]??n.parentId}));const hidden=new Set(Object.keys(placements.deleted).filter(k=>k.startsWith('node:')&&placements.deleted[k]).map(k=>k.slice(5)));let changed=true;while(changed){changed=false;for(const n of rows)if(hidden.has(n.parentId)&&!hidden.has(n.id)){hidden.add(n.id);changed=true}}return rows.filter(n=>!hidden.has(n.id));}
 
@@ -76,5 +85,18 @@ const originalNetwork=renderNetwork;renderNetwork=function(list){originalNetwork
 const originalProfile=openProfile;openProfile=async function(id){const pending=originalProfile(id);const section=document.querySelector('[data-drawer-panel="overview"]');if(section){const b=document.createElement('button');b.className='move-control';b.textContent='Move to Network section';b.onclick=()=>chooseDestination('contact',id);section.prepend(b)}await pending;};
 
 function deleteItem(kind,id){const c=contacts.find(c=>c.id===id)||companies.find(c=>c.id===id);if(kind==='contact'&&!c)return;rememberUndo(JSON.stringify(placements));for(const key of kind==='node'?['node:'+id]:(c.members||[c]).map(c=>'contact:'+c.id))placements.deleted[key]=true;savePlacement();if(view==='network')render();}
-function renderOrganizerControls(){const root=document.querySelector('.blueprint-controls');if(!root)return;const box=document.createElement('div');box.className='sync-controls';box.innerHTML='<span id="sync-status" role="status"></span><button id="connect-sync">Connect sync</button><button id="undo-last" aria-label="Undo last change">↶ Undo</button><button id="show-trash" aria-label="Open Trash">Trash</button>';root.after(box);box.querySelector('#connect-sync').onclick=connectSync;box.querySelector('#undo-last').onclick=undoLast;box.querySelector('#undo-last').disabled=!undoStack.length;box.querySelector('#show-trash').onclick=showDeleted;updateSyncStatus();}
+function renderOrganizerControls(){
+ const root=document.querySelector('.blueprint-controls');if(!root)return;
+ document.querySelectorAll('.sync-controls').forEach(el=>el.remove());
+ const box=document.createElement('div');
+ box.className='sync-controls';
+ box.innerHTML='<button id="sync-now-btn" class="sync-btn" type="button" aria-label="Sync network changes" title="Sync changes with GitHub"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><span id="sync-status" class="sync-status" role="status"></span><button id="sync-config-btn" class="sync-settings-btn" type="button" aria-label="GitHub Sync Settings" title="Configure GitHub Token & Sync Options"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg></button><div class="sync-sep" aria-hidden="true"></div><button id="undo-last" aria-label="Undo last change">↶ Undo</button><button id="show-trash" aria-label="Open Trash">Trash</button>';
+ root.after(box);
+ box.querySelector('#sync-now-btn').onclick=()=>{if(typeof triggerSync==='function')triggerSync();else connectSync();};
+ box.querySelector('#sync-config-btn').onclick=connectSync;
+ box.querySelector('#undo-last').onclick=undoLast;
+ box.querySelector('#undo-last').disabled=!undoStack.length;
+ box.querySelector('#show-trash').onclick=showDeleted;
+ if(typeof updateSyncStatus==='function')updateSyncStatus();
+}
 function showDeleted(){let d=document.querySelector('#deleted-dialog');if(!d){d=document.createElement('dialog');d.id='deleted-dialog';document.body.append(d)}const keys=Object.keys(placements.deleted).filter(k=>placements.deleted[k]);d.innerHTML='<form method="dialog"><button>Close</button></form><h2>Trash</h2><p>Restore items here. Source records and message history are retained.</p>'+(keys.length?'':'<p>Trash is empty.</p>')+keys.map(k=>{const id=k.slice(k.indexOf(':')+1),item=k.startsWith('node:')?allBlueprint().find(n=>n.id===id):contacts.find(c=>c.id===id);return `<p>${esc(item?.name||id)} <button data-restore="${esc(k)}">Restore</button></p>`}).join('');d.onclick=e=>{const k=e.target.dataset.restore;if(k){rememberUndo(JSON.stringify(placements));placements.deleted[k]=false;savePlacement();d.close();render();showDeleted()}};d.showModal();}

@@ -39,3 +39,23 @@ dialog{background:#fff}.profile-card{background:#fff}.close{background:#f7f7f7}
 .move-control{font-size:12px;padding:8px 12px;min-height:36px;background:#f3efff;color:#653de0;border:1px solid #e4dafb;border-radius:8px;margin:4px 8px;cursor:pointer}.blueprint-node>summary .move-control{margin-left:auto}.drop-target>summary{outline:2px dashed #7546ff;background:#eee7ff!important}[draggable=true]{cursor:grab}#move-dialog{position:fixed;inset:10vh 0 auto;margin:auto;width:min(620px,94vw);max-height:80dvh;padding:24px;border:1px solid #ddd;border-radius:18px;overflow:auto}#move-dialog::backdrop{background:#0005}#move-dialog form{text-align:right}#move-dialog h2{font-size:22px}#move-dialog p{font-size:13px;color:#777}#move-dialog input{width:100%;padding:12px;border:1px solid #ddd;border-radius:8px}.destination-list{margin-top:12px}.destination-list button{display:block;width:100%;text-align:left;padding:12px;min-height:44px;border:0;border-bottom:1px solid #eee;background:white}.destination-list button:hover{background:#f3efff}
 
 .delete-control{color:#c53040;background:#fff5f5}.sync-controls{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:12px 0;font-size:13px}.sync-controls button{padding:10px;border:1px solid #ddd;border-radius:8px;background:white}#deleted-dialog,#sync-dialog{position:fixed;inset:10vh 0 auto;margin:auto;max-width:94vw;width:560px;max-height:80vh;overflow:auto;padding:24px;border:1px solid #ddd;border-radius:16px}#sync-dialog input{width:100%;padding:12px;margin:10px 0}
+@keyframes crm-spin{100%{transform:rotate(360deg)}}
+.sync-spin-icon{width:16px;height:16px;stroke-width:2;flex-shrink:0;vertical-align:middle}
+.sync-spin-icon.syncing{animation:crm-spin 0.85s linear infinite}
+.sync-btn,.blueprint-sync-btn{display:inline-flex;align-items:center;gap:6px;font-weight:600;font-size:13px;padding:6px 12px;border-radius:8px;cursor:pointer;background:#f4efff;color:#653de0;border:1px solid #dcd1fb;transition:background 0.15s ease,border-color 0.15s ease,color 0.15s ease}
+.sync-btn:hover,.blueprint-sync-btn:hover{background:#653de0;color:white;border-color:#653de0}
+.sync-btn:disabled,.blueprint-sync-btn:disabled{opacity:0.6;cursor:not-allowed}
+.sync-status{font-size:13px;color:#555;margin:0 4px;font-weight:500}
+.sync-settings-btn{display:inline-flex;align-items:center;justify-content:center;width:34px;height:34px;padding:0!important;border-radius:8px;border:1px solid #ddd;background:white;color:#666;cursor:pointer}
+.sync-settings-btn:hover{background:#f5f5f5;color:#333;border-color:#ccc}
+.sync-settings-btn svg{width:16px;height:16px}
+.sync-sep{width:1px;height:20px;background:#e0e0e0;margin:0 2px}
+#sync-dialog .sync-modal-head{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+#sync-dialog .sync-modal-head h2{margin:0;font-size:20px}
+#sync-dialog .sync-help-box{background:#f8f6ff;border:1px solid #e7dffc;border-radius:8px;padding:12px;font-size:13px;margin:12px 0;color:#333;line-height:1.4}
+#sync-dialog .sync-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}
+#sync-dialog .sync-primary-btn{background:#653de0;color:white;border:0;padding:10px 16px;border-radius:8px;font-weight:600;cursor:pointer}
+#sync-dialog .sync-primary-btn:hover{background:#502ec2}
+#sync-dialog .sync-danger-btn{background:#fff0f0;color:#c53040;border:1px solid #f8b4b4;padding:10px 14px;border-radius:8px;cursor:pointer}
+#sync-dialog .sync-secondary-btn{background:white;color:#333;border:1px solid #ddd;padding:10px 14px;border-radius:8px;cursor:pointer}
+
