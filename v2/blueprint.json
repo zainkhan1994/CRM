@@ -131,8 +131,7 @@
     "parentId": "p-accounts-banks",
     "order": 8,
     "aliases": [],
-    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Other Cards",
-    "logo": "logos/other-cards.png"
+    "hierarchyPath": "P - Personal > Accounts & Banking > Banks & Credit Cards > Other Cards"
   },
   {
     "id": "p-accounts-invest",
@@ -2155,8 +2154,7 @@
     "parentId": "p-daily",
     "order": 1,
     "aliases": [],
-    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Routines Preferences",
-    "logo": "logos/routines-preferences.png"
+    "hierarchyPath": "P - Personal > Daily Life & Digital Presence > Routines Preferences"
   },
   {
     "id": "p-daily-accounts",
@@ -2181,8 +2179,7 @@
     "parentId": "p-people",
     "order": 0,
     "aliases": [],
-    "hierarchyPath": "P - Personal > People > Family",
-    "logo": "logos/family.png"
+    "hierarchyPath": "P - Personal > People > Family"
   },
   {
     "id": "p-people-friends",
@@ -2190,8 +2187,7 @@
     "parentId": "p-people",
     "order": 1,
     "aliases": [],
-    "hierarchyPath": "P - Personal > People > Friends",
-    "logo": "logos/friends.png"
+    "hierarchyPath": "P - Personal > People > Friends"
   },
   {
     "id": "p-people-personal",
@@ -2252,8 +2248,7 @@
     "parentId": "p-people-personal",
     "order": 5,
     "aliases": [],
-    "hierarchyPath": "P - Personal > People > Personal Contacts > Other Personal Domains",
-    "logo": "logos/other-personal-domains.png"
+    "hierarchyPath": "P - Personal > People > Personal Contacts > Other Personal Domains"
   },
   {
     "id": "p-people-networking",
@@ -2261,8 +2256,7 @@
     "parentId": "p-people",
     "order": 3,
     "aliases": [],
-    "hierarchyPath": "P - Personal > People > Networking / Acquaintances",
-    "logo": "logos/networking---acquaintances.png"
+    "hierarchyPath": "P - Personal > People > Networking / Acquaintances"
   },
   {
     "id": "p-news",
@@ -6763,5 +6757,34 @@
     ],
     "hierarchyPath": "Entertainment subscriptions",
     "logo": "logos/entertainment.png"
+  },
+  {
+    "id": "p-learn-uh",
+    "name": "University of Houston",
+    "parentId": "p-learn",
+    "order": 1,
+    "aliases": [
+      "UH",
+      "University of Houston",
+      "bauer.uh.edu",
+      "central.uh.edu",
+      "cougarnet.uh.edu",
+      "mail.uh.edu",
+      "uh.edu"
+    ],
+    "hierarchyPath": "P - Personal > Learning & Self-Improvement > University of Houston",
+    "logo": "logos/university-of-houston.svg"
+  },
+  {
+    "id": "p-events-tulsastem",
+    "name": "Tulsa Regional STEM Alliance",
+    "parentId": "p-events-tech",
+    "order": 13,
+    "aliases": [
+      "Tulsa STEM",
+      "tulsastem.org"
+    ],
+    "hierarchyPath": "P - Personal > Events & Conferences > Tech / Community > Tulsa Regional STEM Alliance",
+    "logo": "logos/dom-tulsastem.org.png"
   }
 ]

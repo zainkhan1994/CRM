@@ -2637,10 +2637,6 @@
       "sectionId": "w-tools"
     },
     {
-      "domain": "tulsastem.org",
-      "sectionId": "p-events-tech"
-    },
-    {
       "domain": "act.house",
       "sectionId": "w-cowork-acthouse"
     },
@@ -2669,10 +2665,6 @@
       "sectionId": "p-learn"
     },
     {
-      "domain": "central.uh.edu",
-      "sectionId": "p-learn"
-    },
-    {
       "domain": "mail.replit.com",
       "sectionId": "p-tech"
     },
@@ -2687,6 +2679,30 @@
     {
       "domain": "growth.stripe.com",
       "sectionId": "w-tools-stripe"
+    },
+    {
+      "domain": "uh.edu",
+      "sectionId": "p-learn-uh"
+    },
+    {
+      "domain": "central.uh.edu",
+      "sectionId": "p-learn-uh"
+    },
+    {
+      "domain": "bauer.uh.edu",
+      "sectionId": "p-learn-uh"
+    },
+    {
+      "domain": "cougarnet.uh.edu",
+      "sectionId": "p-learn-uh"
+    },
+    {
+      "domain": "mail.uh.edu",
+      "sectionId": "p-learn-uh"
+    },
+    {
+      "domain": "tulsastem.org",
+      "sectionId": "p-events-tulsastem"
     }
   ],
   "contactAssignments": {

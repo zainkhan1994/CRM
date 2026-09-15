@@ -8,13 +8,121 @@ const names={people:'Contacts',companies:'Companies',history:'Touchpoints',netwo
 let domainLogos={};
 fetch('domain-logos.json',{cache:'no-store'}).then(r=>r.json()).then(d=>{domainLogos=d;}).catch(()=>{});
 
+const KNOWN_NAMES = {
+  'uh.edu': 'University of Houston',
+  'central.uh.edu': 'University of Houston',
+  'bauer.uh.edu': 'University of Houston',
+  'cougarnet.uh.edu': 'University of Houston',
+  'mail.uh.edu': 'University of Houston',
+  'tulsastem.org': 'Tulsa Regional STEM Alliance',
+  'tulsaremote.com': 'Tulsa Remote',
+  'techlahoma.org': 'Techlahoma',
+  'roserockdev.com': 'Rose Rock Development',
+  'minaretfoundation.com': 'Minaret Foundation',
+  'ashfordco.com': 'Ashford Communities',
+  'trulohomes.com': 'Trulo Homes',
+  'rcubedco.com': 'R-Cubed',
+  'isgh.org': 'ISGH',
+  'cair.com': 'CAIR',
+  'cairtexas.org': 'CAIR Texas',
+  'cairoklahoma.com': 'CAIR Oklahoma',
+  'tulsacc.edu': 'Tulsa Community College',
+  'utulsa.edu': 'University of Tulsa',
+  'utexas.edu': 'University of Texas at Austin',
+  'rice.edu': 'Rice University',
+  'hctx.net': 'Harris County',
+  'twc.texas.gov': 'Texas Workforce Commission',
+  'nasa.gov': 'NASA',
+  'spaceapps.org': 'NASA Space Apps Challenge',
+  'spaceappschallenge.org': 'NASA Space Apps Challenge',
+  'gdgtulsa.com': 'GDG Tulsa',
+  'ai-tinkerers.org': 'AI Tinkerers',
+  'livekit.io': 'LiveKit',
+  'neo4j.com': 'Neo4j',
+  'gitwit.com': 'Gitwit',
+  'hyatt.com': 'Hyatt',
+  'staples.com': 'Staples',
+  'instacart.com': 'Instacart',
+  'upwork.com': 'Upwork',
+  'godaddy.com': 'GoDaddy',
+  'salesforce.com': 'Salesforce',
+  'docker.com': 'Docker',
+  'clickup.com': 'ClickUp',
+  'prehired.com': 'Prehired',
+  'crossover.com': 'Crossover',
+  'devpost.com': 'Devpost',
+  'spacecom.org': 'SpaceCom',
+  'fctulsa.com': 'FC Tulsa',
+  'freightfarms.com': 'Freight Farms',
+  'yoodli.ai': 'Yoodli',
+  'keymate.ai': 'Keymate.ai',
+  'givebutter.com': 'Givebutter',
+  'consumerreports.org': 'Consumer Reports',
+  'aarp.org': 'AARP',
+  'mashouston.org': 'MAS Houston',
+  '1se.co': '1 Second Everyday',
+  '1secondeveryday.com': '1 Second Everyday',
+  '24hourwristbands.com': '24 Hour Wristbands',
+  '360payments.com': '360 Payments',
+  '36n.co': '36 Degrees North',
+  'apartments.com': 'Apartments.com',
+  'cal.com': 'Cal.com',
+  'clinicaltrials.gov': 'ClinicalTrials.gov',
+  'daily.dev': 'Daily.dev',
+  'hotels.com': 'Hotels.com',
+  'login.gov': 'Login.gov',
+  'roadmap.sh': 'Roadmap.sh',
+  'typing.com': 'Typing.com'
+};
+
+function formatDomainAsName(raw) {
+  if (!raw) return '';
+  const rawLower = String(raw).toLowerCase().trim();
+  if (KNOWN_NAMES[rawLower]) return KNOWN_NAMES[rawLower];
+  for (const [d, name] of Object.entries(KNOWN_NAMES)) {
+    if (rawLower === d || rawLower.endsWith('.' + d)) return name;
+  }
+  let s = rawLower;
+  const prefixes = [
+    'email.', 'mail.', 'info.', 'notifications.', 'noreply.', 'no-reply.', 'bounce.', 
+    'news.', 'newsletters.', 'marketing.', 'support.', 'help.', 'events.', 'updates.', 
+    'alerts.', 'connect.', 'app.', 'my.', 'account.', 'accounts.', 'portal.', 'web.', 
+    'login.', 'e.', 'em.', 'm.', 't.', 'click.', 'trk.', 'reply.', 'servicing.', 
+    'billing.', 'survey.', 'ealerts.', 'trx.'
+  ];
+  for (const p of prefixes) {
+    if (s.startsWith(p)) { s = s.slice(p.length); break; }
+  }
+  const vendors = ['.zendesk.com', '.appfolio.us', '.freshdesk.com', '.hubspot.com', '.mailchimp.com', '.salesforce.com', '.intercom-mail.com'];
+  for (const v of vendors) {
+    if (s.endsWith(v)) { s = s.slice(0, -v.length); break; }
+  }
+  s = s.replace(/\.(com|org|net|edu|gov|io|co|ai|us|biz|info|app|dev|me|cc|tv|tech|life|xyz|sh|ca|de|uk|eu)$/, '');
+  s = s.replace(/\.(texas\.gov|co\.uk|org\.uk|com\.au)$/, '');
+  if (s.includes('.')) s = s.split('.').pop();
+  s = s.replace(/(\d+)([a-zA-Z])/g, '$1 $2').replace(/([a-zA-Z])(\d+)/g, '$1 $2').replace(/[-_]+/g, ' ');
+  const acronyms = new Set(['ai', 'api', 'cair', 'isgh', 'nasa', 'stem', 'uh', 'llc', 'inc', 'usa', 'tv', 'it', 'hr', 'irs', 'dmv', 'fc', 'gdg', 'obi', 'csl', 'amc', 'ymca', 'pso', 'ong']);
+  const words = s.split(/\s+/).filter(Boolean);
+  const capWords = words.map(w => {
+    const wl = w.toLowerCase();
+    if (acronyms.has(wl)) return wl.toUpperCase();
+    if (wl.length <= 3 && !/[aeiou]/i.test(wl)) return wl.toUpperCase();
+    return wl.charAt(0).toUpperCase() + wl.slice(1);
+  });
+  return capWords.join(' ') || raw;
+}
+
 function resolveBrandLogo(c, fallbackLogo = null) {
-  if (c && c.logo) return c.logo;
-  const comp = (c?.company || '').toLowerCase().trim();
-  const dom = (c?.domain || '').toLowerCase().trim();
-  const name = (c?.name || '').toLowerCase().trim();
+  if (!c) return fallbackLogo || null;
+  if (c.logo) return c.logo;
+  const comp = (c.company || '').toLowerCase().trim();
+  const dom = (c.domain || '').toLowerCase().trim();
+  const name = (c.name || '').toLowerCase().trim();
   const text = `${comp} ${dom} ${name}`;
 
+  if (dom.endsWith('.uh.edu') || dom === 'uh.edu' || comp.includes('university of houston') || name.includes('university of houston')) return 'logos/university-of-houston.svg';
+  if (dom.includes('hyatt') || comp.includes('hyatt') || name.includes('hyatt')) return 'logos/hyatt.png';
+  if (dom.includes('tulsastem') || comp.includes('tulsa regional stem alliance') || comp.includes('tulsa stem')) return 'logos/dom-tulsastem.org.png';
   if (text.includes('rose rock') || dom.includes('roserock')) return 'logos/rose-rock-development.png';
   if (text.includes('minaret') || dom.includes('minaret')) return 'logos/minaret-foundation.png';
   if (text.includes('ashford') || dom.includes('ashford')) return 'logos/ashford-communities.png';
@@ -31,6 +139,9 @@ function resolveBrandLogo(c, fallbackLogo = null) {
       if (domainLogos[root]) return domainLogos[root];
     }
   }
+
+  if (/\bups\b/i.test(comp) || /\bups\b/i.test(name) || dom === 'ups.com' || dom.endsWith('.ups.com')) return 'logos/dom-ups.com.png';
+  if (/\blowe'?s?\b/i.test(comp) || dom.includes('lowes.com')) return 'logos/lowes.png';
 
   if (text.includes('indeed')) return 'logos/indeed.png';
   if (text.includes('kilocode') || text.includes('kilo code')) return 'logos/kilocode.png';
@@ -106,7 +217,6 @@ function resolveBrandLogo(c, fallbackLogo = null) {
   if (text.includes('credit one')) return 'logos/accounts-banking--credit-one.png';
   if (text.includes('life time') || text.includes('lifetime')) return 'logos/lifetime.png';
   if (text.includes('best buy') || text.includes('bestbuy')) return 'logos/best-buy.png';
-  if (text.includes('lowe') || text.includes('lowes')) return 'logos/lowes.png';
   if (text.includes('home depot') || text.includes('homedepot')) return 'logos/home-depot.png';
   if (text.includes('paypal')) return 'logos/paypal.png';
   if (text.includes('venmo')) return 'logos/venmo.png';
@@ -117,13 +227,14 @@ function resolveBrandLogo(c, fallbackLogo = null) {
   if (text.includes('act house') || text.includes('act.house')) return 'logos/acthouse.png';
 
   if (typeof blueprintRows !== 'undefined' && Array.isArray(blueprintRows)) {
-    const matchedNode = blueprintRows.find(n => {
-      if (!n.logo) return false;
-      const nName = n.name.toLowerCase().replace(/_/g, ' ');
-      return (comp && (nName === comp || comp.includes(nName))) ||
-             (dom && (dom.includes(n.id) || nName.includes(dom.split('.')[0])));
-    });
-    if (matchedNode) return matchedNode.logo;
+    if (dom && dom.length > 3) {
+      const byId = blueprintRows.find(n => n.logo && (n.id === dom || n.id === 'dom-' + dom));
+      if (byId) return byId.logo;
+    }
+    if (comp && comp.length > 3) {
+      const byName = blueprintRows.find(n => n.logo && n.name.toLowerCase().replace(/_/g, ' ') === comp);
+      if (byName) return byName.logo;
+    }
   }
   return fallbackLogo || null;
 }
@@ -155,7 +266,7 @@ function renderNetwork(list){const groups=groupBy(list,c=>c.domain);$('#content'
 function renderHistory(list){$('#content').innerHTML=`<div class="network">${list.slice(0,100).map(c=>`<details><summary>${esc(c.name)} <small>${c.count} messages · last ${esc(c.date)}</small></summary><button data-open="${c.id}">Open contact history →</button></details>`).join('')}${list.length>100?'<p class="muted">Search to narrow the contact history list.</p>':''}</div>`;}
 document.addEventListener('click',e=>{let b=e.target.closest('button');if(!b)return;if(b.dataset.go){view=b.dataset.go;page=0;render();}if(b.dataset.layout){layout=b.dataset.layout;page=0;render();}if(b.dataset.open)openProfile(b.dataset.open);if(b.dataset.page){page+=Number(b.dataset.page);render();$('#content').scrollIntoView({block:'start'});}});
 $('#search').addEventListener('input',e=>{search=e.target.value.toLowerCase().trim();page=0;render()});$('#labels').onchange=e=>{label=e.target.value;page=0;render()};$('#sort').onchange=e=>{sort=e.target.value;page=0;render()};$('.close').onclick=()=>$('#profile').close();$('#profile').addEventListener('click',e=>{if(e.target===$('#profile'))$('#profile').close()});
-fetch('contacts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{contacts=data;const groups=groupBy(data,c=>c.organizationId||c.domain);companies=Object.entries(groups).map(([domain,members])=>({id:'company-'+domain,name:members[0].organizationName||(domain==='hyatt.com'?'Hyatt':domain),company:members[0].organizationName||domain,domain:members[0].domain,domains:[...new Set(members.map(c=>c.domain))],email:members.map(c=>c.email).join(', '),phone:'',date:members.reduce((d,c)=>c.date>d?c.date:d,''),label:'',members,count:members.reduce((n,c)=>n+c.count,0)}));companies.forEach(c=>{const m=c.members.find(x=>x.logo);if(m){c.logo=m.logo;c.name=m.company||c.name;c.company=m.company||c.company;c.blueprintPath=m.blueprintPath;}if(!c.logo)c.logo=resolveBrandLogo(c);c.labels=[...new Set(c.members.flatMap(x=>x.labels||[]))];c.label=c.labels.join(', ');});$('#peopleCount').textContent=data.length.toLocaleString();$('#companyCount').textContent=companies.length.toLocaleString();$('#historyCount').textContent=data.reduce((n,c)=>n+c.count,0).toLocaleString();$('#labels').innerHTML='<option value="">All labels</option>'+[...new Set(data.flatMap(c=>c.labels||[c.label]).filter(Boolean))].sort().map(l=>`<option>${esc(l)}</option>`).join('');render();}).catch(()=>{$('#content').innerHTML='<p class="empty">Contacts could not load. Please reload the page to retry.</p>'});
+fetch('contacts.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{contacts=data;const groups=groupBy(data,c=>c.organizationId||c.domain);companies=Object.entries(groups).map(([domain,members])=>({id:'company-'+domain,name:members[0].organizationName||formatDomainAsName(members[0].company||domain),company:members[0].organizationName||formatDomainAsName(members[0].company||domain),domain:members[0].domain,domains:[...new Set(members.map(c=>c.domain))],email:members.map(c=>c.email).join(', '),phone:'',date:members.reduce((d,c)=>c.date>d?c.date:d,''),label:'',members,count:members.reduce((n,c)=>n+c.count,0)}));companies.forEach(c=>{const m=c.members.find(x=>x.logo);if(m){c.logo=m.logo;c.name=m.organizationName||m.company||c.name;c.company=m.organizationName||m.company||c.company;c.blueprintPath=m.blueprintPath;}if(!c.logo)c.logo=resolveBrandLogo(c);c.name=c.organizationName||c.company||formatDomainAsName(c.domain);c.company=c.name;c.labels=[...new Set(c.members.flatMap(x=>x.labels||[]))];c.label=c.labels.join(', ');});$('#peopleCount').textContent=data.length.toLocaleString();$('#companyCount').textContent=companies.length.toLocaleString();$('#historyCount').textContent=data.reduce((n,c)=>n+c.count,0).toLocaleString();$('#labels').innerHTML='<option value="">All labels</option>'+[...new Set(data.flatMap(c=>c.labels||[c.label]).filter(Boolean))].sort().map(l=>`<option>${esc(l)}</option>`).join('');render();}).catch(()=>{$('#content').innerHTML='<p class="empty">Contacts could not load. Please reload the page to retry.</p>'});
 if(document.modelContext?.registerTool){const lifecycle=new AbortController();try{Promise.resolve(document.modelContext.registerTool({name:'find_contacts',description:'Search the imported contacts and update the visible contact list.',inputSchema:{type:'object',properties:{query:{type:'string'}},required:['query'],additionalProperties:false},annotations:{readOnlyHint:false,untrustedContentHint:true},execute(input){if(!input||typeof input.query!=='string')throw new Error('query must be a string');view='people';search=input.query.toLowerCase().trim();$('#search').value=input.query;page=0;render();return {count:filtered().length,contacts:filtered().slice(0,20).map(c=>({id:c.id,name:c.name,email:c.email}))};}},{signal:lifecycle.signal})).catch(()=>{});}catch{}addEventListener('pagehide',()=>lifecycle.abort(),{once:true});}
 
 fetch('data-summary.json').then(r=>r.json()).then(d=>{$('#coverage').textContent=d.sourceRows.toLocaleString()+' source rows · '+d.uniqueRecords.toLocaleString()+' distinct records · '+d.firstDate+' to '+d.lastDate;}).catch(()=>{});
@@ -179,89 +290,93 @@ renderNetwork=function(list){
  const nodes=new Map(effectiveBlueprint().map(r=>[r.id,{...r,children:[],people:[]}]));const roots=[];
  for(const n of nodes.values()){if(n.parentId&&nodes.has(n.parentId))nodes.get(n.parentId).children.push(n);else roots.push(n);}
  const matched=new Set();for(const c of list){let active=placements.contacts[c.id]??blueprintLinks.contactAssignments?.[c.id]??(blueprintLinks.links?matchingSections(c.domain,blueprintLinks.links):(blueprintLinks[c.id]||[]));if(!active||!active.length){const inferred=inferSectionForDomain(c.domain,c.company);if(inferred)active=[inferred];}for(const id of active){const n=nodes.get(id)||nodes.get(canonicalSection(id));if(n){n.people.push(c);matched.add(c.id);}}if(!Object.hasOwn(placements.contacts,c.id))for(const id of blueprintRemoved.links[c.id]||[]){const n=nodes.get(id)||nodes.get(canonicalSection(id));if(n){n.people.push(c);let ancestor=n;const seen=new Set();while(ancestor&&!seen.has(ancestor.id)){seen.add(ancestor.id);if(blueprintRows.some(r=>r.id===ancestor.id)){matched.add(c.id);break;}ancestor=nodes.get(ancestor.parentId);}}}}for(const n of nodes.values())n.people=[...new Map(n.people.map(c=>[c.id,c])).values()];for(const n of nodes.values())n.children.sort((a,b)=>(a.order??999)-(b.order??999));roots.sort((a,b)=>(a.order??999)-(b.order??999));
- function getNodeIcon(n){
-  const text=(n.name+' '+(n.id||'')).toLowerCase();
-  if(text.includes('account')||text.includes('bank')||text.includes('credit card'))return icon('banking');
-  if(text.includes('bill')||text.includes('utilit')||text.includes('electric')||text.includes('gas'))return icon('bills');
-  if(text.includes('shop')||text.includes('reward')||text.includes('retail')||text.includes('food'))return icon('shopping');
-  if(text.includes('travel')||text.includes('navigat')||text.includes('airline')||text.includes('transit'))return icon('travel');
-  if(text.includes('event')||text.includes('conference'))return icon('events');
-  if(text.includes('social')||text.includes('communit'))return icon('community');
-  if(text.includes('meet')||text.includes('schedul'))return icon('meetings');
-  if(text.includes('learn')||text.includes('improve')||text.includes('educat')||text.includes('school'))return icon('education');
-  if(text.includes('developer')||text.includes('tech'))return icon('tech');
-  if(text.includes('cloud'))return icon('cloud');
-  if(text.includes('ai')||text.includes('artificial')||text.includes('knowledge'))return icon('ai');
-  if(text.includes('research')||text.includes('test')||text.includes('analyt'))return icon('research');
-  if(text.includes('entertain')||text.includes('media')||text.includes('stream'))return icon('entertainment');
-  if(text.includes('gov')||text.includes('civic'))return icon('civic');
-  if(text.includes('daily')||text.includes('presence'))return icon('daily');
-  if(text.includes('news')||text.includes('subscript'))return icon('news');
-  if(text.includes('job')||text.includes('recruit'))return icon('jobs');
-  if(text.includes('housing')||text.includes('real estate'))return icon('housing');
-  if(text.includes('auto'))return icon('auto');
-  if(text.includes('nonprofit')||text.includes('donat'))return icon('nonprofit');
-  if(text.includes('insur'))return icon('insurance');
-  if(text.includes('health')||text.includes('provider')||text.includes('clinic')||text.includes('lab')||text.includes('pharm'))return icon('health');
-  if(text.includes('cowork')||text.includes('innovat'))return icon('coworking');
-  if(text.includes('talent')||text.includes('remote')||text.includes('relocat'))return icon('talent');
-  if(text.includes('people')||text.includes('friend')||text.includes('family')||text.includes('contact'))return icon('person');
-  if(n.id==='p')return icon('person');
-  if(n.id==='h')return icon('health');
-  if(n.id==='w')return icon('work');
-  if(n.id==='pr')return icon('projects');
-  return icon('folder');
- }
-
- function accounts(people, fallbackNodeLogo = null){
-  const groups = Object.values(groupBy(people, c => c.organizationId || c.company || c.domain));
-  return groups.map(cs => {
-    const c = cs[0];
-    const groupLogo = resolveBrandLogo(c, fallbackNodeLogo);
-    const displayName = c.company || c.domain || 'Organization';
-    return `<details class="account-group" open><summary>${groupLogo ? `<img src="${esc(groupLogo)}" alt="">` : icon('company')}<span>${esc(displayName)}<small>${cs.length} ${cs.length === 1 ? 'account' : 'accounts'}</small></span></summary><div>${cs.map(p => {
-      const pLogo = resolveBrandLogo(p, groupLogo);
-      return `<button class="account-row" data-open="${esc(p.id)}">${pLogo ? `<img src="${esc(pLogo)}" alt="">` : icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`;
-    }).join('')}</div></details>`;
-  }).join('');
- }
-
- const q=search.toLowerCase();
- function branch(n,ancestorMatch=false){
-  const selfMatch=ancestorMatch||!!q&&[n.name,n.description,n.hierarchyPath,...(n.aliases||[])].join(' ').toLowerCase().replaceAll('_',' ').includes(q);
-  const children=n.children.map(x=>branch(x,selfMatch)).join('');
-  const hasChildren=!!n.children.length;
-  const hasPeople=!!n.people.length;
-
-  if((q||label)&&!selfMatch&&!children&&!hasPeople)return '';
-
-  const nodeLogo=n.logo||resolveBrandLogo({company:n.name,domain:n.id});
-  const nodeIcon=nodeLogo?`<img src="${esc(nodeLogo)}" alt="">`:getNodeIcon(n);
-
-  let peopleHtml='';
-  if(hasPeople){
-    const uniqueComps=new Set(n.people.map(p=>(p.company||p.domain||'').toLowerCase()));
-    if(!hasChildren && uniqueComps.size===1 && nodeLogo){
-      peopleHtml=n.people.map(p=>{
-        const pLogo=resolveBrandLogo(p,nodeLogo);
-        return `<button class="account-row" data-open="${esc(p.id)}">${pLogo?`<img src="${esc(pLogo)}" alt="">`:icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`;
-      }).join('');
-    }else{
-      peopleHtml=accounts(n.people,nodeLogo);
-    }
+  function getNodeIcon(n){
+   if(n.id==='p')return icon('person');
+   if(n.id==='h')return icon('health');
+   if(n.id==='w')return icon('work');
+   if(n.id==='pr')return icon('projects');
+   if(n.id==='removed')return icon('folder');
+   const text=(n.name+' '+(n.id||'')).toLowerCase();
+   if(text.includes('account')||text.includes('bank')||text.includes('credit card'))return icon('banking');
+   if(text.includes('bill')||text.includes('utilit')||text.includes('electric')||text.includes('gas'))return icon('bills');
+   if(text.includes('shop')||text.includes('reward')||text.includes('retail')||text.includes('food'))return icon('shopping');
+   if(text.includes('travel')||text.includes('navigat')||text.includes('airline')||text.includes('transit')||text.includes('lodging'))return icon('travel');
+   if(text.includes('event')||text.includes('conference'))return icon('events');
+   if(text.includes('social')||text.includes('communit'))return icon('community');
+   if(text.includes('meet')||text.includes('schedul'))return icon('meetings');
+   if(text.includes('learn')||text.includes('improve')||text.includes('educat')||text.includes('school'))return icon('education');
+   if(text.includes('developer')||text.includes('tech'))return icon('tech');
+   if(text.includes('cloud'))return icon('cloud');
+   if(text.includes('ai')||text.includes('artificial')||text.includes('knowledge'))return icon('ai');
+   if(text.includes('research')||text.includes('test')||text.includes('analyt'))return icon('research');
+   if(text.includes('entertain')||text.includes('media')||text.includes('stream'))return icon('entertainment');
+   if(text.includes('gov')||text.includes('civic'))return icon('civic');
+   if(text.includes('daily')||text.includes('presence'))return icon('daily');
+   if(text.includes('news')||text.includes('subscript'))return icon('news');
+   if(text.includes('job')||text.includes('recruit'))return icon('jobs');
+   if(text.includes('housing')||text.includes('real estate'))return icon('housing');
+   if(text.includes('auto'))return icon('auto');
+   if(text.includes('nonprofit')||text.includes('donat'))return icon('nonprofit');
+   if(text.includes('insur'))return icon('insurance');
+   if(text.includes('health')||text.includes('provider')||text.includes('clinic')||text.includes('lab')||text.includes('pharm'))return icon('health');
+   if(text.includes('cowork')||text.includes('innovat'))return icon('coworking');
+   if(text.includes('talent')||text.includes('remote')||text.includes('relocat'))return icon('talent');
+   if(text.includes('people')||text.includes('friend')||text.includes('family')||text.includes('contact'))return icon('person');
+   return icon('folder');
   }
 
-  const isLeaf=!hasChildren;
-  const isOpen=blueprintExpanded.has(n.id)||q;
-
-  if(isLeaf && hasPeople && !peopleHtml.includes('<details')){
-    return `<details class="account-group blueprint-node blueprint-leaf" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}<small>${n.people.length} ${n.people.length===1?'account':'accounts'}</small></span></summary><div>${n.description&&n.source?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${peopleHtml}</div></details>`;
+  function accounts(people, fallbackNodeLogo = null){
+   const groups = Object.values(groupBy(people, c => c.organizationId || c.company || c.domain));
+   return groups.map(cs => {
+     const c = cs[0];
+     const groupLogo = resolveBrandLogo(c, fallbackNodeLogo);
+     const displayName = c.organizationName || c.company || formatDomainAsName(c.domain) || 'Organization';
+     return `<details class="account-group" open><summary>${groupLogo ? `<img src="${esc(groupLogo)}" alt="">` : icon('company')}<span>${esc(displayName)}<small>${cs.length} ${cs.length === 1 ? 'account' : 'accounts'}</small></span></summary><div>${cs.map(p => {
+       const pLogo = resolveBrandLogo(p, groupLogo);
+       return `<button class="account-row" data-open="${esc(p.id)}">${pLogo ? `<img src="${esc(pLogo)}" alt="">` : icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`;
+     }).join('')}</div></details>`;
+   }).join('');
   }
 
-  return `<details class="blueprint-node" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}</span><small>${n.children.length?`${n.children.length} items`:n.people.length?`${n.people.length} accounts`:''}</small></summary><div class="blueprint-body">${n.description?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${children}${peopleHtml}${!children&&!hasPeople?'<p class="blueprint-empty">No linked contacts yet.</p>':''}</div></details>`;
- }
- const unmatched=list.filter(c=>!matched.has(c.id));$('#content').innerHTML=`<section class="blueprint"><header><h2>Network</h2><p>A map of people, places, projects, and systems connected to you.</p><div class="blueprint-controls"><span>${blueprintRows.length} blueprint entries</span><button data-blueprint-action="sync" class="blueprint-sync-btn" aria-label="Sync network changes" title="Sync changes"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><button data-blueprint-action="expand">Expand all</button><button data-blueprint-action="collapse">Collapse all</button></div></header><div class="blueprint-tree">${roots.map(n=>branch(n)).join('')||'<p class="blueprint-empty">No matching blueprint entries.</p>'}${unmatched.length?`<details class="blueprint-node" data-blueprint-id="unmatched" ${blueprintExpanded.has('unmatched')?'open':''}><summary><span>Unassigned contacts</span><small>${unmatched.length}</small></summary><div class="blueprint-body">${accounts(unmatched)}</div></details>`:''}</div></section>`;
-};
+  const q=search.toLowerCase();
+  function branch(n,ancestorMatch=false){
+   const selfMatch=ancestorMatch||!!q&&[n.name,n.description,n.hierarchyPath,...(n.aliases||[])].join(' ').toLowerCase().replaceAll('_',' ').includes(q);
+   const children=n.children.map(x=>branch(x,selfMatch)).join('');
+   const hasChildren=!!n.children.length;
+   const hasPeople=!!n.people.length;
+
+   if((q||label)&&!selfMatch&&!children&&!hasPeople)return '';
+
+   // Main roots (P, H, W, PR, Removed) and structural category folders must NEVER use company brand logos
+   const isRoot = ['p', 'h', 'w', 'pr', 'removed'].includes(n.id);
+   const isCategoryFolder = hasChildren && !n.id.startsWith('w-emp-');
+   const nodeLogo = (isRoot || isCategoryFolder) ? null : (n.logo || null);
+   const nodeIcon = nodeLogo ? `<img src="${esc(nodeLogo)}" alt="">` : getNodeIcon(n);
+
+   let peopleHtml='';
+   if(hasPeople){
+     const uniqueComps=new Set(n.people.map(p=>(p.company||p.domain||'').toLowerCase()));
+     if(!hasChildren && uniqueComps.size===1 && nodeLogo){
+       peopleHtml=n.people.map(p=>{
+         const pLogo=resolveBrandLogo(p,nodeLogo);
+         return `<button class="account-row" data-open="${esc(p.id)}">${pLogo?`<img src="${esc(pLogo)}" alt="">`:icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`;
+       }).join('');
+     }else{
+       peopleHtml=accounts(n.people,nodeLogo);
+     }
+   }
+
+   const isLeaf=!hasChildren;
+   const isOpen=blueprintExpanded.has(n.id)||q;
+
+   if(isLeaf && hasPeople && !peopleHtml.includes('<details')){
+     return `<details class="account-group blueprint-node blueprint-leaf" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}<small>${n.people.length} ${n.people.length===1?'account':'accounts'}</small></span></summary><div>${n.description&&n.source?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${peopleHtml}</div></details>`;
+   }
+
+   return `<details class="blueprint-node" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}</span><small>${n.children.length?`${n.children.length} items`:n.people.length?`${n.people.length} accounts`:''}</small></summary><div class="blueprint-body">${n.description?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${children}${peopleHtml}${!children&&!hasPeople?'<p class="blueprint-empty">No linked contacts yet.</p>':''}</div></details>`;
+  }
+  const unmatched=list.filter(c=>!matched.has(c.id));$('#content').innerHTML=`<section class="blueprint"><header><h2>Network</h2><p>A map of people, places, projects, and systems connected to you.</p><div class="blueprint-controls"><span>${blueprintRows.length} blueprint entries</span><button data-blueprint-action="sync" class="blueprint-sync-btn" aria-label="Sync network changes" title="Sync changes"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><button data-blueprint-action="expand">Expand all</button><button data-blueprint-action="collapse">Collapse all</button></div></header><div class="blueprint-tree">${roots.map(n=>branch(n)).join('')||'<p class="blueprint-empty">No matching blueprint entries.</p>'}${unmatched.length?`<details class="blueprint-node" data-blueprint-id="unmatched" ${blueprintExpanded.has('unmatched')?'open':''}><summary>${icon('person')}<span>Unassigned contacts</span><small>${unmatched.length}</small></summary><div class="blueprint-body">${accounts(unmatched)}</div></details>`:''}</div></section>`;
+ };
 document.addEventListener('toggle',e=>{const id=e.target.dataset?.blueprintId;if(id){if(e.target.open)blueprintExpanded.add(id);else blueprintExpanded.delete(id);}},true);
 document.addEventListener('click',e=>{const action=e.target.closest('[data-blueprint-action]')?.dataset.blueprintAction;if(action==='sync'){if(typeof triggerSync==='function')triggerSync();return;}if(action)document.querySelectorAll('[data-blueprint-id]').forEach(d=>{d.open=action==='expand';if(d.open)blueprintExpanded.add(d.dataset.blueprintId);else blueprintExpanded.delete(d.dataset.blueprintId);});});
 Promise.all(['blueprint.json','blueprint-links.json','blueprint-removed.json'].map(url=>fetch(url,{cache:"no-store"}).then(r=>{if(!r.ok)throw Error();return r.json()}))).then(([rows,links,removed])=>{blueprintRows=rows;blueprintLinks=links;blueprintRemoved=removed;if(view==='network'&&typeof effectiveBlueprint==='function')render();}).catch(()=>{blueprintFailed=true;if(view==='network')render();});
