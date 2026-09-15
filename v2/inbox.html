@@ -226,4 +226,25 @@ me</div>
     ["crmSearch","crmStatus"].forEach(id=>$("#"+id).addEventListener(id==="crmSearch"?"input":"change",()=>{renderCustomers();renderCards()}));$("#commsSearch").addEventListener("input",()=>{selectedMessage=null;renderComms()});document.querySelectorAll(".tool-icon").forEach(tool=>tool.addEventListener("click",()=>openChannel(tool.dataset.channel,tool)));$("#contextText").addEventListener("click",()=>setMode("text"));$("#contextVisual").addEventListener("click",()=>setMode("visual"));$("#contextCalendar").addEventListener("click",()=>setMode("calendar"));$("#contextClose").addEventListener("click",closeChannel);document.querySelectorAll("[data-calendar-view]").forEach(button=>button.addEventListener("click",()=>{calendarView=button.dataset.calendarView;selectedMessage=null;renderComms()}));$("#profileClose").addEventListener("click",closeProfile);$("#profileOverlay").addEventListener("click",closeProfile);$("#profileAction").addEventListener("click",closeProfile);document.addEventListener("keydown",e=>{if(e.key==="Escape"){if($("#profilePanel").classList.contains("open"))closeProfile();else if(selectedMessage){selectedMessage=null;renderComms()}else if(activeChannel)closeChannel()}});lucide.createIcons();renderCustomers();renderCards();renderTouchpoints();renderBoard();renderNetwork();document.querySelector('[data-view="comms"]').click();openChannel("All Comms",document.querySelector('[data-channel="All Comms"]'));
   </script>
  
+
+<script>
+// Group existing channel controls without replacing their working event handlers.
+const socialChannels=['WhatsApp','Messenger','LinkedIn','Discord'];
+const toolRow=document.querySelector('.tool-row');
+const inboxButton=toolRow.querySelector('[data-channel="All Comms"]');
+inboxButton.title='Inbox — who reached out and how';inboxButton.setAttribute('aria-label','Inbox — who reached out and how');
+const group=document.createElement('details');group.className='social-picker';
+group.innerHTML='<summary aria-label="Social media channels" title="Social media"><i data-lucide="messages-square" width="21"></i><span>Social</span></summary><div class="social-menu" aria-label="Social media channels"></div>';
+inboxButton.after(group);
+for(const channel of socialChannels){const button=toolRow.querySelector(`[data-channel="${channel}"]`);const label=document.createElement('span');label.textContent=channel;button.append(label);group.querySelector('.social-menu').append(button);button.addEventListener('click',()=>group.open=false);}
+group.addEventListener('pointerenter',()=>{if(matchMedia('(hover: hover)').matches)group.open=true});group.addEventListener('pointerleave',()=>{if(matchMedia('(hover: hover)').matches)group.open=false});
+document.addEventListener('click',e=>{if(!group.contains(e.target))group.open=false});group.addEventListener('keydown',e=>{if(e.key==='Escape'){group.open=false;group.querySelector('summary').focus()}});
+function badge(el,n){if(!n)return;const b=document.createElement('span');b.className='notification-badge';b.textContent=n;b.title=n+' demo messages awaiting reply';b.setAttribute('aria-label',n+' demo messages awaiting reply');el.append(b);}
+for(const button of toolRow.querySelectorAll('[data-channel]'))badge(button,messages.filter(m=>m.status==='No reply'&&(button.dataset.channel==='All Comms'||m.channel===button.dataset.channel)).length);
+badge(group.querySelector('summary'),messages.filter(m=>socialChannels.includes(m.channel)&&m.status==='No reply').length);
+lucide.createIcons();
+</script>
+<style>
+.tool-icon,.social-picker>summary{position:relative}.notification-badge{position:absolute;right:-5px;top:-6px;min-width:18px;height:18px;padding:0 4px;background:#ed3448;color:white;border:2px solid white;border-radius:999px;font:700 10px/14px Arial;text-align:center;pointer-events:none}.social-picker{position:relative;z-index:5}.social-picker>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;min-height:44px;padding:8px 12px;border:1px solid #ddd;border-radius:12px;background:#fff;font-size:12px}.social-picker>summary::-webkit-details-marker{display:none}.social-picker[open]>summary{border-color:#7546ff;background:#f3efff}.social-menu{position:absolute;top:100%;left:0;padding:10px;display:grid;gap:5px;min-width:210px;border:1px solid #e8e8e8;border-radius:14px;background:white;box-shadow:0 12px 30px #25185a20}.social-menu .tool-icon{width:100%;display:flex;gap:12px;justify-content:flex-start;padding:10px;box-shadow:none;border:0;font-size:13px}.social-menu .notification-badge{right:8px;top:12px}.social-picker>summary:focus-visible{outline:2px solid #7546ff;outline-offset:3px}@media(max-width:650px){.social-menu{min-width:190px}.tool-row{overflow:visible}}
+</style>
 </body></html>
