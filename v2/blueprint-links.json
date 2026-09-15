@@ -1234,7 +1234,7 @@
     },
     {
       "domain": "openai.com",
-      "sectionId": "p-ai-openai"
+      "sectionId": "p-ai-chatgpt"
     },
     {
       "domain": "email.openai.com",
@@ -1658,7 +1658,7 @@
     },
     {
       "domain": "appfolio.com",
-      "sectionId": "p-housing-appfolio"
+      "sectionId": "p-housing"
     },
     {
       "domain": "mailer.appfolio.us",
@@ -2278,7 +2278,7 @@
     },
     {
       "domain": "stripe.com",
-      "sectionId": "w-tools-obsidian"
+      "sectionId": "w-tools-stripe"
     },
     {
       "domain": "swellbox.com",
@@ -2515,6 +2515,178 @@
     {
       "domain": "splash.systems",
       "sectionId": "w-emp-gitwit"
+    },
+    {
+      "domain": "cair-houston.ccsend.com",
+      "sectionId": "p-nonprofit-cair"
+    },
+    {
+      "domain": "shared1.ccsend.com",
+      "sectionId": "p-nonprofit-cair"
+    },
+    {
+      "domain": "ussfa.org",
+      "sectionId": "p-events-spaceapps"
+    },
+    {
+      "domain": "kilocode.ai",
+      "sectionId": "p-ai-kilocode"
+    },
+    {
+      "domain": "docker.com",
+      "sectionId": "w-tools-docker"
+    },
+    {
+      "domain": "notify.docker.com",
+      "sectionId": "w-tools-docker"
+    },
+    {
+      "domain": "chatgptskool.com",
+      "sectionId": "p-ai-chatgpt"
+    },
+    {
+      "domain": "gdg.community.dev",
+      "sectionId": "p-events-gdg"
+    },
+    {
+      "domain": "luma-mail.com",
+      "sectionId": "p-events-luma"
+    },
+    {
+      "domain": "user.luma-mail.com",
+      "sectionId": "p-events-luma"
+    },
+    {
+      "domain": "calendar.luma-mail.com",
+      "sectionId": "p-events-luma"
+    },
+    {
+      "domain": "wattsco.mailer.appfolio.us",
+      "sectionId": "p-housing"
+    },
+    {
+      "domain": "appfolio.us",
+      "sectionId": "p-housing"
+    },
+    {
+      "domain": "greentownlabs.com",
+      "sectionId": "w-coworking"
+    },
+    {
+      "domain": "rice.edu",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "coefficient.io",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "goingtotdc.com",
+      "sectionId": "h-providers-dentist"
+    },
+    {
+      "domain": "homedesigns.ai",
+      "sectionId": "p-ai"
+    },
+    {
+      "domain": "joinsatellite.io",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "mail.aitinkerers.org",
+      "sectionId": "p-ai-tinkerers"
+    },
+    {
+      "domain": "aitinkerers.org",
+      "sectionId": "p-ai-tinkerers"
+    },
+    {
+      "domain": "oracle.com",
+      "sectionId": "p-tech-oracle"
+    },
+    {
+      "domain": "softr.io",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "xwf.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "docs.google.com",
+      "sectionId": "p-tech-google"
+    },
+    {
+      "domain": "canva.com",
+      "sectionId": "p-tech-canva"
+    },
+    {
+      "domain": "engage.canva.com",
+      "sectionId": "p-tech-canva"
+    },
+    {
+      "domain": "fortbendisd.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "gainsight.com",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "mailsuite.com",
+      "sectionId": "w-tools"
+    },
+    {
+      "domain": "tulsastem.org",
+      "sectionId": "p-events-tech"
+    },
+    {
+      "domain": "act.house",
+      "sectionId": "w-cowork-acthouse"
+    },
+    {
+      "domain": "courses.maven.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "intulsa.com",
+      "sectionId": "p-talent-intulsa"
+    },
+    {
+      "domain": "pinecone.io",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "semrush.com",
+      "sectionId": "p-tech-semrush"
+    },
+    {
+      "domain": "adobe.com",
+      "sectionId": "p-tech-adobe"
+    },
+    {
+      "domain": "holbertonschool.com",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "central.uh.edu",
+      "sectionId": "p-learn"
+    },
+    {
+      "domain": "mail.replit.com",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "replit.com",
+      "sectionId": "p-tech"
+    },
+    {
+      "domain": "e.stripe.com",
+      "sectionId": "w-tools-stripe"
+    },
+    {
+      "domain": "growth.stripe.com",
+      "sectionId": "w-tools-stripe"
     }
   ],
   "contactAssignments": {
@@ -3359,7 +3531,7 @@
       "p-people-networking"
     ],
     "1665": [
-      "p-people-networking"
+      "p-ai-kilocode"
     ],
     "1676": [
       "p-people-networking"
@@ -3750,6 +3922,45 @@
     ],
     "3132": [
       "p-people-networking"
+    ],
+    "250": [
+      "p-nonprofit-cair"
+    ],
+    "251": [
+      "p-nonprofit-cair"
+    ],
+    "252": [
+      "p-nonprofit-cair"
+    ],
+    "2517": [
+      "p-nonprofit-cair"
+    ],
+    "1486": [
+      "p-jobs-indeed"
+    ],
+    "1487": [
+      "p-jobs-indeed"
+    ],
+    "1664": [
+      "p-ai-kilocode"
+    ],
+    "2136": [
+      "w-tools-docker"
+    ],
+    "1544": [
+      "p-tech-do"
+    ],
+    "849": [
+      "p-events-gdg"
+    ],
+    "1242": [
+      "p-tech-google"
+    ],
+    "317": [
+      "p-ai-chatgpt"
+    ],
+    "2079": [
+      "p-gov-nasa"
     ]
   },
   "sectionAliases": {
@@ -3774,6 +3985,331 @@
     "h-prov-asc-health": "h-prov-ascension",
     "h-prov-hillcrest-med": "h-prov-hillcrest",
     "p-auto-sf": "p-ins-sf",
-    "h-ins-sf": "p-ins-sf"
+    "h-ins-sf": "p-ins-sf",
+    "610": "w-emp-roserock",
+    "613": "w-emp-adams",
+    "614": "w-emp-vandever",
+    "619": "w-emp-isgh",
+    "620": "w-emp-maryam",
+    "622": "w-tools-sub",
+    "702": "pr-spaceapps",
+    "703": "pr-nasa-jsc",
+    "704": "pr-hackathons",
+    "705": "pr-xain-dev",
+    "1": "p",
+    "500": "h",
+    "600": "w",
+    "700": "pr",
+    "501": "h-medical-records",
+    "502": "h-doctors-and-providers",
+    "503": "h-conditions-and-symptoms",
+    "504": "h-lab-results-and-tests",
+    "505": "h-labs-labcorp",
+    "506": "h-labs-quest",
+    "507": "h-other-labs",
+    "508": "h-timeline-and-notes",
+    "509": "h-medications-and-supplements",
+    "510": "h-active-medications",
+    "511": "h-past-treatments",
+    "512": "h-supplements",
+    "513": "h-dosage-and-schedule",
+    "514": "h-insurance-and-coverage",
+    "515": "h-health-insurance-policies",
+    "516": "h-claims-and-eobs",
+    "517": "h-provider-network-info",
+    "518": "h-mental-health",
+    "519": "h-therapy-notes",
+    "520": "h-mood-tracking",
+    "521": "h-reflections",
+    "522": "h-health-apps",
+    "523": "h-portal-mychart",
+    "524": "h-portal-healow",
+    "525": "h-pt-solutions",
+    "526": "h-bettersleep",
+    "527": "h-fit-lifetime",
+    "601": "w-work-timeline",
+    "602": "w-employers-1",
+    "603": "w-emp-rcubed",
+    "6031": "w-pay-stubs-benefits",
+    "6032": "w-business-documents",
+    "6033": "w-cleverly-dashboard-data",
+    "6034": "w-linkedin-social-media",
+    "6035": "w-meeting-calendar-data",
+    "6036": "w-microsoft-teams-onedrive",
+    "6037": "w-sales-pipeline-data",
+    "6038": "w-business-development",
+    "6039": "w-marketing-gtm",
+    "6040": "w-partner-contact-data",
+    "6041": "w-lead-generation-data",
+    "6042": "w-website-planning",
+    "604": "w-emp-redriver",
+    "605": "w-emp-trulo",
+    "606": "w-trulo-homes-bentoville",
+    "607": "w-trulo-homes-jenks",
+    "608": "w-trulo-homes-whitestone",
+    "609": "w-trulo-homes-kansas-city",
+    "611": "w-reunion",
+    "612": "w-palace",
+    "615": "w-emp-minaret",
+    "616": "w-emp-ashford",
+    "617": "w-emp-census",
+    "618": "h-blood-gulfcoast",
+    "621": "w-work-projects",
+    "623": "w-work-portfolio",
+    "701": "pr-sfa",
+    "2": "p-important-documents",
+    "3": "node-3",
+    "4": "node-4",
+    "5": "node-5",
+    "6": "node-6",
+    "7": "node-7",
+    "8": "node-8",
+    "9": "h-medical-records",
+    "10": "node-10",
+    "11": "node-11",
+    "12": "node-12",
+    "13": "node-13",
+    "14": "p-lease-agreements",
+    "15": "p-power-of-attorney",
+    "16": "p-wills-trusts",
+    "17": "p-ndas-employment-contracts",
+    "18": "node-18",
+    "19": "p-w2-forms",
+    "20": "p-1099-forms",
+    "21": "p-irs-returns",
+    "22": "node-22",
+    "23": "node-23",
+    "24": "node-24",
+    "25": "node-25",
+    "26": "node-26",
+    "27": "p-contacts-network",
+    "28": "p-people-family",
+    "29": "node-29",
+    "30": "node-30",
+    "31": "node-31",
+    "32": "node-32",
+    "33": "node-33",
+    "34": "node-34",
+    "35": "node-35",
+    "36": "node-36",
+    "37": "node-37",
+    "38": "node-38",
+    "39": "node-39",
+    "40": "node-40",
+    "41": "node-41",
+    "42": "node-42",
+    "43": "node-43",
+    "44": "node-44",
+    "45": "node-45",
+    "46": "node-46",
+    "47": "node-47",
+    "48": "node-48",
+    "49": "node-49",
+    "50": "node-50",
+    "51": "node-51",
+    "52": "node-52",
+    "53": "h-brother-in-law-notes",
+    "54": "h-brother-in-law-photos",
+    "55": "node-55",
+    "56": "h-nephew-notes",
+    "57": "h-nephew-photos",
+    "58": "node-58",
+    "59": "h-niece-1-notes",
+    "60": "h-niece-1-photos",
+    "61": "node-61",
+    "62": "w-niece-2-notes",
+    "63": "w-niece-2-photos",
+    "64": "node-64",
+    "65": "w-nephew-2-notes",
+    "66": "w-nephew-2-photos",
+    "67": "node-67",
+    "68": "w-connection-type",
+    "69": "w-residence-status",
+    "70": "w-contact-frequency",
+    "71": "w-support-role",
+    "72": "w-shared-responsibilities",
+    "73": "node-73",
+    "74": "pr-parents-(mom,-dad,-stepmom)",
+    "75": "pr-siblings-(sister,-brother,-sister-2)",
+    "76": "pr-in-laws-(sister-in-law,-brother-in-law)",
+    "77": "pr-kids-(all-nieces-and-nephews)",
+    "78": "pr-extended-(uncles,-aunts,-cousins-\u2013-optional-future-expansion)",
+    "79": "p-people-friends",
+    "80": "pr-childhood",
+    "81": "pr-high-school",
+    "82": "pr-college",
+    "83": "pr-events",
+    "84": "pr-religious-community",
+    "85": "pr-current-acquaintances",
+    "86": "node-86",
+    "87": "node-87",
+    "88": "node-88",
+    "89": "node-89",
+    "90": "p-applications",
+    "91": "node-91",
+    "92": "p-social-dm",
+    "93": "node-93",
+    "94": "node-94",
+    "95": "node-95",
+    "96": "p-social-textfree",
+    "97": "node-97",
+    "98": "node-98",
+    "99": "p-social-discord",
+    "100": "w-tools-slack",
+    "101": "node-101",
+    "102": "p-skool",
+    "103": "p-mighty",
+    "104": "p-social-reddit",
+    "105": "p-social-meetup",
+    "106": "p-events-eventbrite",
+    "107": "p-linkedin-events",
+    "108": "p-meta-events",
+    "109": "p-faves",
+    "110": "p-social-media",
+    "111": "p-social-instagram",
+    "112": "p-social-tiktok",
+    "113": "p-social-snapchat",
+    "114": "p-social-facebook",
+    "115": "p-social-youtube",
+    "116": "p-threads",
+    "117": "p-data",
+    "118": "p-visa",
+    "119": "node-218",
+    "120": "w-tools-obsidian",
+    "121": "p-data",
+    "122": "p-travel-rewards-visa",
+    "123": "node-218",
+    "124": "p-calendar",
+    "125": "p-accounts-wf",
+    "126": "node-218",
+    "127": "pr-pm-miro",
+    "128": "p-data",
+    "129": "p-accounts-chase",
+    "130": "node-218",
+    "131": "w-tools-ifttt",
+    "132": "p-accounts-amex",
+    "133": "node-218",
+    "134": "p-pythonista",
+    "135": "p-accounts-othercards",
+    "136": "p-credit-one",
+    "137": "node-218",
+    "138": "p-accounts-venmo",
+    "139": "p-indigo",
+    "140": "node-218",
+    "141": "p-accounts-acorns",
+    "142": "p-accounts-nordstrom",
+    "143": "p-account-info",
+    "144": "p-accounts-synchrony",
+    "145": "p-account-info",
+    "146": "p-bills-payments",
+    "147": "p-rent-hoa",
+    "148": "p-payment-records",
+    "149": "p-car-hondafs",
+    "150": "node-218",
+    "151": "p-shop-walmart",
+    "152": "p-bills-utilities",
+    "153": "p-water-minol",
+    "154": "node-218",
+    "155": "p-shop-officedepot",
+    "156": "p-electric-pso",
+    "157": "p-account-info",
+    "158": "p-gas-ong",
+    "159": "p-account-info",
+    "160": "p-phone-att",
+    "161": "node-218",
+    "162": "p-shop-starbucks",
+    "163": "p-insurance-allstate",
+    "164": "node-218",
+    "165": "p-shipping-tracking",
+    "166": "p-credit-debt",
+    "167": "p-reports",
+    "168": "p-experian",
+    "169": "p-creditkarma",
+    "170": "p-loans",
+    "171": "p-hondafs",
+    "172": "p-citizens-apple",
+    "173": "p-federal-student-aid",
+    "174": "p-credit-repair",
+    "175": "p-accounts-lexlaw",
+    "176": "p-refunds-service-logs",
+    "177": "p-shop-walmart",
+    "178": "p-shop-target",
+    "179": "p-bills-att",
+    "180": "p-tech-apple",
+    "181": "p-nike-ross-handandstone",
+    "182": "p-accounts-tools",
+    "183": "p-rocketmoney",
+    "184": "p-accounts-plaid",
+    "185": "p-accounts-zelle",
+    "186": "p-accounts-paypal",
+    "187": "p-accounts-venmo",
+    "188": "p-cashapp",
+    "189": "p-accounts-squareup",
+    "190": "p-assets-inventory",
+    "191": "p-electronics",
+    "192": "p-macbook",
+    "193": "p-iphone15",
+    "194": "p-apple-watch",
+    "195": "p-lg-34-monitor",
+    "196": "p-zmuipng-hub",
+    "197": "p-tile",
+    "198": "p-ixpand",
+    "199": "p-home-storage",
+    "200": "p-furniture",
+    "201": "p-decor",
+    "202": "p-event-decor",
+    "203": "w-tools-sub",
+    "204": "p-christmas-items",
+    "205": "p-sell-list",
+    "206": "node-206",
+    "207": "node-207-1",
+    "208": "node-208-1",
+    "209": "node-209-1",
+    "210": "node-210",
+    "211": "node-211-1",
+    "212": "p-timeline",
+    "213": "node-213",
+    "214": "node-214",
+    "215": "node-215-1",
+    "216": "node-216",
+    "217": "node-217-1",
+    "218": "node-218-1",
+    "219": "p-travel-emirates",
+    "220": "p-travel-delta",
+    "221": "p-travel-united",
+    "222": "p-travel-airbnb",
+    "223": "node-223",
+    "224": "node-224",
+    "225": "p-daily-life-digital-presence",
+    "226": "p-daily-routines",
+    "227": "node-227",
+    "228": "p-daily-email",
+    "229": "p-daily-appleid",
+    "230": "node-230",
+    "231": "node-231",
+    "232": "p-people-gmail",
+    "233": "p-daily-outlook",
+    "234": "p-people-yahoo",
+    "235": "p-social-media",
+    "236": "p-social-instagram",
+    "237": "node-218",
+    "239": "p-social-tiktok",
+    "240": "node-218",
+    "242": "p-social-facebook",
+    "243": "p-social-linkedin",
+    "244": "p-social-snapchat",
+    "245": "node-245",
+    "246": "p-shop-amazon",
+    "247": "p-shop-walmart",
+    "248": "p-shop-target",
+    "249": "node-249",
+    "250": "node-250",
+    "251": "node-251",
+    "252": "p-ent-amc",
+    "253": "p-ent-netflix",
+    "254": "p-ent-hulu",
+    "255": "p-ent-crunchy",
+    "256": "p-ent-disney",
+    "257": "p-ent-hbo"
   }
 }

@@ -80,10 +80,157 @@ renderNetwork=function(list){
   return icon('folder');
  }
 
- function accounts(people){return Object.values(groupBy(people,c=>c.organizationId||c.company||c.domain)).map(cs=>{const c=cs[0];const comp=(c.company||c.domain||'').toLowerCase();let logo=c.logo;if(!logo){if(comp.includes('techlahoma'))logo='logos/techlahoma.png';else if(comp.includes('tinkerer'))logo='logos/ai-tinkerers.png';else if(comp.includes('gdg'))logo='logos/gdg-tulsa.png';else if(comp.includes('amex')||comp.includes('american express'))logo='logos/american-express.svg';}return `<details class="account-group"><summary>${logo?`<img src="${esc(logo)}" alt="">`:icon('company')}<span>${esc(c.company||c.domain)}<small>${cs.length} ${cs.length===1?'account':'accounts'}</small></span></summary><div>${cs.map(p=>`<button class="account-row" data-open="${esc(p.id)}">${p.logo||logo?`<img src="${esc(p.logo||logo)}" alt="">`:icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`).join('')}</div></details>`}).join('');}
+ function resolveBrandLogo(c, fallbackLogo = null) {
+  if (c && c.logo) return c.logo;
+  const comp = (c?.company || '').toLowerCase().trim();
+  const dom = (c?.domain || '').toLowerCase().trim();
+  const name = (c?.name || '').toLowerCase().trim();
+  const text = `${comp} ${dom} ${name}`;
 
- const q=search.toLowerCase();function branch(n,ancestorMatch=false){const selfMatch=ancestorMatch||!!q&&[n.name,n.description,n.hierarchyPath,...(n.aliases||[])].join(' ').toLowerCase().replaceAll('_',' ').includes(q);const children=n.children.map(x=>branch(x,selfMatch)).join('');const people=accounts(n.people);const hasChildren=!!n.children.length;if(!hasChildren&&n.people.length){if((q||label)&&!selfMatch&&!people)return '';const logo=n.logo;return `<details class="account-group blueprint-node blueprint-leaf" data-blueprint-id="${esc(n.id)}" ${blueprintExpanded.has(n.id)||q?'open':''}><summary>${logo?`<img src="${esc(logo)}" alt="">`:getNodeIcon(n)}<span>${esc(n.name.replaceAll('_',' '))}<small>${n.people.length} ${n.people.length===1?'account':'accounts'}</small></span></summary><div>${n.description&&n.source?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${n.people.map(p=>`<button class="account-row" data-open="${esc(p.id)}">${p.logo?`<img src="${esc(p.logo)}" alt="">`:icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`).join('')}</div></details>`;}if((q||label)&&!selfMatch&&!children&&!people)return '';const nodeIcon=hasChildren?getNodeIcon(n):(n.logo?`<img src="${esc(n.logo)}" alt="">`:getNodeIcon(n));return `<details class="blueprint-node" data-blueprint-id="${esc(n.id)}" ${blueprintExpanded.has(n.id)||q?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}</span><small>${n.children.length?`${n.children.length} items`:n.people.length?`${n.people.length} contacts`:''}</small></summary><div class="blueprint-body">${n.description?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${children}${people}${!children&&!people?'<p class="blueprint-empty">No linked contacts yet.</p>':''}</div></details>`;}
- const unmatched=list.filter(c=>!matched.has(c.id));$('#content').innerHTML=`<section class="blueprint"><header><h2>Network</h2><p>A map of people, places, projects, and systems connected to you.</p><div class="blueprint-controls"><span>${blueprintRows.length} blueprint entries</span><button data-blueprint-action="sync" class="blueprint-sync-btn" aria-label="Sync network changes" title="Sync changes"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><button data-blueprint-action="expand">Expand all</button><button data-blueprint-action="collapse">Collapse all</button></div></header><div class="blueprint-tree">${roots.map(n=>branch(n)).join('')||'<p class="blueprint-empty">No matching blueprint entries.</p>'}${unmatched.length?`<details class="blueprint-node" data-blueprint-id="unmatched" ${blueprintExpanded.has('unmatched')?'open':''}><summary><span>Unassigned contacts</span><small>${unmatched.length}</small></summary><div class="blueprint-body">${unmatched.map(c=>`<button class="blueprint-contact" data-open="${esc(c.id)}">${icon('person')}<span>${esc(c.name)}<small>${esc(c.email)}</small></span></button>`).join('')}</div></details>`:''}</div></section>`;
+  if (text.includes('indeed')) return 'logos/indeed.png';
+  if (text.includes('kilocode') || text.includes('kilo code')) return 'logos/kilocode.png';
+  if (text.includes('docker')) return 'logos/docker.svg';
+  if (text.includes('digitalocean')) return 'logos/digitalocean.png';
+  if (text.includes('cair')) return 'logos/cair.png';
+  if (text.includes('nasa') || dom.includes('nasa.gov') || dom.includes('spaceapps') || dom.includes('ussfa')) return 'logos/nasa.png';
+  if (text.includes('skool') || text.includes('chatgpt') || text.includes('openai')) return 'logos/ai-knowledge-tools--chatgpt.png';
+  if (text.includes('gdg') || dom.includes('gdg.')) return 'logos/gdg-tulsa.png';
+  if (text.includes('google') || dom.includes('google.com')) return 'logos/google.svg';
+  if (text.includes('stripe')) return 'logos/stripe.svg';
+  if (text.includes('slack')) return 'logos/slack.png';
+  if (text.includes('github')) return 'logos/brand-github.svg';
+  if (text.includes('notion')) return 'logos/notion.png';
+  if (text.includes('asana')) return 'logos/asana.png';
+  if (text.includes('miro')) return 'logos/miro.png';
+  if (text.includes('hubspot')) return 'logos/hubspot.svg';
+  if (text.includes('zapier')) return 'logos/zapier.svg';
+  if (text.includes('make.com') || dom.includes('make.com')) return 'logos/make.png';
+  if (text.includes('loom')) return 'logos/loom.svg';
+  if (text.includes('ifttt')) return 'logos/ifttt.svg';
+  if (text.includes('gusto')) return 'logos/gusto.svg';
+  if (text.includes('salesforce')) return 'logos/salesforce.svg';
+  if (text.includes('clickup')) return 'logos/clickup.svg';
+  if (text.includes('neo4j')) return 'logos/neo4j.png';
+  if (text.includes('gitwit') || dom.includes('gitwit')) return 'logos/gitwit.png';
+  if (text.includes('tulsa remote') || dom.includes('tulsaremote')) return 'logos/tulsa-remote.png';
+  if (text.includes('gradient')) return 'logos/gradient.png';
+  if (text.includes('techlahoma')) return 'logos/techlahoma.png';
+  if (text.includes('tinkerer') || text.includes('aitinkerers')) return 'logos/ai-tinkerers.png';
+  if (text.includes('canva')) return 'logos/canva.svg';
+  if (text.includes('adobe')) return 'logos/adobe.svg';
+  if (text.includes('oracle')) return 'logos/oracle.svg';
+  if (text.includes('semrush')) return 'logos/semrush.svg';
+  if (text.includes('reddit')) return 'logos/reddit.svg';
+  if (text.includes('discord')) return 'logos/discord.svg';
+  if (text.includes('zoom')) return 'logos/zoom.svg';
+  if (text.includes('grammarly')) return 'logos/grammarly.svg';
+  if (text.includes('coursera')) return 'logos/coursera.svg';
+  if (text.includes('udemy')) return 'logos/udemy.svg';
+  if (text.includes('khan academy') || dom.includes('khanacademy')) return 'logos/khanacademy.svg';
+  if (text.includes('duolingo')) return 'logos/duolingo.svg';
+  if (text.includes('atlassian') || text.includes('jira')) return 'logos/jira.svg';
+  if (text.includes('trello')) return 'logos/trello.svg';
+  if (text.includes('postman')) return 'logos/postman.svg';
+  if (text.includes('supabase')) return 'logos/supabase.svg';
+  if (text.includes('vercel')) return 'logos/vercel.svg';
+  if (text.includes('netlify')) return 'logos/netlify.svg';
+  if (text.includes('cloudflare')) return 'logos/cloudflare.svg';
+  if (text.includes('gitlab')) return 'logos/gitlab.svg';
+  if (text.includes('mailchimp')) return 'logos/mailchimp.svg';
+  if (text.includes('linear')) return 'logos/linear.svg';
+  if (text.includes('airtable')) return 'logos/airtable.svg';
+  if (text.includes('webflow')) return 'logos/webflow.svg';
+  if (text.includes('figma')) return 'logos/figma.svg';
+  if (text.includes('substack')) return 'logos/substack.svg';
+  if (text.includes('medium')) return 'logos/medium.svg';
+  if (text.includes('patreon')) return 'logos/patreon.svg';
+  if (text.includes('kickstarter')) return 'logos/kickstarter.svg';
+  if (text.includes('gofundme')) return 'logos/gofundme.svg';
+  if (text.includes('meetup')) return 'logos/meetup.svg';
+  if (text.includes('luma')) return 'logos/luma.svg';
+  if (text.includes('eventbrite')) return 'logos/eventbrite.svg';
+  if (text.includes('amazon') || dom.includes('amazon')) return 'logos/shopping--amazon.png';
+  if (text.includes('apple') || dom.includes('apple')) return 'logos/apple-store.png';
+  if (text.includes('uber') || dom.includes('uber')) return 'logos/uber.png';
+  if (text.includes('walmart')) return 'logos/walmart.png';
+  if (text.includes('fedex')) return 'logos/shipping-tracking--fedex.png';
+  if (text.includes('bank of america') || text.includes('bofa')) return 'logos/bank-of-america.svg';
+  if (text.includes('chase')) return 'logos/chase.png';
+  if (text.includes('wells fargo')) return 'logos/wells-fargo.png';
+  if (text.includes('american express') || text.includes('amex')) return 'logos/american-express.svg';
+  if (text.includes('credit one')) return 'logos/accounts-banking--credit-one.png';
+  if (text.includes('life time') || text.includes('lifetime')) return 'logos/lifetime.png';
+  if (text.includes('best buy') || text.includes('bestbuy')) return 'logos/best-buy.png';
+  if (text.includes('lowe') || text.includes('lowes')) return 'logos/lowes.png';
+  if (text.includes('home depot') || text.includes('homedepot')) return 'logos/home-depot.png';
+  if (text.includes('paypal')) return 'logos/paypal.png';
+  if (text.includes('venmo')) return 'logos/venmo.png';
+  if (text.includes('claude') || text.includes('anthropic')) return 'logos/claude.png';
+  if (text.includes('perplexity')) return 'logos/perplexity.png';
+  if (text.includes('rewind')) return 'logos/ai-knowledge-tools--rewind.png';
+  if (text.includes('obsidian')) return 'logos/obsidian.png';
+  if (text.includes('act house') || text.includes('act.house')) return 'logos/acthouse.png';
+
+  if (typeof blueprintRows !== 'undefined' && Array.isArray(blueprintRows)) {
+    const matchedNode = blueprintRows.find(n => {
+      if (!n.logo) return false;
+      const nName = n.name.toLowerCase().replace(/_/g, ' ');
+      return (comp && (nName === comp || comp.includes(nName))) ||
+             (dom && (dom.includes(n.id) || nName.includes(dom.split('.')[0])));
+    });
+    if (matchedNode) return matchedNode.logo;
+  }
+  return fallbackLogo || null;
+ }
+
+ function accounts(people, fallbackNodeLogo = null){
+  const groups = Object.values(groupBy(people, c => c.organizationId || c.company || c.domain));
+  return groups.map(cs => {
+    const c = cs[0];
+    const groupLogo = resolveBrandLogo(c, fallbackNodeLogo);
+    const displayName = c.company || c.domain || 'Organization';
+    return `<details class="account-group" open><summary>${groupLogo ? `<img src="${esc(groupLogo)}" alt="">` : icon('company')}<span>${esc(displayName)}<small>${cs.length} ${cs.length === 1 ? 'account' : 'accounts'}</small></span></summary><div>${cs.map(p => {
+      const pLogo = resolveBrandLogo(p, groupLogo);
+      return `<button class="account-row" data-open="${esc(p.id)}">${pLogo ? `<img src="${esc(pLogo)}" alt="">` : icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`;
+    }).join('')}</div></details>`;
+  }).join('');
+ }
+
+ const q=search.toLowerCase();
+ function branch(n,ancestorMatch=false){
+  const selfMatch=ancestorMatch||!!q&&[n.name,n.description,n.hierarchyPath,...(n.aliases||[])].join(' ').toLowerCase().replaceAll('_',' ').includes(q);
+  const children=n.children.map(x=>branch(x,selfMatch)).join('');
+  const hasChildren=!!n.children.length;
+  const hasPeople=!!n.people.length;
+
+  if((q||label)&&!selfMatch&&!children&&!hasPeople)return '';
+
+  const nodeLogo=n.logo||resolveBrandLogo({company:n.name,domain:n.id});
+  const nodeIcon=hasChildren?getNodeIcon(n):(nodeLogo?`<img src="${esc(nodeLogo)}" alt="">`:getNodeIcon(n));
+
+  let peopleHtml='';
+  if(hasPeople){
+    const uniqueComps=new Set(n.people.map(p=>(p.company||p.domain||'').toLowerCase()));
+    if(!hasChildren && uniqueComps.size===1 && nodeLogo){
+      peopleHtml=n.people.map(p=>{
+        const pLogo=resolveBrandLogo(p,nodeLogo);
+        return `<button class="account-row" data-open="${esc(p.id)}">${pLogo?`<img src="${esc(pLogo)}" alt="">`:icon('person')}<span class="account-name">${esc(p.name)}</span><span class="email-badge" title="${esc(p.email)}">${esc(p.email)}</span><span aria-hidden="true">›</span></button>`;
+      }).join('');
+    }else{
+      peopleHtml=accounts(n.people,nodeLogo);
+    }
+  }
+
+  const isLeaf=!hasChildren;
+  const isOpen=blueprintExpanded.has(n.id)||q;
+
+  if(isLeaf && hasPeople && !peopleHtml.includes('<details')){
+    return `<details class="account-group blueprint-node blueprint-leaf" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}<small>${n.people.length} ${n.people.length===1?'account':'accounts'}</small></span></summary><div>${n.description&&n.source?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${peopleHtml}</div></details>`;
+  }
+
+  return `<details class="blueprint-node" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}</span><small>${n.children.length?`${n.children.length} items`:n.people.length?`${n.people.length} accounts`:''}</small></summary><div class="blueprint-body">${n.description?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${children}${peopleHtml}${!children&&!hasPeople?'<p class="blueprint-empty">No linked contacts yet.</p>':''}</div></details>`;
+ }
+ const unmatched=list.filter(c=>!matched.has(c.id));$('#content').innerHTML=`<section class="blueprint"><header><h2>Network</h2><p>A map of people, places, projects, and systems connected to you.</p><div class="blueprint-controls"><span>${blueprintRows.length} blueprint entries</span><button data-blueprint-action="sync" class="blueprint-sync-btn" aria-label="Sync network changes" title="Sync changes"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><button data-blueprint-action="expand">Expand all</button><button data-blueprint-action="collapse">Collapse all</button></div></header><div class="blueprint-tree">${roots.map(n=>branch(n)).join('')||'<p class="blueprint-empty">No matching blueprint entries.</p>'}${unmatched.length?`<details class="blueprint-node" data-blueprint-id="unmatched" ${blueprintExpanded.has('unmatched')?'open':''}><summary><span>Unassigned contacts</span><small>${unmatched.length}</small></summary><div class="blueprint-body">${accounts(unmatched)}</div></details>`:''}</div></section>`;
 };
 document.addEventListener('toggle',e=>{const id=e.target.dataset?.blueprintId;if(id){if(e.target.open)blueprintExpanded.add(id);else blueprintExpanded.delete(id);}},true);
 document.addEventListener('click',e=>{const action=e.target.closest('[data-blueprint-action]')?.dataset.blueprintAction;if(action==='sync'){if(typeof triggerSync==='function')triggerSync();return;}if(action)document.querySelectorAll('[data-blueprint-id]').forEach(d=>{d.open=action==='expand';if(d.open)blueprintExpanded.add(d.dataset.blueprintId);else blueprintExpanded.delete(d.dataset.blueprintId);});});
