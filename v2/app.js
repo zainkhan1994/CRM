@@ -401,7 +401,58 @@ renderNetwork=function(list){
 
    return `<details class="blueprint-node" data-blueprint-id="${esc(n.id)}" ${isOpen?'open':''}><summary>${nodeIcon}<span>${esc(n.name.replaceAll('_',' '))}</span><small>${n.children.length?`${n.children.length} items`:n.people.length?`${n.people.length} accounts`:''}</small></summary><div class="blueprint-body">${n.description?`<p class="blueprint-description">${esc(n.description)}</p>`:''}${children}${peopleHtml}${!children&&!hasPeople?'<p class="blueprint-empty">No linked contacts yet.</p>':''}</div></details>`;
   }
-  const unmatched=list.filter(c=>!matched.has(c.id));$('#content').innerHTML=`<section class="blueprint"><header><h2>Network</h2><p>A map of people, places, projects, and systems connected to you.</p><div class="blueprint-controls"><span>${blueprintRows.length} blueprint entries</span><button data-blueprint-action="sync" class="blueprint-sync-btn" aria-label="Sync network changes" title="Sync changes"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><button data-blueprint-action="expand">Expand all</button><button data-blueprint-action="collapse">Collapse all</button></div></header><div class="blueprint-tree">${roots.map(n=>branch(n)).join('')||'<p class="blueprint-empty">No matching blueprint entries.</p>'}${unmatched.length?`<details class="blueprint-node" data-blueprint-id="unmatched" ${blueprintExpanded.has('unmatched')?'open':''}><summary>${icon('person')}<span>Unassigned contacts</span><small>${unmatched.length}</small></summary><div class="blueprint-body">${accounts(unmatched)}</div></details>`:''}</div></section>`;
+  function renderUnmatchedCategories(unmatchedList) {
+    if (!unmatchedList || !unmatchedList.length) return '';
+
+    const cats = [
+      { id: 'tech', name: 'Technology, Software & AI Tools', icon: 'tech', regex: /\b(ai|tech|software|developer|dev|cloud|data|api|code|coding|bot|cyber|security|digital|host|hosting|server|huggingface|automation|saas|iot|robot|robotics|compute|analytics|telecom|telecomms|platform|github|gitlab|docker|supabase|vercel|netlify|linear|airtable|notion|slack|discord|zoom|appsheet|appsscript|apprabbit|pictory|docupipe|mailtrack|verkada|clari|simbiosis|densan|base44|immerse|board|density|zapier|make|loom|ifttt|apollo|segment|datadog|postman|jira|confluence|bitbucket|elastic|mongodb|redis|cloudflare|webflow|figma|alphabold|adzviser|ada)\b|\.(ai|io|dev|app|tech|systems?)$/i },
+      { id: 'careers', name: 'Careers, Recruiting & Job Portals', icon: 'jobs', regex: /\b(careers?|jobs?|recruiting|recruiters?|staffing|talent|apply|applicant|interviews?|interviewing|resumes?|hiring|hire|workforce|employment|jobsearch|applytojob|checkr|greenhouse|lever|workday|indeed|monster|ziprecruiter|handshake|dice|glassdoor)\b/i },
+      { id: 'shopping', name: 'Shopping, Retail & E-Commerce', icon: 'shopping', regex: /\b(shop|shopping|store|stores|orders?|deals?|cart|buy|retail|clothing|fashion|shoes|apparel|gear|gifts?|market|marketplace|commerce|goods|sales?|brands?|merch|merchandise|offerup|gumroad|shopify|etsy|ebay|poshmark|mercari|vari|babeoriginal|containerstore|bestnamebadges|beurer|silhouette|boutique|outfitters?|asparagarden)\b/i },
+      { id: 'food', name: 'Food, Dining & Culinary', icon: 'food', regex: /\b(foods?|restaurants?|cafes?|coffee|bakery|bakers?|baking|pizza|pizzas|burgers?|grill|kitchen|toast|dining|eats?|catering|brewing|brewery|tacos?|tea|cookies?|donuts?|bbq|bistro|diner|culinary|chef|bavarian|waffles?|sushi|tasting|wine|winery|distillery|beverage|snack|grocer|grocery)\b/i },
+      { id: 'health', name: 'Health, Medical & Wellness', icon: 'health', regex: /\b(health|healthcare|medical|med|meds|clinics?|wellness|fitness|fit|gym|derma|dermatology|dental|dentist|dentistry|doctors?|patients?|therapy|therapist|pharmacy|pharma|nutrition|vision|eye|hospital|curology|zozofit|gastroenterology|physician|cardio|pediatric|ortho|chiro|acupuncture|massage|spa|skincare|cosmetics?|mental|mind|care|arccos)\b/i },
+      { id: 'education', name: 'Education, Academics & Research', icon: 'education', regex: /\b(edu|education|schools?|academy|academies|learning|learn|university|universities|colleges?|courses?|studies|study|students?|training|tutor|tutoring|classes?|research|institute|institutes|fellowship|curriculum|alumni|campus|professor|academic|scholar|degree|diploma|certificate|seminar|lecture|apexleadership)\b|\.edu(\.|$)/i },
+      { id: 'civic', name: 'Community, Civic & Nonprofits', icon: 'community', regex: /\b(gov|government|county|city|state|chamber|foundations?|associations?|society|societies|community|communities|church|mosque|islamic|masjid|council|police|court|courts|elections?|vote|voting|senate|congress|nonprofit|charity|alliance|defense|ausa|space\s*force|hctx|sugarland|advocacy|campaign|pac|democrat|republican|obama|sanders|pressley|policy|public|civic|volunteer|outreach)\b|\.(gov|org)(\.|$)/i },
+      { id: 'finance', name: 'Finance, Banking & Investment', icon: 'banking', regex: /\b(banks?|banking|credit|loans?|finance|financial|invest|investing|investments?|taxes?|tax|wealth|insurance|trusts?|funds?|funding|wallet|claims?|settlement|payroll|advisory|capital|venture|equity|securities|broker|portfolio|asset|atento|boardwalk)\b/i },
+      { id: 'legal', name: 'Legal & Compliance Services', icon: 'insurance', regex: /\b(law|laws|legal|attorneys?|lawyers?|litigation|counsel|paralegal|compliance|notary|court|arbitration|trademark|patent|contract)\b/i },
+      { id: 'home', name: 'Home, Real Estate & Utilities', icon: 'housing', regex: /\b(home|homes|house|housing|apartments?|apts|realty|realtor|properties|property|storage|rent|renting|rental|mortgage|living|utility|utilities|energy|power|electric|gas|water|hvac|roofing|plumbing|lawn|landscaping|furniture|decor|lighting|security|solar|pest)\b/i },
+      { id: 'travel', name: 'Travel, Transport & Logistics', icon: 'travel', regex: /\b(travel|travels|flights?|airlines?|hotels?|resorts?|inns?|cars?|rides?|parking|park|trips?|transit|cruises?|airports?|motels?|foreflight|rideshare|shuttle|delivery|courier|cargo|freight|shipping|ship|shippers?|citizenshipper|marina|charter|cab|taxi|rental)\b/i },
+      { id: 'media', name: 'Entertainment, Media & Creative', icon: 'entertainment', regex: /\b(games?|gaming|music|videos?|movies?|tv|radio|stream|streaming|play|theaters?|theatre|sound|audio|photos?|photography|vizio|max|shows?|cinema|podcast|podcasts|media|creative|design|studio|art|artist|gallery|publishing|press|news|broadcast|behance)\b/i },
+      { id: 'business', name: 'Business & Professional Services', icon: 'company', regex: /\b(consulting|consultants?|consult|corp|corporate|solutions|services|partners?|agency|agencies|marketing|advertising|pr|management|enterprise|operations|b2b|logistics|trinet|office|supplies|print|printing|vendor|contractor|athena|attracttoscale)\b/i },
+      { id: 'general', name: 'General Organizations & Direct Inquiries', icon: 'folder', regex: null }
+    ];
+
+    const grouped = new Map(cats.map(c => [c.id, []]));
+    for (const c of unmatchedList) {
+      const text = `${c.company || ''} ${c.domain || ''} ${c.name || ''} ${c.email || ''}`;
+      let placed = false;
+      for (const cat of cats) {
+        if (cat.regex && cat.regex.test(text)) {
+          grouped.get(cat.id).push(c);
+          placed = true;
+          break;
+        }
+      }
+      if (!placed) {
+        grouped.get('general').push(c);
+      }
+    }
+
+    return cats.map(cat => {
+      const catList = grouped.get(cat.id) || [];
+      if (!catList.length) return '';
+      const filtered = (q || label) ? catList.filter(c => {
+        const txt = `${c.name} ${c.company} ${c.domain} ${c.email} ${(c.labels||[]).join(' ')}`.toLowerCase();
+        const matchQ = !q || txt.includes(q);
+        const matchLabel = !label || (c.labels && c.labels.includes(label)) || c.label === label;
+        return matchQ && matchLabel;
+      }) : catList;
+      if (!filtered.length) return '';
+      const isOpen = blueprintExpanded.has(`unmatched-${cat.id}`) || q;
+      return `<details class="blueprint-node" data-blueprint-id="unmatched-${esc(cat.id)}" ${isOpen ? 'open' : ''}><summary>${icon(cat.icon)}<span>${esc(cat.name)}</span><small>${filtered.length} ${filtered.length === 1 ? 'account' : 'accounts'}</small></summary><div class="blueprint-body">${accounts(filtered)}</div></details>`;
+    }).join('');
+  }
+
+  const unmatched=list.filter(c=>!matched.has(c.id));$('#content').innerHTML=`<section class="blueprint"><header><h2>Network</h2><p>A map of people, places, projects, and systems connected to you.</p><div class="blueprint-controls"><span>${blueprintRows.length} blueprint entries</span><button data-blueprint-action="sync" class="blueprint-sync-btn" aria-label="Sync network changes" title="Sync changes"><svg class="sync-spin-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6M2.5 22v-6h6M2 11.5a10 10 0 0 1 18.8-4.3M22 12.5a10 10 0 0 1-18.8 4.2"/></svg><span>Sync</span></button><button data-blueprint-action="expand">Expand all</button><button data-blueprint-action="collapse">Collapse all</button></div></header><div class="blueprint-tree">${roots.map(n=>branch(n)).join('')||'<p class="blueprint-empty">No matching blueprint entries.</p>'}${unmatched.length?`<details class="blueprint-node" data-blueprint-id="unmatched" ${blueprintExpanded.has('unmatched')?'open':''}><summary>${icon('person')}<span>Unassigned contacts</span><small>${unmatched.length}</small></summary><div class="blueprint-body">${renderUnmatchedCategories(unmatched)}</div></details>`:''}</div></section>`;
  };
 document.addEventListener('toggle',e=>{const id=e.target.dataset?.blueprintId;if(id){if(e.target.open)blueprintExpanded.add(id);else blueprintExpanded.delete(id);}},true);
 document.addEventListener('click',e=>{const action=e.target.closest('[data-blueprint-action]')?.dataset.blueprintAction;if(action==='sync'){if(typeof triggerSync==='function')triggerSync();return;}if(action)document.querySelectorAll('[data-blueprint-id]').forEach(d=>{d.open=action==='expand';if(d.open)blueprintExpanded.add(d.dataset.blueprintId);else blueprintExpanded.delete(d.dataset.blueprintId);});});

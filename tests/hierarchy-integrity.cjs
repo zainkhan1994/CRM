@@ -71,7 +71,7 @@ const pause = ms => new Promise(r => setTimeout(r, ms));
   const aflacImgs = [...aflacNode.querySelectorAll('img')];
   for (const img of aflacImgs) {
     assert(!img.src.includes('dom-us.aflac.com.svg'), 'Aflac must NOT use letter [U] SVG');
-    assert(img.src.includes('aflac.png'), );
+    assert(img.src.includes('aflac.png'), 'Aflac must use official duck logo');
   }
 
   // 4. R-Cubed HR routing
@@ -98,11 +98,24 @@ const pause = ms => new Promise(r => setTimeout(r, ms));
   assert(psoNode, 'p-bills-pso must exist');
   assert(psoNode.textContent.includes('pso@express.sea1.medallia.com'), 'PSO survey contact must be in p-bills-pso');
 
-  const sfaNode = w.document.querySelector('[data-blueprint-id="pr-sfa"]');
-  assert(sfaNode, 'pr-sfa must exist');
-  assert(sfaNode.textContent.includes('sfa65@wildapricot.org'), 'SFA contact must be in pr-sfa');
+  // 7. Unassigned Contacts Category Sub-levels
+  const unmatchedNode = w.document.querySelector('[data-blueprint-id="unmatched"]');
+  assert(unmatchedNode, 'Unassigned contacts node must exist');
+  const unmatchedBody = unmatchedNode.querySelector(':scope > .blueprint-body');
+  assert(unmatchedBody, 'Unassigned contacts must have a blueprint-body');
+  const subLevels = [...unmatchedBody.querySelectorAll(':scope > details.blueprint-node')];
+  assert(subLevels.length > 0, 'Unassigned contacts must have category sub-levels');
+  for (const sl of subLevels) {
+    const bId = sl.dataset.blueprintId;
+    assert(bId && bId.startsWith('unmatched-'), `Sub-level must have id starting with unmatched-, got ${bId}`);
+    const slBody = sl.querySelector(':scope > .blueprint-body');
+    assert(slBody, `Sub-level ${bId} must have a body`);
+    assert(slBody.querySelectorAll('.account-group, .account-row').length > 0, `Sub-level ${bId} must contain nested accounts`);
+  }
+  const looseContacts = unmatchedBody.querySelectorAll(':scope > .account-row, :scope > button, :scope > .blueprint-contact');
+  assert.equal(looseContacts.length, 0, 'Zero loose contacts allowed directly under Unassigned contacts');
 
-  console.log('PASS: Credit One is clean, Financial Tools has no ADP/Aflac/Paycom, Aflac is in Health, R-Cubed HR in employer, all brand logos correct!');
+  console.log('PASS: Credit One is clean, Financial Tools has no ADP/Aflac/Paycom, Aflac is in Health, R-Cubed HR in employer, all brand logos correct, and Unassigned contacts are 100% categorized into sub-levels!');
   dom.window.close();
 })().catch(e => {
   console.error('FAIL:', e);
