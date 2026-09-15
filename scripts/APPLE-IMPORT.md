@@ -26,3 +26,13 @@ python3 scripts/query-apple.py --database /path/apple-history.sqlite --query 'me
 ```
 
 The backend index retains original records and adds full-text search plus channel/date, identity/date, and conversation/date indexes. Contact names are matched only on exact normalized phone/email keys with one unambiguous existing CRM name. It does not merge people by similar names or partial numbers. The index is local; this does not create an online API or cross-device sync.
+
+## Contact names and expandable conversations
+
+Before importing an Apple JSON snapshot, enrich it from the Mac address book:
+
+```sh
+python3 scripts/apple-contact-names.py /path/apple-history.json
+```
+
+Import the enriched JSON once using Inbox → Import Apple history. The CRM also sends its existing contacts to the Inbox automatically. Individual email/phone identifiers resolve to contacts; distinct group-chat identifiers remain separate. Duplicate names alone never merge records. Shared numbers with conflicting contact names remain unresolved. Ten-digit North American numbers normalize to country code 1. The index builder reads the same embedded contacts when rebuilding the local database.

@@ -6,19 +6,20 @@ from pathlib import Path
 def identity(value):
     value=str(value or '').strip()
     if '@' in value:return value.lower()
-    if re.fullmatch(r'[+\d\s().-]+',value):return re.sub(r'\D','',value)
+    if re.fullmatch(r'[+\d\s().-]+',value):
+        n=re.sub(r'\D','',value)
+        return '1'+n if len(n)==10 and n[0] in '23456789' else n
     return value
 
 def build(source,target,contacts_path=None):
     data=json.loads(Path(source).read_text());assert data['format']=='organize-me-apple-v1'
-    names={}
-    if contacts_path:
-        candidates={}
-        for c in json.loads(Path(contacts_path).read_text()):
-            for field in ['email','phone']:
-                k=identity(c.get(field));name=c.get('name','')
-                if k and name:candidates.setdefault(k,set()).add(name)
-        names={k:next(iter(v)) for k,v in candidates.items() if len(v)==1}
+    candidates={}
+    contact_rows=data.get('contacts',[])+(json.loads(Path(contacts_path).read_text()) if contacts_path else [])
+    for contact in contact_rows:
+        for value in [contact.get('email'),contact.get('phone'),*contact.get('emails',[]),*contact.get('phones',[])]:
+            k=identity(value);name=contact.get('name','')
+            if k and name:candidates.setdefault(k,set()).add(name)
+    names={k:next(iter(v)) for k,v in candidates.items() if len(v)==1}
     target=Path(target);target.parent.mkdir(parents=True,exist_ok=True);tmp=target.with_suffix('.building.sqlite');tmp.unlink(missing_ok=True)
     c=sqlite3.connect(tmp)
     c.executescript('''
