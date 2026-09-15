@@ -228,23 +228,41 @@ me</div>
  
 
 <script>
-// Group existing channel controls without replacing their working event handlers.
-const socialChannels=['WhatsApp','Messenger','LinkedIn','Discord'];
+
+const channelGroups=[
+ ['Direct Messaging','mail',['Gmail','WhatsApp','Messenger','Apple iCloud']],
+ ['Social Media','share-2',['Instagram','TikTok','Snapchat','Facebook','Meta Marketplace','X','LinkedIn','YouTube']],
+ ['Communities & Groups','users',['Skool','Mighty','Reddit','Faves','Discord','Meta Horizon']],
+ ['Event Communities','calendar-days',['Luma','Meetup','Eventbrite']]
+];
+const brandAssets={"Brilliant": "logos/697588706111.png", "Airbnb": "logos/22eb834812f7.png", "ParkMobile": "logos/252705780ad0.png", "Amazon": "logos/92b345ecda74.png", "Bank of America": "logos/c52050be8830.svg", "Asana": "logos/d10340a3b87f.png", "BestBuy": "logos/3e0ebf480257.png", "Facebook": "logos/5a30a7b8b710.png", "Eventbrite": "logos/934bb7003f19.png", "Yahoo": "logos/36c9e7d57d8d.png", "Prime Video": "logos/e86251f67f66.png", "PayPal": "logos/248898c1bcf4.png", "VIZIO": "logos/620b2cae26e6.png", "Credit One": "logos/7a8e7fccd6cc.png", "Discord": "logos/07450366f4c8.png", "DoorDash": "logos/2d6369b35254.png", "Delta": "logos/25b0c76781d2.png", "Lowe's": "logos/1187b94435f2.png", "Miro": "logos/76d74cb0510d.png", "Starbucks": "logos/98f811f515cb.png", "Walmart": "logos/f446ffa560c7.png", "Uber": "logos/f73cbbc736b3.png", "AMC": "logos/de8f8a76dec6.png", "Claude": "logos/4b14296f95ec.png", "Etsy": "logos/db0ec0124f27.png", "GitHub": "logos/3df76604d8ce.png", "Meetup": "logos/f1e9c1ea546f.png", "ChatGPT": "logos/d4bdf0cf7435.png", "Rocket Money": "logos/fe5e0ca67592.png", "Slack": "logos/06f4f65faef0.png", "Snapchat": "logos/3d990a7132ef.png", "TikTok": "logos/7132faa48e59.png", "Life Time": "logos/95765bebbde4.png", "Emirates": "logos/d00642992aa3.png", "FedEx": "logos/6b9745f27175.png", "http://Fireflies.ai": "logos/e65a2239d5b1.png", "Fireflies": "logos/e65a2239d5b1.png", "Microsoft": "logos/3df76604d8ce.png", "Healow": "logos/6f6c4c9fd05e.png", "Notion": "logos/4d9df066d32d.png", "Home Depot": "logos/9372e11da46d.png", "IFTTT": "logos/a4f9cb693fe1.png", "eBay": "logos/d14390a8e325.png", "TextFree": "logos/15a36af724da.png", "Netflix": "logos/ee79000a7ae2.png", "LinkedIn": "logos/a19015a70c65.png", "Crunchyroll": "logos/94692d7b0669.png", "Disney Plus": "logos/91b2bd2fa80d.png", "Instagram": "logos/d4c48a5fb9d9.png", "Meta": "logos/5a30a7b8b710.png", "Perplexity": "logos/8e348bb1bfcc.png", "Wells Fargo": "logos/975a40548ff5.png", "SquareUp": "logos/dc72677a954b.png", "Mimo": "logos/cd1c7c3a441b.png", "Acorns": "logos/998951b2774a.png", "Lowes": "logos/1187b94435f2.png", "Obsidian": "logos/98b3da42e667.png", "Target": "logos/24ed6d60a315.png", "Credit One Bank": "logos/7a8e7fccd6cc.png", "Office Depot": "logos/d2b18a0ac474.png", "Gas ONG": "logos/7d413998637c.svg", "Outlook": "logos/5a64d15f7fc8.png", "Plaid": "logos/88e78d6df7f7.png", "Electric PSO": "logos/5289e1a336ac.svg", "Reddit": "logos/5ee15c478bba.png", "Rewind": "logos/f170527ef3e4.png", "HBO Max": "logos/17b558095dd7.png", "United": "logos/7b2df104aab8.png", "Venmo": "logos/248898c1bcf4.png", "YouTube": "logos/0babecc3bf56.png", "Skool": "logos/inbox-skool.png", "Mighty": "logos/inbox-mighty.png", "Faves": "logos/inbox-faves.png"};
 const toolRow=document.querySelector('.tool-row');
-const inboxButton=toolRow.querySelector('[data-channel="All Comms"]');
-inboxButton.title='Inbox — who reached out and how';inboxButton.setAttribute('aria-label','Inbox — who reached out and how');
-const group=document.createElement('details');group.className='social-picker';
-group.innerHTML='<summary aria-label="Social media channels" title="Social media"><i data-lucide="messages-square" width="21"></i><span>Social</span></summary><div class="social-menu" aria-label="Social media channels"></div>';
-inboxButton.after(group);
-for(const channel of socialChannels){const button=toolRow.querySelector(`[data-channel="${channel}"]`);const label=document.createElement('span');label.textContent=channel;button.append(label);group.querySelector('.social-menu').append(button);button.addEventListener('click',()=>group.open=false);}
-group.addEventListener('pointerenter',()=>{if(matchMedia('(hover: hover)').matches)group.open=true});group.addEventListener('pointerleave',()=>{if(matchMedia('(hover: hover)').matches)group.open=false});
-document.addEventListener('click',e=>{if(!group.contains(e.target))group.open=false});group.addEventListener('keydown',e=>{if(e.key==='Escape'){group.open=false;group.querySelector('summary').focus()}});
-function badge(el,n){if(!n)return;const b=document.createElement('span');b.className='notification-badge';b.textContent=n;b.title=n+' demo messages awaiting reply';b.setAttribute('aria-label',n+' demo messages awaiting reply');el.append(b);}
-for(const button of toolRow.querySelectorAll('[data-channel]'))badge(button,messages.filter(m=>m.status==='No reply'&&(button.dataset.channel==='All Comms'||m.channel===button.dataset.channel)).length);
-badge(group.querySelector('summary'),messages.filter(m=>socialChannels.includes(m.channel)&&m.status==='No reply').length);
+const existing=new Map([...toolRow.querySelectorAll('[data-channel]')].map(b=>[b.dataset.channel,b]));
+const inboxButton=existing.get('All Comms');inboxButton.title='Inbox — who reached out and how';inboxButton.setAttribute('aria-label',inboxButton.title);
+function badge(el,n){if(!n)return;const b=document.createElement('span');b.className='notification-badge';b.textContent=n;b.title=n+' demo messages awaiting reply';b.setAttribute('aria-label',b.title);el.append(b);}
+for(const [name,ico,channels] of channelGroups){
+ const group=document.createElement('details');group.className='social-picker';group.innerHTML=`<summary title="${name}"><i data-lucide="${ico}" width="20"></i><span>${name}</span></summary><div class="social-menu" aria-label="${name}"></div>`;
+ toolRow.append(group);
+ for(const channel of channels){
+  let button=existing.get(channel);
+  if(!button){button=document.createElement('button');button.className='tool-icon';button.type='button';button.dataset.channel=channel;button.setAttribute('aria-expanded','false');button.setAttribute('aria-label','Open '+channel+' communications');
+   const asset=brandAssets[channel];button.innerHTML=asset?`<img class="channel-image" src="${asset}" alt="${channel} logo" data-template-id="channel-${channel.replaceAll(' ','-')}">`:`<span class="channel-monogram" aria-hidden="true">${channel==='X'?'𝕏':channel==='Meta Marketplace'?'▱':channel==='Meta Horizon'?'∞':'✦'}</span>`;
+   if(asset)logoId[channel]='channel-'+channel.replaceAll(' ','-');
+   button.addEventListener('click',()=>openChannel(channel,button));
+  }
+  const label=document.createElement('span');label.textContent=channel;button.append(label);group.querySelector('.social-menu').append(button);button.addEventListener('click',()=>group.open=false);
+  badge(button,messages.filter(m=>m.channel===channel&&m.status==='No reply').length);
+ }
+ badge(group.querySelector('summary'),messages.filter(m=>channels.includes(m.channel)&&m.status==='No reply').length);
+ group.addEventListener('pointerenter',()=>{if(matchMedia('(hover: hover)').matches)group.open=true});group.addEventListener('pointerleave',()=>{if(matchMedia('(hover: hover)').matches)group.open=false});
+ group.addEventListener('keydown',e=>{if(e.key==='Escape'){group.open=false;group.querySelector('summary').focus()}});
+}
+inboxButton.after(...[...toolRow.querySelectorAll('.social-picker')]);
+badge(inboxButton,messages.filter(m=>m.status==='No reply').length);
+document.addEventListener('click',e=>{document.querySelectorAll('.social-picker').forEach(g=>{if(!g.contains(e.target))g.open=false})});
 lucide.createIcons();
 </script>
 <style>
 .tool-icon,.social-picker>summary{position:relative}.notification-badge{position:absolute;right:-5px;top:-6px;min-width:18px;height:18px;padding:0 4px;background:#ed3448;color:white;border:2px solid white;border-radius:999px;font:700 10px/14px Arial;text-align:center;pointer-events:none}.social-picker{position:relative;z-index:5}.social-picker>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:6px;min-height:44px;padding:8px 12px;border:1px solid #ddd;border-radius:12px;background:#fff;font-size:12px}.social-picker>summary::-webkit-details-marker{display:none}.social-picker[open]>summary{border-color:#7546ff;background:#f3efff}.social-menu{position:absolute;top:100%;left:0;padding:10px;display:grid;gap:5px;min-width:210px;border:1px solid #e8e8e8;border-radius:14px;background:white;box-shadow:0 12px 30px #25185a20}.social-menu .tool-icon{width:100%;display:flex;gap:12px;justify-content:flex-start;padding:10px;box-shadow:none;border:0;font-size:13px}.social-menu .notification-badge{right:8px;top:12px}.social-picker>summary:focus-visible{outline:2px solid #7546ff;outline-offset:3px}@media(max-width:650px){.social-menu{min-width:190px}.tool-row{overflow:visible}}
 </style>
-</body></html>
+<style>.social-menu{max-height:380px;overflow-y:auto;min-width:230px}.social-menu .channel-image,.channel-monogram{width:25px;height:25px;flex-shrink:0;object-fit:contain}.channel-monogram{display:grid;place-items:center;font-size:24px;color:#555}.social-menu .tool-icon>span:not(.notification-badge){text-align:left}.social-picker>summary{font-size:11px}@media(max-width:650px){.tool-row{display:flex;flex-wrap:wrap}.social-picker>summary{min-height:44px}.social-menu{position:fixed;left:16px;right:16px;top:180px;max-height:55vh;min-width:0;z-index:20}}</style></body></html>
