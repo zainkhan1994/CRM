@@ -27,7 +27,8 @@
     "id": "p-accounts",
     "name": "Accounts & Banking",
     "parentId": "p",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-paccounts.png"
   },
   {
     "id": "p-accounts-banks",
@@ -88,25 +89,29 @@
     "id": "p-accounts-applecard",
     "name": "Apple Credit",
     "parentId": "p-accounts-banks",
-    "order": 7
+    "order": 7,
+    "logo": "logos/brand-paccountsapplecard.png"
   },
   {
     "id": "p-accounts-othercards",
     "name": "Other Cards",
     "parentId": "p-accounts-banks",
-    "order": 8
+    "order": 8,
+    "logo": "logos/brand-paccountsothercards.png"
   },
   {
     "id": "p-accounts-invest",
     "name": "Investing & Savings",
     "parentId": "p-accounts",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-paccountsinvest.png"
   },
   {
     "id": "p-accounts-robinhood",
     "name": "Robinhood",
     "parentId": "p-accounts-invest",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-paccountsrobinhood.png"
   },
   {
     "id": "p-accounts-acorns",
@@ -210,7 +215,8 @@
     "id": "p-accounts-chime",
     "name": "Chime",
     "parentId": "p-accounts-tools",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-paccountschime.png"
   },
   {
     "id": "p-accounts-perpay",
@@ -271,13 +277,15 @@
     "id": "p-bills",
     "name": "Bills & Utilities",
     "parentId": "p",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pbills.png"
   },
   {
     "id": "p-bills-electric",
     "name": "Electric",
     "parentId": "p-bills",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-pbillselectric.svg"
   },
   {
     "id": "p-bills-pso",
@@ -301,7 +309,8 @@
     "id": "p-bills-utilities",
     "name": "Utilities",
     "parentId": "p-bills",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-pbillsutilities.png"
   },
   {
     "id": "p-bills-gokinetic",
@@ -339,13 +348,15 @@
     "id": "p-shop",
     "name": "Shopping & Rewards",
     "parentId": "p",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-pshop.png"
   },
   {
     "id": "p-shop-retail",
     "name": "Retail",
     "parentId": "p-shop",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-pshopretail.png"
   },
   {
     "id": "p-shop-amazon",
@@ -414,7 +425,8 @@
     "id": "p-shop-michaels",
     "name": "Michaels",
     "parentId": "p-shop-retail",
-    "order": 9
+    "order": 9,
+    "logo": "logos/brand-pshopmichaels.png"
   },
   {
     "id": "p-shop-kohls",
@@ -450,7 +462,8 @@
     "id": "p-shop-food",
     "name": "Food & Coffee",
     "parentId": "p-shop",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pshopfood.png"
   },
   {
     "id": "p-shop-doordash",
@@ -482,7 +495,8 @@
     "id": "p-shop-thrive",
     "name": "Thrive Market",
     "parentId": "p-shop-food",
-    "order": 4
+    "order": 4,
+    "logo": "logos/brand-pshopthrive.png"
   },
   {
     "id": "p-shop-culvers",
@@ -506,7 +520,8 @@
     "id": "p-shop-peiwei",
     "name": "Pei Wei",
     "parentId": "p-shop-food",
-    "order": 8
+    "order": 8,
+    "logo": "logos/brand-pshoppeiwei.png"
   },
   {
     "id": "p-shop-nbcakes",
@@ -518,7 +533,8 @@
     "id": "p-shop-shipping",
     "name": "Shipping & Tracking",
     "parentId": "p-shop",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-pshopshipping.png"
   },
   {
     "id": "p-shop-fedex",
@@ -538,7 +554,8 @@
     "id": "p-shop-usps",
     "name": "USPS",
     "parentId": "p-shop-shipping",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-pshopusps.png"
   },
   {
     "id": "p-shop-rewards",
@@ -568,7 +585,8 @@
     "id": "p-travel",
     "name": "Travel & Navigation",
     "parentId": "p",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-ptravel.png"
   },
   {
     "id": "p-travel-airlines",
@@ -638,7 +656,8 @@
     "id": "p-travel-hyatt",
     "name": "Hyatt",
     "parentId": "p-travel-lodging",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-ptravelhyatt.png"
   },
   {
     "id": "p-travel-ihg",
@@ -707,7 +726,8 @@
     "id": "p-travel-agencies",
     "name": "Travel Agencies",
     "parentId": "p-travel",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-ptravelagencies.png"
   },
   {
     "id": "p-travel-cheapoair",
@@ -756,7 +776,8 @@
     "id": "p-events-google",
     "name": "Google",
     "parentId": "p-events-tech",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-peventsgoogle.svg"
   },
   {
     "id": "p-events-ms",
@@ -878,13 +899,15 @@
     "id": "p-social",
     "name": "Social & Community",
     "parentId": "p",
-    "order": 5
+    "order": 5,
+    "logo": "logos/brand-psocial.png"
   },
   {
     "id": "p-social-media",
     "name": "Social Media",
     "parentId": "p-social",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-psocialmedia.png"
   },
   {
     "id": "p-social-facebook",
@@ -945,7 +968,8 @@
     "id": "p-social-dm",
     "name": "Direct Messaging",
     "parentId": "p-social",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-psocialdm.png"
   },
   {
     "id": "p-social-discord",
@@ -972,7 +996,8 @@
     "id": "p-social-groups",
     "name": "Communities & Groups",
     "parentId": "p-social",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-psocialgroups.png"
   },
   {
     "id": "p-social-meetup",
@@ -998,7 +1023,8 @@
     "id": "p-meetings",
     "name": "Meetings & Scheduling",
     "parentId": "p",
-    "order": 6
+    "order": 6,
+    "logo": "logos/brand-pmeetings.png"
   },
   {
     "id": "p-meetings-fireflies",
@@ -1047,13 +1073,15 @@
     "id": "p-meetings-zoom",
     "name": "Zoom",
     "parentId": "p-meetings",
-    "order": 7
+    "order": 7,
+    "logo": "logos/brand-pmeetingszoom.png"
   },
   {
     "id": "p-meetings-gmeet",
     "name": "Google Meet",
     "parentId": "p-meetings",
-    "order": 8
+    "order": 8,
+    "logo": "logos/brand-pmeetingsgmeet.png"
   },
   {
     "id": "p-meetings-teams",
@@ -1065,7 +1093,8 @@
     "id": "p-learn",
     "name": "Learning & Self-Improvement",
     "parentId": "p",
-    "order": 7
+    "order": 7,
+    "logo": "logos/brand-plearn.png"
   },
   {
     "id": "p-learn-brilliant",
@@ -1140,7 +1169,8 @@
     "id": "p-tech-google",
     "name": "Google",
     "parentId": "p-tech",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-ptechgoogle.svg"
   },
   {
     "id": "p-tech-microsoft",
@@ -1172,7 +1202,8 @@
     "id": "p-tech-onedrive",
     "name": "OneDrive",
     "parentId": "p-tech",
-    "order": 5
+    "order": 5,
+    "logo": "logos/brand-ptechonedrive.png"
   },
   {
     "id": "p-tech-github",
@@ -1209,19 +1240,22 @@
     "id": "p-ai",
     "name": "AI & Knowledge Tools",
     "parentId": "p",
-    "order": 9
+    "order": 9,
+    "logo": "logos/brand-pai.png"
   },
   {
     "id": "p-ai-openai",
     "name": "ChatGPT / OpenAI",
     "parentId": "p-ai",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-paiopenai.png"
   },
   {
     "id": "p-ai-claude",
     "name": "Claude / Anthropic",
     "parentId": "p-ai",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-paiclaude.png"
   },
   {
     "id": "p-ai-perplexity",
@@ -1234,7 +1268,8 @@
     "id": "p-ai-gemini",
     "name": "Gemini",
     "parentId": "p-ai",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-paigemini.png"
   },
   {
     "id": "p-ai-midjourney",
@@ -1271,7 +1306,8 @@
     "id": "p-research",
     "name": "Market Research & User Testing",
     "parentId": "p",
-    "order": 10
+    "order": 10,
+    "logo": "logos/brand-presearch.png"
   },
   {
     "id": "p-research-ut",
@@ -1307,7 +1343,8 @@
     "id": "p-research-wilkins",
     "name": "Wilkins Research",
     "parentId": "p-research",
-    "order": 5
+    "order": 5,
+    "logo": "logos/brand-presearchwilkins.png"
   },
   {
     "id": "p-research-angus",
@@ -1325,13 +1362,15 @@
     "id": "p-ent",
     "name": "Entertainment & Media",
     "parentId": "p",
-    "order": 11
+    "order": 11,
+    "logo": "logos/brand-pent.png"
   },
   {
     "id": "p-ent-stream",
     "name": "Streaming",
     "parentId": "p-ent",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-pentstream.png"
   },
   {
     "id": "p-ent-netflix",
@@ -1344,7 +1383,8 @@
     "id": "p-ent-disney",
     "name": "Disney+",
     "parentId": "p-ent-stream",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pentdisney.png"
   },
   {
     "id": "p-ent-prime",
@@ -1439,7 +1479,8 @@
     "id": "p-ent-fandango",
     "name": "Fandango",
     "parentId": "p-ent-movies",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pentfandango.png"
   },
   {
     "id": "p-ent-marvel",
@@ -1451,7 +1492,8 @@
     "id": "p-ent-gaming",
     "name": "Gaming",
     "parentId": "p-ent",
-    "order": 3
+    "order": 3,
+    "logo": "logos/brand-pentgaming.svg"
   },
   {
     "id": "p-ent-wbgames",
@@ -1487,7 +1529,8 @@
     "id": "p-gov-usps",
     "name": "USPS",
     "parentId": "p-gov",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pgovusps.png"
   },
   {
     "id": "p-gov-irs",
@@ -1547,7 +1590,8 @@
     "id": "p-daily-email",
     "name": "Email Accounts",
     "parentId": "p-daily",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-pdailyemail.png"
   },
   {
     "id": "p-daily-gmail",
@@ -1593,7 +1637,8 @@
     "id": "p-people",
     "name": "People",
     "parentId": "p",
-    "order": 14
+    "order": 14,
+    "logo": "logos/brand-ppeople.png"
   },
   {
     "id": "p-people-family",
@@ -1631,7 +1676,8 @@
     "id": "p-people-hotmail",
     "name": "Outlook / Hotmail",
     "parentId": "p-people-personal",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-ppeoplehotmail.png"
   },
   {
     "id": "p-people-aol",
@@ -1661,7 +1707,8 @@
     "id": "p-news",
     "name": "Newsletters & Subscriptions",
     "parentId": "p",
-    "order": 15
+    "order": 15,
+    "logo": "logos/brand-pnews.png"
   },
   {
     "id": "p-news-beehiiv",
@@ -1673,13 +1720,15 @@
     "id": "p-news-substack",
     "name": "Substack",
     "parentId": "p-news",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pnewssubstack.png"
   },
   {
     "id": "p-news-medium",
     "name": "Medium",
     "parentId": "p-news",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-pnewsmedium.png"
   },
   {
     "id": "p-news-dailydev",
@@ -1691,7 +1740,8 @@
     "id": "p-news-roadmap",
     "name": "Roadmap.sh",
     "parentId": "p-news",
-    "order": 4
+    "order": 4,
+    "logo": "logos/brand-pnewsroadmap.png"
   },
   {
     "id": "p-jobs",
@@ -1703,13 +1753,15 @@
     "id": "p-jobs-indeed",
     "name": "Indeed",
     "parentId": "p-jobs",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-pjobsindeed.png"
   },
   {
     "id": "p-jobs-li",
     "name": "LinkedIn Jobs",
     "parentId": "p-jobs",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-pjobsli.png"
   },
   {
     "id": "p-jobs-zr",
@@ -1745,7 +1797,8 @@
     "id": "p-housing-apts",
     "name": "Apartments.com",
     "parentId": "p-housing",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-phousingapts.png"
   },
   {
     "id": "p-housing-appfolio",
@@ -2011,7 +2064,8 @@
     "id": "h-tele-bh",
     "name": "BetterHelp",
     "parentId": "h-tele",
-    "order": 4
+    "order": 4,
+    "logo": "logos/brand-htelebh.png"
   },
   {
     "id": "h-tele-zocdoc",
@@ -2023,7 +2077,8 @@
     "id": "h-labs",
     "name": "Labs, Diagnostics & Research",
     "parentId": "h",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-hlabs.png"
   },
   {
     "id": "h-labs-labcorp",
@@ -2041,7 +2096,8 @@
     "id": "h-labs-ct",
     "name": "ClinicalTrials.gov",
     "parentId": "h-labs",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-hlabsct.png"
   },
   {
     "id": "h-labs-s37",
@@ -2077,19 +2133,22 @@
     "id": "h-pharm-cvs",
     "name": "CVS Pharmacy",
     "parentId": "h-pharm",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-hpharmcvs.png"
   },
   {
     "id": "h-pharm-walgreens",
     "name": "Walgreens",
     "parentId": "h-pharm",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-hpharmwalgreens.png"
   },
   {
     "id": "h-pharm-amazon",
     "name": "Amazon Pharmacy",
     "parentId": "h-pharm",
-    "order": 2
+    "order": 2,
+    "logo": "logos/brand-hpharmamazon.png"
   },
   {
     "id": "h-pharm-nimble",
@@ -2320,13 +2379,15 @@
     "id": "w-emp-rcubed",
     "name": "R-Cubed",
     "parentId": "w-employers",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-wemprcubed.webp"
   },
   {
     "id": "w-emp-redriver",
     "name": "Red River Development",
     "parentId": "w-employers",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-wempredriver.png"
   },
   {
     "id": "w-emp-trulo",
@@ -2374,7 +2435,8 @@
     "id": "w-emp-amazonflex",
     "name": "Amazon Flex",
     "parentId": "w-employers",
-    "order": 9
+    "order": 9,
+    "logo": "logos/brand-wempamazonflex.png"
   },
   {
     "id": "w-tools",
@@ -2428,19 +2490,22 @@
     "id": "pr-ai",
     "name": "AI & Knowledge Tools",
     "parentId": "pr",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-prai.png"
   },
   {
     "id": "pr-ai-openai",
     "name": "ChatGPT / OpenAI",
     "parentId": "pr-ai",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-praiopenai.png"
   },
   {
     "id": "pr-ai-claude",
     "name": "Claude / Anthropic",
     "parentId": "pr-ai",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-praiclaude.png"
   },
   {
     "id": "pr-ai-perplexity",
@@ -2460,7 +2525,8 @@
     "id": "pr-pm",
     "name": "Project Management & Dev",
     "parentId": "pr",
-    "order": 1
+    "order": 1,
+    "logo": "logos/brand-prpm.png"
   },
   {
     "id": "pr-pm-github",
