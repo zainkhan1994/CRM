@@ -40,20 +40,21 @@
     "name": "Bank of America",
     "parentId": "p-accounts-banks",
     "order": 0,
-    "logo": "logos/c52050be8830.svg"
+    "logo": "logos/library-438b0e5ecade.svg"
   },
   {
     "id": "p-accounts-wf",
     "name": "Wells Fargo",
     "parentId": "p-accounts-banks",
     "order": 1,
-    "logo": "logos/975a40548ff5.png"
+    "logo": "logos/library-4d9c3a3947f1.png"
   },
   {
     "id": "p-accounts-chase",
     "name": "Chase",
     "parentId": "p-accounts-banks",
-    "order": 2
+    "order": 2,
+    "logo": "logos/library-8eaf78ea1452.png"
   },
   {
     "id": "p-accounts-creditone",
@@ -66,19 +67,22 @@
     "id": "p-accounts-synchrony",
     "name": "Synchrony",
     "parentId": "p-accounts-banks",
-    "order": 4
+    "order": 4,
+    "logo": "logos/library-dc3787ed773b.png"
   },
   {
     "id": "p-accounts-nordstrom",
     "name": "Nordstrom",
     "parentId": "p-accounts-banks",
-    "order": 5
+    "order": 5,
+    "logo": "logos/library-2d186a49ca92.png"
   },
   {
     "id": "p-accounts-amex",
     "name": "American Express",
     "parentId": "p-accounts-banks",
-    "order": 6
+    "order": 6,
+    "logo": "logos/library-ad6d231e0c73.png"
   },
   {
     "id": "p-accounts-applecard",
@@ -109,7 +113,7 @@
     "name": "Acorns",
     "parentId": "p-accounts-invest",
     "order": 1,
-    "logo": "logos/998951b2774a.png"
+    "logo": "logos/library-998951b2774a.png"
   },
   {
     "id": "p-accounts-ubiquity",
@@ -139,33 +143,36 @@
     "id": "p-accounts-paypal",
     "name": "PayPal",
     "parentId": "p-accounts-payment",
-    "order": 0
+    "order": 0,
+    "logo": "logos/brand-paypal.svg"
   },
   {
     "id": "p-accounts-venmo",
     "name": "Venmo",
     "parentId": "p-accounts-payment",
     "order": 1,
-    "logo": "logos/248898c1bcf4.png"
+    "logo": "logos/brand-venmo.svg"
   },
   {
     "id": "p-accounts-cashapp",
     "name": "Cash App",
     "parentId": "p-accounts-payment",
-    "order": 2
+    "order": 2,
+    "logo": "logos/library-73bf122fc05b.png"
   },
   {
     "id": "p-accounts-squareup",
     "name": "SquareUp",
     "parentId": "p-accounts-payment",
     "order": 3,
-    "logo": "logos/dc72677a954b.png"
+    "logo": "logos/library-dc72677a954b.png"
   },
   {
     "id": "p-accounts-zelle",
     "name": "Zelle",
     "parentId": "p-accounts-payment",
-    "order": 4
+    "order": 4,
+    "logo": "logos/library-22e5ee1f6b0f.png"
   },
   {
     "id": "p-accounts-xoom",
@@ -184,14 +191,14 @@
     "name": "Rocket Money",
     "parentId": "p-accounts-tools",
     "order": 0,
-    "logo": "logos/fe5e0ca67592.png"
+    "logo": "logos/library-fe5e0ca67592.png"
   },
   {
     "id": "p-accounts-plaid",
     "name": "Plaid",
     "parentId": "p-accounts-tools",
     "order": 1,
-    "logo": "logos/88e78d6df7f7.png"
+    "logo": "logos/library-88e78d6df7f7.png"
   },
   {
     "id": "p-accounts-kikoff",
@@ -233,7 +240,8 @@
     "id": "p-accounts-lexlaw",
     "name": "Lexington Law",
     "parentId": "p-accounts-credit",
-    "order": 0
+    "order": 0,
+    "logo": "logos/library-ed171d86763a.png"
   },
   {
     "id": "p-accounts-labaton",
@@ -299,7 +307,8 @@
     "id": "p-bills-gokinetic",
     "name": "GoKinetic",
     "parentId": "p-bills-utilities",
-    "order": 0
+    "order": 0,
+    "logo": "logos/library-8fd4cacbdf65.svg"
   },
   {
     "id": "p-bills-windstream",
@@ -311,7 +320,8 @@
     "id": "p-bills-att",
     "name": "AT&T",
     "parentId": "p-bills-utilities",
-    "order": 2
+    "order": 2,
+    "logo": "logos/library-cd69865e4a85.png"
   },
   {
     "id": "p-bills-tmobile",
@@ -342,63 +352,63 @@
     "name": "Amazon",
     "parentId": "p-shop-retail",
     "order": 0,
-    "logo": "logos/92b345ecda74.png"
+    "logo": "logos/library-92b345ecda74.png"
   },
   {
     "id": "p-shop-walmart",
     "name": "Walmart",
     "parentId": "p-shop-retail",
     "order": 1,
-    "logo": "logos/f446ffa560c7.png"
+    "logo": "logos/library-f446ffa560c7.png"
   },
   {
     "id": "p-shop-target",
     "name": "Target",
     "parentId": "p-shop-retail",
     "order": 2,
-    "logo": "logos/24ed6d60a315.png"
+    "logo": "logos/library-24ed6d60a315.png"
   },
   {
     "id": "p-shop-bestbuy",
     "name": "Best Buy",
     "parentId": "p-shop-retail",
     "order": 3,
-    "logo": "logos/3e0ebf480257.png"
+    "logo": "logos/library-3e0ebf480257.png"
   },
   {
     "id": "p-shop-homedepot",
     "name": "Home Depot",
     "parentId": "p-shop-retail",
     "order": 4,
-    "logo": "logos/9372e11da46d.png"
+    "logo": "logos/library-9372e11da46d.png"
   },
   {
     "id": "p-shop-lowes",
     "name": "Lowe's",
     "parentId": "p-shop-retail",
     "order": 5,
-    "logo": "logos/1187b94435f2.png"
+    "logo": "logos/library-1187b94435f2.png"
   },
   {
     "id": "p-shop-officedepot",
     "name": "Office Depot",
     "parentId": "p-shop-retail",
     "order": 6,
-    "logo": "logos/d2b18a0ac474.png"
+    "logo": "logos/library-d2b18a0ac474.png"
   },
   {
     "id": "p-shop-ebay",
     "name": "eBay",
     "parentId": "p-shop-retail",
     "order": 7,
-    "logo": "logos/d14390a8e325.png"
+    "logo": "logos/library-d14390a8e325.png"
   },
   {
     "id": "p-shop-etsy",
     "name": "Etsy",
     "parentId": "p-shop-retail",
     "order": 8,
-    "logo": "logos/db0ec0124f27.png"
+    "logo": "logos/library-db0ec0124f27.png"
   },
   {
     "id": "p-shop-michaels",
@@ -447,14 +457,14 @@
     "name": "DoorDash",
     "parentId": "p-shop-food",
     "order": 0,
-    "logo": "logos/2d6369b35254.png"
+    "logo": "logos/library-2d6369b35254.png"
   },
   {
     "id": "p-shop-starbucks",
     "name": "Starbucks",
     "parentId": "p-shop-food",
     "order": 1,
-    "logo": "logos/98f811f515cb.png"
+    "logo": "logos/library-98f811f515cb.png"
   },
   {
     "id": "p-shop-hellofresh",
@@ -515,13 +525,14 @@
     "name": "FedEx",
     "parentId": "p-shop-shipping",
     "order": 0,
-    "logo": "logos/6b9745f27175.png"
+    "logo": "logos/library-6b9745f27175.png"
   },
   {
     "id": "p-shop-ups",
     "name": "UPS",
     "parentId": "p-shop-shipping",
-    "order": 1
+    "order": 1,
+    "logo": "logos/library-aa30d5daf2b7.png"
   },
   {
     "id": "p-shop-usps",
@@ -570,14 +581,14 @@
     "name": "Delta",
     "parentId": "p-travel-airlines",
     "order": 0,
-    "logo": "logos/25b0c76781d2.png"
+    "logo": "logos/library-25b0c76781d2.png"
   },
   {
     "id": "p-travel-united",
     "name": "United",
     "parentId": "p-travel-airlines",
     "order": 1,
-    "logo": "logos/7b2df104aab8.png"
+    "logo": "logos/library-7b2df104aab8.png"
   },
   {
     "id": "p-travel-southwest",
@@ -596,7 +607,7 @@
     "name": "Emirates",
     "parentId": "p-travel-airlines",
     "order": 4,
-    "logo": "logos/d00642992aa3.png"
+    "logo": "logos/library-d00642992aa3.png"
   },
   {
     "id": "p-travel-lodging",
@@ -609,7 +620,7 @@
     "name": "Airbnb",
     "parentId": "p-travel-lodging",
     "order": 0,
-    "logo": "logos/22eb834812f7.png"
+    "logo": "logos/library-22eb834812f7.png"
   },
   {
     "id": "p-travel-hilton",
@@ -658,20 +669,21 @@
     "name": "Uber",
     "parentId": "p-travel-ground",
     "order": 0,
-    "logo": "logos/f73cbbc736b3.png"
+    "logo": "logos/library-f73cbbc736b3.png"
   },
   {
     "id": "p-travel-lyft",
     "name": "Lyft",
     "parentId": "p-travel-ground",
-    "order": 1
+    "order": 1,
+    "logo": "logos/library-64d8375cdeac.png"
   },
   {
     "id": "p-travel-parkmobile",
     "name": "ParkMobile",
     "parentId": "p-travel-ground",
     "order": 2,
-    "logo": "logos/252705780ad0.png"
+    "logo": "logos/library-252705780ad0.png"
   },
   {
     "id": "p-travel-spothero",
@@ -732,7 +744,7 @@
     "name": "GitHub",
     "parentId": "p-events-tech",
     "order": 1,
-    "logo": "logos/3df76604d8ce.png"
+    "logo": "logos/brand-github.svg"
   },
   {
     "id": "p-events-nasa",
@@ -751,7 +763,7 @@
     "name": "Microsoft",
     "parentId": "p-events-tech",
     "order": 4,
-    "logo": "logos/3df76604d8ce.png"
+    "logo": "logos/brand-microsoft.svg"
   },
   {
     "id": "p-events-ion",
@@ -830,7 +842,7 @@
     "name": "Eventbrite",
     "parentId": "p-events-ticketing",
     "order": 0,
-    "logo": "logos/934bb7003f19.png"
+    "logo": "logos/library-934bb7003f19.png"
   },
   {
     "id": "p-events-ticketmaster",
@@ -879,49 +891,49 @@
     "name": "Facebook",
     "parentId": "p-social-media",
     "order": 0,
-    "logo": "logos/5a30a7b8b710.png"
+    "logo": "logos/brand-facebook.svg"
   },
   {
     "id": "p-social-instagram",
     "name": "Instagram",
     "parentId": "p-social-media",
     "order": 1,
-    "logo": "logos/d4c48a5fb9d9.png"
+    "logo": "logos/brand-instagram.svg"
   },
   {
     "id": "p-social-tiktok",
     "name": "TikTok",
     "parentId": "p-social-media",
     "order": 2,
-    "logo": "logos/7132faa48e59.png"
+    "logo": "logos/brand-tiktok.svg"
   },
   {
     "id": "p-social-snapchat",
     "name": "Snapchat",
     "parentId": "p-social-media",
     "order": 3,
-    "logo": "logos/3d990a7132ef.png"
+    "logo": "logos/brand-snapchat.svg"
   },
   {
     "id": "p-social-youtube",
     "name": "YouTube",
     "parentId": "p-social-media",
     "order": 4,
-    "logo": "logos/0babecc3bf56.png"
+    "logo": "logos/brand-youtube.svg"
   },
   {
     "id": "p-social-linkedin",
     "name": "LinkedIn",
     "parentId": "p-social-media",
     "order": 5,
-    "logo": "logos/a19015a70c65.png"
+    "logo": "logos/library-a19015a70c65.png"
   },
   {
     "id": "p-social-reddit",
     "name": "Reddit",
     "parentId": "p-social-media",
     "order": 6,
-    "logo": "logos/5ee15c478bba.png"
+    "logo": "logos/brand-reddit.svg"
   },
   {
     "id": "p-social-nextdoor",
@@ -940,21 +952,21 @@
     "name": "Discord",
     "parentId": "p-social-dm",
     "order": 0,
-    "logo": "logos/07450366f4c8.png"
+    "logo": "logos/brand-discord.svg"
   },
   {
     "id": "p-social-slack",
     "name": "Slack",
     "parentId": "p-social-dm",
     "order": 1,
-    "logo": "logos/06f4f65faef0.png"
+    "logo": "logos/library-06f4f65faef0.png"
   },
   {
     "id": "p-social-textfree",
     "name": "TextFree",
     "parentId": "p-social-dm",
     "order": 2,
-    "logo": "logos/15a36af724da.png"
+    "logo": "logos/library-15a36af724da.png"
   },
   {
     "id": "p-social-groups",
@@ -967,14 +979,14 @@
     "name": "Meetup",
     "parentId": "p-social-groups",
     "order": 0,
-    "logo": "logos/f1e9c1ea546f.png"
+    "logo": "logos/library-f1e9c1ea546f.png"
   },
   {
     "id": "p-social-groups-eb",
     "name": "Eventbrite",
     "parentId": "p-social-groups",
     "order": 1,
-    "logo": "logos/934bb7003f19.png"
+    "logo": "logos/library-934bb7003f19.png"
   },
   {
     "id": "p-social-ggroups",
@@ -993,7 +1005,7 @@
     "name": "Fireflies",
     "parentId": "p-meetings",
     "order": 0,
-    "logo": "logos/e65a2239d5b1.png"
+    "logo": "logos/library-e65a2239d5b1.png"
   },
   {
     "id": "p-meetings-calendly",
@@ -1060,20 +1072,21 @@
     "name": "Brilliant",
     "parentId": "p-learn",
     "order": 0,
-    "logo": "logos/697588706111.png"
+    "logo": "logos/library-697588706111.png"
   },
   {
     "id": "p-learn-mimo",
     "name": "Mimo",
     "parentId": "p-learn",
     "order": 1,
-    "logo": "logos/cd1c7c3a441b.png"
+    "logo": "logos/library-cd1c7c3a441b.png"
   },
   {
     "id": "p-learn-noji",
     "name": "Noji",
     "parentId": "p-learn",
-    "order": 2
+    "order": 2,
+    "logo": "logos/library-71ce70dd87cb.png"
   },
   {
     "id": "p-learn-coursera",
@@ -1134,13 +1147,14 @@
     "name": "Microsoft",
     "parentId": "p-tech",
     "order": 1,
-    "logo": "logos/3df76604d8ce.png"
+    "logo": "logos/brand-microsoft.svg"
   },
   {
     "id": "p-tech-apple",
     "name": "Apple",
     "parentId": "p-tech",
-    "order": 2
+    "order": 2,
+    "logo": "logos/library-5e62c68891b4.png"
   },
   {
     "id": "p-tech-dropbox",
@@ -1165,7 +1179,7 @@
     "name": "GitHub",
     "parentId": "p-tech",
     "order": 6,
-    "logo": "logos/3df76604d8ce.png"
+    "logo": "logos/brand-github.svg"
   },
   {
     "id": "p-tech-vercel",
@@ -1214,7 +1228,7 @@
     "name": "Perplexity",
     "parentId": "p-ai",
     "order": 2,
-    "logo": "logos/8e348bb1bfcc.png"
+    "logo": "logos/library-8e348bb1bfcc.png"
   },
   {
     "id": "p-ai-gemini",
@@ -1245,7 +1259,7 @@
     "name": "Rewind",
     "parentId": "p-ai",
     "order": 7,
-    "logo": "logos/f170527ef3e4.png"
+    "logo": "logos/library-f170527ef3e4.png"
   },
   {
     "id": "p-ai-limitless",
@@ -1324,7 +1338,7 @@
     "name": "Netflix",
     "parentId": "p-ent-stream",
     "order": 0,
-    "logo": "logos/ee79000a7ae2.png"
+    "logo": "logos/library-8c651705174c.png"
   },
   {
     "id": "p-ent-disney",
@@ -1337,27 +1351,28 @@
     "name": "Prime Video",
     "parentId": "p-ent-stream",
     "order": 2,
-    "logo": "logos/e86251f67f66.png"
+    "logo": "logos/library-e86251f67f66.png"
   },
   {
     "id": "p-ent-crunchy",
     "name": "Crunchyroll",
     "parentId": "p-ent-stream",
     "order": 3,
-    "logo": "logos/94692d7b0669.png"
+    "logo": "logos/library-c2ab27af3129.png"
   },
   {
     "id": "p-ent-hbo",
     "name": "HBO Max",
     "parentId": "p-ent-stream",
     "order": 4,
-    "logo": "logos/17b558095dd7.png"
+    "logo": "logos/library-17b558095dd7.png"
   },
   {
     "id": "p-ent-hulu",
     "name": "Hulu",
     "parentId": "p-ent-stream",
-    "order": 5
+    "order": 5,
+    "logo": "logos/library-b019549df8c5.png"
   },
   {
     "id": "p-ent-paramount",
@@ -1418,7 +1433,7 @@
     "name": "AMC",
     "parentId": "p-ent-movies",
     "order": 0,
-    "logo": "logos/de8f8a76dec6.png"
+    "logo": "logos/library-de8f8a76dec6.png"
   },
   {
     "id": "p-ent-fandango",
@@ -1538,27 +1553,29 @@
     "id": "p-daily-gmail",
     "name": "Gmail",
     "parentId": "p-daily-email",
-    "order": 0
+    "order": 0,
+    "logo": "logos/library-a4da8e34ce37.svg"
   },
   {
     "id": "p-daily-outlook",
     "name": "Outlook",
     "parentId": "p-daily-email",
     "order": 1,
-    "logo": "logos/5a64d15f7fc8.png"
+    "logo": "logos/library-5a64d15f7fc8.png"
   },
   {
     "id": "p-daily-yahoo",
     "name": "Yahoo",
     "parentId": "p-daily-email",
     "order": 2,
-    "logo": "logos/36c9e7d57d8d.png"
+    "logo": "logos/library-36c9e7d57d8d.png"
   },
   {
     "id": "p-daily-appleid",
     "name": "Apple IDs",
     "parentId": "p-daily-email",
-    "order": 3
+    "order": 3,
+    "logo": "logos/library-fda93ef24114.png"
   },
   {
     "id": "p-daily-routines",
@@ -1600,14 +1617,15 @@
     "id": "p-people-gmail",
     "name": "Gmail",
     "parentId": "p-people-personal",
-    "order": 0
+    "order": 0,
+    "logo": "logos/library-a4da8e34ce37.svg"
   },
   {
     "id": "p-people-yahoo",
     "name": "Yahoo",
     "parentId": "p-people-personal",
     "order": 1,
-    "logo": "logos/36c9e7d57d8d.png"
+    "logo": "logos/library-36c9e7d57d8d.png"
   },
   {
     "id": "p-people-hotmail",
@@ -1968,13 +1986,14 @@
     "name": "Healow",
     "parentId": "h-tele",
     "order": 0,
-    "logo": "logos/6f6c4c9fd05e.png"
+    "logo": "logos/library-6f6c4c9fd05e.png"
   },
   {
     "id": "h-tele-mychart",
     "name": "MyChart",
     "parentId": "h-tele",
-    "order": 1
+    "order": 1,
+    "logo": "logos/library-6fcd9a3522ed.png"
   },
   {
     "id": "h-tele-skymd",
@@ -2131,7 +2150,7 @@
     "name": "Life Time",
     "parentId": "h-fit",
     "order": 0,
-    "logo": "logos/95765bebbde4.png"
+    "logo": "logos/library-95765bebbde4.png"
   },
   {
     "id": "h-fit-la",
@@ -2251,14 +2270,15 @@
     "id": "h-portal-mychart",
     "name": "MyChart",
     "parentId": "h-portals",
-    "order": 0
+    "order": 0,
+    "logo": "logos/library-6fcd9a3522ed.png"
   },
   {
     "id": "h-portal-healow",
     "name": "Healow",
     "parentId": "h-portals",
     "order": 1,
-    "logo": "logos/6f6c4c9fd05e.png"
+    "logo": "logos/library-6f6c4c9fd05e.png"
   },
   {
     "id": "h-portal-eclinical",
@@ -2367,42 +2387,42 @@
     "name": "Slack",
     "parentId": "w-tools",
     "order": 0,
-    "logo": "logos/06f4f65faef0.png"
+    "logo": "logos/library-06f4f65faef0.png"
   },
   {
     "id": "w-tools-asana",
     "name": "Asana",
     "parentId": "w-tools",
     "order": 1,
-    "logo": "logos/d10340a3b87f.png"
+    "logo": "logos/library-d10340a3b87f.png"
   },
   {
     "id": "w-tools-github",
     "name": "GitHub",
     "parentId": "w-tools",
     "order": 2,
-    "logo": "logos/3df76604d8ce.png"
+    "logo": "logos/brand-github.svg"
   },
   {
     "id": "w-tools-miro",
     "name": "Miro",
     "parentId": "w-tools",
     "order": 3,
-    "logo": "logos/76d74cb0510d.png"
+    "logo": "logos/library-76d74cb0510d.png"
   },
   {
     "id": "w-tools-notion",
     "name": "Notion",
     "parentId": "w-tools",
     "order": 4,
-    "logo": "logos/4d9df066d32d.png"
+    "logo": "logos/library-4d9df066d32d.png"
   },
   {
     "id": "w-tools-obsidian",
     "name": "Obsidian",
     "parentId": "w-tools",
     "order": 5,
-    "logo": "logos/98b3da42e667.png"
+    "logo": "logos/library-98b3da42e667.png"
   },
   {
     "id": "pr-ai",
@@ -2427,14 +2447,14 @@
     "name": "Perplexity",
     "parentId": "pr-ai",
     "order": 2,
-    "logo": "logos/8e348bb1bfcc.png"
+    "logo": "logos/library-8e348bb1bfcc.png"
   },
   {
     "id": "pr-ai-rewind",
     "name": "Rewind",
     "parentId": "pr-ai",
     "order": 3,
-    "logo": "logos/f170527ef3e4.png"
+    "logo": "logos/library-f170527ef3e4.png"
   },
   {
     "id": "pr-pm",
@@ -2447,21 +2467,21 @@
     "name": "GitHub",
     "parentId": "pr-pm",
     "order": 0,
-    "logo": "logos/3df76604d8ce.png"
+    "logo": "logos/brand-github.svg"
   },
   {
     "id": "pr-pm-asana",
     "name": "Asana",
     "parentId": "pr-pm",
     "order": 1,
-    "logo": "logos/d10340a3b87f.png"
+    "logo": "logos/library-d10340a3b87f.png"
   },
   {
     "id": "pr-pm-miro",
     "name": "Miro",
     "parentId": "pr-pm",
     "order": 2,
-    "logo": "logos/76d74cb0510d.png"
+    "logo": "logos/library-76d74cb0510d.png"
   },
   {
     "id": "pr-mlh",
